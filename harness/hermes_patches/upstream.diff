@@ -1,0 +1,332 @@
+--- a/agent/agent_runtime_helpers.py
++++ b/agent/agent_runtime_helpers.py
+@@ -1,3 +1,6 @@
++# Derived from hermes-agent 0.19.0 (https://github.com/NousResearch/hermes-agent)
++# Copyright (c) 2025 Nous Research. MIT License, see harness/hermes_patches/LICENSE.
++# Modified for Unfinished-Bench: changes are marked "# PATCH" and listed in harness/hermes_patches/README.md.
+ """Assorted AIAgent runtime helpers — moved out of run_agent.py for clarity.
+ 
+ Each function takes the parent ``AIAgent`` as its first argument
+@@ -2580,6 +2583,16 @@
+ 
+     if not tool_name:
+         return None
++
++    # PATCH: gpt-oss can append a harmony channel marker to the tool name
++    # ("todo<|channel|>commentary"), which made dispatch fail.
++    # Keep only the part before the first "<|".
++    if "<|" in tool_name:
++        stem = tool_name.split("<|", 1)[0].strip()
++        if stem and stem in agent.valid_tool_names:
++            return stem
++        if stem:
++            tool_name = stem
+ 
+     # VolcEngine api/plan workaround (issue #33007): the endpoint's
+     # protocol-translation layer occasionally leaks raw XML attribute
+@@ -2992,13 +3005,45 @@
+ 
+ 
+ 
++def _forced_reasoning_echo(agent) -> bool:
++    """PATCH: for models matching HERMES_ECHO_REASONING_MODELS="gpt-oss,...", send the previous assistant turns'
++    reasoning back unchanged (the hermes 0.14 default). 0.19 strips this field for all but DeepSeek/Kimi/MiMo,
++    and gpt-oss (harmony) served by vLLM then produced many more broken tool names, empty responses and
++    truncations once the previous turns' analysis channel was missing."""
++    import os as _os
++    pats = [p.strip().lower() for p in (_os.environ.get("HERMES_ECHO_REASONING_MODELS") or "").split(",") if p.strip()]
++    if not pats:
++        return False
++    model = (getattr(agent, "model", "") or "").lower()
++    return any(p in model for p in pats)
++
++
+ def copy_reasoning_content_for_api(agent, source_msg: dict, api_msg: dict) -> None:
+     """Copy provider-facing reasoning fields onto an API replay message."""
+     if source_msg.get("role") != "assistant":
+         return
+ 
+-    needs_thinking_pad = agent._needs_thinking_reasoning_pad()
++    # PATCH: for the forced-echo models the field is sent as `reasoning` only. Measured as prompt-token growth
++    #   when 984 characters of reasoning are echoed:
++    #     gpt-oss  reasoning_content +193 / reasoning +193   (both used)
++    #     gemma    reasoning_content +198 / reasoning +198   (both used)
++    #     qwen3.6  reasoning_content   +0 / reasoning +187   (vLLM 0.20+ reads reasoning only)
++    #   vLLM >= 0.20 reads only message.get("reasoning") and drops reasoning_content before the chat template
++    #   (qwen-code issue #4285).
++    if _forced_reasoning_echo(agent):
++        _txt = source_msg.get("reasoning_content")
++        if not (isinstance(_txt, str) and _txt.strip()):
++            _txt = source_msg.get("reasoning")
++        if isinstance(_txt, str) and _txt.strip():
++            api_msg["reasoning"] = _txt
++            api_msg.pop("reasoning_content", None)
++        else:
++            api_msg.pop("reasoning", None)
++            api_msg.pop("reasoning_content", None)
++        return
+ 
++    needs_thinking_pad = agent._needs_thinking_reasoning_pad() or _forced_reasoning_echo(agent)  # PATCH
++
+     # 1. Explicit reasoning_content already set.
+     #
+     # When the active provider enforces the thinking-mode echo-back
+@@ -3107,7 +3152,7 @@
+     Returns the number of assistant turns whose reasoning_content was added or
+     removed.
+     """
+-    needs_pad = agent._needs_thinking_reasoning_pad()
++    needs_pad = agent._needs_thinking_reasoning_pad() or _forced_reasoning_echo(agent)  # PATCH
+     changed = 0
+     for api_msg in api_messages:
+         if api_msg.get("role") != "assistant":
+--- a/agent/chat_completion_helpers.py
++++ b/agent/chat_completion_helpers.py
+@@ -1,3 +1,6 @@
++# Derived from hermes-agent 0.19.0 (https://github.com/NousResearch/hermes-agent)
++# Copyright (c) 2025 Nous Research. MIT License, see harness/hermes_patches/LICENSE.
++# Modified for Unfinished-Bench: changes are marked "# PATCH" and listed in harness/hermes_patches/README.md.
+ """Helper functions for the chat-completions code path.
+ 
+ Extracted from :class:`AIAgent` for cleanliness — bodies of the
+@@ -1325,7 +1328,7 @@
+             raw_reasoning_content = model_extra["reasoning_content"]
+     if raw_reasoning_content is not None:
+         msg["reasoning_content"] = _sanitize_surrogates(raw_reasoning_content)
+-    elif assistant_tool_calls and agent._needs_thinking_reasoning_pad():
++    elif assistant_tool_calls and (agent._needs_thinking_reasoning_pad() or __import__('agent.agent_runtime_helpers', fromlist=['x'])._forced_reasoning_echo(agent)):  # PATCH
+         # DeepSeek v4 thinking mode and Kimi / Moonshot thinking mode
+         # both require reasoning_content on every assistant tool-call
+         # message. Without it, replaying the persisted message causes
+@@ -1903,6 +1906,11 @@
+ def handle_max_iterations(agent, messages: list, api_call_count: int) -> str:
+     """Request a summary when max iterations are reached. Returns the final response text."""
+     print(f"⚠️  Reached maximum iterations ({agent.max_iterations}). Requesting summary...")
++    # PATCH: this summary request is a framework-generated role=user message, i.e. a user turn the experiment
++    # does not control. With HERMES_NO_CAP_WRAPUP=1 the episode ends with an empty final response instead.
++    if os.environ.get("HERMES_NO_CAP_WRAPUP") == "1":
++        print("⚠️  HERMES_NO_CAP_WRAPUP=1 — skipping the role=user summary request.")
++        return ""
+ 
+     summary_request = (
+         "You've reached the maximum number of tool-calling iterations allowed. "
+--- a/agent/codex_responses_adapter.py
++++ b/agent/codex_responses_adapter.py
+@@ -1,3 +1,6 @@
++# Derived from hermes-agent 0.19.0 (https://github.com/NousResearch/hermes-agent)
++# Copyright (c) 2025 Nous Research. MIT License, see harness/hermes_patches/LICENSE.
++# Modified for Unfinished-Bench: changes are marked "# PATCH" and listed in harness/hermes_patches/README.md.
+ """Codex Responses API adapter.
+ 
+ Pure format-conversion and normalization logic for the OpenAI Responses API
+@@ -128,6 +131,8 @@
+ 
+ 
+ def _summarize_user_message_for_log(content: Any, *, sep: str = " ") -> str:
++    if content is None:  # PATCH: continuation turn with user_message=None
++        return ""
+     """Flatten message content to a plain-text summary.
+ 
+     Multimodal messages arrive as a list of ``{type:"text"|"image_url", ...}``
+--- a/agent/conversation_loop.py
++++ b/agent/conversation_loop.py
+@@ -1,3 +1,6 @@
++# Derived from hermes-agent 0.19.0 (https://github.com/NousResearch/hermes-agent)
++# Copyright (c) 2025 Nous Research. MIT License, see harness/hermes_patches/LICENSE.
++# Modified for Unfinished-Bench: changes are marked "# PATCH" and listed in harness/hermes_patches/README.md.
+ """The agent conversation loop — extracted from ``run_agent.AIAgent``.
+ 
+ This is the biggest single chunk pulled out of ``run_agent.py``: the
+@@ -617,7 +620,7 @@
+     Returns:
+         Dict: Complete conversation result with final response and message history
+     """
+-    if moa_config is None:
++    if moa_config is None and user_message is not None:  # PATCH: continuation turn with user_message=None
+         try:
+             from hermes_cli.moa_config import decode_moa_turn
+ 
+@@ -923,8 +926,11 @@
+ 
+             # Remove 'reasoning' field - it's for trajectory storage only
+             # We've copied it to 'reasoning_content' for the API above
++            # PATCH: for forced-echo models `reasoning` is the field that is sent, so keep it.
+             if "reasoning" in api_msg:
+-                api_msg.pop("reasoning")
++                from agent.agent_runtime_helpers import _forced_reasoning_echo as _fre
++                if not _fre(agent):
++                    api_msg.pop("reasoning")
+             # Remove finish_reason - not accepted by strict APIs (e.g. Mistral)
+             if "finish_reason" in api_msg:
+                 api_msg.pop("finish_reason")
+@@ -2036,7 +2042,8 @@
+                             if assistant_message.content:
+                                 truncated_response_parts.append(assistant_message.content)
+ 
+-                            if length_continue_retries < 4:
++                            # PATCH(HERMES_SILENT_USER): no role=user continuation request; the truncated response becomes final
++                            if length_continue_retries < 4 and os.environ.get("HERMES_SILENT_USER") != "1":
+                                 _is_partial_stream_stub = (
+                                     getattr(response, "id", "") == PARTIAL_STREAM_STUB_ID
+                                 )
+@@ -4398,10 +4405,13 @@
+             # lands on a historical user message would make the live-compose
+             # fallback inject this turn's prefetch into that message on the
+             # wire only, diverging the next turn's replayed prefix there.
+-            current_turn_user_idx = reanchor_current_turn_user_idx(
+-                messages, user_message
+-            )
+-            agent._persist_user_message_idx = current_turn_user_idx
++            if user_message is not None:
++                current_turn_user_idx = reanchor_current_turn_user_idx(
++                    messages, user_message
++                )
++                agent._persist_user_message_idx = current_turn_user_idx
++            else:  # PATCH: no user turn
++                current_turn_user_idx = len(messages)
+             continue
+ 
+         if _retry.restart_with_rebuilt_messages:
+@@ -4670,7 +4680,7 @@
+                             isinstance(_last_msg, dict)
+                             and _last_msg.get("role") == "assistant"
+                         )
+-                        if not _already_nudged and _last_is_assistant:
++                        if not _already_nudged and _last_is_assistant and os.environ.get("HERMES_SILENT_USER") != "1":  # PATCH
+                             messages.append({
+                                 "role": "user",
+                                 "content": _CODEX_INCOMPLETE_NUDGE,
+@@ -5256,6 +5266,7 @@
+                         _prior_was_tool
+                         and not getattr(agent, "_post_tool_empty_retried", False)
+                         and not _has_inline_thinking  # thinking model still working — let prefill handle
++                        and os.environ.get("HERMES_SILENT_USER") != "1"  # PATCH: empty-response recovery is also a role=user message
+                     ):
+                         agent._post_tool_empty_retried = True
+                         # Clear stale narration so it doesn't resurface
+@@ -5340,16 +5351,20 @@
+                         _has_structured
+                         and agent._thinking_prefill_retries >= 2
+                     )
+-                    if _truly_empty and (not _has_structured or _prefill_exhausted) and agent._empty_content_retries < 3:
++                    # PATCH: empty-response retry limit from HERMES_EMPTY_RETRIES (default 3, as upstream). A retry resends the same
++                    #   request and adds nothing to the conversation. gpt-oss sometimes emits its tool call in the analysis channel and
++                    #   vLLM returns content=null; the benchmark uses 8 for every model.
++                    _empty_max = int(os.environ.get("HERMES_EMPTY_RETRIES", "3") or 3)
++                    if _truly_empty and (not _has_structured or _prefill_exhausted) and agent._empty_content_retries < _empty_max:
+                         agent._empty_content_retries += 1
+                         logger.warning(
+                             "Empty response (no content or reasoning) — "
+-                            "retry %d/3 (model=%s)",
+-                            agent._empty_content_retries, agent.model,
++                            "retry %d/%d (model=%s)",
++                            agent._empty_content_retries, _empty_max, agent.model,
+                         )
+                         agent._buffer_status(
+                             f"⚠️ Empty response from model — retrying "
+-                            f"({agent._empty_content_retries}/3)"
++                            f"({agent._empty_content_retries}/{_empty_max})"
+                         )
+                         continue
+ 
+@@ -5449,6 +5464,7 @@
+                 _ack_mode = intent_ack_continuation_mode(agent)
+                 if (
+                     _ack_mode != "off"
++                    and os.environ.get("HERMES_SILENT_USER") != "1"  # PATCH: the "Continue now" nudge is a role=user message
+                     and agent.valid_tool_names
+                     and codex_ack_continuations < 2
+                     and agent._looks_like_codex_intermediate_ack(
+@@ -5511,7 +5527,7 @@
+                         verify_on_stop_enabled,
+                     )
+ 
+-                    if verify_on_stop_enabled():
++                    if verify_on_stop_enabled() and os.environ.get("HERMES_SILENT_USER") != "1":  # PATCH
+                         _verify_nudge = build_verify_on_stop_nudge(
+                             session_id=getattr(agent, "session_id", None),
+                             changed_paths=getattr(agent, "_turn_file_mutation_paths", set()),
+@@ -5576,7 +5592,7 @@
+                     from agent.verify_hooks import max_verify_nudges
+                     from hermes_cli.plugins import get_pre_verify_continue_message, has_hook
+ 
+-                    if _edited and has_hook("pre_verify") and _attempt < max_verify_nudges():
++                    if _edited and has_hook("pre_verify") and _attempt < max_verify_nudges() and os.environ.get("HERMES_SILENT_USER") != "1":  # PATCH
+                         # Posture is fixed for the session — resolve once + cache.
+                         coding = getattr(agent, "_resolved_is_coding", None)
+                         if coding is None:
+@@ -5642,7 +5658,7 @@
+                     logger.debug("kanban stop-loop check failed", exc_info=True)
+                     _kanban_nudge = None
+ 
+-                if _kanban_nudge:
++                if _kanban_nudge and os.environ.get("HERMES_SILENT_USER") != "1":  # PATCH
+                     agent._kanban_stop_nudges = (
+                         getattr(agent, "_kanban_stop_nudges", 0) + 1
+                     )
+@@ -5791,7 +5807,7 @@
+         conversation_history=conversation_history,
+         effective_task_id=effective_task_id,
+         turn_id=turn_id,
+-        user_message=user_message,
++        user_message=(user_message if user_message is not None else ""),  # PATCH: continuation turn with user_message=None
+         original_user_message=original_user_message,
+         _should_review_memory=_should_review_memory,
+         _turn_exit_reason=_turn_exit_reason,
+--- a/agent/turn_context.py
++++ b/agent/turn_context.py
+@@ -1,3 +1,6 @@
++# Derived from hermes-agent 0.19.0 (https://github.com/NousResearch/hermes-agent)
++# Copyright (c) 2025 Nous Research. MIT License, see harness/hermes_patches/LICENSE.
++# Modified for Unfinished-Bench: changes are marked "# PATCH" and listed in harness/hermes_patches/README.md.
+ """Per-turn setup for ``run_conversation`` (the turn prologue).
+ 
+ ``run_conversation`` opened with ~470 lines of straight-line setup before the
+@@ -437,7 +440,11 @@
+     expected_persist_content = (
+         persist_user_message if persist_user_message is not None else user_message
+     )
+-    if (
++    # PATCH: with user_message=None no user turn is appended; generation continues from the existing history
++    # (which ends with a system or assistant message).
++    if user_message is None:
++        user_msg = None
++    elif (
+         isinstance(pending_cli_message, dict)
+         and pending_cli_message.get("content") == expected_persist_content
+     ):
+@@ -468,9 +475,13 @@
+     # Add the current user message after the prompt/session setup has made
+     # close persistence safe. The handoff above preserves any marker already
+     # stamped by an earlier close flush.
+-    messages.append(user_msg)
+-    current_turn_user_idx = len(messages) - 1
+-    agent._persist_user_message_idx = current_turn_user_idx
++    if user_msg is not None:
++        messages.append(user_msg)
++        current_turn_user_idx = len(messages) - 1
++        agent._persist_user_message_idx = current_turn_user_idx
++    else:  # PATCH: no user turn
++        current_turn_user_idx = len(messages)
++        agent._persist_user_message_idx = None
+ 
+     # Track user turns for memory flush and periodic nudge logic.
+     agent._user_turn_count += 1
+@@ -684,10 +695,13 @@
+         # row (#48677) must all target the surviving dict, not a stale
+         # position. Exact-content match first so a todo-snapshot user message
+         # appended after the tail can't steal the anchor.
+-        current_turn_user_idx = reanchor_current_turn_user_idx(
+-            messages, user_message
+-        )
+-        agent._persist_user_message_idx = current_turn_user_idx
++        if user_message is not None:
++            current_turn_user_idx = reanchor_current_turn_user_idx(
++                messages, user_message
++            )
++            agent._persist_user_message_idx = current_turn_user_idx
++        else:  # PATCH: no user turn
++            current_turn_user_idx = len(messages)
+ 
+     # Plugin hook: pre_llm_call (context injected into user message, not system prompt).
+     plugin_user_context = ""

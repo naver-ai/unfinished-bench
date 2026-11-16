@@ -1,0 +1,21 @@
+{
+  "_comment": "Model key -> model id and provider. The ids are the models' Hugging Face names; if your API names a model differently, change its id. A provider names the environment variables that hold its OpenAI-compatible base URL and API key (set them in .env). Add providers and models as needed. 'env' sets driver options for that model only.",
+  "providers": {
+    "default": {"api_base_env": "LLM_API_BASE", "api_key_env": "LLM_API_KEY"}
+  },
+  "models": {
+    "gpt-oss-120b":        {"id": "openai/gpt-oss-120b",                "provider": "default"},
+    "gpt-oss-20b":         {"id": "openai/gpt-oss-20b",                 "provider": "default"},
+    "deepseek-v4-pro":     {"id": "deepseek-ai/DeepSeek-V4-Pro-0813",   "provider": "default"},
+    "deepseek-v4.1-flash": {"id": "deepseek-ai/DeepSeek-V4.1-Flash",    "provider": "default",
+                            "env": {"REASONING_MODE": "off"}},
+    "glm-5.3":             {"id": "zai-org/GLM-5.3",                    "provider": "default"},
+    "glm-5.3-flash":       {"id": "zai-org/GLM-5.3-Flash",              "provider": "default"},
+    "gemma-4-31b":         {"id": "google/gemma-4-31B-it",              "provider": "default"},
+    "gemma-4-26b-a4b":     {"id": "google/gemma-4-26B-A4B-it",          "provider": "default"},
+    "gemma-4-12b":         {"id": "google/gemma-4-12B-it",              "provider": "default"},
+    "qwen3.8-27b":         {"id": "Qwen/Qwen3.8-27B",                   "provider": "default"},
+    "qwen3.8-flash-next":  {"id": "Qwen/Qwen3.8-Flash-Next-FP8",        "provider": "default"},
+    "muse-glimmer-30b":    {"id": "meta-models/Muse-Glimmer-30B",       "provider": "default"}
+  }
+}

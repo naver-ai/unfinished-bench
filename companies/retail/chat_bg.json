@@ -1,0 +1,6202 @@
+{
+ "ap-team": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "zainab.laurent",
+   "body": "quick one - the new supplier form asks for a VAT reg but some of the garden centres don't have one. do we leave blank or put N/A?"
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "felipe.okafor",
+   "body": "leave blank, the validation just warns on review. had it before and it's fine"
+  },
+  {
+   "d": 42,
+   "h": 10.4,
+   "author": "zainab.laurent",
+   "body": "cheers, that's what i thought"
+  },
+  {
+   "d": 41,
+   "h": 11.6,
+   "author": "victor.graham",
+   "body": "just posted a stack of invoices from the west wales deliveries - if anyone's doing the match today, they're in queue 3"
+  },
+  {
+   "d": 38,
+   "h": 14.2,
+   "author": "mia.cruz",
+   "body": "anyone else seeing the ledger slow on the uk store list? takes forever to pull the last months entries"
+  },
+  {
+   "d": 38,
+   "h": 14.8,
+   "author": "kian.ramos",
+   "body": "yeah, known thing, it's the index rebuild. should be back to normal by mid-afternoon"
+  },
+  {
+   "d": 38,
+   "h": 15.0,
+   "author": "mia.cruz",
+   "body": "good to know, i'll just grab what i need and move on"
+  },
+  {
+   "d": 35,
+   "h": 9.5,
+   "author": "alana.mendes",
+   "body": "reminder - expenses for the quarter are due by the last working day of this period, please get your travel claims in if you've been out to stores"
+  },
+  {
+   "d": 34,
+   "h": 10.3,
+   "author": "zainab.laurent",
+   "body": "does anyone have the latest credit terms doc for that new wholesale account? i need to check the payment days"
+  },
+  {
+   "d": 34,
+   "h": 10.7,
+   "author": "felipe.okafor",
+   "body": "finance-docs/wholesale/credit-terms.md is the one, updated last month"
+  },
+  {
+   "d": 34,
+   "h": 10.9,
+   "author": "zainab.laurent",
+   "body": "perfect, thanks"
+  },
+  {
+   "d": 31,
+   "h": 8.8,
+   "author": "victor.graham",
+   "body": "just noticed a duplicate invoice for the same delivery - two different refs but same amount and date. i've flagged it for review"
+  },
+  {
+   "d": 29,
+   "h": 13.4,
+   "author": "mia.cruz",
+   "body": "anyone know if we're still using the old PO format for the irish stores or did they move to the new one?"
+  },
+  {
+   "d": 29,
+   "h": 13.9,
+   "author": "kian.ramos",
+   "body": "they moved to the new one a while back, the old format is only for legacy stuff"
+  },
+  {
+   "d": 28,
+   "h": 9.1,
+   "author": "alana.mendes",
+   "body": "just a heads up - the monthly ap review is scheduled for the first working day after the bank cut-off, so keep your inboxes clear"
+  },
+  {
+   "d": 26,
+   "h": 15.7,
+   "author": "zainab.laurent",
+   "body": "that supplier onboarding checklist is a lifesaver, thanks whoever linked it"
+  },
+  {
+   "d": 24,
+   "h": 11.2,
+   "author": "felipe.okafor",
+   "body": "anyone else got the weird email from the mailer about the store receipts? i thought it was spam"
+  },
+  {
+   "d": 24,
+   "h": 11.8,
+   "author": "mia.cruz",
+   "body": "yeah, that's a known thing, they're testing a new template. ignore it"
+  },
+  {
+   "d": 22,
+   "h": 9.8,
+   "author": "victor.graham",
+   "body": "just finished the month end close prep, all the accruals are in. check the shared sheet if you're doing the review"
+  },
+  {
+   "d": 19,
+   "h": 14.5,
+   "author": "alana.mendes",
+   "body": "can someone pick up the batch of invoices from the last courier drop? they're in the tray on my desk"
+  },
+  {
+   "d": 19,
+   "h": 15.1,
+   "author": "zainab.laurent",
+   "body": "got it, i'll work through them in the morning"
+  },
+  {
+   "d": 16,
+   "h": 10.0,
+   "author": "felipe.okafor",
+   "body": "does the cash reconciliation tool handle the new store openings or do we add them manually?"
+  },
+  {
+   "d": 16,
+   "h": 10.6,
+   "author": "kian.ramos",
+   "body": "add them manually for now, the sync for new stores is in the works"
+  },
+  {
+   "d": 15,
+   "h": 9.3,
+   "author": "mia.cruz",
+   "body": "just a thanks for whoever fixed the supplier portal login issue - much smoother now"
+  },
+  {
+   "d": 13,
+   "h": 12.4,
+   "author": "victor.graham",
+   "body": "anyone seen the updated vat notes? i think they changed something about the flat rate for small suppliers"
+  },
+  {
+   "d": 13,
+   "h": 13.0,
+   "author": "zainab.laurent",
+   "body": "yeah, finance-docs/tax/vat-notes.md has the change, it's on the second page"
+  },
+  {
+   "d": 10,
+   "h": 8.7,
+   "author": "alana.mendes",
+   "body": "reminder - we've got the quarterly supplier review coming up in a few working days, please bring your top issues"
+  },
+  {
+   "d": 7,
+   "h": 15.3,
+   "author": "felipe.okafor",
+   "body": "just processed a big batch of payments for the outdoor gear suppliers, all good"
+  },
+  {
+   "d": 5,
+   "h": 11.1,
+   "author": "mia.cruz",
+   "body": "is there a quick way to check if a supplier is on hold from the supplier record or do i have to look through the notes?"
+  },
+  {
+   "d": 5,
+   "h": 11.5,
+   "author": "victor.graham",
+   "body": "there's a hold flag on the supplier record itself, you don't need to dig through the notes"
+  },
+  {
+   "d": 5,
+   "h": 11.7,
+   "author": "mia.cruz",
+   "body": "cheers, that saves me a lot of clicking"
+  },
+  {
+   "d": 2,
+   "h": 9.9,
+   "author": "zainab.laurent",
+   "body": "just uploaded the scanned receipts for the store expenses, they're in the shared folder"
+  }
+ ],
+ "finance-ops": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "jordan.reyes",
+   "body": "Morning all. Just posted the daily banking summary to the finance folder. US account cleared a large transfer."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "mina.tanaka",
+   "body": "thanks jordan. can you also flag any EUR balances above 50k? need for the month-end forecast."
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "jordan.reyes",
+   "body": "sure, will add that column from the next working day."
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "santiago.nielsen",
+   "body": "Heads up: one of the card processors is having a slow afternoon. Might affect settlement times for today's takings. Will monitor."
+  },
+  {
+   "d": 40,
+   "h": 14.0,
+   "author": "ethan.alvarez",
+   "body": "Quick question: the wholesale credit notes for the spring range—are those being generated automatically or do we need to manually create? I see a few in the queue."
+  },
+  {
+   "d": 40,
+   "h": 14.5,
+   "author": "mina.tanaka",
+   "body": "auto-generated from the returns feed. just review and post. if any look off, send them back."
+  },
+  {
+   "d": 40,
+   "h": 15.0,
+   "author": "ethan.alvarez",
+   "body": "perfect, thanks."
+  },
+  {
+   "d": 39,
+   "h": 9.0,
+   "author": "alba.zhang",
+   "body": "Reminder: expense claims for the month need to be submitted by the end of this pay period. Otherwise they'll roll to the next cycle."
+  },
+  {
+   "d": 39,
+   "h": 9.5,
+   "author": "bruno.ibarra",
+   "body": "good to know, just submitted mine."
+  },
+  {
+   "d": 38,
+   "h": 16.0,
+   "author": "cecilia.horvath",
+   "body": "Just a note: a few customers have been getting duplicate order confirmations from the mailer. We're looking into it, but if anyone sees a spike in queries, that's why."
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "anders.fonseca",
+   "body": "Is there a standard template for the weekly bank reconciliation? I've been using the one from last quarter but it feels outdated."
+  },
+  {
+   "d": 37,
+   "h": 10.5,
+   "author": "mina.tanaka",
+   "body": "Check the finance-docs/cash folder—there's a current template. If you think it needs updating, raise a ticket."
+  },
+  {
+   "d": 37,
+   "h": 11.0,
+   "author": "anders.fonseca",
+   "body": "found it, thanks."
+  },
+  {
+   "d": 36,
+   "h": 13.5,
+   "author": "jordan.reyes",
+   "body": "Just uploaded the store banking spreadsheet for the last few days. Please check your store's figures if you have time."
+  },
+  {
+   "d": 35,
+   "h": 8.5,
+   "author": "tom.whitlock",
+   "body": "All: the VAT return for last quarter is due soon. Make sure any outstanding purchase invoices are entered by the end of this working day."
+  },
+  {
+   "d": 34,
+   "h": 15.0,
+   "author": "naomi.hartmann",
+   "body": "Anyone else seeing the POS back office being slow? It's taking ages to load the sales report."
+  },
+  {
+   "d": 34,
+   "h": 15.5,
+   "author": "arjun.martins",
+   "body": "Same here. Might be the network. I'll raise a ticket with IT."
+  },
+  {
+   "d": 34,
+   "h": 16.0,
+   "author": "naomi.hartmann",
+   "body": "thanks, appreciate it."
+  },
+  {
+   "d": 33,
+   "h": 11.0,
+   "author": "gideon.achebe",
+   "body": "Just a heads-up: the analytics warehouse is being migrated in the coming days, so some reports might be unavailable for a few hours on the day. Will share exact timing once confirmed."
+  },
+  {
+   "d": 32,
+   "h": 9.0,
+   "author": "ethan.alvarez",
+   "body": "For the monthly close, do we need to include the wholesale trade discounts in the revenue reconciliation? I don't see it in the checklist."
+  },
+  {
+   "d": 32,
+   "h": 9.5,
+   "author": "mina.tanaka",
+   "body": "Yes, they should be included. The checklist is missing that line. I'll update it."
+  },
+  {
+   "d": 32,
+   "h": 10.0,
+   "author": "ethan.alvarez",
+   "body": "great, thanks for confirming."
+  },
+  {
+   "d": 31,
+   "h": 14.0,
+   "author": "bruno.ibarra",
+   "body": "Small thing: the store cash count sheet has a column for 'other income' but it's not explained anywhere. Do we just put in anything not from sales?"
+  },
+  {
+   "d": 31,
+   "h": 14.5,
+   "author": "santiago.nielsen",
+   "body": "Typically that's for things like returned item restocking fees or small miscellaneous. If in doubt, leave blank and note in the comments."
+  },
+  {
+   "d": 30,
+   "h": 16.5,
+   "author": "alba.zhang",
+   "body": "Don't forget to review the open purchase orders for the garden centres—some are missing delivery dates and might affect the payment schedule."
+  },
+  {
+   "d": 28,
+   "h": 12.0,
+   "author": "jordan.reyes",
+   "body": "Does anyone have the latest exchange rate file for USD? The one in the shared drive is stale."
+  },
+  {
+   "d": 28,
+   "h": 12.5,
+   "author": "mina.tanaka",
+   "body": "Check the finance-docs/tax folder, there's a subfolder for FX rates. Updated at the start of each working week."
+  },
+  {
+   "d": 28,
+   "h": 13.0,
+   "author": "jordan.reyes",
+   "body": "got it, thanks."
+  },
+  {
+   "d": 27,
+   "h": 9.0,
+   "author": "anders.fonseca",
+   "body": "Is there a process for bulk updating customer payment terms? We have a few wholesale accounts that need changing from net 30 to net 45."
+  },
+  {
+   "d": 27,
+   "h": 9.5,
+   "author": "tom.whitlock",
+   "body": "Yes, raise a ticket with the credit team and they'll give you the template. Should be done within a couple of working days."
+  }
+ ],
+ "general": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "dara.herrera",
+   "body": "reminder that the payroll calendar is on finance-docs/payroll/payroll-calendar.md - please get any adjustments to me before the cut-off on the first working day of the month"
+  },
+  {
+   "d": 41,
+   "h": 11.5,
+   "author": "ivan.salazar",
+   "body": "release train for the current cycle is on track, RC is out. anyone with a deploy planned, make sure it's in the change queue by mid-afternoon uk time"
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "bianca.lehmann",
+   "body": "cheers ivan, will check the queue"
+  },
+  {
+   "d": 40,
+   "h": 8.8,
+   "author": "mina.tanaka",
+   "body": "does anyone have a list of wholesale customers who haven't placed an order in the last quarter? need it for a review"
+  },
+  {
+   "d": 40,
+   "h": 9.5,
+   "author": "ebony.esposito",
+   "body": "i can pull that from the CRM, give me a day"
+  },
+  {
+   "d": 40,
+   "h": 9.7,
+   "author": "mina.tanaka",
+   "body": "thanks ebony, that would be great"
+  },
+  {
+   "d": 38,
+   "h": 10.3,
+   "author": "wei.murray",
+   "body": "if anyone's seen the shop-web page for the new arrivals, the images are not loading on mobile. we're on it, should be fixed soon"
+  },
+  {
+   "d": 37,
+   "h": 13.2,
+   "author": "aiko.weber",
+   "body": "quick question: for the expenses tool, can i upload a receipt as a pdf or does it need to be an image?"
+  },
+  {
+   "d": 37,
+   "h": 13.5,
+   "author": "selin.lindgren",
+   "body": "pdf is fine, the tool converts it. just make sure it's not a screenshot of a pdf"
+  },
+  {
+   "d": 37,
+   "h": 13.8,
+   "author": "aiko.weber",
+   "body": "got it, thanks"
+  },
+  {
+   "d": 35,
+   "h": 9.0,
+   "author": "alana.mendes",
+   "body": "ap team is doing the monthly supplier statement reconciliation, if any supplier asks about it just point them to our team"
+  },
+  {
+   "d": 34,
+   "h": 15.1,
+   "author": "rosa.brennan",
+   "body": "the autumn catalogue photos are up on the asset library, pick your favourites for the website"
+  },
+  {
+   "d": 33,
+   "h": 12.0,
+   "author": "rebecca.singh",
+   "body": "fc is seeing a higher than usual return rate for the new tent model, anyone know if there's a known issue?"
+  },
+  {
+   "d": 33,
+   "h": 12.4,
+   "author": "amara.molina",
+   "body": "there's a thread in the support channel about pole breakage, seems a batch from the supplier might be faulty"
+  },
+  {
+   "d": 33,
+   "h": 12.6,
+   "author": "rebecca.singh",
+   "body": "thanks amara, will check"
+  },
+  {
+   "d": 31,
+   "h": 10.5,
+   "author": "kian.ramos",
+   "body": "reminder that the new supplier onboarding form is live, link in finance-docs/ap/supplier-onboarding.md"
+  },
+  {
+   "d": 30,
+   "h": 16.2,
+   "author": "milan.karimi",
+   "body": "the product shoot for the winter line is scheduled for next month, if anyone has any specific shots they need, let me know before the end of the week"
+  },
+  {
+   "d": 29,
+   "h": 8.5,
+   "author": "joanna.nagy",
+   "body": "has the membership team seen the email template update? we've changed the subject line format for renewal reminders"
+  },
+  {
+   "d": 29,
+   "h": 9.0,
+   "author": "amir.agarwal",
+   "body": "yeah, looks fine, but the link to the FAQ page needs updating"
+  },
+  {
+   "d": 29,
+   "h": 9.3,
+   "author": "joanna.nagy",
+   "body": "good catch, will fix"
+  },
+  {
+   "d": 27,
+   "h": 11.2,
+   "author": "miriam.muller",
+   "body": "pricing team is updating the price list for the next season, if any product owners have changes, send them to us by the end of the month"
+  },
+  {
+   "d": 26,
+   "h": 14.5,
+   "author": "ivan.salazar",
+   "body": "we're doing a production deploy for the shop later, expect a brief downtime. check the change queue for details"
+  },
+  {
+   "d": 25,
+   "h": 9.8,
+   "author": "dara.herrera",
+   "body": "payroll for the new joiners is being processed, if you've onboarded anyone this month, make sure their details are in the hr system by the end of the week"
+  },
+  {
+   "d": 24,
+   "h": 10.1,
+   "author": "ebony.esposito",
+   "body": "wholesale team is going to the trade show next month, who's coming? need to book travel"
+  },
+  {
+   "d": 24,
+   "h": 10.4,
+   "author": "mina.tanaka",
+   "body": "i'll be there, can i tag along for the day"
+  },
+  {
+   "d": 24,
+   "h": 10.6,
+   "author": "ebony.esposito",
+   "body": "sure, i'll add you to the list"
+  },
+  {
+   "d": 22,
+   "h": 13.0,
+   "author": "wei.murray",
+   "body": "reminder that we're deprecating the old cms soon, any content that hasn't been migrated will be lost. see eng-docs/adr/0015-drop-legacy-cms.md"
+  },
+  {
+   "d": 20,
+   "h": 12.2,
+   "author": "rosa.brennan",
+   "body": "press release for the new store opening is out, feel free to share on social"
+  },
+  {
+   "d": 19,
+   "h": 9.4,
+   "author": "amara.molina",
+   "body": "anyone else seeing the storefront slow down during peak hours? we're looking into it"
+  },
+  {
+   "d": 19,
+   "h": 9.6,
+   "author": "wei.murray",
+   "body": "yeah, we're investigating, might be the database load. will update"
+  },
+  {
+   "d": 18,
+   "h": 11.1,
+   "author": "selin.lindgren",
+   "body": "people team is running a survey on remote work preferences, please fill it out by the end of the month"
+  },
+  {
+   "d": 17,
+   "h": 15.0,
+   "author": "milan.karimi",
+   "body": "the new brand guidelines are in the asset library, please use the latest logos for any external comms"
+  },
+  {
+   "d": 15,
+   "h": 10.0,
+   "author": "kian.ramos",
+   "body": "if you have any invoices that need to go out to customers, make sure they're in the system by the billing run on the first working day of the month"
+  },
+  {
+   "d": 14,
+   "h": 8.7,
+   "author": "joanna.nagy",
+   "body": "we're planning a maintenance window for the billing system soon, will send a reminder"
+  },
+  {
+   "d": 13,
+   "h": 12.5,
+   "author": "amir.agarwal",
+   "body": "customer support has seen a few questions about the new delivery times, the help centre article is updated but the chatbot might need refreshing"
+  },
+  {
+   "d": 12,
+   "h": 14.2,
+   "author": "ivan.salazar",
+   "body": "next release is planned for the end of the week, if you have any last minute fixes let me know"
+  },
+  {
+   "d": 11,
+   "h": 9.6,
+   "author": "mina.tanaka",
+   "body": "the monthly finance report is in the warehouse, let me know if you have questions"
+  }
+ ],
+ "random": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "joy.mbeki",
+   "body": "quick one - has anyone else seen the warehouse lag on the daily product snapshot? it's usually done by now but the last refresh is showing as pending."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "dana.vasilenko",
+   "body": "the pipeline had a hiccup first thing, rerunning now. should be fine within the hour."
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "joy.mbeki",
+   "body": "cheers dana, that explains it."
+  },
+  {
+   "d": 41,
+   "h": 11.3,
+   "author": "daisuke.fleming",
+   "body": "anyone got a contact for the print vendor we used for the spring catalogue? need to ask about reprints for a trade show."
+  },
+  {
+   "d": 40,
+   "h": 14.0,
+   "author": "kasia.vogel",
+   "body": "just a reminder that the quarterly access review window opens soon, check your team's list in the HR system and flag anything stale."
+  },
+  {
+   "d": 39,
+   "h": 10.45,
+   "author": "hiroshi.adler",
+   "body": "anyone else seeing odd latency on the billing-api in the US region? not critical but seems slower than usual."
+  },
+  {
+   "d": 39,
+   "h": 10.55,
+   "author": "laszlo.ikeda",
+   "body": "not from our side, the platform metrics look normal. maybe a local isp thing?"
+  },
+  {
+   "d": 39,
+   "h": 11.1,
+   "author": "hiroshi.adler",
+   "body": "could be, will keep an eye."
+  },
+  {
+   "d": 38,
+   "h": 15.7,
+   "author": "ana.quinn",
+   "body": "if anyone spots a phishing email that looks like it's from the CEO, forward it to the helpdesk as we've had a few reports."
+  },
+  {
+   "d": 37,
+   "h": 8.5,
+   "author": "harriet.bose",
+   "body": "membership team here - we're planning a small change to the welcome email flow, will update the docs before we ship."
+  },
+  {
+   "d": 36,
+   "h": 13.2,
+   "author": "anders.fonseca",
+   "body": "does anyone know where the latest vat notes are kept? the finance-docs link seems to be the old version."
+  },
+  {
+   "d": 35,
+   "h": 9.8,
+   "author": "naomi.hartmann",
+   "body": "fraud team - we've seen a slight uptick in card-not-present attempts on the US site, just a heads up."
+  },
+  {
+   "d": 34,
+   "h": 16.0,
+   "author": "joanna.nagy",
+   "body": "is there a way to get a test voucher for the membership signup? need to check something."
+  },
+  {
+   "d": 34,
+   "h": 16.3,
+   "author": "harriet.bose",
+   "body": "there are some in the test account, check the docs for the credentials."
+  },
+  {
+   "d": 33,
+   "h": 11.0,
+   "author": "enzo.chandra",
+   "body": "payments team - the scheduled maintenance for the card provider is set for the next non-peak window, no action needed."
+  },
+  {
+   "d": 32,
+   "h": 12.4,
+   "author": "delphine.marchetti",
+   "body": "wholesale credit - just a note that the new credit terms doc is live, check it if you deal with new accounts."
+  },
+  {
+   "d": 31,
+   "h": 10.2,
+   "author": "wei.murray",
+   "body": "anyone else have trouble running the shop-web runbook locally? the env setup seems outdated."
+  },
+  {
+   "d": 31,
+   "h": 10.6,
+   "author": "dana.vasilenko",
+   "body": "known issue, we're updating the doc soon. workaround is to use the {{CONTAINER_TOOL|lower}} image instead."
+  },
+  {
+   "d": 30,
+   "h": 9.5,
+   "author": "helen.garside",
+   "body": "great job on the quarter close everyone, numbers look good."
+  },
+  {
+   "d": 29,
+   "h": 14.5,
+   "author": "imani.brooks",
+   "body": "support team - if you see a customer asking about a promo code that expired, feel free to offer a small discount if they're nice about it."
+  },
+  {
+   "d": 28,
+   "h": 11.2,
+   "author": "bilal.hughes",
+   "body": "crm - we're about to send a campaign to lapsed customers, let me know if you need to be excluded."
+  },
+  {
+   "d": 27,
+   "h": 9.0,
+   "author": "siobhan.keane",
+   "body": "thanks to everyone who filled the eng survey, we'll share the results in a couple of working days."
+  },
+  {
+   "d": 26,
+   "h": 15.3,
+   "author": "joy.mbeki",
+   "body": "anyone know how to get the data classification for a new dataset? the handbook has a doc but it's a bit vague."
+  },
+  {
+   "d": 26,
+   "h": 15.8,
+   "author": "kasia.vogel",
+   "body": "dm me and i'll walk you through it or check the security section in the handbook."
+  },
+  {
+   "d": 25,
+   "h": 13.1,
+   "author": "daisuke.fleming",
+   "body": "just got back from a trade show, made some good wholesale contacts."
+  },
+  {
+   "d": 24,
+   "h": 10.4,
+   "author": "hiroshi.adler",
+   "body": "is anyone else having issues with the payment test cards? they keep getting declined."
+  },
+  {
+   "d": 24,
+   "h": 10.7,
+   "author": "enzo.chandra",
+   "body": "that's expected, the test gateway is set to decline all cards on non-working days. will revert on the next working day."
+  },
+  {
+   "d": 23,
+   "h": 9.9,
+   "author": "ana.quinn",
+   "body": "reminder to rotate your mfa tokens if you haven't in a while, we had a minor scare."
+  },
+  {
+   "d": 22,
+   "h": 16.2,
+   "author": "harriet.bose",
+   "body": "anyone else have a preference for the new office snack options? the survey is open."
+  },
+  {
+   "d": 21,
+   "h": 11.5,
+   "author": "anders.fonseca",
+   "body": "the month-end checklist is updated, please review your part before the close."
+  },
+  {
+   "d": 20,
+   "h": 14.8,
+   "author": "naomi.hartmann",
+   "body": "just a fyi, the fraud rules for the summer sale will be a bit stricter, but nothing that should affect legitimate customers."
+  },
+  {
+   "d": 19,
+   "h": 12.0,
+   "author": "joanna.nagy",
+   "body": "anyone know how to get a feature flag removed after it's been rolled out?"
+  },
+  {
+   "d": 19,
+   "h": 12.3,
+   "author": "laszlo.ikeda",
+   "body": "the flag service has an api for that, check the platform docs."
+  },
+  {
+   "d": 18,
+   "h": 8.7,
+   "author": "enzo.chandra",
+   "body": "quick reminder that the payments platform will be in maintenance mode during the card provider work, so no changes then."
+  },
+  {
+   "d": 17,
+   "h": 15.1,
+   "author": "wei.murray",
+   "body": "looks like the shop-web deploy went out clean, thanks for the quick review."
+  },
+  {
+   "d": 16,
+   "h": 10.8,
+   "author": "delphine.marchetti",
+   "body": "does anyone have a template for a credit note? our finance team could use one."
+  },
+  {
+   "d": 15,
+   "h": 9.4,
+   "author": "helen.garside",
+   "body": "just a note that i'll be out for a few working days, but the team knows where to find me if needed."
+  },
+  {
+   "d": 14,
+   "h": 13.6,
+   "author": "imani.brooks",
+   "body": "US support - we're getting a lot of calls about delivery times, might be worth updating the website faq."
+  },
+  {
+   "d": 13,
+   "h": 11.1,
+   "author": "bilal.hughes",
+   "body": "crm - the next email campaign is scheduled for the first half of next month, let me know if there's any conflict."
+  },
+  {
+   "d": 12,
+   "h": 14.2,
+   "author": "siobhan.keane",
+   "body": "thanks for the great work on the incident post-mortem, we've learned a lot."
+  },
+  {
+   "d": 11,
+   "h": 10.0,
+   "author": "joy.mbeki",
+   "body": "anyone else notice the data pipeline is running slower than usual today?"
+  },
+  {
+   "d": 11,
+   "h": 10.4,
+   "author": "dana.vasilenko",
+   "body": "yes, we're seeing a resource issue on the cluster, looking into it."
+  },
+  {
+   "d": 10,
+   "h": 15.5,
+   "author": "kasia.vogel",
+   "body": "security - we'll be doing a phishing drill in the coming days, don't be alarmed."
+  },
+  {
+   "d": 9,
+   "h": 9.3,
+   "author": "hiroshi.adler",
+   "body": "anyone know how to get a test account for the wholesale portal?"
+  },
+  {
+   "d": 8,
+   "h": 12.7,
+   "author": "daisuke.fleming",
+   "body": "you can use the same test accounts as the retail site, just add the wholesale flag."
+  },
+  {
+   "d": 7,
+   "h": 11.6,
+   "author": "ana.quinn",
+   "body": "reminder to lock your screens when you step away, we've had a few incidents."
+  },
+  {
+   "d": 6,
+   "h": 14.0,
+   "author": "harriet.bose",
+   "body": "anyone tried the new coffee in the kitchen? pretty good."
+  },
+  {
+   "d": 5,
+   "h": 10.5,
+   "author": "anders.fonseca",
+   "body": "the finance team will be busy with the month-end, so responses may be delayed for a few days."
+  },
+  {
+   "d": 4,
+   "h": 13.2,
+   "author": "naomi.hartmann",
+   "body": "just a heads up that the fraud team will be doing some reviews on the wholesale accounts over the next few working days."
+  },
+  {
+   "d": 3,
+   "h": 9.7,
+   "author": "joanna.nagy",
+   "body": "is there a way to see which feature flags are active in production? the dashboard seems incomplete."
+  },
+  {
+   "d": 2,
+   "h": 15.8,
+   "author": "enzo.chandra",
+   "body": "the flag service has an api for that, check the platform docs."
+  },
+  {
+   "d": 1,
+   "h": 11.0,
+   "author": "wei.murray",
+   "body": "anyone else see the new brand guidelines? they look fresh."
+  }
+ ],
+ "leeds-office": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "ethan.alvarez",
+   "body": "anyone know if the coffee machine on the third floor is back in action? it was flashing red before i left"
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "stella.young",
+   "body": "not yet, facilities are waiting on a part. the second floor one works fine though"
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "ethan.alvarez",
+   "body": "cheers, second floor it is"
+  },
+  {
+   "d": 41,
+   "h": 12.3,
+   "author": "mehmet.bianchi",
+   "body": "some of the parking spaces in the north lot are still blocked off, the barrier is jammed. could take a while to fix, park in the multi-storey if you can"
+  },
+  {
+   "d": 41,
+   "h": 13.1,
+   "author": "omar.sorensen",
+   "body": "ta, saved me a trip. multi-storey it is"
+  },
+  {
+   "d": 40,
+   "h": 15.4,
+   "author": "mina.tanaka",
+   "body": "left a jacket in the kitchen the other day, blue waterproof, has a mossgrove badge. grabbed by anyone?"
+  },
+  {
+   "d": 40,
+   "h": 16.0,
+   "author": "felipe.okafor",
+   "body": "saw it on the hook behind the door, still there"
+  },
+  {
+   "d": 40,
+   "h": 16.5,
+   "author": "mina.tanaka",
+   "body": "legend, will grab it"
+  },
+  {
+   "d": 38,
+   "h": 8.5,
+   "author": "miriam.muller",
+   "body": "the lunch delivery rota is up for this month, check the spreadsheet if you're on it"
+  },
+  {
+   "d": 37,
+   "h": 9.8,
+   "author": "alba.zhang",
+   "body": "anyone else find the new card access on the basement door a bit slow? takes a few seconds to register"
+  },
+  {
+   "d": 37,
+   "h": 10.1,
+   "author": "mehmet.bianchi",
+   "body": "it's being looked at, the reader firmware is out of date. should update before the end of the week"
+  },
+  {
+   "d": 36,
+   "h": 11.0,
+   "author": "anton.campos",
+   "body": "reminder that the fire drill is scheduled for the first working day of next month, don't panic when the alarm goes"
+  },
+  {
+   "d": 35,
+   "h": 9.0,
+   "author": "grace.harper",
+   "body": "somebody left a bike in the rack near the loading bay, it's been there for a few days. is it yours?"
+  },
+  {
+   "d": 35,
+   "h": 12.4,
+   "author": "simone.asante",
+   "body": "not mine, i walk. maybe post on the internal noticeboard?"
+  },
+  {
+   "d": 34,
+   "h": 14.0,
+   "author": "esther.vasquez",
+   "body": "anyone know how to link the new printers to a mac? the setup guide only shows windows"
+  },
+  {
+   "d": 34,
+   "h": 14.4,
+   "author": "stella.young",
+   "body": "yeah, there's a separate driver in the IT share. i'll send you the link"
+  },
+  {
+   "d": 33,
+   "h": 8.2,
+   "author": "tomas.nakamura",
+   "body": "the internal post is being delayed by one working day, so if you're expecting a package it might come later than usual"
+  },
+  {
+   "d": 32,
+   "h": 10.5,
+   "author": "zainab.laurent",
+   "body": "anyone else have trouble with the meeting room booking system? keeps saying the room is free but then it's occupied"
+  },
+  {
+   "d": 32,
+   "h": 10.8,
+   "author": "alana.mendes",
+   "body": "yes! happened to me twice, logged it with IT but no reply yet"
+  },
+  {
+   "d": 30,
+   "h": 9.3,
+   "author": "helen.garside",
+   "body": "can someone point me to the latest org chart? i need to update my distro lists"
+  },
+  {
+   "d": 30,
+   "h": 9.5,
+   "author": "tomas.nakamura",
+   "body": "it's in the handbook under org-overview, i just updated it a few working days ago"
+  },
+  {
+   "d": 29,
+   "h": 15.0,
+   "author": "arjun.martins",
+   "body": "the kettle in the tea point is broken again, third time this month. can we get a proper one?"
+  },
+  {
+   "d": 29,
+   "h": 15.3,
+   "author": "mehmet.bianchi",
+   "body": "raised a ticket with facilities, they said they'll bring a spare the next working day"
+  },
+  {
+   "d": 28,
+   "h": 11.1,
+   "author": "ethan.alvarez",
+   "body": "the window in the finance corner is stuck open, freezing. anyone know who to call?"
+  },
+  {
+   "d": 28,
+   "h": 11.4,
+   "author": "stella.young",
+   "body": "that's the same one from last month, they thought they fixed it. i'll chase facilities"
+  },
+  {
+   "d": 27,
+   "h": 8.4,
+   "author": "mina.tanaka",
+   "body": "forgot my badge, can someone let me in at the main entrance? i'm just outside"
+  },
+  {
+   "d": 27,
+   "h": 8.5,
+   "author": "felipe.okafor",
+   "body": "coming down"
+  },
+  {
+   "d": 26,
+   "h": 12.5,
+   "author": "omar.sorensen",
+   "body": "the lift on the east side is out of service, use the west one or the stairs if you're on the top floor"
+  },
+  {
+   "d": 25,
+   "h": 9.0,
+   "author": "miriam.muller",
+   "body": "anyone up for a walk at lunch? the weather is actually nice for once"
+  },
+  {
+   "d": 25,
+   "h": 9.2,
+   "author": "alba.zhang",
+   "body": "count me in, meet at the lobby at noon?"
+  },
+  {
+   "d": 25,
+   "h": 9.3,
+   "author": "miriam.muller",
+   "body": "sounds good"
+  },
+  {
+   "d": 24,
+   "h": 14.5,
+   "author": "simone.asante",
+   "body": "the water dispenser on the second floor is leaking, put a bucket under it but it's filling up fast. can someone flag it"
+  },
+  {
+   "d": 24,
+   "h": 14.7,
+   "author": "mehmet.bianchi",
+   "body": "on it, will get the maintenance guy"
+  },
+  {
+   "d": 23,
+   "h": 10.2,
+   "author": "anton.campos",
+   "body": "left a usb stick in the training room, black and red. anyone see it?"
+  },
+  {
+   "d": 23,
+   "h": 10.6,
+   "author": "grace.harper",
+   "body": "i think it's in the lost property box in security, worth checking"
+  },
+  {
+   "d": 22,
+   "h": 11.8,
+   "author": "esther.vasquez",
+   "body": "the vending machine has been out of chocolate for two days, the supplier is on holiday maybe?"
+  },
+  {
+   "d": 21,
+   "h": 8.9,
+   "author": "alana.mendes",
+   "body": "someone parked in my reserved spot earlier today, just a heads up - it's the one with the sign"
+  },
+  {
+   "d": 21,
+   "h": 9.1,
+   "author": "omar.sorensen",
+   "body": "sorry that was me, moved it now, didn't see the sign"
+  },
+  {
+   "d": 20,
+   "h": 13.4,
+   "author": "zainab.laurent",
+   "body": "the sandwich place across the road has a new menu, tried the chicken wrap, it's decent"
+  },
+  {
+   "d": 19,
+   "h": 9.6,
+   "author": "helen.garside",
+   "body": "does anyone have a spare phone charger? mine died and i forgot mine at home"
+  },
+  {
+   "d": 19,
+   "h": 9.8,
+   "author": "mina.tanaka",
+   "body": "i have one in my drawer, pop by finance"
+  },
+  {
+   "d": 18,
+   "h": 15.1,
+   "author": "milan.karimi",
+   "body": "the photo studio backdrops are going to be changed out, so if you need the grey one get your shots in before the end of the week"
+  },
+  {
+   "d": 17,
+   "h": 10.0,
+   "author": "tomas.nakamura",
+   "body": "the HR system is having a scheduled maintenance slot later today, so you might not be able to log in for a bit"
+  },
+  {
+   "d": 16,
+   "h": 12.0,
+   "author": "mehmet.bianchi",
+   "body": "the wifi in the west wing is being upgraded, expect a few drops for the next couple of days"
+  },
+  {
+   "d": 15,
+   "h": 9.4,
+   "author": "ethan.alvarez",
+   "body": "anyone else getting a weird smell from the drains in the kitchen? reported it but no one came"
+  },
+  {
+   "d": 15,
+   "h": 9.6,
+   "author": "alba.zhang",
+   "body": "yes, i think it's the sink in the corner, i put some baking soda down but it didn't help"
+  },
+  {
+   "d": 14,
+   "h": 8.8,
+   "author": "simone.asante",
+   "body": "the press office has a new phone number, i'll update the directory, but it's in the handbook if you need it"
+  },
+  {
+   "d": 13,
+   "h": 11.2,
+   "author": "felipe.okafor",
+   "body": "does anyone know how to get to the roof terrace? i heard it's open but i can't find the access"
+  },
+  {
+   "d": 13,
+   "h": 11.4,
+   "author": "stella.young",
+   "body": "it's through the fire escape on the fifth floor, but you need a key from security"
+  },
+  {
+   "d": 12,
+   "h": 14.9,
+   "author": "grace.harper",
+   "body": "the copier in the legal corridor is jammed again, the usual paper jam. someone from IT?"
+  },
+  {
+   "d": 12,
+   "h": 15.1,
+   "author": "mehmet.bianchi",
+   "body": "will be there in a bit"
+  },
+  {
+   "d": 11,
+   "h": 10.3,
+   "author": "arjun.martins",
+   "body": "the temperature in the office is a bit high, anyone else? i've got a jacket on and i'm sweating"
+  },
+  {
+   "d": 10,
+   "h": 9.1,
+   "author": "mina.tanaka",
+   "body": "the lift on the west side is making a weird noise, might want to get that checked before it breaks"
+  },
+  {
+   "d": 10,
+   "h": 9.3,
+   "author": "mehmet.bianchi",
+   "body": "thank, i've flagged it to the lift company"
+  },
+  {
+   "d": 9,
+   "h": 13.5,
+   "author": "anton.campos",
+   "body": "there's a box of free samples of the new waterproofs in the common area, first come first served"
+  },
+  {
+   "d": 8,
+   "h": 11.1,
+   "author": "zainab.laurent",
+   "body": "the coffee machine on the second floor is now dispensing hot water only, anyone know how to reset it?"
+  },
+  {
+   "d": 8,
+   "h": 11.3,
+   "author": "stella.young",
+   "body": "turn it off and on again, that usually works. if not, i'll come over"
+  },
+  {
+   "d": 7,
+   "h": 12.4,
+   "author": "omar.sorensen",
+   "body": "the post room has a new drop off point for internal mail, it's near the back stairs"
+  },
+  {
+   "d": 6,
+   "h": 8.5,
+   "author": "miriam.muller",
+   "body": "anyone know when the fire alarm test is? i keep getting surprised"
+  },
+  {
+   "d": 6,
+   "h": 8.7,
+   "author": "alana.mendes",
+   "body": "it's mid-month, so not for a while"
+  },
+  {
+   "d": 5,
+   "h": 15.2,
+   "author": "helen.garside",
+   "body": "left my umbrella in the cloakroom, if anyone sees a black one let me know"
+  },
+  {
+   "d": 4,
+   "h": 9.0,
+   "author": "esther.vasquez",
+   "body": "the new chairs in the meeting rooms are actually comfortable, good job whoever ordered them"
+  },
+  {
+   "d": 3,
+   "h": 11.6,
+   "author": "milan.karimi",
+   "body": "the printer on the third floor is out of paper, just a heads up"
+  },
+  {
+   "d": 2,
+   "h": 10.1,
+   "author": "simone.asante",
+   "body": "does anyone have a spare notepad? i left mine in the other building"
+  },
+  {
+   "d": 2,
+   "h": 10.3,
+   "author": "tomas.nakamura",
+   "body": "i do, come by the people team office"
+  },
+  {
+   "d": 1,
+   "h": 14.0,
+   "author": "arjun.martins",
+   "body": "the water cooler on the ground floor is empty, replacement not due until the next working day"
+  },
+  {
+   "d": 1,
+   "h": 14.2,
+   "author": "felipe.okafor",
+   "body": "there are some bottles in the fridge if you're desperate"
+  }
+ ],
+ "credit-control": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "graham.pike",
+   "body": "morning all – anyone else seeing an odd batch of credit note requests from the garden centre channel? just want to make sure it's not just my queue."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "nadia.farouk",
+   "body": "yeah, got a few. they all seem to be for the same product line though. might be a pricing glitch on their side."
+  },
+  {
+   "d": 42,
+   "h": 9.8,
+   "author": "magnus.nunez",
+   "body": "i'll flag it to the wholesale account manager for that region. probably a template mistake."
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "uma.schmidt",
+   "body": "reminder that the month-end close checklist is due by the first working day. i'll start pulling the aged receivables report."
+  },
+  {
+   "d": 41,
+   "h": 14.4,
+   "author": "delphine.marchetti",
+   "body": "thanks uma, i've got the overdue balances spreadsheet ready to cross-check."
+  },
+  {
+   "d": 38,
+   "h": 11.0,
+   "author": "elias.sato",
+   "body": "quick one – for a new wholesale account, do we still require the credit application form before setting up terms? i've got a prospect asking."
+  },
+  {
+   "d": 38,
+   "h": 11.2,
+   "author": "graham.pike",
+   "body": "yes, always. check the supplier onboarding doc in finance-docs for the standard process, but credit check comes first."
+  },
+  {
+   "d": 38,
+   "h": 11.5,
+   "author": "elias.sato",
+   "body": "got it, thanks. i'll get that form over to them today."
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "lena.brooks",
+   "body": "does anyone know if we're still accepting cheques for wholesale payments? a couple of old-school customers keep asking."
+  },
+  {
+   "d": 37,
+   "h": 10.1,
+   "author": "nadia.farouk",
+   "body": "we don't take cheques anymore. bank transfer or card only now. i'll update the customer info sheet."
+  },
+  {
+   "d": 36,
+   "h": 15.5,
+   "author": "magnus.nunez",
+   "body": "just did a sweep of the over-90 bucket. three accounts are consistently late – i'll send them a formal reminder in a couple of days."
+  },
+  {
+   "d": 36,
+   "h": 15.8,
+   "author": "graham.pike",
+   "body": "good. let me know if any need a phone call before we escalate."
+  },
+  {
+   "d": 34,
+   "h": 9.0,
+   "author": "daisuke.fleming",
+   "body": "just a heads-up – we're about to sign a new wholesale contract with a large garden centre chain. they'll want net 30 terms. can we support that?"
+  },
+  {
+   "d": 34,
+   "h": 9.3,
+   "author": "graham.pike",
+   "body": "net 30 is fine as long as they pass credit check. we've done it for similar sized accounts before."
+  },
+  {
+   "d": 34,
+   "h": 9.6,
+   "author": "daisuke.fleming",
+   "body": "great, thanks. i'll get the application moving."
+  },
+  {
+   "d": 33,
+   "h": 11.0,
+   "author": "uma.schmidt",
+   "body": "can someone confirm the correct code for 'payment on account'? i've got a customer who wants to prepay but the ledger shows two similar options."
+  },
+  {
+   "d": 33,
+   "h": 11.2,
+   "author": "nadia.farouk",
+   "body": "use 'POA' – that's the standard. the other one is for something else. i'll check the ledger manual."
+  },
+  {
+   "d": 33,
+   "h": 11.5,
+   "author": "uma.schmidt",
+   "body": "thanks, that helps."
+  },
+  {
+   "d": 31,
+   "h": 14.0,
+   "author": "delphine.marchetti",
+   "body": "anyone else had trouble getting the bank statement feed to update? mine is stuck since the morning."
+  },
+  {
+   "d": 31,
+   "h": 14.2,
+   "author": "magnus.nunez",
+   "body": "i've seen that before. try logging out and back in, or raise a ticket if it persists."
+  },
+  {
+   "d": 31,
+   "h": 14.5,
+   "author": "delphine.marchetti",
+   "body": "ok, i'll try that."
+  },
+  {
+   "d": 29,
+   "h": 9.5,
+   "author": "lena.brooks",
+   "body": "just so you know, a customer said they sent a payment a few days ago but we haven't received it. i've asked for the reference. might be in transit."
+  },
+  {
+   "d": 29,
+   "h": 9.8,
+   "author": "nadia.farouk",
+   "body": "thanks lena, i'll keep an eye out for it. once we have the ref, i can trace it."
+  },
+  {
+   "d": 28,
+   "h": 16.2,
+   "author": "magnus.nunez",
+   "body": "noted. i'll double-check the workflow next time."
+  },
+  {
+   "d": 26,
+   "h": 10.0,
+   "author": "uma.schmidt",
+   "body": "does anyone have the latest version of the credit limit template? the one on the shared drive seems outdated."
+  },
+  {
+   "d": 26,
+   "h": 10.3,
+   "author": "nadia.farouk",
+   "body": "i think i have it. i'll send it over."
+  },
+  {
+   "d": 24,
+   "h": 13.0,
+   "author": "elias.sato",
+   "body": "spoke to a customer today who said they never received our invoice for last month. can we resend? they're willing to pay."
+  },
+  {
+   "d": 24,
+   "h": 13.3,
+   "author": "delphine.marchetti",
+   "body": "sure, i'll pull it up and email it again. please ask them to check spam just in case."
+  },
+  {
+   "d": 23,
+   "h": 11.0,
+   "author": "magnus.nunez",
+   "body": "just updated the credit control tracker. a few accounts are now under review – let me know if you have insights."
+  },
+  {
+   "d": 23,
+   "h": 11.5,
+   "author": "lena.brooks",
+   "body": "thanks, i'll take a look later."
+  },
+  {
+   "d": 21,
+   "h": 15.0,
+   "author": "daisuke.fleming",
+   "body": "one of our larger wholesalers is asking for extended payment terms. can we consider net 60 for them? they've been reliable."
+  },
+  {
+   "d": 21,
+   "h": 15.3,
+   "author": "graham.pike",
+   "body": "we don't typically go beyond net 30, but if they've got a strong history, i can review it. send me the details."
+  },
+  {
+   "d": 20,
+   "h": 9.0,
+   "author": "nadia.farouk",
+   "body": "just a heads-up – the bank reconciliation is lagging a bit. i'll catch up by end of day."
+  }
+ ],
+ "dublin-office": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "hana.hansen",
+   "body": "does anyone have the link for the new brand photo checklist? marketing-docs/brand/photo-shoot-checklist.md not opening for me"
+  },
+  {
+   "d": 42,
+   "h": 9.8,
+   "author": "amara.molina",
+   "body": "try eng-docs/README.md for now, might be a permissions thing"
+  },
+  {
+   "d": 42,
+   "h": 10.2,
+   "author": "hana.hansen",
+   "body": "that worked, thanks"
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "tariq.mahlaba",
+   "body": "anyone else seeing slow loads on the product pages for the new range? started a bit ago, could be the CDN"
+  },
+  {
+   "d": 41,
+   "h": 11.5,
+   "author": "chiara.mishra",
+   "body": "not seeing it on my side, check the app logs if you can"
+  },
+  {
+   "d": 41,
+   "h": 12.0,
+   "author": "tariq.mahlaba",
+   "body": "turned out to be a bad image on one item, fixed it"
+  },
+  {
+   "d": 40,
+   "h": 14.0,
+   "author": "joy.mbeki",
+   "body": "warehouse pipeline is running a bit behind today, will update when it's done"
+  },
+  {
+   "d": 39,
+   "h": 9.0,
+   "author": "lina.teixeira",
+   "body": "for the new gift card flow, can someone confirm we're using the standard chargebacks doc? finance-docs/chargebacks.md"
+  },
+  {
+   "d": 39,
+   "h": 9.5,
+   "author": "fatima.reyes",
+   "body": "yes, that's the one"
+  },
+  {
+   "d": 39,
+   "h": 10.0,
+   "author": "lina.teixeira",
+   "body": "great"
+  },
+  {
+   "d": 38,
+   "h": 16.0,
+   "author": "dana.vasilenko",
+   "body": "snapctl shows some old snapshots for the staging environment, i'm going to clean those up if no one objects"
+  },
+  {
+   "d": 37,
+   "h": 8.5,
+   "author": "bilal.hughes",
+   "body": "reminder that the consent doc is updated for email sends - marketing-docs/email/consent.md"
+  },
+  {
+   "d": 36,
+   "h": 13.0,
+   "author": "sasha.lindeman",
+   "body": "small model update going out later - just the recs model, no impact to live"
+  },
+  {
+   "d": 36,
+   "h": 13.5,
+   "author": "wanjiru.garza",
+   "body": "thanks, noted"
+  },
+  {
+   "d": 35,
+   "h": 10.0,
+   "author": "ana.quinn",
+   "body": "check the access review doc if you haven't - eng-docs/security/access-reviews.md"
+  },
+  {
+   "d": 34,
+   "h": 15.0,
+   "author": "daniel.kruger",
+   "body": "deployctl for the checkout service is scheduled for later, keep an eye on it"
+  },
+  {
+   "d": 33,
+   "h": 11.0,
+   "author": "lara.olsen",
+   "body": "that payment retry endpoint is working as expected, thanks for the quick fix"
+  },
+  {
+   "d": 32,
+   "h": 9.5,
+   "author": "tariq.mahlaba",
+   "body": "new order web page looks good on mobile, nice work"
+  },
+  {
+   "d": 31,
+   "h": 12.0,
+   "author": "greta.rahman",
+   "body": "data docs updated with the new catalogue - data-docs/catalogue.md"
+  },
+  {
+   "d": 30,
+   "h": 14.5,
+   "author": "hana.hansen",
+   "body": "any issues with the last email campaign? just checking"
+  },
+  {
+   "d": 30,
+   "h": 15.0,
+   "author": "bilal.hughes",
+   "body": "no problems reported, open rates look fine"
+  },
+  {
+   "d": 29,
+   "h": 10.0,
+   "author": "amara.molina",
+   "body": "can someone review the pull request for the shop web fix? it's in the queue"
+  },
+  {
+   "d": 29,
+   "h": 10.5,
+   "author": "tariq.mahlaba",
+   "body": "on it"
+  },
+  {
+   "d": 28,
+   "h": 13.0,
+   "author": "joy.mbeki",
+   "body": "logctl is showing some old logs in the hot tier, archiving them now"
+  },
+  {
+   "d": 27,
+   "h": 9.0,
+   "author": "kasia.vogel",
+   "body": "if anyone needs a hand with the security docs, happy to help"
+  },
+  {
+   "d": 26,
+   "h": 16.5,
+   "author": "chiara.mishra",
+   "body": "just a heads up, the on-call guide has been updated - eng-docs/oncall/oncall-guide.md"
+  },
+  {
+   "d": 25,
+   "h": 11.0,
+   "author": "lina.teixeira",
+   "body": "thanks for the update on the checkout api, looks solid"
+  },
+  {
+   "d": 24,
+   "h": 8.5,
+   "author": "dana.vasilenko",
+   "body": "cleaned up those snapshots, all good now"
+  },
+  {
+   "d": 23,
+   "h": 14.0,
+   "author": "sasha.lindeman",
+   "body": "feature flag service is having a small hiccup, checking now"
+  },
+  {
+   "d": 22,
+   "h": 10.0,
+   "author": "amara.molina",
+   "body": "the new product page layout is live, looks nice"
+  },
+  {
+   "d": 21,
+   "h": 12.5,
+   "author": "tariq.mahlaba",
+   "body": "anyone else having trouble with the crm sync? might be a network thing"
+  },
+  {
+   "d": 20,
+   "h": 9.5,
+   "author": "fatima.reyes",
+   "body": "no issues here"
+  },
+  {
+   "d": 19,
+   "h": 15.0,
+   "author": "joy.mbeki",
+   "body": "warehouse is back on track, all good"
+  },
+  {
+   "d": 18,
+   "h": 11.0,
+   "author": "hana.hansen",
+   "body": "quick question - do we have a standard for writing to customers? handbook/comms/writing-to-customers.md"
+  },
+  {
+   "d": 17,
+   "h": 13.0,
+   "author": "bilal.hughes",
+   "body": "yeah, that's the one we use"
+  }
+ ],
+ "marketing": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "milan.karimi",
+   "body": "quick heads-up: the spring campaign product shots are up in the shared drive, please use the 'approved' folder only"
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "fiona.kato",
+   "body": "thanks milan, got it. the new tent flat-lay is my favourite"
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "pablo.novak",
+   "body": "anyone else seeing the meta ad previews take ages to load today? not urgent, just annoying"
+  },
+  {
+   "d": 41,
+   "h": 14.5,
+   "author": "andile.russo",
+   "body": "same here. thought it was my connection. at least the reports come through fine"
+  },
+  {
+   "d": 40,
+   "h": 11.0,
+   "author": "samir.farah",
+   "body": "reminder that the CRM lifecycle email for the upcoming send is due for content review by the end of the working day"
+  },
+  {
+   "d": 40,
+   "h": 11.5,
+   "author": "jada.dubois",
+   "body": "will send it over shortly, just finalising the subject line"
+  },
+  {
+   "d": 39,
+   "h": 16.0,
+   "author": "ilse.jaramillo",
+   "body": "got the press release draft for the new store opening, comments due back by the end of the week"
+  },
+  {
+   "d": 38,
+   "h": 9.0,
+   "author": "marco.moreau",
+   "body": "happy with the paid social performance this month, but let's keep an eye on the cpc for the camping range"
+  },
+  {
+   "d": 38,
+   "h": 9.5,
+   "author": "pablo.novak",
+   "body": "already noticed it creeping up, I'll adjust the bids later today"
+  },
+  {
+   "d": 37,
+   "h": 13.0,
+   "author": "hana.hansen",
+   "body": "does anyone have the link to the customer consent doc? I need to check something for the next campaign"
+  },
+  {
+   "d": 37,
+   "h": 13.2,
+   "author": "bilal.hughes",
+   "body": "it's in marketing-docs under email/consent.md – I can share it if you can't find it"
+  },
+  {
+   "d": 37,
+   "h": 13.5,
+   "author": "hana.hansen",
+   "body": "found it, thanks!"
+  },
+  {
+   "d": 36,
+   "h": 15.0,
+   "author": "jakob.blanco",
+   "body": "just uploaded the behind-the-scenes shots from the photoshoot – feel free to use any for social"
+  },
+  {
+   "d": 35,
+   "h": 10.0,
+   "author": "lucas.rao",
+   "body": "anyone else getting weird data in the warehouse for the email open rates? I'm seeing a spike that doesn't match our sends"
+  },
+  {
+   "d": 35,
+   "h": 10.5,
+   "author": "samir.farah",
+   "body": "I'll check the pipeline, might be a tracking issue. give me a bit"
+  },
+  {
+   "d": 35,
+   "h": 11.0,
+   "author": "lucas.rao",
+   "body": "thanks samir, not urgent but curious"
+  },
+  {
+   "d": 34,
+   "h": 9.0,
+   "author": "rosa.brennan",
+   "body": "just a reminder that we have the quarterly brand voice check-in next working day – please come with examples of what's working and what's not"
+  },
+  {
+   "d": 33,
+   "h": 14.0,
+   "author": "andile.russo",
+   "body": "does anyone know if we can use the drone footage from the last shoot for a paid ad? or is that only for organic?"
+  },
+  {
+   "d": 33,
+   "h": 14.5,
+   "author": "milan.karimi",
+   "body": "the usage rights for that shoot are in the rights tracker, it says per shot whether paid is covered"
+  },
+  {
+   "d": 32,
+   "h": 12.0,
+   "author": "imani.lambert",
+   "body": "the new landing page for the sale is live – can someone from the studio give it a quick look? I think the hero image looks a bit off"
+  },
+  {
+   "d": 32,
+   "h": 12.2,
+   "author": "fiona.kato",
+   "body": "on it, will check in a few minutes"
+  },
+  {
+   "d": 31,
+   "h": 17.0,
+   "author": "abel.carvalho",
+   "body": "just a thought, but the spring lookbook could use more action shots. I'll bring some ideas to the next studio meeting"
+  },
+  {
+   "d": 30,
+   "h": 8.5,
+   "author": "marco.moreau",
+   "body": "can we get the final numbers for the camping range campaign by the end of the day? need them for the board update"
+  },
+  {
+   "d": 30,
+   "h": 9.0,
+   "author": "pablo.novak",
+   "body": "I'll pull the paid social numbers and andile will do the search, should be ready by mid-afternoon"
+  },
+  {
+   "d": 29,
+   "h": 15.0,
+   "author": "jada.dubois",
+   "body": "I've updated the customer journey map with the new touchpoints – feedback welcome before I share it more widely"
+  },
+  {
+   "d": 28,
+   "h": 11.0,
+   "author": "bilal.hughes",
+   "body": "anyone else having trouble with the CRM tool loading slow? it's been like this since the morning"
+  },
+  {
+   "d": 28,
+   "h": 11.3,
+   "author": "lucas.rao",
+   "body": "same, but I thought it was my laptop. might be worth raising a ticket"
+  },
+  {
+   "d": 28,
+   "h": 11.5,
+   "author": "bilal.hughes",
+   "body": "I'll do that, thanks"
+  },
+  {
+   "d": 27,
+   "h": 13.0,
+   "author": "simone.asante",
+   "body": "quick fyi: the press coverage from the outdoor gear expo is in the press folder, some nice mentions"
+  },
+  {
+   "d": 26,
+   "h": 10.0,
+   "author": "samir.farah",
+   "body": "the data issue from earlier is sorted – it was a tracking code that wasn't deployed properly. should be fine now"
+  },
+  {
+   "d": 26,
+   "h": 10.5,
+   "author": "lucas.rao",
+   "body": "thanks for checking, appreciate it"
+  }
+ ],
+ "crm": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "lucas.rao",
+   "body": "quick sanity check — anyone else seeing the CRM export for the US segment missing the last two columns? pulling it straight from the warehouse, might just be my query."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "aaliyah.lee",
+   "body": "that's the schema change we pushed a few days ago, check data-docs/catalogue.md — the 'state' and 'last_engaged' fields moved to a nested record. you'll need to flatten them."
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "greta.rahman",
+   "body": "yep, same issue on my side. updating the export template now, will ping when ready."
+  },
+  {
+   "d": 40,
+   "h": 11.0,
+   "author": "jada.dubois",
+   "body": "just set up the welcome flow for the new garden furniture line — using the same cadence as the tent range, twice a week touches. any feedback from the last run?"
+  },
+  {
+   "d": 40,
+   "h": 12.5,
+   "author": "hana.hansen",
+   "body": "the open rate was solid but click-through dipped on the third email. maybe tighten the copy there? happy to help rewrite."
+  },
+  {
+   "d": 40,
+   "h": 13.0,
+   "author": "jada.dubois",
+   "body": "thanks Hana, I'll take you up on that. will send you the draft shortly."
+  },
+  {
+   "d": 38,
+   "h": 8.5,
+   "author": "bilal.hughes",
+   "body": "reminder: the quarterly segment refresh for the loyalty tier is due within this working week. please make sure your queries are up to date with the new warehouse tables, see eng-docs/data/warehouse.md"
+  },
+  {
+   "d": 37,
+   "h": 15.0,
+   "author": "joy.mbeki",
+   "body": "just pushed a fix for the dedupe logic in the CRM sync — was dropping records with null email but valid phone. should be live after the next sync cycle."
+  },
+  {
+   "d": 36,
+   "h": 10.0,
+   "author": "lucas.rao",
+   "body": "anyone else had issues with the mailer template variables for the new order confirmation? the {{product_name}} shows raw JSON for bundles."
+  },
+  {
+   "d": 36,
+   "h": 10.5,
+   "author": "leila.doyle",
+   "body": "that's a known issue, the bundle schema changed. use {{bundle.product_names}} instead — will update the docs later today."
+  },
+  {
+   "d": 36,
+   "h": 11.0,
+   "author": "lucas.rao",
+   "body": "cheers, that sorted it."
+  },
+  {
+   "d": 34,
+   "h": 14.0,
+   "author": "ada.aoki",
+   "body": "Heads up: the analytics warehouse is getting a new partition for the US orders starting this month. If you have any scheduled queries that hit the old table, they'll break after the switch. See eng-docs/data/warehouse.md for the migration notes."
+  },
+  {
+   "d": 33,
+   "h": 9.0,
+   "author": "hana.hansen",
+   "body": "has anyone seen the latest version of the win-back email? I think the subject line is too long, might get truncated on mobile. want to tweak before the next send."
+  },
+  {
+   "d": 33,
+   "h": 9.5,
+   "author": "samir.farah",
+   "body": "agree, keep it under 50 characters. also check the preview text — it's pulling the default 'you have new mail'."
+  },
+  {
+   "d": 33,
+   "h": 10.0,
+   "author": "hana.hansen",
+   "body": "yes, fixing that now."
+  },
+  {
+   "d": 31,
+   "h": 11.5,
+   "author": "karim.obi",
+   "body": "just a note: the CRM data pipeline will have a maintenance window on the first working day of next month. expect some delay in the nightly syncs, but nothing critical."
+  },
+  {
+   "d": 30,
+   "h": 13.0,
+   "author": "jada.dubois",
+   "body": "anyone know if the UK store cards are being sent via the new provider? I see the template changed but not sure if it's live."
+  },
+  {
+   "d": 30,
+   "h": 13.5,
+   "author": "bilal.hughes",
+   "body": "it's live for England and Wales, rolling out to Scotland and NI in the next few days. check the feature flag service for the rollout percentage."
+  },
+  {
+   "d": 30,
+   "h": 14.0,
+   "author": "jada.dubois",
+   "body": "good to know, thanks."
+  },
+  {
+   "d": 28,
+   "h": 9.0,
+   "author": "aaliyah.lee",
+   "body": "if anyone's using the gift card data in the warehouse, note that the 'expiry' field is now a timestamp instead of a date. existing queries will need to be updated – see finance-docs/gift-cards.md for the examples."
+  },
+  {
+   "d": 27,
+   "h": 16.0,
+   "author": "lucas.rao",
+   "body": "anyone else getting a 500 from the CRM API when pulling the abandoned cart list? tried three times already today."
+  },
+  {
+   "d": 27,
+   "h": 16.5,
+   "author": "joy.mbeki",
+   "body": "yeah, the endpoint is timing out. we're on it, should be back shortly. raised a ticket on the helpdesk."
+  },
+  {
+   "d": 26,
+   "h": 10.0,
+   "author": "greta.rahman",
+   "body": "quick update: we've moved the customer event stream to the new event bus, so the real-time triggers in CRM should be a bit more reliable now. docs in eng-docs/adr/0012-event-bus.md."
+  },
+  {
+   "d": 24,
+   "h": 12.0,
+   "author": "bilal.hughes",
+   "body": "just a reminder to check your sending volumes for the week – we're approaching the soft limit for the US domain. if you need to send more, let me know so we can raise it."
+  },
+  {
+   "d": 22,
+   "h": 8.5,
+   "author": "hana.hansen",
+   "body": "the new product update email for the sleeping bags is ready for review. I've put it in the shared drive, please give it a look before the campaign goes out."
+  },
+  {
+   "d": 21,
+   "h": 14.0,
+   "author": "jada.dubois",
+   "body": "just spotted a typo in the footer of the order confirmation – says 'you're' instead of 'your'. will fix in the template and push a hotfix."
+  },
+  {
+   "d": 20,
+   "h": 9.0,
+   "author": "leila.doyle",
+   "body": "the monthly retention report is up on the analytics dashboard. summary: repeat purchase rate is up 2 points, but average order value for returning customers is down slightly. might be worth looking at the next campaign."
+  },
+  {
+   "d": 18,
+   "h": 15.0,
+   "author": "samir.farah",
+   "body": "thanks all for the quick work on the template fixes. let's keep the momentum for the quarter-end mailing."
+  }
+ ],
+ "brand-studio": [
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "milan.karimi",
+   "body": "morning all, just a heads up that the autumn catalogue shoot list is now in the shared drive. can everyone have a look before the planning call?"
+  },
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "fiona.kato",
+   "body": "cheers milan, will check after coffee"
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "jakob.blanco",
+   "body": "same, pinging you if I spot any location clashes"
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "abel.carvalho",
+   "body": "anyone know if we still have the old wooden canoe prop from the kayak range shoot? might be useful for a camping setup"
+  },
+  {
+   "d": 41,
+   "h": 14.3,
+   "author": "fiona.kato",
+   "body": "think it's in the prop store, top shelf. will check later"
+  },
+  {
+   "d": 41,
+   "h": 14.5,
+   "author": "abel.carvalho",
+   "body": "top shelf, of course it is. thanks"
+  },
+  {
+   "d": 40,
+   "h": 10.0,
+   "author": "milan.karimi",
+   "body": "quick reminder: please log any gear requests in the equipment tracker before the end of the week. we need to order missing bits for the next shoot block"
+  },
+  {
+   "d": 39,
+   "h": 16.0,
+   "author": "jakob.blanco",
+   "body": "that new softbox stand is wobbly as anything, can we swap it for the older one? put a note in the tracker"
+  },
+  {
+   "d": 38,
+   "h": 11.0,
+   "author": "fiona.kato",
+   "body": "some nice golden hour shots from the lake district scouting trip, uploading to the folder now"
+  },
+  {
+   "d": 38,
+   "h": 11.2,
+   "author": "milan.karimi",
+   "body": "great, will have a look after lunch. keep them coming"
+  },
+  {
+   "d": 37,
+   "h": 9.5,
+   "author": "abel.carvalho",
+   "body": "anyone got experience shooting in the rain with the new camera bodies? we've got a muddy puddle shoot coming up and I don't want to wreck kit"
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "jakob.blanco",
+   "body": "used one in a drizzle in wales, just kept a lens cloth handy and it was fine. just don't change lenses in the open"
+  },
+  {
+   "d": 37,
+   "h": 10.3,
+   "author": "abel.carvalho",
+   "body": "good to know, cheers"
+  },
+  {
+   "d": 36,
+   "h": 15.0,
+   "author": "fiona.kato",
+   "body": "just put the final selects from the garden furniture session in the shared folder, let me know if you need any retouching"
+  },
+  {
+   "d": 35,
+   "h": 12.0,
+   "author": "milan.karimi",
+   "body": "can we get a group photo of the studio team for the website 'about us' page? thinking a few days out"
+  },
+  {
+   "d": 35,
+   "h": 12.2,
+   "author": "fiona.kato",
+   "body": "sure, we can do it after the morning shoot, just give me a day's notice"
+  },
+  {
+   "d": 35,
+   "h": 12.5,
+   "author": "jakob.blanco",
+   "body": "i'll bring my good camera for that, not the workhorse"
+  },
+  {
+   "d": 34,
+   "h": 13.0,
+   "author": "abel.carvalho",
+   "body": "anyone know who handles the drone permits for the coastal shoot? i've got the location but not the paperwork"
+  },
+  {
+   "d": 34,
+   "h": 13.2,
+   "author": "milan.karimi",
+   "body": "that's with the logistics team, they usually sort it. i'll ping them"
+  },
+  {
+   "d": 34,
+   "h": 13.4,
+   "author": "abel.carvalho",
+   "body": "thanks milan"
+  },
+  {
+   "d": 33,
+   "h": 9.0,
+   "author": "fiona.kato",
+   "body": "weather forecast looks dodgy for the outdoor gear shoot, but we have the indoor backup set ready"
+  },
+  {
+   "d": 32,
+   "h": 10.0,
+   "author": "jakob.blanco",
+   "body": "just remembered we need to reshoot the tent zipper detail, the previous one had a shadow. will do it later today"
+  },
+  {
+   "d": 31,
+   "h": 14.0,
+   "author": "milan.karimi",
+   "body": "don't forget to upload the raw files to the archive drive before the end of the month, we're running out of space on the local NAS"
+  },
+  {
+   "d": 30,
+   "h": 11.0,
+   "author": "abel.carvalho",
+   "body": "anyone see the new colour grading presets from the editing team? might be handy for the campaign"
+  },
+  {
+   "d": 30,
+   "h": 11.2,
+   "author": "fiona.kato",
+   "body": "yeah, i've got them, will share the link"
+  },
+  {
+   "d": 29,
+   "h": 16.0,
+   "author": "jakob.blanco",
+   "body": "that reflector we ordered is finally here, put it in the storage room"
+  },
+  {
+   "d": 28,
+   "h": 9.7,
+   "author": "fiona.kato",
+   "body": "i can do it"
+  },
+  {
+   "d": 28,
+   "h": 9.8,
+   "author": "abel.carvalho",
+   "body": "same, as long as it's not the day after"
+  },
+  {
+   "d": 28,
+   "h": 10.0,
+   "author": "jakob.blanco",
+   "body": "i'll pass, got family stuff"
+  },
+  {
+   "d": 27,
+   "h": 15.0,
+   "author": "fiona.kato",
+   "body": "finished the retouches on the hammock shoot, they're in the {{FILE_SHARING|lower}}. let me know if any need changes"
+  },
+  {
+   "d": 26,
+   "h": 12.0,
+   "author": "abel.carvalho",
+   "body": "the new camera bag is a pain to open with gloves on, anyone else had issues? maybe we can request a different model"
+  },
+  {
+   "d": 26,
+   "h": 12.2,
+   "author": "jakob.blanco",
+   "body": "yeah, noticed that too, i've been using the side zip instead"
+  },
+  {
+   "d": 25,
+   "h": 13.0,
+   "author": "milan.karimi",
+   "body": "reminder: we've got the video call with the marketing team about the spring campaign, don't be late"
+  },
+  {
+   "d": 24,
+   "h": 10.0,
+   "author": "fiona.kato",
+   "body": "does anyone have the release forms for the models from the last shoot? i can't find them in the folder"
+  },
+  {
+   "d": 24,
+   "h": 10.2,
+   "author": "milan.karimi",
+   "body": "they should be in the contracts subfolder, but i'll check and resend if not"
+  },
+  {
+   "d": 23,
+   "h": 14.0,
+   "author": "jakob.blanco",
+   "body": "some good macro shots of the new tent fabric, uploading now"
+  },
+  {
+   "d": 22,
+   "h": 9.0,
+   "author": "abel.carvalho",
+   "body": "anyone know if we can book the studio for a half day on a non-working day for a personal project? or is that not allowed"
+  },
+  {
+   "d": 22,
+   "h": 9.2,
+   "author": "milan.karimi",
+   "body": "check the booking calendar, should be fine if nothing scheduled. just add it with a note"
+  }
+ ],
+ "payroll": [
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "nadia.demir",
+   "body": "just a heads up, the pay reference file for the next run is due to payroll by noon on the cut-off day. can the people partners remind their teams to submit any adjustments before that?"
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "olivier.eklund",
+   "body": "will do, nadia. also, for new starters, remember we need their bank details at least two working days before the run, otherwise they'll go on the following one."
+  },
+  {
+   "d": 42,
+   "h": 11.0,
+   "author": "tomas.nakamura",
+   "body": "got it, thanks. what about leavers? same deadline for final pay?"
+  },
+  {
+   "d": 42,
+   "h": 11.5,
+   "author": "dara.herrera",
+   "body": "yes, same deadline for leavers, but if it's a termination processed after the cut-off they'll get it in the next cycle. just flag anything urgent to us directly."
+  },
+  {
+   "d": 40,
+   "h": 8.5,
+   "author": "petra.jovanovic",
+   "body": "morning, quick one: does anyone have the latest tax code notice for the new payroll software? i think i saw it in the finance docs but can't find it."
+  },
+  {
+   "d": 40,
+   "h": 9.0,
+   "author": "aiko.weber",
+   "body": "it's in finance-docs/payroll/payroll-calendar.md, page two. or check the shared drive under payroll-hub."
+  },
+  {
+   "d": 40,
+   "h": 9.5,
+   "author": "petra.jovanovic",
+   "body": "cheers, found it."
+  },
+  {
+   "d": 38,
+   "h": 14.0,
+   "author": "rhea.navarro",
+   "body": "anyone else having trouble with the expenses tool today? it's timing out when i try to attach a receipt."
+  },
+  {
+   "d": 38,
+   "h": 14.5,
+   "author": "selin.lindgren",
+   "body": "yeah, seems slow for me too. but it's not blocking, i just saved the draft and will try again later."
+  },
+  {
+   "d": 38,
+   "h": 15.0,
+   "author": "leon.delgado",
+   "body": "i've raised a ticket with the helpdesk, should be sorted soon."
+  },
+  {
+   "d": 36,
+   "h": 10.0,
+   "author": "nadia.demir",
+   "body": "reminder that the monthly payroll meeting is moved to the first working day of next month, usual time. same link as always."
+  },
+  {
+   "d": 35,
+   "h": 13.0,
+   "author": "dara.herrera",
+   "body": "for anyone new, the pay calendar is on the wiki under finance-docs/payroll/payroll-calendar.md. that has all the deadlines for the year."
+  },
+  {
+   "d": 33,
+   "h": 9.5,
+   "author": "petra.jovanovic",
+   "body": "just processed the leaver for marcus from the Leeds store. final payslip is ready in the portal."
+  },
+  {
+   "d": 33,
+   "h": 10.0,
+   "author": "olivier.eklund",
+   "body": "thanks, petra. we'll let his manager know."
+  },
+  {
+   "d": 31,
+   "h": 16.0,
+   "author": "aiko.weber",
+   "body": "does anyone have the current pension contribution rates? i need to update a spreadsheet for a new hire."
+  },
+  {
+   "d": 31,
+   "h": 16.5,
+   "author": "rhea.navarro",
+   "body": "it's in the HR handbook under people/leave-and-absence? no, actually it's in the payroll shared drive under 'pension rates'."
+  },
+  {
+   "d": 31,
+   "h": 17.0,
+   "author": "aiko.weber",
+   "body": "found it, thanks."
+  },
+  {
+   "d": 29,
+   "h": 11.0,
+   "author": "nadia.demir",
+   "body": "fyi, the bank file for this run is scheduled to upload before the cut-off. i'll confirm when it's done."
+  },
+  {
+   "d": 29,
+   "h": 15.0,
+   "author": "nadia.demir",
+   "body": "bank file uploaded successfully. payslips will be available later today in the employee portal."
+  },
+  {
+   "d": 28,
+   "h": 9.0,
+   "author": "tomas.nakamura",
+   "body": "nadia, can you check the deduction for jane in the accounts team? she thinks the union fee is wrong."
+  },
+  {
+   "d": 28,
+   "h": 10.0,
+   "author": "nadia.demir",
+   "body": "sure, i'll look into it and get back to you before the next run."
+  },
+  {
+   "d": 28,
+   "h": 11.0,
+   "author": "nadia.demir",
+   "body": "tomas, it was a data entry issue, corrected for next month. can you let jane know?"
+  },
+  {
+   "d": 28,
+   "h": 11.5,
+   "author": "tomas.nakamura",
+   "body": "will do, thanks."
+  },
+  {
+   "d": 26,
+   "h": 14.0,
+   "author": "selin.lindgren",
+   "body": "quick question: for parental leave, do we pay the full amount through payroll or is it separate? i've got a case."
+  },
+  {
+   "d": 26,
+   "h": 14.5,
+   "author": "dara.herrera",
+   "body": "it's processed through payroll as normal, but we need the leave form completed and sent to us at least a week before the pay period."
+  },
+  {
+   "d": 26,
+   "h": 15.0,
+   "author": "selin.lindgren",
+   "body": "perfect, thanks."
+  },
+  {
+   "d": 24,
+   "h": 10.0,
+   "author": "petra.jovanovic",
+   "body": "just a note, the new starter forms are now online, no more paper. check the handbook for the link."
+  },
+  {
+   "d": 23,
+   "h": 16.5,
+   "author": "leon.delgado",
+   "body": "is the payroll team doing a session on the new overtime policy? i have a few questions."
+  },
+  {
+   "d": 23,
+   "h": 17.0,
+   "author": "nadia.demir",
+   "body": "we can do a quick walkthrough next time we meet, just add it to the agenda."
+  },
+  {
+   "d": 20,
+   "h": 12.0,
+   "author": "rhea.navarro",
+   "body": "anyone know how to handle a retro pay increase that goes back further than the current month? i've got a case."
+  },
+  {
+   "d": 20,
+   "h": 12.5,
+   "author": "nadia.demir",
+   "body": "send me the details and i'll calculate the arrears manually. we'll include it in the next run."
+  },
+  {
+   "d": 20,
+   "h": 13.0,
+   "author": "rhea.navarro",
+   "body": "thanks, will do."
+  },
+  {
+   "d": 18,
+   "h": 10.0,
+   "author": "olivier.eklund",
+   "body": "fyi, the updated payroll calendar is out. link in the usual place."
+  },
+  {
+   "d": 16,
+   "h": 15.0,
+   "author": "petra.jovanovic",
+   "body": "just finished the monthly reconciliation. everything looks good."
+  },
+  {
+   "d": 15,
+   "h": 11.0,
+   "author": "selin.lindgren",
+   "body": "quick one: for a sabbatical, does the employee still accrue holiday pay while they're away?"
+  },
+  {
+   "d": 15,
+   "h": 11.5,
+   "author": "dara.herrera",
+   "body": "yes, they do, but it's pro-rated based on their contracted hours. the calculation is in the handbook."
+  },
+  {
+   "d": 15,
+   "h": 12.0,
+   "author": "selin.lindgren",
+   "body": "thanks, i'll check that."
+  },
+  {
+   "d": 13,
+   "h": 9.0,
+   "author": "nadia.demir",
+   "body": "reminder that the payroll team will be out of office for a team day on the last working day of this month. please submit anything needed before that."
+  },
+  {
+   "d": 12,
+   "h": 14.0,
+   "author": "leon.delgado",
+   "body": "does anyone have the process for reporting a payroll error from a previous month? i've got an employee who thinks they were underpaid."
+  },
+  {
+   "d": 12,
+   "h": 14.5,
+   "author": "aiko.weber",
+   "body": "there's a form on the intranet under 'payroll corrections'. fill that in and we'll review it."
+  },
+  {
+   "d": 12,
+   "h": 15.0,
+   "author": "leon.delgado",
+   "body": "great, found it."
+  },
+  {
+   "d": 10,
+   "h": 11.0,
+   "author": "petra.jovanovic",
+   "body": "just a heads up, the system will be down for maintenance on the first working day of next month, so no payroll queries that day."
+  },
+  {
+   "d": 9,
+   "h": 16.0,
+   "author": "tomas.nakamura",
+   "body": "nadia, can you confirm the tax code for the new regional manager? i have two different ones on the form."
+  },
+  {
+   "d": 9,
+   "h": 16.5,
+   "author": "nadia.demir",
+   "body": "tomas, use the one on the right-hand side of the form, that's the latest. i'll double-check with {{TAX_AUTHORITY_1|code}} if needed."
+  },
+  {
+   "d": 9,
+   "h": 17.0,
+   "author": "tomas.nakamura",
+   "body": "ok, thanks."
+  },
+  {
+   "d": 7,
+   "h": 10.0,
+   "author": "olivier.eklund",
+   "body": "a quick reminder that all payroll-related expenses need to be submitted by the end of the month to be included in the next run."
+  },
+  {
+   "d": 6,
+   "h": 13.0,
+   "author": "rhea.navarro",
+   "body": "just processed the payroll for the Irish stores, no issues."
+  },
+  {
+   "d": 5,
+   "h": 9.0,
+   "author": "nadia.demir",
+   "body": "for anyone who needs it, the pay grades are in the HR system under 'compensation'. you'll need access to that, so request it if you don't have it."
+  },
+  {
+   "d": 4,
+   "h": 11.0,
+   "author": "selin.lindgren",
+   "body": "does anyone know the deadline for submitting a change of bank details? an employee wants to switch accounts."
+  },
+  {
+   "d": 4,
+   "h": 11.5,
+   "author": "dara.herrera",
+   "body": "the change must be received at least two working days before the pay run, otherwise it'll take effect the following month."
+  },
+  {
+   "d": 4,
+   "h": 12.0,
+   "author": "selin.lindgren",
+   "body": "cheers, i'll let them know."
+  },
+  {
+   "d": 3,
+   "h": 15.0,
+   "author": "petra.jovanovic",
+   "body": "just a note, the new starter pack now includes a direct debit form for union fees. no more manual setup."
+  },
+  {
+   "d": 2,
+   "h": 9.5,
+   "author": "aiko.weber",
+   "body": "is anyone else seeing an issue with the payslip PDFs? they're not generating for me."
+  },
+  {
+   "d": 2,
+   "h": 10.0,
+   "author": "rhea.navarro",
+   "body": "same here, but i think it's a temporary glitch. i've raised a ticket."
+  },
+  {
+   "d": 2,
+   "h": 10.5,
+   "author": "aiko.weber",
+   "body": "ok, thanks for flagging."
+  },
+  {
+   "d": 1,
+   "h": 8.0,
+   "author": "nadia.demir",
+   "body": "good morning, everyone. just a reminder that the deadline for any changes to the next pay run is the cut-off day at noon. please have everything in by then."
+  }
+ ],
+ "disputes": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "aurelio.park",
+   "body": "morning all, anyone seen the new chargeback form from the card schemes? looks like they added a field for the original transaction reference."
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "freya.kowalski",
+   "body": "yeah, noticed that – we'll need to update our internal template. i'll put it on my list."
+  },
+  {
+   "d": 42,
+   "h": 11.3,
+   "author": "malik.dimitrov",
+   "body": "do we have a sample of the new form? could do with one for the team to see."
+  },
+  {
+   "d": 41,
+   "h": 8.7,
+   "author": "cecilia.horvath",
+   "body": "quick question: for a chargeback on a gift card order, do we need to provide the gift card redemption log? or just the order details?"
+  },
+  {
+   "d": 41,
+   "h": 9.4,
+   "author": "aurelio.park",
+   "body": "usually just order details unless they ask for more. check the scheme guidance – it's in the docs."
+  },
+  {
+   "d": 41,
+   "h": 10.1,
+   "author": "cecilia.horvath",
+   "body": "cheers, found it."
+  },
+  {
+   "d": 40,
+   "h": 14.0,
+   "author": "santiago.nielsen",
+   "body": "heads up: the ledger interface has been slow today, might be the batch job running. not urgent."
+  },
+  {
+   "d": 39,
+   "h": 11.2,
+   "author": "priya.nair",
+   "body": "reminder to submit your monthly dispute summaries by the end of the week – need them for the finance pack."
+  },
+  {
+   "d": 39,
+   "h": 11.8,
+   "author": "jordan.reyes",
+   "body": "on it, priya."
+  },
+  {
+   "d": 39,
+   "h": 14.5,
+   "author": "bruno.ibarra",
+   "body": "anyone else seeing an uptick in 'item not received' disputes for the garden furniture line? we've had three in the last few working days."
+  },
+  {
+   "d": 39,
+   "h": 15.0,
+   "author": "marta.kowalski",
+   "body": "we've seen a few too. could be delivery delays. let me check with logistics."
+  },
+  {
+   "d": 39,
+   "h": 15.4,
+   "author": "gideon.achebe",
+   "body": "i'll flag it in our risk review."
+  },
+  {
+   "d": 38,
+   "h": 9.0,
+   "author": "alba.zhang",
+   "body": "does anyone have the latest chargeback fee schedule? the one on the intranet is from last quarter."
+  },
+  {
+   "d": 38,
+   "h": 9.3,
+   "author": "aurelio.park",
+   "body": "i can send it over – just updated my files. give me a sec."
+  },
+  {
+   "d": 38,
+   "h": 9.5,
+   "author": "alba.zhang",
+   "body": "thanks aurelio."
+  },
+  {
+   "d": 37,
+   "h": 13.2,
+   "author": "ethan.alvarez",
+   "body": "noticed a few disputes where the customer used a different shipping address than billing – any pattern? or just normal?"
+  },
+  {
+   "d": 37,
+   "h": 13.8,
+   "author": "naomi.hartmann",
+   "body": "sometimes it's a gift, sometimes it's fraud. we look at the order history. nothing alarming."
+  },
+  {
+   "d": 36,
+   "h": 10.0,
+   "author": "isaac.gashi",
+   "body": "team, please remember to update the dispute tracker when you send responses. i had to chase one earlier."
+  },
+  {
+   "d": 36,
+   "h": 10.2,
+   "author": "malik.dimitrov",
+   "body": "sorry, will do going forward."
+  },
+  {
+   "d": 35,
+   "h": 15.6,
+   "author": "santiago.nielsen",
+   "body": "just a note: the chargeback reporting extract is ready for the month. i'll share the link in the usual place."
+  },
+  {
+   "d": 34,
+   "h": 8.5,
+   "author": "freya.kowalski",
+   "body": "anyone know if we have a template for responding to pre-arbitration? i've only done standard disputes before."
+  },
+  {
+   "d": 34,
+   "h": 9.1,
+   "author": "aurelio.park",
+   "body": "check the shared drive under 'disputes' – there's a folder for pre-arb. if not, i'll make one."
+  },
+  {
+   "d": 34,
+   "h": 9.3,
+   "author": "freya.kowalski",
+   "body": "found it, thanks!"
+  },
+  {
+   "d": 33,
+   "h": 11.7,
+   "author": "arjun.martins",
+   "body": "quick one – for chargebacks on orders that were paid with the customer's own card but delivered to a forwarder, we still contest as normal, right?"
+  },
+  {
+   "d": 33,
+   "h": 12.0,
+   "author": "cecilia.horvath",
+   "body": "yeah, we use the same process. as long as the order details are solid."
+  },
+  {
+   "d": 32,
+   "h": 16.2,
+   "author": "marta.kowalski",
+   "body": "reminder: the disputes team has a weekly sync – it's moved to two working days from now. check invites."
+  },
+  {
+   "d": 31,
+   "h": 9.8,
+   "author": "mina.tanaka",
+   "body": "is there a cutoff for responding to a chargeback? i've got one that's due soon."
+  },
+  {
+   "d": 31,
+   "h": 10.1,
+   "author": "aurelio.park",
+   "body": "usually 10 business days from the notification. check the scheme's timeline in the docs."
+  },
+  {
+   "d": 31,
+   "h": 10.4,
+   "author": "mina.tanaka",
+   "body": "thanks, will do."
+  },
+  {
+   "d": 30,
+   "h": 13.5,
+   "author": "jordan.reyes",
+   "body": "anyone else having trouble opening the dispute files in the shared drive? i'm getting a permissions error."
+  },
+  {
+   "d": 30,
+   "h": 13.7,
+   "author": "alba.zhang",
+   "body": "check with the IT helpdesk – might be a permissions issue on your account."
+  },
+  {
+   "d": 29,
+   "h": 10.9,
+   "author": "bruno.ibarra",
+   "body": "small win: got a chargeback reversed today because we had proof of delivery. always worth checking the signature."
+  },
+  {
+   "d": 28,
+   "h": 15.0,
+   "author": "gideon.achebe",
+   "body": "just a heads up: i've updated the fraud risk list with a few new patterns we've seen. take a look when you get a chance."
+  },
+  {
+   "d": 27,
+   "h": 12.0,
+   "author": "ethan.alvarez",
+   "body": "who do we contact if a customer disputes a chargeback after we've already responded? is it just the scheme?"
+  },
+  {
+   "d": 27,
+   "h": 12.2,
+   "author": "aurelio.park",
+   "body": "usually you can't respond again unless it's pre-arb. if it's a new dispute, it's separate. best to check with the scheme's portal."
+  },
+  {
+   "d": 26,
+   "h": 9.5,
+   "author": "freya.kowalski",
+   "body": "i have a question about the chargeback response – do we need to include the full order details or just the relevant ones? i've been sending everything."
+  },
+  {
+   "d": 26,
+   "h": 9.7,
+   "author": "malik.dimitrov",
+   "body": "i usually send the order summary and tracking info. that's been enough so far."
+  },
+  {
+   "d": 26,
+   "h": 10.0,
+   "author": "cecilia.horvath",
+   "body": "agreed, keep it relevant."
+  },
+  {
+   "d": 25,
+   "h": 14.8,
+   "author": "santiago.nielsen",
+   "body": "note: the ledger is showing some chargeback fees that i can't match to our records. will investigate."
+  },
+  {
+   "d": 24,
+   "h": 11.0,
+   "author": "marta.kowalski",
+   "body": "quick reminder: the quarterly risk review is coming up. please have your dispute data ready."
+  },
+  {
+   "d": 23,
+   "h": 10.3,
+   "author": "arjun.martins",
+   "body": "anyone have experience with a dispute for an order that was paid via {{PAYMENT_WALLET}}? different process?"
+  },
+  {
+   "d": 23,
+   "h": 10.6,
+   "author": "naomi.hartmann",
+   "body": "yes, it goes through {{PAYMENT_WALLET}}'s system, not the card scheme. we have a separate procedure."
+  },
+  {
+   "d": 22,
+   "h": 9.8,
+   "author": "isaac.gashi",
+   "body": "team, please double-check the dispute reasons when you file – we've had a few miscategorised this month."
+  },
+  {
+   "d": 21,
+   "h": 15.2,
+   "author": "jordan.reyes",
+   "body": "anyone else see the new chargeback scheme update? they're changing the response window."
+  },
+  {
+   "d": 21,
+   "h": 15.4,
+   "author": "aurelio.park",
+   "body": "yes, i've read it – it's now 15 working days for some cases. we'll need to adjust our internal SLAs."
+  },
+  {
+   "d": 20,
+   "h": 12.5,
+   "author": "mina.tanaka",
+   "body": "is the team aware that the chargeback report for the previous month is due in two working days? just checking."
+  },
+  {
+   "d": 20,
+   "h": 12.6,
+   "author": "freya.kowalski",
+   "body": "yep, working on it now."
+  },
+  {
+   "d": 19,
+   "h": 13.7,
+   "author": "bruno.ibarra",
+   "body": "had a weird one: customer disputed a chargeback that was actually refunded. they might not have seen the credit."
+  },
+  {
+   "d": 19,
+   "h": 13.9,
+   "author": "cecilia.horvath",
+   "body": "that happens. we can send a letter to the bank explaining the refund was issued."
+  },
+  {
+   "d": 18,
+   "h": 10.1,
+   "author": "alba.zhang",
+   "body": "does anyone know if we need to keep digital copies of the dispute evidence? or is the system enough?"
+  },
+  {
+   "d": 18,
+   "h": 10.3,
+   "author": "aurelio.park",
+   "body": "check the records retention policy – but i think we keep everything in the disputes system."
+  },
+  {
+   "d": 17,
+   "h": 9.0,
+   "author": "gideon.achebe",
+   "body": "quick question: for a chargeback on a wholesale order, do we use the same process? or is it different?"
+  },
+  {
+   "d": 17,
+   "h": 9.2,
+   "author": "marta.kowalski",
+   "body": "different – wholesale has its own terms. check with finance ops on that one."
+  },
+  {
+   "d": 17,
+   "h": 9.4,
+   "author": "ethan.alvarez",
+   "body": "i can help with that – we have a separate process for wholesale disputes."
+  },
+  {
+   "d": 16,
+   "h": 14.3,
+   "author": "santiago.nielsen",
+   "body": "heads up: the ledger has a new field for chargeback status – will be in the next release."
+  },
+  {
+   "d": 15,
+   "h": 11.8,
+   "author": "malik.dimitrov",
+   "body": "anyone have a template for a response to a friendly fraud chargeback? i'm drafting one."
+  },
+  {
+   "d": 15,
+   "h": 12.0,
+   "author": "aurelio.park",
+   "body": "i have one from last year – will share it in the drive."
+  },
+  {
+   "d": 14,
+   "h": 10.2,
+   "author": "isaac.gashi",
+   "body": "reminder to log any disputes you're working on in the tracker – i see a few gaps."
+  },
+  {
+   "d": 13,
+   "h": 9.5,
+   "author": "freya.kowalski",
+   "body": "question: for a chargeback where the customer says they never received the item but tracking shows delivered, what do we usually send?"
+  },
+  {
+   "d": 13,
+   "h": 9.7,
+   "author": "arjun.martins",
+   "body": "proof of delivery and the tracking number. sometimes a signature if available."
+  },
+  {
+   "d": 13,
+   "h": 9.8,
+   "author": "cecilia.horvath",
+   "body": "also the delivery photo if we have one."
+  },
+  {
+   "d": 12,
+   "h": 15.4,
+   "author": "mina.tanaka",
+   "body": "just a note: the dispute summary for the board is due in five working days – please send your inputs by the day after."
+  },
+  {
+   "d": 11,
+   "h": 12.7,
+   "author": "bruno.ibarra",
+   "body": "anyone know how to handle a chargeback for a pre-order that was cancelled? we've refunded but the bank still disputes."
+  },
+  {
+   "d": 11,
+   "h": 12.9,
+   "author": "aurelio.park",
+   "body": "you need to send proof of the refund and the cancellation. sometimes the bank hasn't processed it yet."
+  },
+  {
+   "d": 10,
+   "h": 9.1,
+   "author": "alba.zhang",
+   "body": "quick one: when we submit a chargeback response, do we need to include the original order invoice or is a summary enough?"
+  },
+  {
+   "d": 10,
+   "h": 9.3,
+   "author": "malik.dimitrov",
+   "body": "i've been including the invoice – seems to help."
+  },
+  {
+   "d": 9,
+   "h": 13.5,
+   "author": "ethan.alvarez",
+   "body": "just a heads up: we've had a few disputes for orders that were placed with a different card than the one used for the chargeback – might be a mismatch issue."
+  },
+  {
+   "d": 9,
+   "h": 13.7,
+   "author": "naomi.hartmann",
+   "body": "thanks for flagging – we'll look at our fraud rules."
+  },
+  {
+   "d": 8,
+   "h": 10.4,
+   "author": "isaac.gashi",
+   "body": "team, please ensure you're using the correct dispute reason codes – we've had a few rejected for that."
+  },
+  {
+   "d": 7,
+   "h": 11.9,
+   "author": "santiago.nielsen",
+   "body": "reminder: the chargeback report is due at the end of the week – please submit your sections."
+  },
+  {
+   "d": 6,
+   "h": 14.2,
+   "author": "jordan.reyes",
+   "body": "anyone else see the new chargeback fee from one of the schemes? we need to budget for it."
+  },
+  {
+   "d": 6,
+   "h": 14.4,
+   "author": "aurelio.park",
+   "body": "yes, i've added it to our monthly cost tracker."
+  },
+  {
+   "d": 5,
+   "h": 9.0,
+   "author": "freya.kowalski",
+   "body": "quick question: for a dispute that's been resolved in our favour, do we need to do anything else or just close the case?"
+  },
+  {
+   "d": 5,
+   "h": 9.2,
+   "author": "cecilia.horvath",
+   "body": "just close it after updating the tracker. the system will handle the rest."
+  },
+  {
+   "d": 4,
+   "h": 15.0,
+   "author": "gideon.achebe",
+   "body": "noticed a spike in 'not as described' disputes for the camp stoves – might be a quality issue. flagging for awareness."
+  },
+  {
+   "d": 4,
+   "h": 15.2,
+   "author": "marta.kowalski",
+   "body": "thanks, we'll check with the product team."
+  },
+  {
+   "d": 3,
+   "h": 10.5,
+   "author": "malik.dimitrov",
+   "body": "anyone have the latest contact details for the scheme's dispute team? the ones i have are outdated."
+  },
+  {
+   "d": 3,
+   "h": 10.7,
+   "author": "aurelio.park",
+   "body": "check the shared drive – there's a contacts list that's updated monthly."
+  },
+  {
+   "d": 2,
+   "h": 13.8,
+   "author": "bruno.ibarra",
+   "body": "just a heads up: the dispute tracker is running slow today – might be the data volume. not urgent."
+  },
+  {
+   "d": 1,
+   "h": 9.6,
+   "author": "mina.tanaka",
+   "body": "reminder to fill in the weekly dispute summary before the end of the day. thanks!"
+  },
+  {
+   "d": 1,
+   "h": 11.2,
+   "author": "arjun.martins",
+   "body": "quick question: for a chargeback on an order that was partially refunded, how do we handle the response?"
+  },
+  {
+   "d": 1,
+   "h": 11.4,
+   "author": "freya.kowalski",
+   "body": "we send the proof of the partial refund and the order details. they'll adjust the amount."
+  }
+ ],
+ "checkout": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "lucia.ahmadi",
+   "body": "morning all, quick reminder that the shop-web deploy schedule for the next two weeks is in the change calendar the release coordinators post in #releases — please check it before any deploy requests."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "maya.suzuki",
+   "body": "anyone else seeing the pos back office orders feed occasionally missing a total? we've got a ticket open."
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "wei.murray",
+   "body": "yeah, we saw that a couple of days ago on a few orders in the warehouse. we logged it, but it might be a display issue rather than the data."
+  },
+  {
+   "d": 42,
+   "h": 10.3,
+   "author": "maya.suzuki",
+   "body": "ok, i'll note that in the ticket. if it's display-only we can downgrade priority."
+  },
+  {
+   "d": 41,
+   "h": 14.2,
+   "author": "tariq.mahlaba",
+   "body": "anyone know if the new returns QR code flow is behind a feature flag? i saw a mention in the release notes."
+  },
+  {
+   "d": 41,
+   "h": 14.5,
+   "author": "eleni.keller",
+   "body": "it's on the flag service, name is returns_qr_v2. canary is at 10%. we can bump it in a couple of days if you want to test."
+  },
+  {
+   "d": 41,
+   "h": 14.7,
+   "author": "tariq.mahlaba",
+   "body": "cheers, that helps."
+  },
+  {
+   "d": 40,
+   "h": 11.0,
+   "author": "fatima.reyes",
+   "body": "the new gift card denominations are live in checkout. finance-docs/gift-cards.md covers balances and refunds if anyone asks."
+  },
+  {
+   "d": 39,
+   "h": 16.3,
+   "author": "nasser.lund",
+   "body": "reminder for the checkout squad: the monthly demo is on the last working day of the month. if you want to show anything, add to the agenda in the shared doc."
+  },
+  {
+   "d": 38,
+   "h": 10.4,
+   "author": "alice.lombardi",
+   "body": "is anyone else seeing the shop-web checkout page sometimes not loading the payment iframe? we've had a few reports in the helpdesk."
+  },
+  {
+   "d": 38,
+   "h": 10.8,
+   "author": "sabine.santos",
+   "body": "we had that on the staging environment but thought it was just us. might be a browser cache issue? try a hard refresh."
+  },
+  {
+   "d": 38,
+   "h": 11.0,
+   "author": "alice.lombardi",
+   "body": "we did, still happens. i'll open a ticket if it doesn't clear up."
+  },
+  {
+   "d": 37,
+   "h": 9.8,
+   "author": "kalani.palmer",
+   "body": "FYI the analytics warehouse refresh is scheduled for mid-afternoon UK time. don't run heavy queries until it's done."
+  },
+  {
+   "d": 36,
+   "h": 13.5,
+   "author": "lina.teixeira",
+   "body": "hi, we're looking at changing the product recommendations on the order confirmation page. can someone point me to the recs-overview doc? i think it's in eng-docs/ml/."
+  },
+  {
+   "d": 36,
+   "h": 13.9,
+   "author": "wei.murray",
+   "body": "eng-docs/ml/recs-overview.md is the one. it covers the current logic and the API."
+  },
+  {
+   "d": 36,
+   "h": 14.1,
+   "author": "lina.teixeira",
+   "body": "thanks!"
+  },
+  {
+   "d": 35,
+   "h": 15.0,
+   "author": "amara.molina",
+   "body": "anyone know why the order confirmation email is sometimes delayed? we had a customer complain."
+  },
+  {
+   "d": 35,
+   "h": 15.3,
+   "author": "lucia.ahmadi",
+   "body": "mailer might have a backlog. check the mailer logs; if it's a queue issue, we can look at it."
+  },
+  {
+   "d": 34,
+   "h": 10.2,
+   "author": "sabine.santos",
+   "body": "quick one: is there a way to see which version of the shop-web is deployed to a given store? i need to verify something."
+  },
+  {
+   "d": 34,
+   "h": 10.5,
+   "author": "wei.murray",
+   "body": "shop-web isn't deployed per store, every store page runs the same build. the build notes in #releases say which version went out when."
+  },
+  {
+   "d": 34,
+   "h": 10.9,
+   "author": "sabine.santos",
+   "body": "got it, thanks."
+  },
+  {
+   "d": 33,
+   "h": 11.6,
+   "author": "fatima.reyes",
+   "body": "just a heads up: the next change window for the event bus is on the first working day of next month. if you have any schema changes, get them in before then."
+  },
+  {
+   "d": 32,
+   "h": 14.4,
+   "author": "tariq.mahlaba",
+   "body": "anyone else has the issue where the pos back office sometimes hangs when searching for a customer? we've had a few reports."
+  },
+  {
+   "d": 32,
+   "h": 14.8,
+   "author": "eleni.keller",
+   "body": "we saw that last month. it was a problem with the customer index. a refresh fixed it. might be worth restarting the service."
+  },
+  {
+   "d": 32,
+   "h": 15.1,
+   "author": "tariq.mahlaba",
+   "body": "i'll try that, thanks."
+  },
+  {
+   "d": 31,
+   "h": 9.1,
+   "author": "maya.suzuki",
+   "body": "reminder to update your access reviews by the end of the quarter. the link is in eng-docs/security/access-reviews.md."
+  },
+  {
+   "d": 30,
+   "h": 12.3,
+   "author": "alice.lombardi",
+   "body": "anyone know if the gift card balance check endpoint has a rate limit? we're thinking of calling it more often."
+  },
+  {
+   "d": 30,
+   "h": 12.7,
+   "author": "kalani.palmer",
+   "body": "the api docs mention a limit of 1000 per minute per key. you should be fine."
+  },
+  {
+   "d": 30,
+   "h": 13.0,
+   "author": "alice.lombardi",
+   "body": "great, thanks."
+  },
+  {
+   "d": 29,
+   "h": 10.0,
+   "author": "lina.teixeira",
+   "body": "just a note that the product data for the spring catalogue is now in the warehouse. if you need to reference it for anything, it's there."
+  }
+ ],
+ "support-leads": [
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "imani.brooks",
+   "body": "quick one - anyone else seeing a jump in calls about the new tent pole lengths? we've had like 5 already today"
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "kofi.tran",
+   "body": "not yet, but the product page might have the measurements wrong. i'll flag to the web team"
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "renata.vogel",
+   "body": "can one of you send me the chat transcript from that? i'll see if it's a training thing"
+  },
+  {
+   "d": 40,
+   "h": 11.0,
+   "author": "ruth.thomsen",
+   "body": "just updated the returns guide with the new packaging dimensions - check the support docs if you're helping with bulky items"
+  },
+  {
+   "d": 39,
+   "h": 8.5,
+   "author": "oskar.pereira",
+   "body": "anyone know how to look up a wholesale order in the CRM? got a garden centre on the phone"
+  },
+  {
+   "d": 39,
+   "h": 9.0,
+   "author": "amir.agarwal",
+   "body": "there's a filter under orders - set type to wholesale. takes a while to load though"
+  },
+  {
+   "d": 39,
+   "h": 9.2,
+   "author": "gaurav.fischer",
+   "body": "yeah, and use the order ref not the customer name, else you get all their retail orders"
+  },
+  {
+   "d": 36,
+   "h": 14.0,
+   "author": "chidi.sharma",
+   "body": "reminder that the monthly support newsletter is due end of the week - send me your top tips by close of play"
+  },
+  {
+   "d": 35,
+   "h": 13.5,
+   "author": "pavel.larsen",
+   "body": "anyone else having trouble with the chat app on mobile? it keeps logging me out"
+  },
+  {
+   "d": 34,
+   "h": 10.0,
+   "author": "astrid.bakker",
+   "body": "just a heads up, the returns portal will be down for maintenance on the first working day of next month - we'll post a notice to customers"
+  },
+  {
+   "d": 33,
+   "h": 15.0,
+   "author": "freya.kowalski",
+   "body": "might be late to the party but the new catalogue pdf is actually useful for checking product specs when customers ask"
+  },
+  {
+   "d": 32,
+   "h": 9.5,
+   "author": "imani.brooks",
+   "body": "we're getting a bunch of calls about a faulty batch of lanterns - anyone seen the recall notice?"
+  },
+  {
+   "d": 32,
+   "h": 10.0,
+   "author": "vera.barros",
+   "body": "it's on the helpdesk, check the pinned message. we're telling customers to return for a full refund"
+  },
+  {
+   "d": 30,
+   "h": 16.0,
+   "author": "malik.dimitrov",
+   "body": "does anyone have a spare headset? mine just died and i've got a call in an hour"
+  },
+  {
+   "d": 29,
+   "h": 11.5,
+   "author": "kofi.tran",
+   "body": "quality check on the new waterproofing spray - are we saying it's for all fabrics? the label says different"
+  },
+  {
+   "d": 28,
+   "h": 14.0,
+   "author": "amir.agarwal",
+   "body": "just sent a ticket to IT about the CRM search being slow - it's in the queue"
+  },
+  {
+   "d": 27,
+   "h": 10.5,
+   "author": "renata.vogel",
+   "body": "thanks for the feedback on the new script - i've tweaked the greeting to be a bit more friendly. let me know what you think"
+  },
+  {
+   "d": 26,
+   "h": 9.0,
+   "author": "oskar.pereira",
+   "body": "anyone know how to escalate a complaint about a missing delivery? the courier says it was left but customer says no"
+  },
+  {
+   "d": 26,
+   "h": 9.5,
+   "author": "ruth.thomsen",
+   "body": "check the support docs for missing deliveries - there's a process for filing a claim"
+  },
+  {
+   "d": 25,
+   "h": 13.0,
+   "author": "gaurav.fischer",
+   "body": "just found a typo in the product description for the camp stove - i'll fix it later if no one beats me to it"
+  },
+  {
+   "d": 24,
+   "h": 12.0,
+   "author": "chidi.sharma",
+   "body": "anyone else seen the new winter line? the sleeping bags are gorgeous. i'm tempted to buy one for myself"
+  },
+  {
+   "d": 23,
+   "h": 17.0,
+   "author": "astrid.bakker",
+   "body": "quick note - the helpdesk will be short-staffed for the next two weeks, so please be gentle with each other"
+  },
+  {
+   "d": 22,
+   "h": 10.0,
+   "author": "imani.brooks",
+   "body": "does anyone have the link to the holiday schedule? i can't find it in the handbook"
+  },
+  {
+   "d": 22,
+   "h": 10.3,
+   "author": "pavel.larsen",
+   "body": "it's in the handbook under people/leave-and-absence"
+  },
+  {
+   "d": 20,
+   "h": 15.5,
+   "author": "vera.barros",
+   "body": "good job on the ticket backlog over the last few days - we're down to the lowest in months. keep it up"
+  },
+  {
+   "d": 18,
+   "h": 9.5,
+   "author": "malik.dimitrov",
+   "body": "anyone have advice for dealing with a really angry customer? i've got one who won't stop shouting"
+  },
+  {
+   "d": 17,
+   "h": 11.0,
+   "author": "kofi.tran",
+   "body": "just a reminder to log your training hours - the system will close for the month soon"
+  },
+  {
+   "d": 15,
+   "h": 8.5,
+   "author": "ruth.thomsen",
+   "body": "morning all - check the helpdesk for the updated refund policy summary, there's a change to the wording for damaged items"
+  },
+  {
+   "d": 12,
+   "h": 16.0,
+   "author": "amir.agarwal",
+   "body": "anyone know if we're getting new phones soon? mine's really slow"
+  },
+  {
+   "d": 11,
+   "h": 14.0,
+   "author": "renata.vogel",
+   "body": "just a heads up - the analytics warehouse will be down for a few hours mid-afternoon UK time for maintenance. don't panic if dashboards are blank"
+  },
+  {
+   "d": 10,
+   "h": 10.0,
+   "author": "gaurav.fischer",
+   "body": "does anyone have the template for the customer apology email? i can't find it in the comms docs"
+  },
+  {
+   "d": 10,
+   "h": 10.2,
+   "author": "oskar.pereira",
+   "body": "it's in handbook/comms/writing-to-customers - there's a section for apologies"
+  },
+  {
+   "d": 9,
+   "h": 13.0,
+   "author": "chidi.sharma",
+   "body": "anyone else struggling with the new CRM layout? it's taking me ages to find things"
+  },
+  {
+   "d": 8,
+   "h": 9.0,
+   "author": "imani.brooks",
+   "body": "quick question - are we supposed to be offering free returns for wholesale customers? i've had two ask"
+  },
+  {
+   "d": 8,
+   "h": 9.3,
+   "author": "vera.barros",
+   "body": "no, only retail. check the wholesale terms in the finance docs"
+  },
+  {
+   "d": 7,
+   "h": 11.5,
+   "author": "astrid.bakker",
+   "body": "we've got a new starter joining the team - make sure you say hi when you see them in the chat"
+  },
+  {
+   "d": 6,
+   "h": 15.0,
+   "author": "pavel.larsen",
+   "body": "just a reminder to keep the support channel tidy - use threads for side conversations"
+  },
+  {
+   "d": 5,
+   "h": 10.0,
+   "author": "malik.dimitrov",
+   "body": "anyone want to swap shifts on the next rota? i can cover early if you take late"
+  },
+  {
+   "d": 4,
+   "h": 12.0,
+   "author": "freya.kowalski",
+   "body": "does anyone else get weird looks when you say you work in customer support for a camping shop? i'm the first person they call for gear advice"
+  },
+  {
+   "d": 3,
+   "h": 14.5,
+   "author": "oskar.pereira",
+   "body": "has anyone seen the new stock for the garden range? the planters are actually really nice"
+  },
+  {
+   "d": 2,
+   "h": 9.5,
+   "author": "amir.agarwal",
+   "body": "just a quick thank you to everyone who helped with the rush - you were all amazing"
+  },
+  {
+   "d": 1,
+   "h": 16.0,
+   "author": "ruth.thomsen",
+   "body": "anyone else got issues logging into the expenses tool? i keep getting an error"
+  }
+ ],
+ "releases": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "dana.whitfield",
+   "body": "release notes for the 42.3 build are up in the usual place, deploy is scheduled for the first working day"
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "maya.suzuki",
+   "body": "thanks, will check the web bits"
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "tariq.mahlaba",
+   "body": "anyone know why the search index is lagging on the staging env? the index logs show old timestamps"
+  },
+  {
+   "d": 41,
+   "h": 14.2,
+   "author": "wei.murray",
+   "body": "might be the snapshot we took for the perf run, it's from a while back"
+  },
+  {
+   "d": 41,
+   "h": 14.5,
+   "author": "tariq.mahlaba",
+   "body": "ah that would do it, cheers"
+  },
+  {
+   "d": 39,
+   "h": 11.0,
+   "author": "fatima.reyes",
+   "body": "the new gift card flow is in the canary, watch for any odd balance updates"
+  },
+  {
+   "d": 38,
+   "h": 16.3,
+   "author": "shreya.rossi",
+   "body": "just pushed a fix for the payment retry loop, will be in the next batch"
+  },
+  {
+   "d": 38,
+   "h": 16.4,
+   "author": "lara.olsen",
+   "body": "nice, that one was annoying"
+  },
+  {
+   "d": 36,
+   "h": 10.4,
+   "author": "irene.jensen",
+   "body": "remember to update the membership docs after the next release, the expiry email copy changed"
+  },
+  {
+   "d": 36,
+   "h": 10.7,
+   "author": "joanna.nagy",
+   "body": "will do, have it on my list"
+  },
+  {
+   "d": 35,
+   "h": 9.8,
+   "author": "dana.whitfield",
+   "body": "wholesale portal gets a new export option, goes live with the 43.1 build"
+  },
+  {
+   "d": 34,
+   "h": 17.1,
+   "author": "eleni.keller",
+   "body": "the order confirmation email has a broken link in the us region, raised a ticket"
+  },
+  {
+   "d": 34,
+   "h": 17.2,
+   "author": "alice.lombardi",
+   "body": "yeah i saw, the url is missing the locale param"
+  },
+  {
+   "d": 32,
+   "h": 12.5,
+   "author": "valentina.iyer",
+   "body": "billing-api is getting a new webhook endpoint, the swagger is in the repo if you want to review"
+  },
+  {
+   "d": 32,
+   "h": 12.8,
+   "author": "enzo.chandra",
+   "body": "thanks, will have a look later"
+  },
+  {
+   "d": 31,
+   "h": 15.0,
+   "author": "amara.molina",
+   "body": "anyone else seeing higher than usual error rates on the checkout page? not urgent, just curious"
+  },
+  {
+   "d": 31,
+   "h": 15.2,
+   "author": "fatima.reyes",
+   "body": "not that i've noticed, will keep an eye"
+  },
+  {
+   "d": 31,
+   "h": 15.4,
+   "author": "lucia.ahmadi",
+   "body": "we had a minor spike during the flash sale, but it settled"
+  },
+  {
+   "d": 30,
+   "h": 8.5,
+   "author": "maya.suzuki",
+   "body": "the new storefront theme is behind a feature flag for now, we'll enable for a small group first"
+  },
+  {
+   "d": 29,
+   "h": 13.1,
+   "author": "dana.whitfield",
+   "body": "next release window is set, please have your changes in by the end of the working day"
+  },
+  {
+   "d": 28,
+   "h": 10.2,
+   "author": "tariq.mahlaba",
+   "body": "the mobile search filters are not working on the latest {{MOBILE_OS_1|lower}}, is that a known issue?"
+  },
+  {
+   "d": 28,
+   "h": 10.5,
+   "author": "wei.murray",
+   "body": "we have a fix in review, should go out in the next patch"
+  },
+  {
+   "d": 27,
+   "h": 16.8,
+   "author": "lina.teixeira",
+   "body": "just a heads up, the checkout analytics report will be deprecated next quarter, use the new dashboard instead"
+  },
+  {
+   "d": 27,
+   "h": 16.9,
+   "author": "alice.lombardi",
+   "body": "good to know, i'll update my bookmarks"
+  },
+  {
+   "d": 26,
+   "h": 11.4,
+   "author": "shreya.rossi",
+   "body": "the payment retry fix is live, confirmations should be more reliable now"
+  },
+  {
+   "d": 24,
+   "h": 9.0,
+   "author": "dana.whitfield",
+   "body": "remember to tag your release candidates properly, we had a mix-up with the last one"
+  },
+  {
+   "d": 23,
+   "h": 14.7,
+   "author": "eleni.keller",
+   "body": "the order export is missing the discount column, will fix asap"
+  },
+  {
+   "d": 22,
+   "h": 10.9,
+   "author": "fatima.reyes",
+   "body": "checkout is getting a new payment method option, keep an eye on the feature flag rollout"
+  },
+  {
+   "d": 22,
+   "h": 15.2,
+   "author": "lucia.ahmadi",
+   "body": "we'll enable it for a small percentage first, then ramp up"
+  },
+  {
+   "d": 20,
+   "h": 12.3,
+   "author": "joanna.nagy",
+   "body": "the membership renewal email seems to be going out twice for some users, checking the queue"
+  },
+  {
+   "d": 20,
+   "h": 12.6,
+   "author": "irene.jensen",
+   "body": "that might be a duplicate job in the scheduler, let me know if you need help"
+  },
+  {
+   "d": 19,
+   "h": 17.0,
+   "author": "valentina.iyer",
+   "body": "the webhook endpoint is now in the test env, feel free to try it out"
+  },
+  {
+   "d": 18,
+   "h": 8.8,
+   "author": "dana.whitfield",
+   "body": "the 43.2 build is out, deployment is scheduled for the first working day after the current one"
+  },
+  {
+   "d": 17,
+   "h": 13.5,
+   "author": "maya.suzuki",
+   "body": "the theme flag is now on for 10% of users, no issues so far"
+  },
+  {
+   "d": 16,
+   "h": 11.2,
+   "author": "tariq.mahlaba",
+   "body": "the mobile search filters fix is out, please verify on your devices"
+  }
+ ],
+ "pricing": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "olga.estrada",
+   "body": "quick one — the new tent line landing in the catalogue has RRP including VAT but our internal price list is ex-VAT. can we standardise on one?"
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "miriam.muller",
+   "body": "we've always used ex-VAT in the system, the RRP on the site is just display. keep the list ex-VAT."
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "dmitri.sokolov",
+   "body": "agreed, ex-VAT for all internal pricing. if you see any that aren't, flag them and I'll chase the data team."
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "emeka.yamamoto",
+   "body": "feat flag for the summer sale discount is set to roll out to 10% of traffic next working day. anyone got an objection to that ramp? we'll go to 50% after a couple of days if no issues."
+  },
+  {
+   "d": 41,
+   "h": 14.5,
+   "author": "priya.nair",
+   "body": "no objection from finance, just make sure the promo code applies before VAT is calculated."
+  },
+  {
+   "d": 41,
+   "h": 15.0,
+   "author": "emeka.yamamoto",
+   "body": "yeah it does, checked the order pipeline config. thanks."
+  },
+  {
+   "d": 40,
+   "h": 11.0,
+   "author": "olga.estrada",
+   "body": "anyone know why the US site shows prices in USD but the wholesale list for US dealers is still GBP? bit odd."
+  },
+  {
+   "d": 40,
+   "h": 11.5,
+   "author": "jordan.reyes",
+   "body": "wholesale always in GBP unless the dealer asks for local. it's a legacy thing, we've not moved it."
+  },
+  {
+   "d": 40,
+   "h": 12.0,
+   "author": "olga.estrada",
+   "body": "ok, just checking. might be worth noting in the next pricing review."
+  },
+  {
+   "d": 38,
+   "h": 9.0,
+   "author": "santiago.nielsen",
+   "body": "reminder that the monthly exchange rate update goes in the day after the bank file cut-off. that's still on for this month."
+  },
+  {
+   "d": 38,
+   "h": 9.5,
+   "author": "alba.zhang",
+   "body": "good, thanks. i'll make sure the new prices are loaded before then."
+  },
+  {
+   "d": 36,
+   "h": 16.0,
+   "author": "bruno.ibarra",
+   "body": "saw a price mismatch on the site for a waterproof jacket — the product page says £89 but the basket shows £85. is that a known promo?"
+  },
+  {
+   "d": 36,
+   "h": 16.5,
+   "author": "miriam.muller",
+   "body": "that's the clearance discount applying at basket level. not a bug, but maybe the page should reflect it. i'll raise it with the web team."
+  },
+  {
+   "d": 36,
+   "h": 17.0,
+   "author": "bruno.ibarra",
+   "body": "ah, that makes sense. thanks, thought i was going mad."
+  },
+  {
+   "d": 34,
+   "h": 10.0,
+   "author": "dmitri.sokolov",
+   "body": "we're going to do a price review for the camping stoves range at the end of the month. can everyone have a look at the current list and suggest changes by the first working day of next month?"
+  },
+  {
+   "d": 33,
+   "h": 13.0,
+   "author": "olga.estrada",
+   "body": "i'll pull the sales data for the last quarter to see what's moving."
+  },
+  {
+   "d": 33,
+   "h": 13.5,
+   "author": "emeka.yamamoto",
+   "body": "i'll check if there are any pending promos that might affect the review."
+  },
+  {
+   "d": 32,
+   "h": 11.0,
+   "author": "mina.tanaka",
+   "body": "just a fyi, i've updated the pricing spreadsheet with the latest cost prices for the new season. should be in the shared drive."
+  },
+  {
+   "d": 31,
+   "h": 15.0,
+   "author": "anders.fonseca",
+   "body": "anyone else seeing the VAT rates change in the system? i'm getting a warning that some products have the old 20% instead of the new 21%."
+  },
+  {
+   "d": 31,
+   "h": 15.5,
+   "author": "priya.nair",
+   "body": "that's expected, the new VAT rate applies from the start of next quarter. we'll update the product list just before."
+  },
+  {
+   "d": 31,
+   "h": 16.0,
+   "author": "anders.fonseca",
+   "body": "ah, ok. good to know."
+  },
+  {
+   "d": 29,
+   "h": 12.0,
+   "author": "jordan.reyes",
+   "body": "is there a standard discount for staff purchases? i'm seeing some inconsistent numbers in the finance system."
+  },
+  {
+   "d": 29,
+   "h": 12.5,
+   "author": "dmitri.sokolov",
+   "body": "it's 20% off RRP for staff. if you see different, flag it to me."
+  },
+  {
+   "d": 28,
+   "h": 9.0,
+   "author": "emeka.yamamoto",
+   "body": "promo for the spring collection is going live in a couple of working days. all discounts are set, just waiting for the marketing team to confirm the email send date."
+  },
+  {
+   "d": 27,
+   "h": 10.0,
+   "author": "olga.estrada",
+   "body": "i've noticed the wholesale price list for garden centres is out of date — some items haven't got the latest cost increase. i'll update it next working day."
+  },
+  {
+   "d": 26,
+   "h": 14.0,
+   "author": "santiago.nielsen",
+   "body": "we've got a batch of payments that need reconciling — the FX rate seems off by a few pence. any idea what happened?"
+  },
+  {
+   "d": 26,
+   "h": 14.5,
+   "author": "alba.zhang",
+   "body": "maybe it's the daily rate being used instead of the monthly rate. i'll check the ledger entries."
+  },
+  {
+   "d": 26,
+   "h": 15.0,
+   "author": "santiago.nielsen",
+   "body": "that would explain it. thanks, i'll adjust."
+  },
+  {
+   "d": 24,
+   "h": 11.0,
+   "author": "miriam.muller",
+   "body": "heads up: we're adding a new 'outlet' category on the site, so some products will have a separate outlet price. will that affect any finance reporting?"
+  },
+  {
+   "d": 24,
+   "h": 11.5,
+   "author": "priya.nair",
+   "body": "probably not, as long as the pricing is tagged correctly. we can map it later if needed."
+  },
+  {
+   "d": 23,
+   "h": 9.0,
+   "author": "bruno.ibarra",
+   "body": "anyone know how to apply a temporary price reduction for a damaged box? i've got a customer query."
+  },
+  {
+   "d": 23,
+   "h": 9.5,
+   "author": "olga.estrada",
+   "body": "you can use the 'damaged stock' reason code in the system, it allows a discount up to 30%."
+  },
+  {
+   "d": 23,
+   "h": 10.0,
+   "author": "bruno.ibarra",
+   "body": "perfect, thanks."
+  },
+  {
+   "d": 21,
+   "h": 13.0,
+   "author": "mina.tanaka",
+   "body": "just a reminder that the monthly pricing review meeting is scheduled for the last working day of the month. please have your inputs ready."
+  },
+  {
+   "d": 20,
+   "h": 16.0,
+   "author": "anders.fonseca",
+   "body": "does anyone know if the 5% discount for new wholesale accounts is still active? i've got a query from a potential dealer."
+  },
+  {
+   "d": 20,
+   "h": 16.5,
+   "author": "emeka.yamamoto",
+   "body": "that's still active, but it only applies to the first order. i'll check the exact terms in the finance docs."
+  },
+  {
+   "d": 19,
+   "h": 10.0,
+   "author": "dmitri.sokolov",
+   "body": "we're going to trial a new loyalty discount for repeat customers. i'll share the proposal within the next two working days, but any early thoughts?"
+  },
+  {
+   "d": 18,
+   "h": 11.0,
+   "author": "olga.estrada",
+   "body": "sounds interesting, but we need to make sure it doesn't clash with existing promos."
+  },
+  {
+   "d": 18,
+   "h": 11.5,
+   "author": "priya.nair",
+   "body": "also consider the accounting treatment for loyalty points. might need to set up a liability account."
+  },
+  {
+   "d": 17,
+   "h": 14.0,
+   "author": "emeka.yamamoto",
+   "body": "i'll draft the promo mechanics and get back to you all."
+  },
+  {
+   "d": 15,
+   "h": 9.0,
+   "author": "jordan.reyes",
+   "body": "quick Q: who owns the price list for the Irish store? i've seen some prices in EUR but the official rate is different."
+  },
+  {
+   "d": 15,
+   "h": 9.5,
+   "author": "dmitri.sokolov",
+   "body": "it's under my team, but the EUR conversion is done by finance. i'll check with alba."
+  },
+  {
+   "d": 15,
+   "h": 10.0,
+   "author": "alba.zhang",
+   "body": "the Irish prices are updated manually each month using the mid-market rate. if it's off, let me know and i'll fix it."
+  },
+  {
+   "d": 14,
+   "h": 12.0,
+   "author": "miriam.muller",
+   "body": "just a heads up, the summer sale is going to have a 'members only' early access. we'll need to coordinate with the CRM team for the email list."
+  },
+  {
+   "d": 13,
+   "h": 11.0,
+   "author": "bruno.ibarra",
+   "body": "what's the policy on price matching? a customer is asking if we match a competitor's price."
+  },
+  {
+   "d": 13,
+   "h": 11.5,
+   "author": "olga.estrada",
+   "body": "we don't do price matching generally, but there's an exception for certain items. check the support docs for the details."
+  },
+  {
+   "d": 12,
+   "h": 15.0,
+   "author": "santiago.nielsen",
+   "body": "the month-end close is coming up, make sure any price changes are in before the deadline."
+  },
+  {
+   "d": 11,
+   "h": 9.0,
+   "author": "emeka.yamamoto",
+   "body": "anyone know if the gift card discount is included in the pricing report? i'm seeing some discrepancies."
+  },
+  {
+   "d": 11,
+   "h": 9.5,
+   "author": "mina.tanaka",
+   "body": "i think gift cards are handled separately. i'll check the finance docs."
+  },
+  {
+   "d": 10,
+   "h": 13.0,
+   "author": "anders.fonseca",
+   "body": "just a note: the wholesale price list for the new catalogue is due in a few working days. i'll send it out for review."
+  },
+  {
+   "d": 9,
+   "h": 10.0,
+   "author": "olga.estrada",
+   "body": "thanks, anders. i'll have a look at the margins for the larger items."
+  },
+  {
+   "d": 8,
+   "h": 14.0,
+   "author": "dmitri.sokolov",
+   "body": "i've posted the loyalty discount proposal in the shared drive. please leave comments by the end of the week."
+  },
+  {
+   "d": 7,
+   "h": 11.0,
+   "author": "priya.nair",
+   "body": "looks good, but we need to model the cost impact. i'll run the numbers."
+  },
+  {
+   "d": 6,
+   "h": 9.0,
+   "author": "emeka.yamamoto",
+   "body": "the summer sale promo codes are now active. just a reminder to test the checkout flow before the email goes out."
+  },
+  {
+   "d": 5,
+   "h": 10.0,
+   "author": "bruno.ibarra",
+   "body": "quick question: what's the threshold for free shipping on wholesale orders? i've got a dealer asking."
+  },
+  {
+   "d": 5,
+   "h": 10.5,
+   "author": "alba.zhang",
+   "body": "it's £500 ex-VAT for standard delivery. if they're over that, it's free."
+  },
+  {
+   "d": 5,
+   "h": 11.0,
+   "author": "bruno.ibarra",
+   "body": "cheers!"
+  },
+  {
+   "d": 4,
+   "h": 12.0,
+   "author": "miriam.muller",
+   "body": "anyone else finding the new pricing interface a bit slow? i'm waiting ages for the list to load."
+  },
+  {
+   "d": 4,
+   "h": 12.5,
+   "author": "jordan.reyes",
+   "body": "yeah, me too. might be the database load. i'll raise a ticket."
+  },
+  {
+   "d": 3,
+   "h": 9.0,
+   "author": "santiago.nielsen",
+   "body": "reminder to update the exchange rate for the US store before the bank file cut-off."
+  },
+  {
+   "d": 2,
+   "h": 15.0,
+   "author": "olga.estrada",
+   "body": "i've just noticed the price for the fire pit is lower in the catalogue than in the system. we need to fix that before the next stock order."
+  },
+  {
+   "d": 2,
+   "h": 15.5,
+   "author": "dmitri.sokolov",
+   "body": "good catch. i'll update the system price now. thanks."
+  },
+  {
+   "d": 1,
+   "h": 10.0,
+   "author": "emeka.yamamoto",
+   "body": "the promo for the coming days is live, but i've had reports of the discount not applying to some items. anyone else seeing that?"
+  },
+  {
+   "d": 1,
+   "h": 10.5,
+   "author": "mina.tanaka",
+   "body": "i'll check the promo rules. might be an issue with the product categories."
+  },
+  {
+   "d": 1,
+   "h": 11.0,
+   "author": "emeka.yamamoto",
+   "body": "thanks, mina. i'll wait for your update."
+  }
+ ],
+ "platform": [
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "dalia.petrov",
+   "body": "anyone else seeing the log archive job for the warehouse taking longer than usual? not urgent, just wondering if it's just me."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "daniel.kruger",
+   "body": "we noticed it on staging too, restarted the worker and it's back to normal. might be worth checking the queue depth."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "dalia.petrov",
+   "body": "ok thanks, I'll have a look."
+  },
+  {
+   "d": 41,
+   "h": 11.5,
+   "author": "ida.saito",
+   "body": "reminder that we have the access review due this quarter, eng docs link: eng-docs/security/access-reviews.md. please start nominating reviewers."
+  },
+  {
+   "d": 41,
+   "h": 12.0,
+   "author": "kai.silva",
+   "body": "thanks ida, I'll get the list together."
+  },
+  {
+   "d": 40,
+   "h": 8.5,
+   "author": "diego.gallagher",
+   "body": "does anyone have the backup retention policy handy? need to confirm before I clean up old snapshots. eng-docs/platform/backups.md is down for me."
+  },
+  {
+   "d": 40,
+   "h": 9.0,
+   "author": "chiara.mishra",
+   "body": "I have a copy, will DM you."
+  },
+  {
+   "d": 39,
+   "h": 14.0,
+   "author": "laszlo.ikeda",
+   "body": "taking a manual snapshot of the pos back office vm from the cluster console fails with a permission error. anyone seen that?"
+  },
+  {
+   "d": 39,
+   "h": 14.5,
+   "author": "dana.vasilenko",
+   "body": "that's a known issue with the console's service account, raised a ticket already. i can take it from my account for now if you need one."
+  },
+  {
+   "d": 39,
+   "h": 15.0,
+   "author": "laszlo.ikeda",
+   "body": "good to know, thanks."
+  },
+  {
+   "d": 38,
+   "h": 10.0,
+   "author": "emma.arslan",
+   "body": "quick heads up: we're rotating the vault keys for the analytics warehouse on the first working day after the current one. if you have scripts that reference the old path, update them before then."
+  },
+  {
+   "d": 38,
+   "h": 10.5,
+   "author": "jin.gonzaga",
+   "body": "thanks for the heads up, I'll check our cron jobs."
+  },
+  {
+   "d": 37,
+   "h": 16.0,
+   "author": "owen.castillo",
+   "body": "anyone else find the new deployctl output a bit chatty? I preferred the old format."
+  },
+  {
+   "d": 36,
+   "h": 9.5,
+   "author": "dina.ozturk",
+   "body": "anyone know if the feature flag service has a way to bulk update flags via API? I've got a bunch to toggle for the new web release."
+  },
+  {
+   "d": 36,
+   "h": 10.0,
+   "author": "ida.saito",
+   "body": "there's a batch endpoint, check the internal docs, I think it's on the service page."
+  },
+  {
+   "d": 36,
+   "h": 10.5,
+   "author": "dina.ozturk",
+   "body": "found it, thanks!"
+  },
+  {
+   "d": 35,
+   "h": 11.0,
+   "author": "kai.silva",
+   "body": "reminder that the data classification policy is in handbook/security/data-classification.md, please review before storing anything new."
+  },
+  {
+   "d": 34,
+   "h": 13.0,
+   "author": "dalia.petrov",
+   "body": "the new shop-web runbook link is eng-docs/web/shop-web-runbook.md, for anyone who hasn't seen it."
+  },
+  {
+   "d": 33,
+   "h": 15.5,
+   "author": "soren.zielinski",
+   "body": "we're running a phishing drill in a couple of working days, just a heads up. no action needed, but be aware of suspicious emails."
+  },
+  {
+   "d": 32,
+   "h": 9.0,
+   "author": "chiara.mishra",
+   "body": "anyone else see the log retention change for the api gateway? we might need to update our queries."
+  },
+  {
+   "d": 32,
+   "h": 9.5,
+   "author": "diego.gallagher",
+   "body": "yeah, i'll update ours. check the logctl docs for the new tiers."
+  },
+  {
+   "d": 31,
+   "h": 12.0,
+   "author": "ana.quinn",
+   "body": "not sure if this is the right place, but is there a way to get a list of all VMs with public IPs? need it for a security review."
+  },
+  {
+   "d": 31,
+   "h": 12.5,
+   "author": "owen.castillo",
+   "body": "snapctl only knows about snapshots. the VM inventory in the cluster console has a public IP column you can export."
+  },
+  {
+   "d": 31,
+   "h": 13.0,
+   "author": "ana.quinn",
+   "body": "great, thanks."
+  },
+  {
+   "d": 30,
+   "h": 16.5,
+   "author": "laszlo.ikeda",
+   "body": "just noticed the staging environment is running an old {{SQL_DB_1|key}} version, should we upgrade? check eng-docs/adr/0007-move-to-managed-database.md for context."
+  },
+  {
+   "d": 29,
+   "h": 10.0,
+   "author": "jin.gonzaga",
+   "body": "anyone know how to set up a recurring data job? the docs are a bit thin."
+  },
+  {
+   "d": 29,
+   "h": 10.5,
+   "author": "dana.vasilenko",
+   "body": "there's an example in eng-docs/data/pipelines-oncall.md, or just ask in #data-eng."
+  },
+  {
+   "d": 28,
+   "h": 14.0,
+   "author": "emma.arslan",
+   "body": "reminder to rotate your ssh keys if you haven't, details in handbook/it/passwords-and-mfa.md."
+  },
+  {
+   "d": 27,
+   "h": 11.0,
+   "author": "kai.silva",
+   "body": "anyone else having issues with the expenses tool? I keep getting an error when uploading receipts."
+  },
+  {
+   "d": 27,
+   "h": 11.5,
+   "author": "dalia.petrov",
+   "body": "it's a known issue, they're working on it. check the helpdesk ticket."
+  },
+  {
+   "d": 26,
+   "h": 13.5,
+   "author": "owen.castillo",
+   "body": "just a reminder to update your on-call availability in the rota, we're short on the coming cycle."
+  },
+  {
+   "d": 25,
+   "h": 15.0,
+   "author": "ida.saito",
+   "body": "not sure if anyone else noticed, but the dns changes are taking longer to propagate. might be worth checking eng-docs/platform/dns.md for the expected time."
+  },
+  {
+   "d": 24,
+   "h": 9.0,
+   "author": "dana.vasilenko",
+   "body": "anyone know if there's a way to see the cost tags on a specific resource? I need to track the warehouse spend."
+  },
+  {
+   "d": 24,
+   "h": 9.5,
+   "author": "chiara.mishra",
+   "body": "the cost report in the analytics warehouse has it, or check eng-docs/platform/cost-tags.md for examples."
+  }
+ ],
+ "ml-recs": [
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "sasha.lindeman",
+   "body": "quick heads up: the recs model retrain finished, new weights are in the model registry. will deploy to the canary group in the next couple of days."
+  },
+  {
+   "d": 41,
+   "h": 9.0,
+   "author": "wanjiru.garza",
+   "body": "has anyone seen the recent drift report for the recs feature store? noticed some odd distribution on the 'product_category' feature."
+  },
+  {
+   "d": 41,
+   "h": 9.5,
+   "author": "camille.madsen",
+   "body": "i think it's on the warehouse dashboard, check the 'features' tab. there was a note about a data source change for that field."
+  },
+  {
+   "d": 40,
+   "h": 14.0,
+   "author": "leah.meyer",
+   "body": "just pushed a fix for the recs API timeout issue. should be in the next deploy cycle. let me know if it doesn't resolve for you."
+  },
+  {
+   "d": 39,
+   "h": 11.0,
+   "author": "aleksander.becker",
+   "body": "reminder: we're doing the monthly recs quality review in a couple of working days. please have your eval results ready by then."
+  },
+  {
+   "d": 38,
+   "h": 16.0,
+   "author": "salma.fujita",
+   "body": "anyone else see the spike in recs latency on the ireland storefront? or is it just me?"
+  },
+  {
+   "d": 38,
+   "h": 16.5,
+   "author": "sasha.lindeman",
+   "body": "checking the logs now. might be the new feature lookup cache warming. will update."
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "henrik.costa",
+   "body": "good work on the ab test analysis from the other day. let's keep the momentum going."
+  },
+  {
+   "d": 36,
+   "h": 9.5,
+   "author": "wanjiru.garza",
+   "body": "quick question: what's the correct way to fetch the user's country in the recs pipeline? i'm seeing inconsistent values."
+  },
+  {
+   "d": 36,
+   "h": 10.0,
+   "author": "leah.meyer",
+   "body": "use the CRM field, not the analytics one. there's a migration in progress but the CRM is more reliable right now."
+  },
+  {
+   "d": 35,
+   "h": 13.0,
+   "author": "camille.madsen",
+   "body": "lol just found a bug in my own feature engineering code. going to fix it now, ignore any weird recs for the next hour."
+  },
+  {
+   "d": 34,
+   "h": 15.0,
+   "author": "aleksander.becker",
+   "body": "does anyone have the link to the recs overview doc? i keep forgetting where it's stored."
+  },
+  {
+   "d": 34,
+   "h": 15.5,
+   "author": "salma.fujita",
+   "body": "it's linked in the repo readme, but here you go: eng-docs/ml/recs-overview.md"
+  },
+  {
+   "d": 33,
+   "h": 11.5,
+   "author": "sasha.lindeman",
+   "body": "just deployed the new recs model to the canary. watching the metrics closely, so far so good."
+  },
+  {
+   "d": 32,
+   "h": 9.0,
+   "author": "leah.meyer",
+   "body": "anyone know if the feature store has a backfill job for the last few days? i need to rerun some historical recs."
+  },
+  {
+   "d": 32,
+   "h": 9.5,
+   "author": "wanjiru.garza",
+   "body": "no, we don't have a backfill job. you can run the pipeline manually with a date range."
+  },
+  {
+   "d": 31,
+   "h": 14.0,
+   "author": "camille.madsen",
+   "body": "the new recs dashboard looks great, thanks for putting that together."
+  },
+  {
+   "d": 30,
+   "h": 10.5,
+   "author": "henrik.costa",
+   "body": "reminder: we have the quarterly planning session coming up. please send your proposals by the end of the week."
+  },
+  {
+   "d": 29,
+   "h": 12.0,
+   "author": "salma.fujita",
+   "body": "anyone else's eval scripts breaking since the data schema change? i'm getting some missing columns."
+  },
+  {
+   "d": 29,
+   "h": 12.5,
+   "author": "leah.meyer",
+   "body": "yeah, the 'product_views' column got renamed to 'product_impressions'. you'll need to update your queries."
+  },
+  {
+   "d": 28,
+   "h": 15.5,
+   "author": "aleksander.becker",
+   "body": "thanks for the heads up, that would have tripped me up too."
+  },
+  {
+   "d": 27,
+   "h": 9.0,
+   "author": "sasha.lindeman",
+   "body": "the canary deployment is looking stable. planning to roll out to the full traffic on the next working day if no issues."
+  },
+  {
+   "d": 26,
+   "h": 11.0,
+   "author": "wanjiru.garza",
+   "body": "does anyone have experience with the new feature flag service? i can't seem to get the rollout percentage to work as expected."
+  },
+  {
+   "d": 26,
+   "h": 11.5,
+   "author": "camille.madsen",
+   "body": "make sure you're using the correct flag key and the environment is set right. i had the same issue once."
+  },
+  {
+   "d": 25,
+   "h": 13.5,
+   "author": "leah.meyer",
+   "body": "just updated the recs model release doc with the new evaluation results. check it out when you get a chance."
+  },
+  {
+   "d": 24,
+   "h": 10.0,
+   "author": "henrik.costa",
+   "body": "nice work on the recs revamp, the engagement metrics are up since we rolled out the new model."
+  },
+  {
+   "d": 23,
+   "h": 14.0,
+   "author": "salma.fujita",
+   "body": "i'm going to be offline for a few hours, but i'll catch up on the channel later."
+  },
+  {
+   "d": 22,
+   "h": 9.5,
+   "author": "aleksander.becker",
+   "body": "anyone else see that weird spike in recs for the 'camping' category? might be a data issue."
+  },
+  {
+   "d": 22,
+   "h": 10.0,
+   "author": "wanjiru.garza",
+   "body": "i'll look into it, might be the new product feed we imported."
+  },
+  {
+   "d": 21,
+   "h": 11.0,
+   "author": "camille.madsen",
+   "body": "thanks for checking, wanjiru. let us know if you find anything."
+  },
+  {
+   "d": 20,
+   "h": 16.0,
+   "author": "leah.meyer",
+   "body": "quick reminder: we have the recs sync the day after next to discuss the next sprint. please add your items to the agenda."
+  }
+ ],
+ "data-eng": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "greta.rahman",
+   "body": "anyone else seeing the warehouse jobs fail on the nightly extract? checking the job logs but might be a while"
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "leila.doyle",
+   "body": "yeah, saw a couple. reran one and it went through, so might be transient. will keep an eye"
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "joy.mbeki",
+   "body": "reminder that the data catalogue has a new section for the wholesale tables, see data-docs/catalogue.md"
+  },
+  {
+   "d": 40,
+   "h": 8.5,
+   "author": "ada.aoki",
+   "body": "moved the staging log streams to the cold tier in logctl, should save a bit. let me know if anything looks slower"
+  },
+  {
+   "d": 39,
+   "h": 14.0,
+   "author": "aaliyah.lee",
+   "body": "quick question: do we have a standard way to tag cost for the GPU jobs? i've been putting something in the job name but not sure what to use"
+  },
+  {
+   "d": 39,
+   "h": 14.5,
+   "author": "henrik.costa",
+   "body": "we've been using cost-tags like 'ml:recs' and 'ml:search' – see eng-docs/platform/cost-tags.md"
+  },
+  {
+   "d": 39,
+   "h": 15.0,
+   "author": "aaliyah.lee",
+   "body": "thanks, that helps"
+  },
+  {
+   "d": 38,
+   "h": 10.0,
+   "author": "camille.madsen",
+   "body": "has anyone used the new feature flag for the recs model? the rollout seems to be going ok but want to check if the data pipeline is feeding correctly"
+  },
+  {
+   "d": 38,
+   "h": 10.5,
+   "author": "sasha.lindeman",
+   "body": "we're monitoring it, looks fine from our side. will ping if anything changes"
+  },
+  {
+   "d": 37,
+   "h": 12.0,
+   "author": "karim.obi",
+   "body": "don't forget the monthly access review for the data warehouse – please submit your changes by end of week"
+  },
+  {
+   "d": 36,
+   "h": 16.0,
+   "author": "leah.meyer",
+   "body": "anyone else get a weird error from the warehouse when running the daily revenue report? something about a missing table"
+  },
+  {
+   "d": 36,
+   "h": 17.0,
+   "author": "leah.meyer",
+   "body": "cheers, i'll rerun after the fix"
+  },
+  {
+   "d": 34,
+   "h": 13.0,
+   "author": "salma.fujita",
+   "body": "does anyone have the dpia notes for the new event bus? need to check something"
+  },
+  {
+   "d": 34,
+   "h": 13.5,
+   "author": "ada.aoki",
+   "body": "they're in data-docs/dpia-notes.md, but that's for the data sharing – event bus might be covered under eng-docs/adr/0012-event-bus.md"
+  },
+  {
+   "d": 34,
+   "h": 14.0,
+   "author": "salma.fujita",
+   "body": "thanks, will look"
+  },
+  {
+   "d": 32,
+   "h": 15.0,
+   "author": "aleksander.becker",
+   "body": "anyone know if the analytics warehouse is up to date with the US orders? i see a delay in the dashboard"
+  },
+  {
+   "d": 32,
+   "h": 15.5,
+   "author": "leila.doyle",
+   "body": "the pipeline had a hiccup, should be caught up by now. can you refresh?"
+  },
+  {
+   "d": 32,
+   "h": 16.0,
+   "author": "aleksander.becker",
+   "body": "yep, all good now"
+  },
+  {
+   "d": 31,
+   "h": 11.0,
+   "author": "aaliyah.lee",
+   "body": "note: the data-docs/README needs updating for the new catalogue format, i'll do it later"
+  },
+  {
+   "d": 30,
+   "h": 9.5,
+   "author": "greta.rahman",
+   "body": "anyone else having trouble with the VPN? can't reach the staging db"
+  },
+  {
+   "d": 30,
+   "h": 10.0,
+   "author": "ada.aoki",
+   "body": "same here, looks like a general issue. i've raised it with IT"
+  },
+  {
+   "d": 29,
+   "h": 12.0,
+   "author": "karim.obi",
+   "body": "reminder that the quarterly cost review is due – please tag your resources properly"
+  },
+  {
+   "d": 28,
+   "h": 8.5,
+   "author": "leah.meyer",
+   "body": "anyone know how to force a refresh on the recs dashboard? it's not picking up the new model version"
+  },
+  {
+   "d": 28,
+   "h": 9.0,
+   "author": "sasha.lindeman",
+   "body": "you can add a query param ?refresh=1, or check the model release doc"
+  },
+  {
+   "d": 28,
+   "h": 9.5,
+   "author": "leah.meyer",
+   "body": "thanks, that worked"
+  },
+  {
+   "d": 27,
+   "h": 14.0,
+   "author": "joy.mbeki",
+   "body": "the new store list for the pos team is in the warehouse, check the latest partition"
+  },
+  {
+   "d": 26,
+   "h": 10.0,
+   "author": "camille.madsen",
+   "body": "does anyone have a quick way to pull the gift card usage data? need it for a report"
+  },
+  {
+   "d": 26,
+   "h": 10.5,
+   "author": "leila.doyle",
+   "body": "there's a view in the warehouse called gift_card_usage, should be fine"
+  },
+  {
+   "d": 26,
+   "h": 11.0,
+   "author": "camille.madsen",
+   "body": "perfect, thanks"
+  },
+  {
+   "d": 25,
+   "h": 16.5,
+   "author": "wanjiru.garza",
+   "body": "just a heads up, the ml model release doc has been updated with the new approval flow – check it before the next release"
+  },
+  {
+   "d": 24,
+   "h": 9.0,
+   "author": "ada.aoki",
+   "body": "anyone else see the weird spike in the log volume? seems like a loop in one of the services"
+  },
+  {
+   "d": 24,
+   "h": 9.5,
+   "author": "greta.rahman",
+   "body": "yeah, we're looking into it. might be the event bus retries"
+  },
+  {
+   "d": 23,
+   "h": 12.0,
+   "author": "aaliyah.lee",
+   "body": "how do we get access to the helpdesk tickets for data issues? i need to close one"
+  },
+  {
+   "d": 23,
+   "h": 12.5,
+   "author": "karim.obi",
+   "body": "you should have access already, if not raise a ticket with IT"
+  }
+ ],
+ "security": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "kai.silva",
+   "body": "noticed a few access requests in the queue that haven't been reviewed in a while - can the sec team take a look at the ones assigned to us? pointing at the ones from a couple of working days ago."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "emma.arslan",
+   "body": "will do, kai. i'll pick up the ones for the data team, rest can go to mehmet if he's around"
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "mehmet.bianchi",
+   "body": "on it, will review the ones from the store ops folks"
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "ana.quinn",
+   "body": "anyone know if the new hires in marketing got their MFA sorted? their manager was asking"
+  },
+  {
+   "d": 41,
+   "h": 11.5,
+   "author": "nina.patel",
+   "body": "they're in the onboarding flow, should be done by the next working day - i'll ping if any issues"
+  },
+  {
+   "d": 40,
+   "h": 14.0,
+   "author": "soren.zielinski",
+   "body": "quick reminder: the quarterly access review for the finance shared drive is due within the next few working days. please submit your lists by the end of this working week."
+  },
+  {
+   "d": 39,
+   "h": 8.5,
+   "author": "kasia.vogel",
+   "body": "we're getting a lot of noise from the vuln scanner on dev boxes. can we adjust the severity thresholds? i'll open a ticket"
+  },
+  {
+   "d": 39,
+   "h": 9.0,
+   "author": "soren.zielinski",
+   "body": "make sure it doesn't hide real issues, but fine to tune. link the ticket here"
+  },
+  {
+   "d": 38,
+   "h": 16.0,
+   "author": "chloe.kiplagat",
+   "body": "just a heads up - the IT service desk will be doing some maintenance on the VPN gateway over the next two working days, might see intermittent drops. not security related but thought you'd want to know"
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "emma.arslan",
+   "body": "anyone have the link to the data classification guide? can't find it in the handbook"
+  },
+  {
+   "d": 37,
+   "h": 10.5,
+   "author": "kai.silva",
+   "body": "handbook/security/data-classification.md should be it"
+  },
+  {
+   "d": 36,
+   "h": 12.0,
+   "author": "stella.young",
+   "body": "we've had a couple of reports of phishing emails internally, but they're already in the spam filter. no one clicked, so all good"
+  },
+  {
+   "d": 35,
+   "h": 15.0,
+   "author": "ana.quinn",
+   "body": "anyone else seeing weird login attempts on the dev environment from a single IP? blocked them but just to be safe"
+  },
+  {
+   "d": 35,
+   "h": 15.5,
+   "author": "mehmet.bianchi",
+   "body": "i saw that too. added to the blocklist, but let's keep an eye"
+  },
+  {
+   "d": 34,
+   "h": 9.0,
+   "author": "kasia.vogel",
+   "body": "for the new vendor we're onboarding, do we have a security questionnaire template? i can't find one in the docs"
+  },
+  {
+   "d": 34,
+   "h": 9.5,
+   "author": "kai.silva",
+   "body": "check eng-docs/security/vuln-management.md, there's a link to a shared drive with the template. if not, i can send it"
+  },
+  {
+   "d": 33,
+   "h": 11.0,
+   "author": "nina.patel",
+   "body": "is there a specific process for reporting a lost laptop? i have someone on the phone"
+  },
+  {
+   "d": 33,
+   "h": 11.5,
+   "author": "ana.quinn",
+   "body": "yes, it's in the handbook under devices - they should contact the service desk and we'll take care of the rest"
+  },
+  {
+   "d": 32,
+   "h": 14.0,
+   "author": "soren.zielinski",
+   "body": "reminder: the security awareness training is due for everyone by the end of the month. check your emails"
+  },
+  {
+   "d": 31,
+   "h": 10.0,
+   "author": "emma.arslan",
+   "body": "just deployed a new rule to the firewall to block traffic from a known bad ASN. let me know if anyone sees issues"
+  },
+  {
+   "d": 30,
+   "h": 9.0,
+   "author": "kai.silva",
+   "body": "anyone else get a request from HR for a list of all employees with admin access? i'm compiling it"
+  },
+  {
+   "d": 30,
+   "h": 9.5,
+   "author": "mehmet.bianchi",
+   "body": "yes, i sent mine already. you can use the report from the IAM tool"
+  },
+  {
+   "d": 29,
+   "h": 16.0,
+   "author": "chloe.kiplagat",
+   "body": "we're seeing some odd behavior on the POS back office - not sure if it's security related but flagging it here. it's in the queue for the helpdesk"
+  },
+  {
+   "d": 28,
+   "h": 8.5,
+   "author": "ana.quinn",
+   "body": "if anyone needs to access the analytics warehouse for a security review, the access request process is in the data docs"
+  },
+  {
+   "d": 27,
+   "h": 12.0,
+   "author": "stella.young",
+   "body": "just a quick one - the new starter in finance hasn't got access to the shared drive yet. can someone look into it?"
+  },
+  {
+   "d": 27,
+   "h": 12.5,
+   "author": "nina.patel",
+   "body": "i'll check the access request status and escalate if needed"
+  },
+  {
+   "d": 26,
+   "h": 15.0,
+   "author": "kasia.vogel",
+   "body": "anyone know if we have a policy on using personal devices for work? checking for a friend"
+  },
+  {
+   "d": 25,
+   "h": 10.0,
+   "author": "emma.arslan",
+   "body": "there's a section in the acceptable use policy about that - handbook/security/acceptable-use.md"
+  },
+  {
+   "d": 24,
+   "h": 11.0,
+   "author": "kai.silva",
+   "body": "just finished the quarterly access review for the finance team. all done, no issues found"
+  }
+ ],
+ "incidents": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "kofi.tran",
+   "body": "anyone else seeing a spike in 'order status' chats from US customers? just a heads-up, not urgent."
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "wei.murray",
+   "body": "not in my logs. mind sharing which store/region? could be a bad email link."
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "kofi.tran",
+   "body": "east coast mostly. maybe just the snowstorm effect. ignore for now."
+  },
+  {
+   "d": 41,
+   "h": 14.3,
+   "author": "lara.olsen",
+   "body": "just pushed a fix for the billing-api timeout on retry. should be in next deploy."
+  },
+  {
+   "d": 40,
+   "h": 11.7,
+   "author": "dina.ozturk",
+   "body": "anyone know if logctl is having issues? got an alert about delayed ingestion but it might be my local config."
+  },
+  {
+   "d": 39,
+   "h": 15.2,
+   "author": "owen.castillo",
+   "body": "we're doing planned maintenance on the warehouse soon. nothing should break, but if you see gaps in dashboards it's that."
+  },
+  {
+   "d": 38,
+   "h": 8.8,
+   "author": "amir.agarwal",
+   "body": "just a reminder: when you escalate a support ticket, include the customer's account ID. makes life easier."
+  },
+  {
+   "d": 37,
+   "h": 13.0,
+   "author": "chiara.mishra",
+   "body": "quick question: is anyone else's {{CONTAINER_ORCHESTRATOR|key}} context switching randomly? might be a local thing."
+  },
+  {
+   "d": 36,
+   "h": 16.4,
+   "author": "shreya.rossi",
+   "body": "noticed a small bug in the invoice PDF template, fixed in the next release. nothing customer-facing yet."
+  },
+  {
+   "d": 35,
+   "h": 9.6,
+   "author": "ida.saito",
+   "body": "if you're on-call in the coming days, make sure you've read the updated incident process doc. link in the handbook."
+  },
+  {
+   "d": 34,
+   "h": 12.1,
+   "author": "enzo.chandra",
+   "body": "can someone from web look into the slow load on the product page? seems to be only for certain categories."
+  },
+  {
+   "d": 34,
+   "h": 12.4,
+   "author": "amara.molina",
+   "body": "on it. checking lazy loading images."
+  },
+  {
+   "d": 34,
+   "h": 13.1,
+   "author": "amara.molina",
+   "body": "found it – a rogue script in the category banner. will push a fix."
+  },
+  {
+   "d": 33,
+   "h": 10.3,
+   "author": "ruth.thomsen",
+   "body": "support desk is getting reports of missing order confirmations for some EU orders. anyone else seeing that?"
+  },
+  {
+   "d": 33,
+   "h": 10.5,
+   "author": "wei.murray",
+   "body": "i'll check mailer logs. could be a template change."
+  },
+  {
+   "d": 32,
+   "h": 15.0,
+   "author": "laszlo.ikeda",
+   "body": "snapctl is fine. we had a brief glitch but it's resolved."
+  },
+  {
+   "d": 31,
+   "h": 11.2,
+   "author": "sabine.santos",
+   "body": "just a heads-up: the new design system is going live for the newsletter template. expect slight visual changes."
+  },
+  {
+   "d": 30,
+   "h": 14.7,
+   "author": "astrid.bakker",
+   "body": "anyone else got a weird email from the helpdesk about a phishing attempt? just checking if that's legitimate."
+  },
+  {
+   "d": 29,
+   "h": 9.9,
+   "author": "dana.vasilenko",
+   "body": "yes, it's real. we're testing the reporting tool. ignore if you don't have anything to report."
+  },
+  {
+   "d": 28,
+   "h": 17.1,
+   "author": "chidi.sharma",
+   "body": "looks like the US store's gift card balance check is down. anyone on web?"
+  },
+  {
+   "d": 28,
+   "h": 17.3,
+   "author": "wei.murray",
+   "body": "looking into it now. might be a DB connection issue."
+  },
+  {
+   "d": 28,
+   "h": 17.5,
+   "author": "wei.murray",
+   "body": "fixed. was a stale cache entry."
+  },
+  {
+   "d": 27,
+   "h": 10.5,
+   "author": "lara.olsen",
+   "body": "reminder: finance system release notes for this cycle are in #releases."
+  },
+  {
+   "d": 26,
+   "h": 13.9,
+   "author": "kofi.tran",
+   "body": "just so you know, the Columbus support team has a new lead. she's nice."
+  },
+  {
+   "d": 25,
+   "h": 8.5,
+   "author": "owen.castillo",
+   "body": "if you see a spike in CPU usage on the GPU cluster, it's a research job. it'll be done in a few days."
+  },
+  {
+   "d": 24,
+   "h": 15.6,
+   "author": "amir.agarwal",
+   "body": "anyone else have trouble with the expenses tool today? it's not letting me attach receipts."
+  },
+  {
+   "d": 23,
+   "h": 12.2,
+   "author": "ida.saito",
+   "body": "we're rolling out a new feature flag for the checkout. should be invisible. let me know if anything breaks."
+  },
+  {
+   "d": 22,
+   "h": 11.0,
+   "author": "shreya.rossi",
+   "body": "just fixed a typo in the refund email template. customers will see 'refund' not 'refundd' from now on."
+  },
+  {
+   "d": 21,
+   "h": 14.4,
+   "author": "ruth.thomsen",
+   "body": "anyone know if the POS back office is doing maintenance soon? some store managers are reporting slowness."
+  },
+  {
+   "d": 20,
+   "h": 16.0,
+   "author": "dina.ozturk",
+   "body": "not that i know of. could be network. i'll have a look."
+  },
+  {
+   "d": 19,
+   "h": 9.7,
+   "author": "enzo.chandra",
+   "body": "just put up a post about the upcoming payments platform upgrade. please read and comment if you have concerns."
+  },
+  {
+   "d": 18,
+   "h": 13.5,
+   "author": "sabine.santos",
+   "body": "does anyone have the link to the photo shoot checklist? i need to order some gear."
+  }
+ ],
+ "it-help": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "noor.varga",
+   "body": "anyone else seeing the pos back office hanging on the till login screen? just happened on two units in leeds"
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "dina.ozturk",
+   "body": "not seeing anything from here - check the store's network first, but if it's consistent raise a ticket and we'll have a look"
+  },
+  {
+   "d": 42,
+   "h": 9.8,
+   "author": "noor.varga",
+   "body": "ok will do - might just be a flaky switch"
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "amir.agarwal",
+   "body": "quick one: for a customer wanting a replacement of a damaged tent pole, do we log that under returns or warranty? i couldn't find it in the support docs"
+  },
+  {
+   "d": 41,
+   "h": 14.3,
+   "author": "bianca.lehmann",
+   "body": "there's a section in support-docs/returns-and-exchanges.md covering that - it's under 'warranty replacement'"
+  },
+  {
+   "d": 41,
+   "h": 14.6,
+   "author": "amir.agarwal",
+   "body": "cheers bianca, found it"
+  },
+  {
+   "d": 38,
+   "h": 11.0,
+   "author": "renata.vogel",
+   "body": "as a heads up, the CRM sync for US orders has been slow since the morning - we're monitoring but might be a data pipeline issue"
+  },
+  {
+   "d": 38,
+   "h": 11.4,
+   "author": "karim.obi",
+   "body": "thanks renata - we see it too, looking at the warehouse jobs now. should be resolved within the hour"
+  },
+  {
+   "d": 36,
+   "h": 15.2,
+   "author": "olivier.eklund",
+   "body": "reminder that the new joiner laptop requests need to go through the it access-requests form, not just emailing us - keeps the queue tidy"
+  },
+  {
+   "d": 35,
+   "h": 10.5,
+   "author": "zainab.laurent",
+   "body": "has anyone got experience with the expenses tool rejecting a receipt photo? i scanned a pdf and it said file type not allowed"
+  },
+  {
+   "d": 35,
+   "h": 10.8,
+   "author": "aiko.weber",
+   "body": "craft a jpeg or png, pdfs only work if they're under 1mb - the helpdesk has a note on that"
+  },
+  {
+   "d": 35,
+   "h": 11.0,
+   "author": "zainab.laurent",
+   "body": "ah that's the issue, thanks aiko"
+  },
+  {
+   "d": 34,
+   "h": 8.8,
+   "author": "grace.harper",
+   "body": "just a quick fyi: the legal team's records retention policy is being updated, so if you have any old files in shared drives that you don't need, feel free to clear them out - link in the handbook"
+  },
+  {
+   "d": 33,
+   "h": 16.0,
+   "author": "aleksander.becker",
+   "body": "anyone know how to get access to the analytics warehouse for ad-hoc queries? i've been using the internal dashboards but need to run a custom one"
+  },
+  {
+   "d": 33,
+   "h": 16.3,
+   "author": "karim.obi",
+   "body": "raise an access request via the usual form - it goes to the data eng team for approval. should take a day or two"
+  },
+  {
+   "d": 33,
+   "h": 16.5,
+   "author": "aleksander.becker",
+   "body": "ok will do, thanks karim"
+  },
+  {
+   "d": 31,
+   "h": 13.5,
+   "author": "simone.asante",
+   "body": "just noticed that the marketing email templates are showing as 'not approved' in the cms - are we supposed to do something about that?"
+  },
+  {
+   "d": 31,
+   "h": 13.8,
+   "author": "ilse.jaramillo",
+   "body": "that's just a status field, ignore it - the actual approval is tracked in the tickets system"
+  },
+  {
+   "d": 30,
+   "h": 10.0,
+   "author": "amir.agarwal",
+   "body": "does anyone else have issues with the chat search not finding older messages? i tried to find a link from a few weeks ago and nothing came up"
+  },
+  {
+   "d": 30,
+   "h": 10.3,
+   "author": "dina.ozturk",
+   "body": "known issue with the search index - it's been flaky for a while. we're tracking it, no eta yet"
+  },
+  {
+   "d": 29,
+   "h": 9.0,
+   "author": "delphine.marchetti",
+   "body": "sorry if this is a silly one - but is the invoice upload in the ledger supposed to accept scanned copies or only pdfs from the system?"
+  },
+  {
+   "d": 29,
+   "h": 9.3,
+   "author": "priya.nair",
+   "body": "scanned is fine as long as it's legible and under 5mb - we just need the key details visible"
+  },
+  {
+   "d": 28,
+   "h": 11.0,
+   "author": "noor.varga",
+   "body": "is the store systems team having any maintenance coming up? i noticed a couple of our tills not syncing with the back office"
+  },
+  {
+   "d": 28,
+   "h": 11.2,
+   "author": "renata.vogel",
+   "body": "not that i know of - might be a network blip. try rebooting the tills and see if that helps"
+  },
+  {
+   "d": 27,
+   "h": 14.7,
+   "author": "zainab.laurent",
+   "body": "i just got a notification that my password expires in a week - is there a way to check when others expire? i have three more systems"
+  },
+  {
+   "d": 27,
+   "h": 15.0,
+   "author": "olivier.eklund",
+   "body": "the hr system has a 'my account' page that shows password expiry for all linked systems - but if you're close to expiring, just change them all to be safe"
+  },
+  {
+   "d": 26,
+   "h": 9.5,
+   "author": "amrita.sethi",
+   "body": "can someone from it confirm that the new hire vpn access is provisioned on their first day? just want to make sure the onboarding checklist is accurate"
+  },
+  {
+   "d": 26,
+   "h": 9.8,
+   "author": "dina.ozturk",
+   "body": "yes, we provision it as part of the onboarding process - usually within an hour of the start time. if there's a delay we'll flag it"
+  },
+  {
+   "d": 25,
+   "h": 12.0,
+   "author": "bianca.lehmann",
+   "body": "is there a way to see which releases are pending approval in the change management tool? i'm trying to plan the next deploy window"
+  },
+  {
+   "d": 25,
+   "h": 12.3,
+   "author": "karim.obi",
+   "body": "check the 'pending' view in the tickets system - it'll show all change requests that need sign-off. or ping the release coordinators directly"
+  },
+  {
+   "d": 24,
+   "h": 16.3,
+   "author": "amir.agarwal",
+   "body": "heads up: the us warehouse is having a small power blip - nothing serious, but there might be a delay in shipping confirmations today"
+  },
+  {
+   "d": 23,
+   "h": 10.2,
+   "author": "noor.varga",
+   "body": "is the store systems team aware that the back office is showing 'offline' for a few stores in ireland? it's been like that since mid-morning"
+  },
+  {
+   "d": 23,
+   "h": 10.5,
+   "author": "dina.ozturk",
+   "body": "we're aware - it's a regional isp issue, not our systems. should be back soon, but if it persists we'll investigate"
+  }
+ ],
+ "payments-platform": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "jordan.reyes",
+   "body": "anyone else seeing the finance reports in the ledger take ages to load? we've got a few store P&Ls due."
+  },
+  {
+   "d": 42,
+   "h": 11.0,
+   "author": "valentina.iyer",
+   "body": "that's probably the new aggregation query — i'll take a look later"
+  },
+  {
+   "d": 42,
+   "h": 11.3,
+   "author": "jordan.reyes",
+   "body": "cheers, no rush, just wanted to know if it's just me"
+  },
+  {
+   "d": 41,
+   "h": 14.1,
+   "author": "shreya.rossi",
+   "body": "reminder that the billing-api endpoint for invoice line items is deprecated — update any scripts before the next release"
+  },
+  {
+   "d": 40,
+   "h": 10.4,
+   "author": "mina.tanaka",
+   "body": "does anyone have the data-docs/catalogue.md link? can't find it in the wiki"
+  },
+  {
+   "d": 40,
+   "h": 10.6,
+   "author": "bruno.ibarra",
+   "body": "it's in the repo, not the wiki: data-docs/catalogue.md"
+  },
+  {
+   "d": 39,
+   "h": 15.8,
+   "author": "enzo.chandra",
+   "body": "quick heads up: we're moving the billing-api database to managed {{SQL_DB_1|key}} — see eng-docs/adr/0007-move-to-managed-database.md"
+  },
+  {
+   "d": 38,
+   "h": 9.5,
+   "author": "santiago.nielsen",
+   "body": "the reconciliation report for the wholesale accounts is missing a few entries — anyone touched the export job?"
+  },
+  {
+   "d": 38,
+   "h": 10.0,
+   "author": "adrian.caldwell",
+   "body": "not me, but i'll check the pipeline logs"
+  },
+  {
+   "d": 38,
+   "h": 10.7,
+   "author": "santiago.nielsen",
+   "body": "thanks"
+  },
+  {
+   "d": 37,
+   "h": 11.2,
+   "author": "lara.olsen",
+   "body": "just a note: the payments webhook retries are back to normal after the provider hiccup"
+  },
+  {
+   "d": 36,
+   "h": 16.3,
+   "author": "hiroshi.adler",
+   "body": "anyone know why the POS back office is showing a different exchange rate than the ledger? we're trying to reconcile store cash."
+  },
+  {
+   "d": 36,
+   "h": 16.5,
+   "author": "alba.zhang",
+   "body": "the POS uses the daily rate, the ledger uses the intraday — i think that's known"
+  },
+  {
+   "d": 36,
+   "h": 16.7,
+   "author": "hiroshi.adler",
+   "body": "ok that explains it, thanks"
+  },
+  {
+   "d": 35,
+   "h": 12.0,
+   "author": "bo.kaplan",
+   "body": "we're planning to retire the legacy CMS next quarter — see eng-docs/adr/0015-drop-legacy-cms.md for context. any payments impact?"
+  },
+  {
+   "d": 35,
+   "h": 12.4,
+   "author": "valentina.iyer",
+   "body": "we don't depend on it, should be fine"
+  },
+  {
+   "d": 34,
+   "h": 9.8,
+   "author": "ethan.alvarez",
+   "body": "can someone remind me how to pull the daily gift card sales from the warehouse? i keep forgetting the table name"
+  },
+  {
+   "d": 34,
+   "h": 10.1,
+   "author": "joanna.nagy",
+   "body": "it's in the warehouse docs, under finance: eng-docs/data/warehouse.md"
+  },
+  {
+   "d": 34,
+   "h": 10.3,
+   "author": "ethan.alvarez",
+   "body": "perfect, thanks"
+  },
+  {
+   "d": 33,
+   "h": 13.6,
+   "author": "irene.jensen",
+   "body": "reminder that the monthly billing run happens on the first working day — make sure any manual adjustments are in by then"
+  },
+  {
+   "d": 32,
+   "h": 15.2,
+   "author": "shreya.rossi",
+   "body": "just deployed a fix for the payment method validation — should stop the false declines on some US cards"
+  },
+  {
+   "d": 31,
+   "h": 11.5,
+   "author": "bruno.ibarra",
+   "body": "has anyone else seen duplicate entries in the refund report? i've got a few that look like they were posted twice"
+  },
+  {
+   "d": 31,
+   "h": 11.8,
+   "author": "adrian.caldwell",
+   "body": "there was a bug in the idempotency key generation, fixed in the last release. should be clean now."
+  },
+  {
+   "d": 31,
+   "h": 12.0,
+   "author": "bruno.ibarra",
+   "body": "good to know, i'll re-run the report"
+  },
+  {
+   "d": 30,
+   "h": 9.0,
+   "author": "mina.tanaka",
+   "body": "anyone have the contact for the outsourced desk about a payment query? i've raised a ticket but it's in the queue"
+  },
+  {
+   "d": 29,
+   "h": 14.5,
+   "author": "enzo.chandra",
+   "body": "the API response for the new order endpoint is taking a bit long — we're looking into it, no action needed"
+  },
+  {
+   "d": 28,
+   "h": 10.2,
+   "author": "santiago.nielsen",
+   "body": "the chargeback report for last quarter is ready in the warehouse, if anyone wants to review"
+  },
+  {
+   "d": 27,
+   "h": 13.0,
+   "author": "joanna.nagy",
+   "body": "just a heads up: the feature flag for the new payment flow is now active for a small set of users, let us know if you spot any issues"
+  },
+  {
+   "d": 26,
+   "h": 16.1,
+   "author": "alba.zhang",
+   "body": "is there a way to export the store banking data from the POS back office? finance needs it for the month-end"
+  },
+  {
+   "d": 26,
+   "h": 16.4,
+   "author": "valentina.iyer",
+   "body": "there's an export button in the back office, should do the trick. if not, let me know"
+  },
+  {
+   "d": 25,
+   "h": 11.1,
+   "author": "hiroshi.adler",
+   "body": "the incident process doc is a good read if you're new to being on-call: eng-docs/oncall/incident-process.md"
+  },
+  {
+   "d": 24,
+   "h": 12.5,
+   "author": "bo.kaplan",
+   "body": "we're thinking of changing the billing cycle for new members — any thoughts on the payment platform side?"
+  },
+  {
+   "d": 24,
+   "h": 12.8,
+   "author": "shreya.rossi",
+   "body": "should be fine, just need some lead time on the API changes"
+  },
+  {
+   "d": 24,
+   "h": 13.0,
+   "author": "bo.kaplan",
+   "body": "noted, we'll start the discussion soon"
+  },
+  {
+   "d": 23,
+   "h": 15.5,
+   "author": "lara.olsen",
+   "body": "reminder to check the cost tags on any new infrastructure — see eng-docs/platform/cost-tags.md"
+  },
+  {
+   "d": 22,
+   "h": 10.0,
+   "author": "bruno.ibarra",
+   "body": "anyone know where the VAT report lives now? the old link gives me an error"
+  },
+  {
+   "d": 22,
+   "h": 10.3,
+   "author": "santiago.nielsen",
+   "body": "it moved to the analytics warehouse with the other finance reports. search for 'vat' in the reports list"
+  },
+  {
+   "d": 22,
+   "h": 10.5,
+   "author": "bruno.ibarra",
+   "body": "that worked, thanks"
+  },
+  {
+   "d": 21,
+   "h": 9.4,
+   "author": "ethan.alvarez",
+   "body": "just a heads up: the helpdesk has a new email template for payment queries, using that from now on"
+  },
+  {
+   "d": 20,
+   "h": 14.2,
+   "author": "mina.tanaka",
+   "body": "the expenses tool is down for maintenance — if you need to submit anything, wait a bit"
+  },
+  {
+   "d": 18,
+   "h": 11.7,
+   "author": "alba.zhang",
+   "body": "anyone know the correct format for the wholesale credit notes? finance is getting confused"
+  },
+  {
+   "d": 18,
+   "h": 12.0,
+   "author": "joanna.nagy",
+   "body": "there's a example in the finance docs: finance-docs/wholesale/credit-terms.md"
+  },
+  {
+   "d": 18,
+   "h": 12.2,
+   "author": "alba.zhang",
+   "body": "thanks, will check"
+  },
+  {
+   "d": 17,
+   "h": 13.3,
+   "author": "santiago.nielsen",
+   "body": "the reconciliation for the IE stores is done, can be reviewed in the warehouse"
+  },
+  {
+   "d": 16,
+   "h": 15.0,
+   "author": "valentina.iyer",
+   "body": "quick question: any objection to adding a new field to the payment webhook payload? it's for the finance team's reporting"
+  },
+  {
+   "d": 16,
+   "h": 15.4,
+   "author": "bo.kaplan",
+   "body": "no objection from product, as long as it's optional"
+  },
+  {
+   "d": 15,
+   "h": 10.1,
+   "author": "shreya.rossi",
+   "body": "the billing-api is now on a new version, check the changelog for breaking changes"
+  },
+  {
+   "d": 14,
+   "h": 12.2,
+   "author": "jordan.reyes",
+   "body": "does anyone else have trouble with the CRM export? it's always missing columns"
+  },
+  {
+   "d": 13,
+   "h": 14.8,
+   "author": "harriet.bose",
+   "body": "we're reviewing the membership cancellation flow — any known issues with the payment side?"
+  },
+  {
+   "d": 13,
+   "h": 15.0,
+   "author": "lara.olsen",
+   "body": "there's a known bug with the pro-rata refund, but it's being fixed. should be fine soon"
+  },
+  {
+   "d": 12,
+   "h": 9.7,
+   "author": "bruno.ibarra",
+   "body": "the daily bank file is late — anyone else see that?"
+  },
+  {
+   "d": 12,
+   "h": 10.0,
+   "author": "enzo.chandra",
+   "body": "we're aware, the provider had a delay. should be in before the cut-off"
+  },
+  {
+   "d": 11,
+   "h": 11.3,
+   "author": "mina.tanaka",
+   "body": "the chargeback report is now available in the warehouse, if anyone needs it"
+  },
+  {
+   "d": 10,
+   "h": 16.2,
+   "author": "adrian.caldwell",
+   "body": "i'm going to do some maintenance on the payments database — expect brief blips"
+  },
+  {
+   "d": 9,
+   "h": 10.8,
+   "author": "santiago.nielsen",
+   "body": "anyone know if the POS back office reports are generated in UTC or local time?"
+  },
+  {
+   "d": 9,
+   "h": 11.0,
+   "author": "jordan.reyes",
+   "body": "i think it's local time, but not sure. might check the docs"
+  },
+  {
+   "d": 8,
+   "h": 13.1,
+   "author": "hiroshi.adler",
+   "body": "the new payment flow seems to be working well, no issues on our end"
+  },
+  {
+   "d": 7,
+   "h": 12.5,
+   "author": "valentina.iyer",
+   "body": "we're updating the API docs today, let me know if you spot anything missing"
+  },
+  {
+   "d": 6,
+   "h": 15.7,
+   "author": "joanna.nagy",
+   "body": "reminder: the feature flag for the new billing flow is now fully on, all good"
+  },
+  {
+   "d": 5,
+   "h": 8.9,
+   "author": "alba.zhang",
+   "body": "the store banking data is missing for a few stores, anyone know why?"
+  },
+  {
+   "d": 5,
+   "h": 9.2,
+   "author": "santiago.nielsen",
+   "body": "could be the POS sync failing, i'll check"
+  },
+  {
+   "d": 5,
+   "h": 9.5,
+   "author": "alba.zhang",
+   "body": "thanks"
+  },
+  {
+   "d": 4,
+   "h": 11.0,
+   "author": "lara.olsen",
+   "body": "just a quick note: the payments CI is a bit flaky today, but tests pass locally"
+  },
+  {
+   "d": 3,
+   "h": 14.3,
+   "author": "bruno.ibarra",
+   "body": "anyone have the link to the gift card guide? need to check something"
+  },
+  {
+   "d": 3,
+   "h": 14.6,
+   "author": "mina.tanaka",
+   "body": "it's in finance-docs/gift-cards.md"
+  },
+  {
+   "d": 2,
+   "h": 9.6,
+   "author": "ethan.alvarez",
+   "body": "the monthly close is coming up, make sure your journals are in by the end of the week"
+  },
+  {
+   "d": 1,
+   "h": 16.0,
+   "author": "enzo.chandra",
+   "body": "all good from the payments side, no pending changes"
+  }
+ ],
+ "stores-ops": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "omar.sorensen",
+   "body": "quick heads up — the new store opening in Bristol is on track, but we need to confirm the delivery slot for the initial stock. can someone in supply chain confirm?"
+  },
+  {
+   "d": 42,
+   "h": 9.8,
+   "author": "xavier.wagner",
+   "body": "we have a slot booked for the day after next, first slot of the morning, should be fine. will confirm once we get the final go from the store manager."
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "omar.sorensen",
+   "body": "cheers, xavier. that works."
+  },
+  {
+   "d": 40,
+   "h": 14.5,
+   "author": "esther.vasquez",
+   "body": "anyone else seeing the POS back office being slow after the latest update? our store in York says it's taken 20s to load a transaction."
+  },
+  {
+   "d": 39,
+   "h": 11.0,
+   "author": "noor.varga",
+   "body": "yeah, we've had two stores report the same. logged a ticket with the systems team, they're looking into it."
+  },
+  {
+   "d": 39,
+   "h": 11.3,
+   "author": "esther.vasquez",
+   "body": "thanks noor, keep us posted."
+  },
+  {
+   "d": 38,
+   "h": 15.2,
+   "author": "theo.yilmaz",
+   "body": "just a note: the warehouse picking schedule for the next two days has a couple of slots open if any store needs an emergency transfer. let me know."
+  },
+  {
+   "d": 36,
+   "h": 8.5,
+   "author": "julia.osei",
+   "body": "has anyone got the latest stock take results for the Edinburgh store? need to update the planogram."
+  },
+  {
+   "d": 36,
+   "h": 9.0,
+   "author": "rebecca.singh",
+   "body": "i'll email them over, julia. they're in the warehouse system."
+  },
+  {
+   "d": 35,
+   "h": 16.8,
+   "author": "paloma.pham",
+   "body": "the new label printer drivers are causing issues at the DC — some labels are printing upside down. we've rolled back to the previous version, but if any store uses the same model, watch out."
+  },
+  {
+   "d": 34,
+   "h": 10.4,
+   "author": "caleb.andersen",
+   "body": "thanks for the heads up, paloma. we'll check our store printers."
+  },
+  {
+   "d": 33,
+   "h": 13.7,
+   "author": "ibrahim.ortiz",
+   "body": "reminder to all store managers: the weekly stock transfer window is in three working days. please make sure any transfer requests are in by midday."
+  },
+  {
+   "d": 31,
+   "h": 9.5,
+   "author": "anton.campos",
+   "body": "does anyone know if the store in Leeds has a working backstock scanner? one of ours is broken and we might borrow one."
+  },
+  {
+   "d": 30,
+   "h": 11.2,
+   "author": "noor.varga",
+   "body": "we have a spare at the regional office, anton. can send it over if needed."
+  },
+  {
+   "d": 30,
+   "h": 11.4,
+   "author": "anton.campos",
+   "body": "great, that'd be helpful. thanks noor."
+  },
+  {
+   "d": 28,
+   "h": 15.0,
+   "author": "omar.sorensen",
+   "body": "just to let everyone know, the next store operations catch-up is scheduled for the first working day after the month end. bring your store performance updates."
+  },
+  {
+   "d": 27,
+   "h": 8.8,
+   "author": "xavier.wagner",
+   "body": "we're seeing a shortfall on medium sleeping bags in the DC. can any store send back some if they have excess stock?"
+  },
+  {
+   "d": 27,
+   "h": 9.3,
+   "author": "julia.osei",
+   "body": "our Glasgow store has about 20 extra, can arrange a return if needed."
+  },
+  {
+   "d": 27,
+   "h": 9.6,
+   "author": "xavier.wagner",
+   "body": "that would be great, julia. i'll set up the transfer."
+  },
+  {
+   "d": 25,
+   "h": 12.1,
+   "author": "esther.vasquez",
+   "body": "has anyone else had issues with the store tablets not syncing with the CRM? we've had a couple of reports."
+  },
+  {
+   "d": 24,
+   "h": 14.2,
+   "author": "theo.yilmaz",
+   "body": "not seen that here, but we did have a similar issue with the DC tablets last month. it was a network config thing. might be worth checking the wifi settings."
+  },
+  {
+   "d": 24,
+   "h": 14.5,
+   "author": "esther.vasquez",
+   "body": "thanks theo, we'll look into that."
+  },
+  {
+   "d": 22,
+   "h": 10.0,
+   "author": "omar.sorensen",
+   "body": "good news — the new store in Liverpool is ahead of schedule. we should be able to have the soft opening a week earlier than planned. i'll confirm once we have the final sign-off."
+  },
+  {
+   "d": 21,
+   "h": 17.5,
+   "author": "rebecca.singh",
+   "body": "slightly annoying — the warehouse system is down for an hour for maintenance. any urgent stock queries will have to wait."
+  },
+  {
+   "d": 20,
+   "h": 9.1,
+   "author": "caleb.andersen",
+   "body": "not a problem, we'll manage. thanks for the warning."
+  },
+  {
+   "d": 19,
+   "h": 11.6,
+   "author": "paloma.pham",
+   "body": "if any store sees an error about late deliveries in the ledger system, it's because we had a glitch with the dispatch log. the data is correct, but the timestamp is off. we'll fix it in the next batch."
+  },
+  {
+   "d": 17,
+   "h": 13.3,
+   "author": "xavier.wagner",
+   "body": "anyone know the current stock level of the camp stove in the Dublin store? we might need to reallocate some from there."
+  },
+  {
+   "d": 17,
+   "h": 13.8,
+   "author": "julia.osei",
+   "body": "i'll check the portal and get back to you."
+  },
+  {
+   "d": 17,
+   "h": 14.2,
+   "author": "julia.osei",
+   "body": "it's about 40 units. can send some if you need."
+  },
+  {
+   "d": 17,
+   "h": 14.6,
+   "author": "xavier.wagner",
+   "body": "thanks julia, i'll arrange a transfer."
+  },
+  {
+   "d": 15,
+   "h": 9.7,
+   "author": "anton.campos",
+   "body": "just a reminder to fill in the store layout feedback form before the end of the week. it's in the same place as always."
+  },
+  {
+   "d": 14,
+   "h": 16.3,
+   "author": "omar.sorensen",
+   "body": "thanks everyone for getting the stock counts in on time. we've noticed a few discrepancies, but we'll sort them out in the monthly review."
+  },
+  {
+   "d": 12,
+   "h": 10.9,
+   "author": "esther.vasquez",
+   "body": "the new POS update is rolling out to all stores over the next few days. if you see any issues, let me know."
+  },
+  {
+   "d": 10,
+   "h": 14.8,
+   "author": "caleb.andersen",
+   "body": "anyone else having trouble with the store portal login? mine keeps timing out."
+  },
+  {
+   "d": 9,
+   "h": 9.4,
+   "author": "noor.varga",
+   "body": "I haven't seen that – maybe try clearing your cache. if it persists, raise a ticket with IT."
+  },
+  {
+   "d": 8,
+   "h": 11.7,
+   "author": "omar.sorensen",
+   "body": "quick update: the seasonal stock plan is now available in the shared drive. please review your store allocations and let me know if anything looks off."
+  }
+ ],
+ "wholesale": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "daisuke.fleming",
+   "body": "quick heads up - the trade prices for the autumn range are up on the wholesale portal, give them a read before you talk to any accounts."
+  },
+  {
+   "d": 41,
+   "h": 10.5,
+   "author": "elias.sato",
+   "body": "anyone else seeing delays on the wholesale portal when pulling up order history? not urgent but a bit sluggish."
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "lena.brooks",
+   "body": "yeah same here, noticed it mid-morning. probably just the usual post-lunch load."
+  },
+  {
+   "d": 40,
+   "h": 14.3,
+   "author": "ebony.esposito",
+   "body": "just got a request from a garden centre about payment terms - they want to move to monthly settlement. do we have a standard template for that?"
+  },
+  {
+   "d": 40,
+   "h": 14.8,
+   "author": "graham.pike",
+   "body": "we don't have a template as such, but credit terms are in finance-docs/wholesale/credit-terms.md. point them to that and we can discuss if they need something custom."
+  },
+  {
+   "d": 39,
+   "h": 8.7,
+   "author": "nadia.farouk",
+   "body": "reminder that the monthly statement run goes out to all active wholesale accounts by the end of this working day. if any of your accounts have changed address recently, let us know before then."
+  },
+  {
+   "d": 38,
+   "h": 15.2,
+   "author": "uma.schmidt",
+   "body": "just processed the deposit for the new account in Dundee, all set on our side."
+  },
+  {
+   "d": 37,
+   "h": 10.1,
+   "author": "magnus.nunez",
+   "body": "anyone else had trouble with the ledger when trying to reconcile the wholesale payments from the previous period? i keep getting a mismatch on one invoice."
+  },
+  {
+   "d": 37,
+   "h": 10.6,
+   "author": "delphine.marchetti",
+   "body": "i had that once - turned out it was a duplicate entry on my end. check the transaction ids."
+  },
+  {
+   "d": 36,
+   "h": 9.5,
+   "author": "daisuke.fleming",
+   "body": "good work on the new account onboarding this period, everyone. keep the momentum going."
+  },
+  {
+   "d": 35,
+   "h": 11.8,
+   "author": "elias.sato",
+   "body": "anyone got contact details for the manager at the Alnwick shop? the one we met at the trade show."
+  },
+  {
+   "d": 35,
+   "h": 12.1,
+   "author": "lena.brooks",
+   "body": "i think it's in the CRM under the account - try searching by postcode. if not, i can dig it out later."
+  },
+  {
+   "d": 34,
+   "h": 13.4,
+   "author": "ebony.esposito",
+   "body": "just had a nice call with a new independent shop in Bristol, they're keen to stock our tents. sent them the catalogue and pricing."
+  },
+  {
+   "d": 33,
+   "h": 8.9,
+   "author": "graham.pike",
+   "body": "fyi - we're doing a credit check on a new account that applied recently. expect a hold on their first order until that clears."
+  },
+  {
+   "d": 32,
+   "h": 16.0,
+   "author": "nadia.farouk",
+   "body": "anyone know why the invoice for the Coombe Abbey order hasn't come through yet? i've been chasing it but no luck."
+  },
+  {
+   "d": 32,
+   "h": 16.4,
+   "author": "uma.schmidt",
+   "body": "i think that one is stuck in the system - raise a ticket with the helpdesk and they can look into it."
+  },
+  {
+   "d": 31,
+   "h": 10.2,
+   "author": "magnus.nunez",
+   "body": "does anyone else use the backup portal for wholesale docs or is it just me? seems a bit clunky."
+  },
+  {
+   "d": 30,
+   "h": 11.3,
+   "author": "delphine.marchetti",
+   "body": "i use it occasionally, but i prefer the shared drive. each to their own."
+  },
+  {
+   "d": 29,
+   "h": 9.8,
+   "author": "daisuke.fleming",
+   "body": "reminder to log your account visits in the CRM by end of week. we need that for the monthly report."
+  },
+  {
+   "d": 28,
+   "h": 14.5,
+   "author": "elias.sato",
+   "body": "quick question - are we still doing the summer clearance promo for wholesale or is that off?"
+  },
+  {
+   "d": 28,
+   "h": 14.9,
+   "author": "lena.brooks",
+   "body": "i think it's still on, check the marketing docs. if not, someone will shout."
+  },
+  {
+   "d": 27,
+   "h": 8.3,
+   "author": "ebony.esposito",
+   "body": "just had a request from a shop about returns on damaged goods - do we have a standard process for wholesale returns?"
+  },
+  {
+   "d": 27,
+   "h": 8.8,
+   "author": "graham.pike",
+   "body": "yes, check support-docs/returns-and-exchanges.md for the wholesale section. if there's anything extra, let me know."
+  },
+  {
+   "d": 26,
+   "h": 10.7,
+   "author": "nadia.farouk",
+   "body": "all wholesale payments for the previous period have been reconciled now. thanks for everyone's patience on that."
+  },
+  {
+   "d": 25,
+   "h": 12.4,
+   "author": "uma.schmidt",
+   "body": "anyone else's calendar showing a double booking for the account review on the same day? i've got two invites."
+  },
+  {
+   "d": 25,
+   "h": 12.9,
+   "author": "magnus.nunez",
+   "body": "yes, noticed that too - i just declined the duplicate. probably a calendar glitch."
+  },
+  {
+   "d": 24,
+   "h": 9.1,
+   "author": "delphine.marchetti",
+   "body": "just wanted to say thanks for the help on the Newtown account query earlier - sorted now."
+  },
+  {
+   "d": 23,
+   "h": 15.6,
+   "author": "daisuke.fleming",
+   "body": "the upcoming team catch-up is moved to later in the day to avoid clash with the supplier webinar. check your invites."
+  },
+  {
+   "d": 22,
+   "h": 10.3,
+   "author": "elias.sato",
+   "body": "does anyone have the latest pricing for the camp stoves? the catalogue seems out of date."
+  },
+  {
+   "d": 22,
+   "h": 10.8,
+   "author": "lena.brooks",
+   "body": "the wholesale portal has the current trade prices - should be up to date as of last month. if not, flag it with pricing."
+  },
+  {
+   "d": 21,
+   "h": 13.0,
+   "author": "ebony.esposito",
+   "body": "had a really good meeting with a large garden centre chain today - they're interested in a bulk order for next spring."
+  },
+  {
+   "d": 20,
+   "h": 8.5,
+   "author": "graham.pike",
+   "body": "fyi - we've updated the credit check process for new wholesale accounts. see finance-docs/wholesale/credit-terms.md for details."
+  },
+  {
+   "d": 19,
+   "h": 11.9,
+   "author": "nadia.farouk",
+   "body": "anyone else having issues with the expenses tool when submitting mileage? keeps erroring out."
+  },
+  {
+   "d": 19,
+   "h": 12.2,
+   "author": "uma.schmidt",
+   "body": "yeah, i had that - just refresh and try again. usually works after a few attempts."
+  },
+  {
+   "d": 18,
+   "h": 14.1,
+   "author": "magnus.nunez",
+   "body": "quick reminder to everyone to keep your account notes up to date in the CRM - helps us all when handing over."
+  },
+  {
+   "d": 17,
+   "h": 9.6,
+   "author": "delphine.marchetti",
+   "body": "done that for all my accounts already. anything else needed for the monthly close?"
+  }
+ ]
+}

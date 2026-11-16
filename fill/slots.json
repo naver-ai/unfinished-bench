@@ -1,0 +1,1836 @@
+{
+ "_note": "Each slot names an outside organization, product or shop by its role only. Email addresses and phone numbers are fixed fictional values, not slots. fill/llm_fill.py asks a language model to fill every slot from the sentences it appears in; fill/fill.py writes a filled copy of the repository.",
+ "slots": {
+  "AIRLINE_1": {
+   "role": "airline",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "AIRLINE_2": {
+   "role": "airline",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "AIRLINE_3": {
+   "role": "airline",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "AIRLINE_4": {
+   "role": "airline",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "ALERT_ROUTER": {
+   "role": "alert routing service",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "APP_STORE_1": {
+   "role": "mobile app store",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "APP_STORE_2": {
+   "role": "mobile app store",
+   "forms": {
+    "name": "the usual written name",
+    "short": "short name used in running text"
+   }
+  },
+  "ARCHITECTS_BODY": {
+   "role": "professional body for architects",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "BANK_CODE_1": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_10": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_11": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_12": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_13": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_14": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_15": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_16": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_2": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_3": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_4": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_5": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_6": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_7": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_8": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BANK_CODE_9": {
+   "role": "four-letter bank code used in account numbers",
+   "forms": {
+    "code": "acronym or code"
+   },
+   "pattern": "[A-Z]{4}"
+  },
+  "BETA_PROGRAM": {
+   "role": "mobile app beta testing service",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "BROWSER_1": {
+   "role": "web browser",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "BROWSER_2": {
+   "role": "web browser",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "BROWSER_3": {
+   "role": "web browser",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "BROWSER_4": {
+   "role": "web browser",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CACHE_DB": {
+   "role": "in-memory data store",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_1": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_10": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_100": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_102": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_103": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_104": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_105": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_106": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_108": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_109": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_11": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_110": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_111": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_112": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_113": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_114": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_115": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_116": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_117": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_118": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_12": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_120": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_121": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_122": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_123": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_124": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_125": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_13": {
+   "role": "restaurant or food outlet run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_14": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_15": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_16": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_17": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_18": {
+   "role": "restaurant or food outlet run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_19": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_2": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_20": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_21": {
+   "role": "restaurant or food outlet run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_22": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_23": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_24": {
+   "role": "restaurant or food outlet run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_25": {
+   "role": "food or drink kiosk run by a company, on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_26": {
+   "role": "food or drink kiosk run by a company, on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_27": {
+   "role": "small locally owned food or drink kiosk on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_28": {
+   "role": "small locally owned service kiosk on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_29": {
+   "role": "small locally owned food or drink kiosk on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_3": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_30": {
+   "role": "small locally owned food or drink kiosk on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_31": {
+   "role": "small locally owned food or drink kiosk on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_32": {
+   "role": "small locally owned service kiosk on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_33": {
+   "role": "small locally owned food or drink kiosk on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_34": {
+   "role": "convenience store run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_35": {
+   "role": "convenience store run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_36": {
+   "role": "retail shop run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_37": {
+   "role": "small locally owned retail shop renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_38": {
+   "role": "service business run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_39": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_4": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_40": {
+   "role": "health business (pharmacy, clinic, optician or similar) run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_41": {
+   "role": "health business (pharmacy, clinic, optician or similar) run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_42": {
+   "role": "health business (pharmacy, clinic, optician or similar) run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_43": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_44": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_45": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_46": {
+   "role": "café, bakery or restaurant run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_47": {
+   "role": "café, bakery or restaurant run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_48": {
+   "role": "café, bakery or restaurant run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_49": {
+   "role": "small locally owned café, bakery or restaurant renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_5": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_50": {
+   "role": "service business run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_51": {
+   "role": "education centre (tuition, languages or similar) run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_52": {
+   "role": "education centre (tuition, languages or similar) run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_53": {
+   "role": "retail shop run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_54": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_55": {
+   "role": "service business run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_56": {
+   "role": "retail shop run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_57": {
+   "role": "small locally owned retail shop renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_58": {
+   "role": "small locally owned retail shop renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_59": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_6": {
+   "role": "restaurant or food outlet run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_60": {
+   "role": "small locally owned café, bakery or restaurant renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_61": {
+   "role": "service business run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_62": {
+   "role": "retail shop run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_63": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_64": {
+   "role": "small locally owned retail shop renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_65": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_66": {
+   "role": "small locally owned café, bakery or restaurant renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_67": {
+   "role": "small locally owned retail shop renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_68": {
+   "role": "health business (pharmacy, clinic, optician or similar) run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_69": {
+   "role": "café, bakery or restaurant run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_7": {
+   "role": "restaurant or food outlet run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_70": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_71": {
+   "role": "small locally owned retail shop renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_72": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_73": {
+   "role": "small locally owned retail shop renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_74": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_75": {
+   "role": "small locally owned convenience store renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_76": {
+   "role": "education centre (tuition, languages or similar) run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_77": {
+   "role": "health business (pharmacy, clinic, optician or similar) run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_78": {
+   "role": "small locally owned café, bakery or restaurant renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_79": {
+   "role": "small locally owned café, bakery or restaurant renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_8": {
+   "role": "restaurant or food outlet run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_80": {
+   "role": "small locally owned education centre (tuition, languages or similar) renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_81": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_82": {
+   "role": "small locally owned service business renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_83": {
+   "role": "café, bakery or restaurant run by a company, renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_85": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_86": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_87": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_88": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_89": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_9": {
+   "role": "small locally owned food stall renting space on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_92": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_93": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_94": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_95": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_96": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_97": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_98": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAMPUS_TENANT_99": {
+   "role": "company (technology, engineering or professional services) renting an office on a university campus",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CARD_SCHEME_1": {
+   "role": "card payment network",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CARD_SCHEME_2": {
+   "role": "card payment network",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CARD_SCHEME_3": {
+   "role": "card payment network",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAR_RENTAL_1": {
+   "role": "car rental company",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAR_RENTAL_2": {
+   "role": "car rental company",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAR_RENTAL_3": {
+   "role": "car rental company",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CAR_RENTAL_4": {
+   "role": "car rental company",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CENTRAL_BANK_2": {
+   "role": "central bank",
+   "forms": {
+    "name": "the usual written name",
+    "code": "acronym or code"
+   }
+  },
+  "CHAT_APP": {
+   "role": "team chat and meeting app",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CI_SERVER": {
+   "role": "CI server",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CLOUD_PROVIDER": {
+   "role": "cloud provider",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "COLOR_SYSTEM": {
+   "role": "colour matching system",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "COMPANY_REGISTRY_1": {
+   "role": "company registry",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "COMPANY_REGISTRY_2": {
+   "role": "company registry",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "COMPUTE_SERVICE": {
+   "role": "cloud virtual machine service",
+   "forms": {
+    "code": "acronym or code",
+    "key": "lower-case identifier used in host names, commands and keys"
+   }
+  },
+  "CONTAINER_ORCHESTRATOR": {
+   "role": "container orchestrator",
+   "forms": {
+    "name": "the usual written name",
+    "key": "lower-case identifier used in host names, commands and keys"
+   }
+  },
+  "CONTAINER_REGISTRY_1": {
+   "role": "public container registry",
+   "forms": {
+    "domain": "web domain"
+   },
+   "pattern": "[a-z0-9-]+(\\.[a-z0-9-]+)*\\.[a-z]{2,}"
+  },
+  "CONTAINER_REGISTRY_2": {
+   "role": "public container registry",
+   "forms": {
+    "domain": "web domain"
+   },
+   "pattern": "[a-z0-9-]+(\\.[a-z0-9-]+)*\\.[a-z]{2,}"
+  },
+  "CONTAINER_REGISTRY_3": {
+   "role": "public container registry",
+   "forms": {
+    "domain": "web domain"
+   },
+   "pattern": "[a-z0-9-]+(\\.[a-z0-9-]+)*\\.[a-z]{2,}"
+  },
+  "CONTAINER_TOOL": {
+   "role": "container tool",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "CRIMINAL_RECORDS_CHECK": {
+   "role": "criminal records check service",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "DASHBOARD_TOOL": {
+   "role": "metrics dashboard tool",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "DATA_PROTECTION_REGULATOR": {
+   "role": "data protection regulator",
+   "forms": {
+    "name": "the usual written name",
+    "code": "acronym or code"
+   }
+  },
+  "DATA_WAREHOUSE": {
+   "role": "data warehouse appliance",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "DESIGN_TOOL": {
+   "role": "design tool",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "DESKTOP_OS_1": {
+   "role": "desktop operating system",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "DESKTOP_OS_2": {
+   "role": "desktop operating system",
+   "forms": {
+    "name": "the usual written name",
+    "abbr": "short lower-case abbreviation used in image names"
+   }
+  },
+  "DESKTOP_OS_3": {
+   "role": "desktop operating system",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "DOC_CAPTURE": {
+   "role": "document capture and archive system",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "DOC_SHARING": {
+   "role": "document sharing service",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "DRUG_ENFORCEMENT_AGENCY": {
+   "role": "drug enforcement agency",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "EO_DATA_PROGRAMME": {
+   "role": "earth observation satellite data programme",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "EO_SATELLITE_1": {
+   "role": "radar earth observation satellite",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "EO_SATELLITE_2": {
+   "role": "optical earth observation satellite",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "ERP_INVOICE_TRANSACTION": {
+   "role": "ERP transaction code for posting a supplier invoice",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "FILE_SHARING": {
+   "role": "file sharing service",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "FIN_OMBUDSMAN_1": {
+   "role": "financial services ombudsman",
+   "forms": {
+    "name": "the usual written name",
+    "code": "acronym or code"
+   }
+  },
+  "FIN_OMBUDSMAN_2": {
+   "role": "financial services ombudsman",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "FUEL_BRAND_1": {
+   "role": "fuel station brand",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "FUEL_BRAND_2": {
+   "role": "fuel station brand",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "FUEL_BRAND_3": {
+   "role": "fuel station brand",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "FUEL_BRAND_4": {
+   "role": "fuel station brand",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "FUEL_BRAND_5": {
+   "role": "fuel station brand",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "FUEL_BRAND_6": {
+   "role": "fuel station brand",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "FUEL_BRAND_7": {
+   "role": "fuel station brand",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "GOV_DEPT_FUNDER": {
+   "role": "government department (a ministry) that funds research",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "GPU_MODEL_1": {
+   "role": "data-centre GPU model",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "GPU_MODEL_2": {
+   "role": "data-centre GPU model",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "GPU_TOOLKIT": {
+   "role": "GPU computing toolkit",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "GPU_VENDOR": {
+   "role": "GPU maker",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "HEALTH_PROGRAM_REGULATOR": {
+   "role": "government agency that runs public health insurance programmes",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "HEALTH_QUALITY_REGULATOR": {
+   "role": "health care quality regulator",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "HOTEL_1": {
+   "role": "hotel",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "HOTEL_2": {
+   "role": "hotel",
+   "forms": {
+    "name": "the usual written name",
+    "short": "short name used in running text"
+   }
+  },
+  "HOTEL_3": {
+   "role": "hotel",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "HOTEL_4": {
+   "role": "hotel",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "HOTEL_5": {
+   "role": "hotel",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "HPC_SCHEDULER": {
+   "role": "cluster job scheduler",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "IAC_TOOL": {
+   "role": "infrastructure-as-code tool",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "IDENTITY_PROVIDER": {
+   "role": "identity provider (single sign-on)",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "IDE_1": {
+   "role": "integrated development environment (IDE) for building mobile apps, made by an outside software company",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "JS_PACKAGE_REGISTRY": {
+   "role": "JavaScript package registry and its command-line tool",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "K8S_PACKAGE_TOOL": {
+   "role": "package manager for the container orchestrator",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "LAPTOP_1": {
+   "role": "laptop",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "LAPTOP_2": {
+   "role": "laptop",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "LINUX_DISTRO_1": {
+   "role": "Linux distribution",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "LINUX_DISTRO_2": {
+   "role": "Linux distribution",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "LINUX_DISTRO_3": {
+   "role": "Linux distribution",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MAC_PACKAGE_MANAGER": {
+   "role": "macOS package manager",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MAIL_CLIENT": {
+   "role": "email client",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MAIL_SERVER": {
+   "role": "hosted email service",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MALL_STORE_1": {
+   "role": "shop location in a shopping centre",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MALL_STORE_2": {
+   "role": "shop location in a shopping centre",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MALL_STORE_3": {
+   "role": "shop location in a shopping centre",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MANAGED_PLAN_PROGRAM": {
+   "role": "public health insurance programme run through private plans",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MEDICAL_REGULATOR": {
+   "role": "medical professional regulator",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "METRICS_DB": {
+   "role": "metrics database",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "METRICS_QUERY": {
+   "role": "long-term metrics query layer",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MOBILE_OS_1": {
+   "role": "mobile operating system",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "MOBILE_OS_2": {
+   "role": "mobile operating system",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "OBJECT_STORAGE": {
+   "role": "cloud object storage service",
+   "forms": {
+    "code": "acronym or code",
+    "scheme": "URI scheme (lower case, no '://')",
+    "key": "lower-case identifier used in host names, commands and keys"
+   }
+  },
+  "OFFICE_SUITE": {
+   "role": "office software suite",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "PARALLEL_FS": {
+   "role": "parallel file system",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "PAYMENT_SCHEME_1": {
+   "role": "regional bank transfer scheme",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "PAYMENT_SCHEME_2": {
+   "role": "international bank messaging network",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "PAYMENT_SCHEME_3": {
+   "role": "domestic bank transfer scheme",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "PAYMENT_WALLET": {
+   "role": "online payment wallet",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "PDF_APP": {
+   "role": "PDF editor",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "PENSION_SCHEME_1": {
+   "role": "pension scheme shared by many employers in the sector",
+   "forms": {
+    "name": "the usual written name",
+    "code": "acronym or code"
+   }
+  },
+  "PENSION_SCHEME_2": {
+   "role": "pension scheme shared by many employers in the sector",
+   "forms": {
+    "name": "the usual written name",
+    "code": "acronym or code"
+   }
+  },
+  "PHONE_1": {
+   "role": "smartphone",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "POLICE_SERVICE": {
+   "role": "police service",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "PUBLIC_HEALTH_INSURANCE_1": {
+   "role": "public health insurance programme",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "PUBLIC_HEALTH_INSURANCE_2": {
+   "role": "public health insurance programme",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "PUBLIC_HEALTH_SERVICE_1": {
+   "role": "public health service",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "PUBLIC_HEALTH_SERVICE_2": {
+   "role": "national public health service (an organisation)",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "PY_PACKAGE_REGISTRY": {
+   "role": "Python package index",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "RAILCARD": {
+   "role": "rail discount card",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "RAIL_OPERATOR": {
+   "role": "international rail operator",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "RESEARCH_FUNDER_1": {
+   "role": "public research funder",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_FUNDER_10": {
+   "role": "environmental charity",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_FUNDER_11": {
+   "role": "medical research charity",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "RESEARCH_FUNDER_12": {
+   "role": "humanities research funder",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "RESEARCH_FUNDER_13": {
+   "role": "medical research charity",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "RESEARCH_FUNDER_14": {
+   "role": "medical research charity",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "RESEARCH_FUNDER_15": {
+   "role": "education research charity",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "RESEARCH_FUNDER_16": {
+   "role": "international research programme",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "RESEARCH_FUNDER_2": {
+   "role": "public research funder",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_FUNDER_3": {
+   "role": "public research funder",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_FUNDER_4": {
+   "role": "public research funder",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_FUNDER_5": {
+   "role": "public research funder",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_FUNDER_6": {
+   "role": "public research funder",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_FUNDER_7": {
+   "role": "government funder of health research",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_FUNDER_8": {
+   "role": "national research funding agency",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_FUNDER_9": {
+   "role": "environmental charity",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "RESEARCH_TRAINING_PROVIDER": {
+   "role": "research ethics training provider",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "SAFETY_REGULATOR_2": {
+   "role": "workplace health and safety regulator",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "SECURITIES_REGULATOR": {
+   "role": "securities markets regulator",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "SECURITY_KEY": {
+   "role": "hardware security key",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "SLIDES_APP": {
+   "role": "presentation app",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "SOCIAL_NETWORK_1": {
+   "role": "professional social network",
+   "forms": {
+    "name": "the usual written name",
+    "domain": "web domain"
+   }
+  },
+  "SOCIAL_NETWORK_2": {
+   "role": "social network",
+   "forms": {
+    "name": "the usual written name",
+    "domain": "web domain"
+   }
+  },
+  "SOCIAL_NETWORK_3": {
+   "role": "social network (former name)",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "SOCIAL_NETWORK_4": {
+   "role": "social network",
+   "forms": {
+    "name": "the usual written name",
+    "domain": "web domain"
+   }
+  },
+  "SPREADSHEET_APP": {
+   "role": "spreadsheet app",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "SQL_DB_1": {
+   "role": "relational database",
+   "forms": {
+    "name": "the usual written name",
+    "short": "short name used in running text",
+    "key": "lower-case identifier used in host names, commands and keys"
+   }
+  },
+  "SQL_DB_2": {
+   "role": "relational database",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "STREAM_PLATFORM": {
+   "role": "event streaming platform",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "STUDENT_LOAN_BODY": {
+   "role": "public student loan provider",
+   "forms": {
+    "name": "the usual written name",
+    "code": "acronym or code"
+   }
+  },
+  "STUDENT_RECORD_SYSTEM": {
+   "role": "student record system",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "SUPPLY_STORE_1": {
+   "role": "hardware or office supply store",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "SUPPLY_STORE_2": {
+   "role": "hardware or office supply store",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "SUPPLY_STORE_3": {
+   "role": "hardware or office supply store",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "SUPPLY_STORE_4": {
+   "role": "hardware or office supply store",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "SUPPLY_STORE_5": {
+   "role": "hardware or office supply store",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "TABLET_1": {
+   "role": "tablet",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "TAX_AUTHORITY_1": {
+   "role": "tax authority",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "TAX_AUTHORITY_2": {
+   "role": "tax authority",
+   "forms": {
+    "short": "short name used in running text"
+   }
+  },
+  "TAX_AUTHORITY_3": {
+   "role": "tax authority (the organisation)",
+   "forms": {
+    "code": "acronym or code"
+   }
+  },
+  "VPN_SOFTWARE": {
+   "role": "VPN software",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "VPN_VENDOR": {
+   "role": "VPN client vendor",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "VULN_SCANNER_1": {
+   "role": "vulnerability scanner",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "VULN_SCANNER_2": {
+   "role": "vulnerability scanner",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "WEBMAIL": {
+   "role": "webmail service",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "WEB_SERVER": {
+   "role": "web server software used by production websites, as it names itself in the HTTP Server header",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "WIKI_1": {
+   "role": "wiki",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "WIKI_2": {
+   "role": "wiki software",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "WORD_PROCESSOR": {
+   "role": "word processor",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "WORKFLOW_SCHEDULER": {
+   "role": "data workflow scheduler",
+   "forms": {
+    "name": "the usual written name"
+   }
+  },
+  "WORKSPACE_SUITE": {
+   "role": "office software suite",
+   "forms": {
+    "name": "the usual written name"
+   }
+  }
+ }
+}

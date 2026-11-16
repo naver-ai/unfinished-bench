@@ -1,0 +1,466 @@
+{
+ "handbook/README.md": {
+  "repo": "handbook",
+  "path": "README.md",
+  "author": "tomas.nakamura",
+  "style": "terse",
+  "age": "aging",
+  "lines": 26
+ },
+ "handbook/company/org-overview.md": {
+  "repo": "handbook",
+  "path": "company/org-overview.md",
+  "author": "leon.delgado",
+  "style": "table",
+  "age": "aging",
+  "lines": 31
+ },
+ "handbook/company/about-mossgrove.md": {
+  "repo": "handbook",
+  "path": "company/about-mossgrove.md",
+  "author": "oliver.brandt",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 20
+ },
+ "handbook/people/leave-and-absence.md": {
+  "repo": "handbook",
+  "path": "people/leave-and-absence.md",
+  "author": "selin.lindgren",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 110
+ },
+ "handbook/people/travel.md": {
+  "repo": "handbook",
+  "path": "people/travel.md",
+  "author": "tomas.nakamura",
+  "style": "terse",
+  "age": "stale",
+  "lines": 25
+ },
+ "handbook/it/devices.md": {
+  "repo": "handbook",
+  "path": "it/devices.md",
+  "author": "anika.torres",
+  "style": "faq",
+  "age": "aging",
+  "lines": 25
+ },
+ "handbook/it/access-requests.md": {
+  "repo": "handbook",
+  "path": "it/access-requests.md",
+  "author": "mehmet.bianchi",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 68
+ },
+ "handbook/people/onboarding-checklist.md": {
+  "repo": "handbook",
+  "path": "people/onboarding-checklist.md",
+  "author": "leon.delgado",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 38
+ },
+ "handbook/people/performance-reviews.md": {
+  "repo": "handbook",
+  "path": "people/performance-reviews.md",
+  "author": "tomas.nakamura",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 19
+ },
+ "handbook/security/incident-reporting.md": {
+  "repo": "handbook",
+  "path": "security/incident-reporting.md",
+  "author": "kasia.vogel",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 28
+ },
+ "handbook/legal/contracts-and-signing.md": {
+  "repo": "handbook",
+  "path": "legal/contracts-and-signing.md",
+  "author": "georgia.gordon",
+  "style": "table",
+  "age": "fresh",
+  "lines": 59
+ },
+ "handbook/security/acceptable-use.md": {
+  "repo": "handbook",
+  "path": "security/acceptable-use.md",
+  "author": "kasia.vogel",
+  "style": "policy",
+  "age": "aging",
+  "lines": 56
+ },
+ "handbook/comms/writing-to-customers.md": {
+  "repo": "handbook",
+  "path": "comms/writing-to-customers.md",
+  "author": "bilal.hughes",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 64
+ },
+ "handbook/comms/press-and-social.md": {
+  "repo": "handbook",
+  "path": "comms/press-and-social.md",
+  "author": "ilse.jaramillo",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 28
+ },
+ "handbook/people/expenses.md": {
+  "repo": "handbook",
+  "path": "people/expenses.md",
+  "author": "tom.whitlock",
+  "style": "policy",
+  "age": "aging",
+  "lines": 60
+ },
+ "handbook/legal/records-retention.md": {
+  "repo": "handbook",
+  "path": "legal/records-retention.md",
+  "author": "luca.heller",
+  "style": "policy",
+  "age": "aging",
+  "lines": 54
+ },
+ "finance-docs/README.md": {
+  "repo": "finance-docs",
+  "path": "README.md",
+  "author": "tom.whitlock",
+  "style": "terse",
+  "age": "aging",
+  "lines": 22
+ },
+ "finance-docs/ap/supplier-onboarding.md": {
+  "repo": "finance-docs",
+  "path": "ap/supplier-onboarding.md",
+  "author": "zainab.laurent",
+  "style": "checklist",
+  "age": "aging",
+  "lines": 46
+ },
+ "finance-docs/month-end-close.md": {
+  "repo": "finance-docs",
+  "path": "month-end-close.md",
+  "author": "tom.whitlock",
+  "style": "table",
+  "age": "fresh",
+  "lines": 72
+ },
+ "finance-docs/tax/vat-notes.md": {
+  "repo": "finance-docs",
+  "path": "tax/vat-notes.md",
+  "author": "zeynep.amsel",
+  "style": "notes",
+  "age": "aging",
+  "lines": 29
+ },
+ "finance-docs/payroll/payroll-calendar.md": {
+  "repo": "finance-docs",
+  "path": "payroll/payroll-calendar.md",
+  "author": "aiko.weber",
+  "style": "table",
+  "age": "fresh",
+  "lines": 52
+ },
+ "finance-docs/gift-cards.md": {
+  "repo": "finance-docs",
+  "path": "gift-cards.md",
+  "author": "anders.fonseca",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 54
+ },
+ "eng-docs/README.md": {
+  "repo": "eng-docs",
+  "path": "README.md",
+  "author": "helen.garside",
+  "style": "terse",
+  "age": "aging",
+  "lines": 16
+ },
+ "handbook/security/data-classification.md": {
+  "repo": "handbook",
+  "path": "security/data-classification.md",
+  "author": "kasia.vogel",
+  "style": "table",
+  "age": "fresh",
+  "lines": 42
+ },
+ "handbook/it/passwords-and-mfa.md": {
+  "repo": "handbook",
+  "path": "it/passwords-and-mfa.md",
+  "author": "emma.arslan",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 27
+ },
+ "eng-docs/platform/environments.md": {
+  "repo": "eng-docs",
+  "path": "platform/environments.md",
+  "author": "dina.ozturk",
+  "style": "table",
+  "age": "aging",
+  "lines": 49
+ },
+ "finance-docs/wholesale/credit-terms.md": {
+  "repo": "finance-docs",
+  "path": "wholesale/credit-terms.md",
+  "author": "delphine.marchetti",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 64
+ },
+ "finance-docs/chargebacks.md": {
+  "repo": "finance-docs",
+  "path": "chargebacks.md",
+  "author": "isaac.gashi",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 56
+ },
+ "eng-docs/platform/dns.md": {
+  "repo": "eng-docs",
+  "path": "platform/dns.md",
+  "author": "chiara.mishra",
+  "style": "notes",
+  "age": "stale",
+  "lines": 13
+ },
+ "eng-docs/platform/cost-tags.md": {
+  "repo": "eng-docs",
+  "path": "platform/cost-tags.md",
+  "author": "diego.gallagher",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 32
+ },
+ "eng-docs/oncall/oncall-guide.md": {
+  "repo": "eng-docs",
+  "path": "oncall/oncall-guide.md",
+  "author": "diego.gallagher",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 101
+ },
+ "eng-docs/web/orders-web.md": {
+  "repo": "eng-docs",
+  "path": "web/orders-web.md",
+  "author": "amara.molina",
+  "style": "notes",
+  "age": "stale",
+  "lines": 39
+ },
+ "eng-docs/web/shop-web-runbook.md": {
+  "repo": "eng-docs",
+  "path": "web/shop-web-runbook.md",
+  "author": "wei.murray",
+  "style": "steps",
+  "age": "aging",
+  "lines": 83
+ },
+ "eng-docs/platform/change-management.md": {
+  "repo": "eng-docs",
+  "path": "platform/change-management.md",
+  "author": "ivan.salazar",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 117
+ },
+ "finance-docs/cash/store-banking.md": {
+  "repo": "finance-docs",
+  "path": "cash/store-banking.md",
+  "author": "caleb.andersen",
+  "style": "steps",
+  "age": "stale",
+  "lines": 41
+ },
+ "eng-docs/data/pipelines-oncall.md": {
+  "repo": "eng-docs",
+  "path": "data/pipelines-oncall.md",
+  "author": "leila.doyle",
+  "style": "steps",
+  "age": "draft",
+  "lines": 42
+ },
+ "eng-docs/data/warehouse.md": {
+  "repo": "eng-docs",
+  "path": "data/warehouse.md",
+  "author": "leila.doyle",
+  "style": "terse",
+  "age": "aging",
+  "lines": 46
+ },
+ "eng-docs/ml/model-release.md": {
+  "repo": "eng-docs",
+  "path": "ml/model-release.md",
+  "author": "aleksander.becker",
+  "style": "checklist",
+  "age": "aging",
+  "lines": 49
+ },
+ "eng-docs/security/access-reviews.md": {
+  "repo": "eng-docs",
+  "path": "security/access-reviews.md",
+  "author": "kai.silva",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 29
+ },
+ "eng-docs/platform/backups.md": {
+  "repo": "eng-docs",
+  "path": "platform/backups.md",
+  "author": "owen.castillo",
+  "style": "notes",
+  "age": "aging",
+  "lines": 40
+ },
+ "eng-docs/oncall/incident-process.md": {
+  "repo": "eng-docs",
+  "path": "oncall/incident-process.md",
+  "author": "laszlo.ikeda",
+  "style": "table",
+  "age": "fresh",
+  "lines": 125
+ },
+ "eng-docs/ml/recs-overview.md": {
+  "repo": "eng-docs",
+  "path": "ml/recs-overview.md",
+  "author": "aleksander.becker",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 81
+ },
+ "eng-docs/adr/0015-drop-legacy-cms.md": {
+  "repo": "eng-docs",
+  "path": "adr/0015-drop-legacy-cms.md",
+  "author": "tariq.mahlaba",
+  "style": "notes",
+  "age": "stale",
+  "lines": 26
+ },
+ "eng-docs/security/secrets.md": {
+  "repo": "eng-docs",
+  "path": "security/secrets.md",
+  "author": "ana.quinn",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 74
+ },
+ "marketing-docs/README.md": {
+  "repo": "marketing-docs",
+  "path": "README.md",
+  "author": "rachel.okonjo",
+  "style": "terse",
+  "age": "aging",
+  "lines": 19
+ },
+ "eng-docs/security/vuln-management.md": {
+  "repo": "eng-docs",
+  "path": "security/vuln-management.md",
+  "author": "kasia.vogel",
+  "style": "table",
+  "age": "aging",
+  "lines": 49
+ },
+ "eng-docs/adr/0007-move-to-managed-database.md": {
+  "repo": "eng-docs",
+  "path": "adr/0007-move-to-managed-database.md",
+  "author": "laszlo.ikeda",
+  "style": "notes",
+  "age": "aging",
+  "lines": 42
+ },
+ "marketing-docs/email/consent.md": {
+  "repo": "marketing-docs",
+  "path": "email/consent.md",
+  "author": "bilal.hughes",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 66
+ },
+ "marketing-docs/brand/photo-shoot-checklist.md": {
+  "repo": "marketing-docs",
+  "path": "brand/photo-shoot-checklist.md",
+  "author": "abel.carvalho",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 29
+ },
+ "support-docs/README.md": {
+  "repo": "support-docs",
+  "path": "README.md",
+  "author": "renata.vogel",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 20
+ },
+ "support-docs/outsourced-desk.md": {
+  "repo": "support-docs",
+  "path": "outsourced-desk.md",
+  "author": "renata.vogel",
+  "style": "notes",
+  "age": "aging",
+  "lines": 42
+ },
+ "data-docs/README.md": {
+  "repo": "data-docs",
+  "path": "README.md",
+  "author": "leila.doyle",
+  "style": "terse",
+  "age": "aging",
+  "lines": 24
+ },
+ "data-docs/catalogue.md": {
+  "repo": "data-docs",
+  "path": "catalogue.md",
+  "author": "karim.obi",
+  "style": "table",
+  "age": "fresh",
+  "lines": 35
+ },
+ "marketing-docs/email/sending-campaigns.md": {
+  "repo": "marketing-docs",
+  "path": "email/sending-campaigns.md",
+  "author": "lucas.rao",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 76
+ },
+ "data-docs/dpia-notes.md": {
+  "repo": "data-docs",
+  "path": "dpia-notes.md",
+  "author": "grace.harper",
+  "style": "notes",
+  "age": "aging",
+  "lines": 57
+ },
+ "eng-docs/adr/0012-event-bus.md": {
+  "repo": "eng-docs",
+  "path": "adr/0012-event-bus.md",
+  "author": "nasser.lund",
+  "style": "notes",
+  "age": "fresh",
+  "lines": 49
+ },
+ "support-docs/escalations.md": {
+  "repo": "support-docs",
+  "path": "escalations.md",
+  "author": "oskar.pereira",
+  "style": "table",
+  "age": "fresh",
+  "lines": 40
+ },
+ "support-docs/returns-and-exchanges.md": {
+  "repo": "support-docs",
+  "path": "returns-and-exchanges.md",
+  "author": "renata.vogel",
+  "style": "faq",
+  "age": "aging",
+  "lines": 99
+ }
+}

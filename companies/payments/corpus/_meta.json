@@ -1,0 +1,562 @@
+{
+ "handbook/README.md": {
+  "repo": "handbook",
+  "path": "README.md",
+  "author": "ruth.demir",
+  "style": "terse",
+  "age": "aging",
+  "lines": 28
+ },
+ "handbook/company/about-kilbarra.md": {
+  "repo": "handbook",
+  "path": "company/about-kilbarra.md",
+  "author": "orla.hennessy",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 36
+ },
+ "handbook/company/org-overview.md": {
+  "repo": "handbook",
+  "path": "company/org-overview.md",
+  "author": "milan.balogun",
+  "style": "table",
+  "age": "aging",
+  "lines": 59
+ },
+ "handbook/company/glossary.md": {
+  "repo": "handbook",
+  "path": "company/glossary.md",
+  "author": "lena.fischer",
+  "style": "table",
+  "age": "fresh",
+  "lines": 51
+ },
+ "handbook/people/travel.md": {
+  "repo": "handbook",
+  "path": "people/travel.md",
+  "author": "ruth.demir",
+  "style": "terse",
+  "age": "stale",
+  "lines": 27
+ },
+ "handbook/people/leave-and-absence.md": {
+  "repo": "handbook",
+  "path": "people/leave-and-absence.md",
+  "author": "elias.mishra",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 105
+ },
+ "handbook/people/expenses.md": {
+  "repo": "handbook",
+  "path": "people/expenses.md",
+  "author": "laszlo.brennan",
+  "style": "policy",
+  "age": "aging",
+  "lines": 48
+ },
+ "handbook/people/performance-and-pay.md": {
+  "repo": "handbook",
+  "path": "people/performance-and-pay.md",
+  "author": "elias.mishra",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 44
+ },
+ "handbook/people/onboarding-checklist.md": {
+  "repo": "handbook",
+  "path": "people/onboarding-checklist.md",
+  "author": "aisling.moran",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 43
+ },
+ "handbook/it/access-requests.md": {
+  "repo": "handbook",
+  "path": "it/access-requests.md",
+  "author": "rosa.murray",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 52
+ },
+ "handbook/security/data-classification.md": {
+  "repo": "handbook",
+  "path": "security/data-classification.md",
+  "author": "chidi.kato",
+  "style": "table",
+  "age": "fresh",
+  "lines": 58
+ },
+ "handbook/security/acceptable-use.md": {
+  "repo": "handbook",
+  "path": "security/acceptable-use.md",
+  "author": "dara.graham",
+  "style": "policy",
+  "age": "aging",
+  "lines": 48
+ },
+ "handbook/security/reporting-an-incident.md": {
+  "repo": "handbook",
+  "path": "security/reporting-an-incident.md",
+  "author": "beatriz.fonseca",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 40
+ },
+ "handbook/it/devices-and-sign-in.md": {
+  "repo": "handbook",
+  "path": "it/devices-and-sign-in.md",
+  "author": "nasser.young",
+  "style": "faq",
+  "age": "aging",
+  "lines": 44
+ },
+ "handbook/legal/records-retention.md": {
+  "repo": "handbook",
+  "path": "legal/records-retention.md",
+  "author": "mikael.gashi",
+  "style": "policy",
+  "age": "aging",
+  "lines": 52
+ },
+ "handbook/legal/who-can-sign.md": {
+  "repo": "handbook",
+  "path": "legal/who-can-sign.md",
+  "author": "mikael.gashi",
+  "style": "table",
+  "age": "fresh",
+  "lines": 46
+ },
+ "handbook/comms/press-and-social.md": {
+  "repo": "handbook",
+  "path": "comms/press-and-social.md",
+  "author": "harriet.lindgren",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 36
+ },
+ "eng-docs/architecture/overview.md": {
+  "repo": "eng-docs",
+  "path": "architecture/overview.md",
+  "author": "mateo.silva",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 88
+ },
+ "eng-docs/README.md": {
+  "repo": "eng-docs",
+  "path": "README.md",
+  "author": "mateo.silva",
+  "style": "terse",
+  "age": "aging",
+  "lines": 26
+ },
+ "eng-docs/incidents/incident-process.md": {
+  "repo": "eng-docs",
+  "path": "incidents/incident-process.md",
+  "author": "selin.zhang",
+  "style": "table",
+  "age": "fresh",
+  "lines": 67
+ },
+ "eng-docs/platform/environments.md": {
+  "repo": "eng-docs",
+  "path": "platform/environments.md",
+  "author": "lena.voss",
+  "style": "table",
+  "age": "aging",
+  "lines": 45
+ },
+ "eng-docs/oncall/oncall-guide.md": {
+  "repo": "eng-docs",
+  "path": "oncall/oncall-guide.md",
+  "author": "lena.schmidt",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 95
+ },
+ "eng-docs/platform/change-management.md": {
+  "repo": "eng-docs",
+  "path": "platform/change-management.md",
+  "author": "abel.larsen",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 90
+ },
+ "eng-docs/platform/backups.md": {
+  "repo": "eng-docs",
+  "path": "platform/backups.md",
+  "author": "tariq.beaumont",
+  "style": "notes",
+  "age": "aging",
+  "lines": 49
+ },
+ "eng-docs/platform/dns-and-domains.md": {
+  "repo": "eng-docs",
+  "path": "platform/dns-and-domains.md",
+  "author": "tariq.beaumont",
+  "style": "notes",
+  "age": "stale",
+  "lines": 21
+ },
+ "eng-docs/platform/deploys.md": {
+  "repo": "eng-docs",
+  "path": "platform/deploys.md",
+  "author": "theo.bishop",
+  "style": "steps",
+  "age": "aging",
+  "lines": 83
+ },
+ "eng-docs/dev/release-train.md": {
+  "repo": "eng-docs",
+  "path": "dev/release-train.md",
+  "author": "olivier.moreau",
+  "style": "table",
+  "age": "fresh",
+  "lines": 43
+ },
+ "eng-docs/merchant-api/webhooks.md": {
+  "repo": "eng-docs",
+  "path": "merchant-api/webhooks.md",
+  "author": "malik.lund",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 64
+ },
+ "eng-docs/data/lake-pipelines.md": {
+  "repo": "eng-docs",
+  "path": "data/lake-pipelines.md",
+  "author": "shreya.bergstrom",
+  "style": "steps",
+  "age": "draft",
+  "lines": 47
+ },
+ "eng-docs/data/warehouse.md": {
+  "repo": "eng-docs",
+  "path": "data/warehouse.md",
+  "author": "mia.palmer",
+  "style": "terse",
+  "age": "aging",
+  "lines": 44
+ },
+ "eng-docs/adr/0014-retire-legacy-portal.md": {
+  "repo": "eng-docs",
+  "path": "adr/0014-retire-legacy-portal.md",
+  "author": "noor.rahman",
+  "style": "notes",
+  "age": "stale",
+  "lines": 33
+ },
+ "security-docs/README.md": {
+  "repo": "security-docs",
+  "path": "README.md",
+  "author": "marek.dvorak",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 32
+ },
+ "security-docs/access/access-reviews.md": {
+  "repo": "security-docs",
+  "path": "access/access-reviews.md",
+  "author": "isaac.chowdhury",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 32
+ },
+ "eng-docs/adr/0004-event-sourced-ledger.md": {
+  "repo": "eng-docs",
+  "path": "adr/0004-event-sourced-ledger.md",
+  "author": "tomas.rahman",
+  "style": "notes",
+  "age": "aging",
+  "lines": 48
+ },
+ "security-docs/secrets/secrets-management.md": {
+  "repo": "security-docs",
+  "path": "secrets/secrets-management.md",
+  "author": "marek.dvorak",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 54
+ },
+ "security-docs/soc/alert-triage.md": {
+  "repo": "security-docs",
+  "path": "soc/alert-triage.md",
+  "author": "esther.hayashi",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 61
+ },
+ "security-docs/pki/ca-overview.md": {
+  "repo": "security-docs",
+  "path": "pki/ca-overview.md",
+  "author": "grace.achebe",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 15
+ },
+ "security-docs/appsec/security-reviews.md": {
+  "repo": "security-docs",
+  "path": "appsec/security-reviews.md",
+  "author": "samir.haddad",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 57
+ },
+ "security-docs/soc/log-sources.md": {
+  "repo": "security-docs",
+  "path": "soc/log-sources.md",
+  "author": "tessa.duarte",
+  "style": "checklist",
+  "age": "aging",
+  "lines": 46
+ },
+ "security-docs/compliance/audit-evidence.md": {
+  "repo": "security-docs",
+  "path": "compliance/audit-evidence.md",
+  "author": "nadia.petrov",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 14
+ },
+ "security-docs/compliance/pci-scope.md": {
+  "repo": "security-docs",
+  "path": "compliance/pci-scope.md",
+  "author": "ben.abara",
+  "style": "notes",
+  "age": "fresh",
+  "lines": 52
+ },
+ "finance-docs/README.md": {
+  "repo": "finance-docs",
+  "path": "README.md",
+  "author": "magnus.eklund",
+  "style": "terse",
+  "age": "aging",
+  "lines": 27
+ },
+ "finance-docs/treasury/safeguarding.md": {
+  "repo": "finance-docs",
+  "path": "treasury/safeguarding.md",
+  "author": "mara.costa",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 77
+ },
+ "finance-docs/close/month-end-close.md": {
+  "repo": "finance-docs",
+  "path": "close/month-end-close.md",
+  "author": "laszlo.brennan",
+  "style": "table",
+  "age": "fresh",
+  "lines": 77
+ },
+ "finance-docs/treasury/settlement-and-payouts.md": {
+  "repo": "finance-docs",
+  "path": "treasury/settlement-and-payouts.md",
+  "author": "tariq.gonzaga",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 81
+ },
+ "finance-docs/ap/supplier-payments.md": {
+  "repo": "finance-docs",
+  "path": "ap/supplier-payments.md",
+  "author": "nico.holm",
+  "style": "checklist",
+  "age": "stale",
+  "lines": 37
+ },
+ "finance-docs/tax/vat-and-sales-tax.md": {
+  "repo": "finance-docs",
+  "path": "tax/vat-and-sales-tax.md",
+  "author": "delphine.marchetti",
+  "style": "notes",
+  "age": "aging",
+  "lines": 34
+ },
+ "finance-docs/payroll/payroll-calendar.md": {
+  "repo": "finance-docs",
+  "path": "payroll/payroll-calendar.md",
+  "author": "nico.holm",
+  "style": "table",
+  "age": "fresh",
+  "lines": 36
+ },
+ "finance-docs/reg-reporting/returns-calendar.md": {
+  "repo": "finance-docs",
+  "path": "reg-reporting/returns-calendar.md",
+  "author": "hana.sato",
+  "style": "table",
+  "age": "fresh",
+  "lines": 35
+ },
+ "finance-docs/reg-reporting/data-lineage.md": {
+  "repo": "finance-docs",
+  "path": "reg-reporting/data-lineage.md",
+  "author": "fatima.pham",
+  "style": "notes",
+  "age": "draft",
+  "lines": 53
+ },
+ "risk-docs/aml/transaction-monitoring.md": {
+  "repo": "risk-docs",
+  "path": "aml/transaction-monitoring.md",
+  "author": "jasmine.rao",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 71
+ },
+ "risk-docs/aml/merchant-due-diligence.md": {
+  "repo": "risk-docs",
+  "path": "aml/merchant-due-diligence.md",
+  "author": "kalani.bose",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 134
+ },
+ "risk-docs/risk/chargeback-monitoring.md": {
+  "repo": "risk-docs",
+  "path": "risk/chargeback-monitoring.md",
+  "author": "gideon.hartmann",
+  "style": "notes",
+  "age": "aging",
+  "lines": 50
+ },
+ "risk-docs/README.md": {
+  "repo": "risk-docs",
+  "path": "README.md",
+  "author": "soren.hughes",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 28
+ },
+ "risk-docs/compliance/complaints.md": {
+  "repo": "risk-docs",
+  "path": "compliance/complaints.md",
+  "author": "soren.hughes",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 63
+ },
+ "risk-docs/compliance/regulatory-change.md": {
+  "repo": "risk-docs",
+  "path": "compliance/regulatory-change.md",
+  "author": "aleksander.das",
+  "style": "notes",
+  "age": "draft",
+  "lines": 48
+ },
+ "risk-docs/privacy/data-subject-requests.md": {
+  "repo": "risk-docs",
+  "path": "privacy/data-subject-requests.md",
+  "author": "yusuf.demir",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 50
+ },
+ "risk-docs/controls/control-testing.md": {
+  "repo": "risk-docs",
+  "path": "controls/control-testing.md",
+  "author": "ben.abara",
+  "style": "table",
+  "age": "fresh",
+  "lines": 37
+ },
+ "merchant-docs/README.md": {
+  "repo": "merchant-docs",
+  "path": "README.md",
+  "author": "esther.mendes",
+  "style": "terse",
+  "age": "aging",
+  "lines": 28
+ },
+ "merchant-docs/onboarding/merchant-onboarding.md": {
+  "repo": "merchant-docs",
+  "path": "onboarding/merchant-onboarding.md",
+  "author": "simone.richter",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 87
+ },
+ "merchant-docs/support/support-handbook.md": {
+  "repo": "merchant-docs",
+  "path": "support/support-handbook.md",
+  "author": "clara.bianchi",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 94
+ },
+ "merchant-docs/support/escalations.md": {
+  "repo": "merchant-docs",
+  "path": "support/escalations.md",
+  "author": "petra.bishop",
+  "style": "table",
+  "age": "fresh",
+  "lines": 48
+ },
+ "merchant-docs/billing/invoices-and-fees.md": {
+  "repo": "merchant-docs",
+  "path": "billing/invoices-and-fees.md",
+  "author": "camille.ozturk",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 56
+ },
+ "merchant-docs/success/account-reviews.md": {
+  "repo": "merchant-docs",
+  "path": "success/account-reviews.md",
+  "author": "rebecca.heller",
+  "style": "notes",
+  "age": "aging",
+  "lines": 66
+ },
+ "merchant-docs/success/merchant-segments.md": {
+  "repo": "merchant-docs",
+  "path": "success/merchant-segments.md",
+  "author": "bilal.yamamoto",
+  "style": "table",
+  "age": "fresh",
+  "lines": 46
+ },
+ "merchant-docs/partners/partner-programme.md": {
+  "repo": "merchant-docs",
+  "path": "partners/partner-programme.md",
+  "author": "oskar.chandra",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 18
+ },
+ "risk-docs/compliance/outsourcing-register.md": {
+  "repo": "risk-docs",
+  "path": "compliance/outsourcing-register.md",
+  "author": "jada.garza",
+  "style": "table",
+  "age": "aging",
+  "lines": 56
+ },
+ "merchant-docs/comms/writing-to-merchants.md": {
+  "repo": "merchant-docs",
+  "path": "comms/writing-to-merchants.md",
+  "author": "zeynep.bergstrom",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 57
+ },
+ "eng-docs/sre/monitoring-and-slos.md": {
+  "repo": "eng-docs",
+  "path": "sre/monitoring-and-slos.md",
+  "author": "ben.whitaker",
+  "style": "table",
+  "age": "aging",
+  "lines": 47
+ },
+ "risk-docs/risk/merchant-risk-ratings.md": {
+  "repo": "risk-docs",
+  "path": "risk/merchant-risk-ratings.md",
+  "author": "tessa.nakamura",
+  "style": "table",
+  "age": "fresh",
+  "lines": 43
+ }
+}

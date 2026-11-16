@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+runs/
+runs_*/
+tasks/
+.DS_Store
+harness/.endpoint_ip_cache

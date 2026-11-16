@@ -1,0 +1,554 @@
+{
+ "handbook/README.md": {
+  "repo": "handbook",
+  "path": "README.md",
+  "author": "claudia.rehm",
+  "style": "terse",
+  "age": "aging",
+  "lines": 23
+ },
+ "handbook/company/about-kessendorf.md": {
+  "repo": "handbook",
+  "path": "company/about-kessendorf.md",
+  "author": "eleni.demir",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 17
+ },
+ "handbook/company/sites.md": {
+  "repo": "handbook",
+  "path": "company/sites.md",
+  "author": "ines.duarte",
+  "style": "table",
+  "age": "fresh",
+  "lines": 36
+ },
+ "handbook/company/org-overview.md": {
+  "repo": "handbook",
+  "path": "company/org-overview.md",
+  "author": "santiago.richter",
+  "style": "table",
+  "age": "aging",
+  "lines": 48
+ },
+ "handbook/people/business-travel.md": {
+  "repo": "handbook",
+  "path": "people/business-travel.md",
+  "author": "claudia.rehm",
+  "style": "policy",
+  "age": "stale",
+  "lines": 61
+ },
+ "handbook/people/working-time.md": {
+  "repo": "handbook",
+  "path": "people/working-time.md",
+  "author": "claudia.rehm",
+  "style": "faq",
+  "age": "aging",
+  "lines": 59
+ },
+ "handbook/people/onboarding-checklist.md": {
+  "repo": "handbook",
+  "path": "people/onboarding-checklist.md",
+  "author": "santiago.richter",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 41
+ },
+ "handbook/people/works-council.md": {
+  "repo": "handbook",
+  "path": "people/works-council.md",
+  "author": "claudia.rehm",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 15
+ },
+ "handbook/it/devices-and-printing.md": {
+  "repo": "handbook",
+  "path": "it/devices-and-printing.md",
+  "author": "bruno.bakker",
+  "style": "faq",
+  "age": "aging",
+  "lines": 28
+ },
+ "handbook/security/reporting-incidents.md": {
+  "repo": "handbook",
+  "path": "security/reporting-incidents.md",
+  "author": "amara.lambert",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 41
+ },
+ "handbook/it/access-requests.md": {
+  "repo": "handbook",
+  "path": "it/access-requests.md",
+  "author": "sara.nunez",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 54
+ },
+ "handbook/people/leave-and-absence.md": {
+  "repo": "handbook",
+  "path": "people/leave-and-absence.md",
+  "author": "claudia.rehm",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 97
+ },
+ "handbook/ehs/site-safety-basics.md": {
+  "repo": "handbook",
+  "path": "ehs/site-safety-basics.md",
+  "author": "dalia.alvarez",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 40
+ },
+ "handbook/legal/contracts-and-ndas.md": {
+  "repo": "handbook",
+  "path": "legal/contracts-and-ndas.md",
+  "author": "hugo.martins",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 55
+ },
+ "finance-docs/README.md": {
+  "repo": "finance-docs",
+  "path": "README.md",
+  "author": "shreya.keller",
+  "style": "terse",
+  "age": "aging",
+  "lines": 32
+ },
+ "handbook/security/acceptable-use.md": {
+  "repo": "handbook",
+  "path": "security/acceptable-use.md",
+  "author": "laszlo.moreau",
+  "style": "policy",
+  "age": "aging",
+  "lines": 53
+ },
+ "finance-docs/intercompany.md": {
+  "repo": "finance-docs",
+  "path": "intercompany.md",
+  "author": "daisuke.castillo",
+  "style": "notes",
+  "age": "aging",
+  "lines": 47
+ },
+ "finance-docs/month-end-close.md": {
+  "repo": "finance-docs",
+  "path": "month-end-close.md",
+  "author": "shreya.keller",
+  "style": "table",
+  "age": "fresh",
+  "lines": 111
+ },
+ "finance-docs/ap/supplier-master-data.md": {
+  "repo": "finance-docs",
+  "path": "ap/supplier-master-data.md",
+  "author": "gaurav.harper",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 42
+ },
+ "finance-docs/treasury/cash-forecasting.md": {
+  "repo": "finance-docs",
+  "path": "treasury/cash-forecasting.md",
+  "author": "ibrahim.mahlaba",
+  "style": "notes",
+  "age": "fresh",
+  "lines": 58
+ },
+ "finance-docs/ap/invoice-processing.md": {
+  "repo": "finance-docs",
+  "path": "ap/invoice-processing.md",
+  "author": "daan.peeters",
+  "style": "steps",
+  "age": "aging",
+  "lines": 72
+ },
+ "finance-docs/payroll/payroll-calendar.md": {
+  "repo": "finance-docs",
+  "path": "payroll/payroll-calendar.md",
+  "author": "gabriel.bishop",
+  "style": "table",
+  "age": "fresh",
+  "lines": 60
+ },
+ "finance-docs/audit/year-end-audit.md": {
+  "repo": "finance-docs",
+  "path": "audit/year-end-audit.md",
+  "author": "moses.adeyemi",
+  "style": "table",
+  "age": "aging",
+  "lines": 51
+ },
+ "finance-docs/controlling/budgeting.md": {
+  "repo": "finance-docs",
+  "path": "controlling/budgeting.md",
+  "author": "daisuke.castillo",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 15
+ },
+ "legal-docs/contracts/customer-terms.md": {
+  "repo": "legal-docs",
+  "path": "contracts/customer-terms.md",
+  "author": "hugo.martins",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 64
+ },
+ "legal-docs/litigation/matter-intake.md": {
+  "repo": "legal-docs",
+  "path": "litigation/matter-intake.md",
+  "author": "amaka.eze",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 41
+ },
+ "legal-docs/records/records-centre.md": {
+  "repo": "legal-docs",
+  "path": "records/records-centre.md",
+  "author": "hannah.price",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 56
+ },
+ "legal-docs/trade-compliance/export-classification.md": {
+  "repo": "legal-docs",
+  "path": "trade-compliance/export-classification.md",
+  "author": "stella.yilmaz",
+  "style": "table",
+  "age": "fresh",
+  "lines": 45
+ },
+ "legal-docs/trade-compliance/shipping-paperwork.md": {
+  "repo": "legal-docs",
+  "path": "trade-compliance/shipping-paperwork.md",
+  "author": "samir.karimi",
+  "style": "checklist",
+  "age": "aging",
+  "lines": 46
+ },
+ "legal-docs/compliance/speak-up.md": {
+  "repo": "legal-docs",
+  "path": "compliance/speak-up.md",
+  "author": "delphine.esposito",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 32
+ },
+ "ops-docs/README.md": {
+  "repo": "ops-docs",
+  "path": "README.md",
+  "author": "salma.rahman",
+  "style": "terse",
+  "age": "aging",
+  "lines": 35
+ },
+ "ops-docs/plants/shift-handover.md": {
+  "repo": "ops-docs",
+  "path": "plants/shift-handover.md",
+  "author": "mikael.jaramillo",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 35
+ },
+ "ops-docs/plants/telford-drives-line.md": {
+  "repo": "ops-docs",
+  "path": "plants/telford-drives-line.md",
+  "author": "hamza.graham",
+  "style": "notes",
+  "age": "aging",
+  "lines": 38
+ },
+ "legal-docs/data-protection/overview.md": {
+  "repo": "legal-docs",
+  "path": "data-protection/overview.md",
+  "author": "delphine.esposito",
+  "style": "notes",
+  "age": "aging",
+  "lines": 40
+ },
+ "ops-docs/planning/mrp-cycle.md": {
+  "repo": "ops-docs",
+  "path": "planning/mrp-cycle.md",
+  "author": "marco.blanco",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 65
+ },
+ "ops-docs/quality/nonconformance.md": {
+  "repo": "ops-docs",
+  "path": "quality/nonconformance.md",
+  "author": "kenji.farah",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 124
+ },
+ "ops-docs/quality/gauge-calibration.md": {
+  "repo": "ops-docs",
+  "path": "quality/gauge-calibration.md",
+  "author": "reza.hartmann",
+  "style": "table",
+  "age": "aging",
+  "lines": 43
+ },
+ "legal-docs/litigation/outside-counsel.md": {
+  "repo": "legal-docs",
+  "path": "litigation/outside-counsel.md",
+  "author": "amaka.eze",
+  "style": "policy",
+  "age": "aging",
+  "lines": 72
+ },
+ "ops-docs/quality/rma-process.md": {
+  "repo": "ops-docs",
+  "path": "quality/rma-process.md",
+  "author": "bilal.bose",
+  "style": "faq",
+  "age": "aging",
+  "lines": 62
+ },
+ "ops-docs/warehouse/goods-in.md": {
+  "repo": "ops-docs",
+  "path": "warehouse/goods-in.md",
+  "author": "pavel.jensen",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 64
+ },
+ "ops-docs/ehs/incident-reporting.md": {
+  "repo": "ops-docs",
+  "path": "ehs/incident-reporting.md",
+  "author": "malik.nakamura",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 77
+ },
+ "ops-docs/ehs/lockout-tagout.md": {
+  "repo": "ops-docs",
+  "path": "ehs/lockout-tagout.md",
+  "author": "malik.nakamura",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 49
+ },
+ "ops-docs/occupational-health/oh-service.md": {
+  "repo": "ops-docs",
+  "path": "occupational-health/oh-service.md",
+  "author": "declan.moss",
+  "style": "faq",
+  "age": "aging",
+  "lines": 68
+ },
+ "tech-docs/README.md": {
+  "repo": "tech-docs",
+  "path": "README.md",
+  "author": "olivier.young",
+  "style": "terse",
+  "age": "aging",
+  "lines": 29
+ },
+ "ops-docs/test-lab/lab-overview.md": {
+  "repo": "ops-docs",
+  "path": "test-lab/lab-overview.md",
+  "author": "irene.larsen",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 29
+ },
+ "tech-docs/it/service-desk.md": {
+  "repo": "tech-docs",
+  "path": "it/service-desk.md",
+  "author": "ava.osei",
+  "style": "table",
+  "age": "fresh",
+  "lines": 45
+ },
+ "tech-docs/it/backups.md": {
+  "repo": "tech-docs",
+  "path": "it/backups.md",
+  "author": "olivier.young",
+  "style": "notes",
+  "age": "aging",
+  "lines": 53
+ },
+ "tech-docs/factory-it/mes-and-shopfloor.md": {
+  "repo": "tech-docs",
+  "path": "factory-it/mes-and-shopfloor.md",
+  "author": "ivan.horvath",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 47
+ },
+ "tech-docs/messaging/mail-and-calendars.md": {
+  "repo": "tech-docs",
+  "path": "messaging/mail-and-calendars.md",
+  "author": "leah.dubois",
+  "style": "faq",
+  "age": "aging",
+  "lines": 52
+ },
+ "tech-docs/storage/file-shares.md": {
+  "repo": "tech-docs",
+  "path": "storage/file-shares.md",
+  "author": "petra.vasquez",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 60
+ },
+ "tech-docs/identity/joiners-movers-leavers.md": {
+  "repo": "tech-docs",
+  "path": "identity/joiners-movers-leavers.md",
+  "author": "chloe.schmidt",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 48
+ },
+ "tech-docs/it/network-and-sites.md": {
+  "repo": "tech-docs",
+  "path": "it/network-and-sites.md",
+  "author": "olivier.young",
+  "style": "table",
+  "age": "stale",
+  "lines": 37
+ },
+ "tech-docs/firmware/build-and-signing.md": {
+  "repo": "tech-docs",
+  "path": "firmware/build-and-signing.md",
+  "author": "mia.brennan",
+  "style": "steps",
+  "age": "aging",
+  "lines": 43
+ },
+ "tech-docs/firmware/coding-standard.md": {
+  "repo": "tech-docs",
+  "path": "firmware/coding-standard.md",
+  "author": "kasia.kato",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 64
+ },
+ "tech-docs/scm/source-control.md": {
+  "repo": "tech-docs",
+  "path": "scm/source-control.md",
+  "author": "imani.medina",
+  "style": "notes",
+  "age": "fresh",
+  "lines": 44
+ },
+ "tech-docs/orders-db/overview.md": {
+  "repo": "tech-docs",
+  "path": "orders-db/overview.md",
+  "author": "jonas.kaplan",
+  "style": "notes",
+  "age": "fresh",
+  "lines": 47
+ },
+ "tech-docs/adr/0009-firmware-monorepo.md": {
+  "repo": "tech-docs",
+  "path": "adr/0009-firmware-monorepo.md",
+  "author": "ethan.lee",
+  "style": "notes",
+  "age": "aging",
+  "lines": 42
+ },
+ "tech-docs/platform/monitoring-and-alerts.md": {
+  "repo": "tech-docs",
+  "path": "platform/monitoring-and-alerts.md",
+  "author": "marisol.reyes",
+  "style": "table",
+  "age": "fresh",
+  "lines": 49
+ },
+ "comms-docs/README.md": {
+  "repo": "comms-docs",
+  "path": "README.md",
+  "author": "eleni.demir",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 27
+ },
+ "comms-docs/brand/brand-basics.md": {
+  "repo": "comms-docs",
+  "path": "brand/brand-basics.md",
+  "author": "paloma.suzuki",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 47
+ },
+ "tech-docs/adr/0011-retire-nfs-a.md": {
+  "repo": "tech-docs",
+  "path": "adr/0011-retire-nfs-a.md",
+  "author": "rahul.iyer",
+  "style": "notes",
+  "age": "fresh",
+  "lines": 47
+ },
+ "comms-docs/social/social-media.md": {
+  "repo": "comms-docs",
+  "path": "social/social-media.md",
+  "author": "sabine.kurz",
+  "style": "faq",
+  "age": "aging",
+  "lines": 24
+ },
+ "comms-docs/web/website-updates.md": {
+  "repo": "comms-docs",
+  "path": "web/website-updates.md",
+  "author": "thabo.cruz",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 50
+ },
+ "comms-docs/events/trade-fairs.md": {
+  "repo": "comms-docs",
+  "path": "events/trade-fairs.md",
+  "author": "sonja.haugland",
+  "style": "table",
+  "age": "aging",
+  "lines": 52
+ },
+ "comms-docs/customer-stories.md": {
+  "repo": "comms-docs",
+  "path": "customer-stories.md",
+  "author": "paloma.suzuki",
+  "style": "steps",
+  "age": "aging",
+  "lines": 39
+ },
+ "finance-docs/procurement/purchase-requisitions.md": {
+  "repo": "finance-docs",
+  "path": "procurement/purchase-requisitions.md",
+  "author": "dara.doyle",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 62
+ },
+ "legal-docs/README.md": {
+  "repo": "legal-docs",
+  "path": "README.md",
+  "author": "viktoria.hahn",
+  "style": "terse",
+  "age": "aging",
+  "lines": 25
+ },
+ "finance-docs/tax/vat-and-customs-notes.md": {
+  "repo": "finance-docs",
+  "path": "tax/vat-and-customs-notes.md",
+  "author": "daisuke.castillo",
+  "style": "notes",
+  "age": "aging",
+  "lines": 34
+ },
+ "ops-docs/plants/maintenance-requests.md": {
+  "repo": "ops-docs",
+  "path": "plants/maintenance-requests.md",
+  "author": "mikael.jaramillo",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 65
+ }
+}

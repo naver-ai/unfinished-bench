@@ -1,0 +1,554 @@
+{
+ "handbook/university/who-does-what.md": {
+  "repo": "handbook",
+  "path": "university/who-does-what.md",
+  "author": "astrid.fujita",
+  "style": "table",
+  "age": "aging",
+  "lines": 42
+ },
+ "handbook/university/governance.md": {
+  "repo": "handbook",
+  "path": "university/governance.md",
+  "author": "owen.pritchard",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 43
+ },
+ "handbook/university/academic-year.md": {
+  "repo": "handbook",
+  "path": "university/academic-year.md",
+  "author": "annika.lindqvist",
+  "style": "table",
+  "age": "fresh",
+  "lines": 40
+ },
+ "handbook/README.md": {
+  "repo": "handbook",
+  "path": "README.md",
+  "author": "morag.dunlop",
+  "style": "terse",
+  "age": "aging",
+  "lines": 26
+ },
+ "handbook/university/about-aldercombe.md": {
+  "repo": "handbook",
+  "path": "university/about-aldercombe.md",
+  "author": "aisha.rahman",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 21
+ },
+ "handbook/people/leave-and-absence.md": {
+  "repo": "handbook",
+  "path": "people/leave-and-absence.md",
+  "author": "freya.bauer",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 104
+ },
+ "handbook/people/travel.md": {
+  "repo": "handbook",
+  "path": "people/travel.md",
+  "author": "morag.dunlop",
+  "style": "terse",
+  "age": "stale",
+  "lines": 33
+ },
+ "handbook/people/expenses.md": {
+  "repo": "handbook",
+  "path": "people/expenses.md",
+  "author": "stephen.mallory",
+  "style": "policy",
+  "age": "aging",
+  "lines": 90
+ },
+ "handbook/people/new-starters.md": {
+  "repo": "handbook",
+  "path": "people/new-starters.md",
+  "author": "morag.dunlop",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 41
+ },
+ "handbook/people/annual-review.md": {
+  "repo": "handbook",
+  "path": "people/annual-review.md",
+  "author": "freya.bauer",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 27
+ },
+ "handbook/it/passwords-and-mfa.md": {
+  "repo": "handbook",
+  "path": "it/passwords-and-mfa.md",
+  "author": "quentin.patel",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 29
+ },
+ "handbook/it/accounts-and-access.md": {
+  "repo": "handbook",
+  "path": "it/accounts-and-access.md",
+  "author": "alana.haddad",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 74
+ },
+ "handbook/information/classification.md": {
+  "repo": "handbook",
+  "path": "information/classification.md",
+  "author": "bilal.ahmadi",
+  "style": "table",
+  "age": "fresh",
+  "lines": 47
+ },
+ "handbook/information/data-protection.md": {
+  "repo": "handbook",
+  "path": "information/data-protection.md",
+  "author": "stella.jensen",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 54
+ },
+ "handbook/information/foi-requests.md": {
+  "repo": "handbook",
+  "path": "information/foi-requests.md",
+  "author": "tessa.kiplagat",
+  "style": "faq",
+  "age": "aging",
+  "lines": 65
+ },
+ "handbook/health-safety/fire-and-first-aid.md": {
+  "repo": "handbook",
+  "path": "health-safety/fire-and-first-aid.md",
+  "author": "eero.silva",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 28
+ },
+ "handbook/safeguarding/safeguarding.md": {
+  "repo": "handbook",
+  "path": "safeguarding/safeguarding.md",
+  "author": "chidi.jovanovic",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 74
+ },
+ "handbook/comms/writing-and-brand.md": {
+  "repo": "handbook",
+  "path": "comms/writing-and-brand.md",
+  "author": "tom.becker",
+  "style": "checklist",
+  "age": "aging",
+  "lines": 49
+ },
+ "finance-docs/README.md": {
+  "repo": "finance-docs",
+  "path": "README.md",
+  "author": "stephen.mallory",
+  "style": "terse",
+  "age": "aging",
+  "lines": 25
+ },
+ "finance-docs/ap/supplier-setup.md": {
+  "repo": "finance-docs",
+  "path": "ap/supplier-setup.md",
+  "author": "caleb.salazar",
+  "style": "checklist",
+  "age": "aging",
+  "lines": 55
+ },
+ "finance-docs/payroll/payroll-calendar.md": {
+  "repo": "finance-docs",
+  "path": "payroll/payroll-calendar.md",
+  "author": "erin.hartmann",
+  "style": "table",
+  "age": "fresh",
+  "lines": 46
+ },
+ "finance-docs/month-end-and-year-end.md": {
+  "repo": "finance-docs",
+  "path": "month-end-and-year-end.md",
+  "author": "chloe.madsen",
+  "style": "table",
+  "age": "fresh",
+  "lines": 61
+ },
+ "finance-docs/student-fees/sponsor-billing.md": {
+  "repo": "finance-docs",
+  "path": "student-fees/sponsor-billing.md",
+  "author": "lucia.ferrante",
+  "style": "steps",
+  "age": "aging",
+  "lines": 15
+ },
+ "finance-docs/student-fees/paying-fees.md": {
+  "repo": "finance-docs",
+  "path": "student-fees/paying-fees.md",
+  "author": "valentina.demir",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 36
+ },
+ "finance-docs/procurement/buying.md": {
+  "repo": "finance-docs",
+  "path": "procurement/buying.md",
+  "author": "simone.klein",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 89
+ },
+ "research-docs/README.md": {
+  "repo": "research-docs",
+  "path": "README.md",
+  "author": "paul.brannigan",
+  "style": "terse",
+  "age": "aging",
+  "lines": 31
+ },
+ "finance-docs/tax/vat-notes.md": {
+  "repo": "finance-docs",
+  "path": "tax/vat-notes.md",
+  "author": "carlos.ibarra",
+  "style": "notes",
+  "age": "aging",
+  "lines": 37
+ },
+ "research-docs/pre-award/costing-and-approval.md": {
+  "repo": "research-docs",
+  "path": "pre-award/costing-and-approval.md",
+  "author": "tariq.lambert",
+  "style": "table",
+  "age": "fresh",
+  "lines": 69
+ },
+ "finance-docs/income/donations-and-gift-aid.md": {
+  "repo": "finance-docs",
+  "path": "income/donations-and-gift-aid.md",
+  "author": "theo.ikeda",
+  "style": "notes",
+  "age": "aging",
+  "lines": 52
+ },
+ "research-docs/contracts/research-contracts.md": {
+  "repo": "research-docs",
+  "path": "contracts/research-contracts.md",
+  "author": "laszlo.schmidt",
+  "style": "table",
+  "age": "fresh",
+  "lines": 59
+ },
+ "research-docs/pre-award/funders.md": {
+  "repo": "research-docs",
+  "path": "pre-award/funders.md",
+  "author": "bruno.keller",
+  "style": "notes",
+  "age": "aging",
+  "lines": 64
+ },
+ "research-docs/ethics/ethics-review.md": {
+  "repo": "research-docs",
+  "path": "ethics/ethics-review.md",
+  "author": "rania.gashi",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 63
+ },
+ "research-docs/post-award/reporting-and-closedown.md": {
+  "repo": "research-docs",
+  "path": "post-award/reporting-and-closedown.md",
+  "author": "gaurav.obi",
+  "style": "notes",
+  "age": "aging",
+  "lines": 43
+ },
+ "research-docs/post-award/award-setup.md": {
+  "repo": "research-docs",
+  "path": "post-award/award-setup.md",
+  "author": "tomas.herrera",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 52
+ },
+ "research-docs/centres/research-centres.md": {
+  "repo": "research-docs",
+  "path": "centres/research-centres.md",
+  "author": "paul.brannigan",
+  "style": "table",
+  "age": "aging",
+  "lines": 18
+ },
+ "registry-docs/README.md": {
+  "repo": "registry-docs",
+  "path": "README.md",
+  "author": "colm.ortiz",
+  "style": "terse",
+  "age": "aging",
+  "lines": 34
+ },
+ "research-docs/research-data/data-management.md": {
+  "repo": "research-docs",
+  "path": "research-data/data-management.md",
+  "author": "rania.gashi",
+  "style": "notes",
+  "age": "aging",
+  "lines": 62
+ },
+ "registry-docs/records/letters-and-transcripts.md": {
+  "repo": "registry-docs",
+  "path": "records/letters-and-transcripts.md",
+  "author": "luis.ferreira",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 60
+ },
+ "registry-docs/records/personal-details-and-modules.md": {
+  "repo": "registry-docs",
+  "path": "records/personal-details-and-modules.md",
+  "author": "joel.amari",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 55
+ },
+ "registry-docs/enrolment/student-hub.md": {
+  "repo": "registry-docs",
+  "path": "enrolment/student-hub.md",
+  "author": "hamza.nakamura",
+  "style": "notes",
+  "age": "aging",
+  "lines": 36
+ },
+ "registry-docs/enrolment/enrolment.md": {
+  "repo": "registry-docs",
+  "path": "enrolment/enrolment.md",
+  "author": "marcus.bell",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 45
+ },
+ "registry-docs/records/data-quality.md": {
+  "repo": "registry-docs",
+  "path": "records/data-quality.md",
+  "author": "dana.okonjo",
+  "style": "notes",
+  "age": "aging",
+  "lines": 46
+ },
+ "registry-docs/exams/exam-boards.md": {
+  "repo": "registry-docs",
+  "path": "exams/exam-boards.md",
+  "author": "ethan.marchetti",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 98
+ },
+ "registry-docs/timetabling/teaching-timetable.md": {
+  "repo": "registry-docs",
+  "path": "timetabling/teaching-timetable.md",
+  "author": "georgia.bergstrom",
+  "style": "terse",
+  "age": "stale",
+  "lines": 23
+ },
+ "registry-docs/exams/exam-timetabling.md": {
+  "repo": "registry-docs",
+  "path": "exams/exam-timetabling.md",
+  "author": "ivan.petrov",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 63
+ },
+ "registry-docs/exams/extenuating-circumstances.md": {
+  "repo": "registry-docs",
+  "path": "exams/extenuating-circumstances.md",
+  "author": "ethan.marchetti",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 59
+ },
+ "estates-docs/helpdesk/maintenance-requests.md": {
+  "repo": "estates-docs",
+  "path": "helpdesk/maintenance-requests.md",
+  "author": "greta.saito",
+  "style": "table",
+  "age": "fresh",
+  "lines": 50
+ },
+ "estates-docs/fm/planned-maintenance.md": {
+  "repo": "estates-docs",
+  "path": "fm/planned-maintenance.md",
+  "author": "greta.saito",
+  "style": "table",
+  "age": "aging",
+  "lines": 46
+ },
+ "estates-docs/projects/capital-projects.md": {
+  "repo": "estates-docs",
+  "path": "projects/capital-projects.md",
+  "author": "sam.whitley",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 31
+ },
+ "estates-docs/accommodation/residences.md": {
+  "repo": "estates-docs",
+  "path": "accommodation/residences.md",
+  "author": "chiara.blanco",
+  "style": "table",
+  "age": "fresh",
+  "lines": 41
+ },
+ "estates-docs/accommodation/allocations.md": {
+  "repo": "estates-docs",
+  "path": "accommodation/allocations.md",
+  "author": "chiara.blanco",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 56
+ },
+ "estates-docs/lettings/lettings-overview.md": {
+  "repo": "estates-docs",
+  "path": "lettings/lettings-overview.md",
+  "author": "renee.castillo",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 17
+ },
+ "estates-docs/lettings/move-in-move-out.md": {
+  "repo": "estates-docs",
+  "path": "lettings/move-in-move-out.md",
+  "author": "marcus.hale",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 50
+ },
+ "estates-docs/commercial/malaysia-campus-property.md": {
+  "repo": "estates-docs",
+  "path": "commercial/malaysia-campus-property.md",
+  "author": "aoife.brennan",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 15
+ },
+ "estates-docs/commercial/lease-administration.md": {
+  "repo": "estates-docs",
+  "path": "commercial/lease-administration.md",
+  "author": "marcus.lindahl",
+  "style": "table",
+  "age": "aging",
+  "lines": 50
+ },
+ "services-docs/README.md": {
+  "repo": "services-docs",
+  "path": "README.md",
+  "author": "priti.desai",
+  "style": "terse",
+  "age": "aging",
+  "lines": 25
+ },
+ "services-docs/student-services/support-overview.md": {
+  "repo": "services-docs",
+  "path": "student-services/support-overview.md",
+  "author": "rachel.tobin",
+  "style": "table",
+  "age": "fresh",
+  "lines": 44
+ },
+ "services-docs/student-services/student-money.md": {
+  "repo": "services-docs",
+  "path": "student-services/student-money.md",
+  "author": "pablo.dimitrov",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 39
+ },
+ "services-docs/it/service-desk.md": {
+  "repo": "services-docs",
+  "path": "it/service-desk.md",
+  "author": "lucas.dahl",
+  "style": "table",
+  "age": "fresh",
+  "lines": 52
+ },
+ "services-docs/student-services/support-plans.md": {
+  "repo": "services-docs",
+  "path": "student-services/support-plans.md",
+  "author": "amara.ramos",
+  "style": "steps",
+  "age": "aging",
+  "lines": 41
+ },
+ "services-docs/it/backups.md": {
+  "repo": "services-docs",
+  "path": "it/backups.md",
+  "author": "lucia.kowalski",
+  "style": "notes",
+  "age": "aging",
+  "lines": 41
+ },
+ "services-docs/it/infrastructure-on-call.md": {
+  "repo": "services-docs",
+  "path": "it/infrastructure-on-call.md",
+  "author": "lucia.kowalski",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 97
+ },
+ "services-docs/it/change-management.md": {
+  "repo": "services-docs",
+  "path": "it/change-management.md",
+  "author": "eleni.hayashi",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 84
+ },
+ "services-docs/development/gift-processing.md": {
+  "repo": "services-docs",
+  "path": "development/gift-processing.md",
+  "author": "kalani.fonseca",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 56
+ },
+ "services-docs/student-services/complaints.md": {
+  "repo": "services-docs",
+  "path": "student-services/complaints.md",
+  "author": "enzo.kaplan",
+  "style": "policy",
+  "age": "aging",
+  "lines": 49
+ },
+ "services-docs/student-systems/integrations.md": {
+  "repo": "services-docs",
+  "path": "student-systems/integrations.md",
+  "author": "bianca.russo",
+  "style": "notes",
+  "age": "aging",
+  "lines": 59
+ },
+ "services-docs/kestrel-vale/office-routines.md": {
+  "repo": "services-docs",
+  "path": "kestrel-vale/office-routines.md",
+  "author": "sian.pryce",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 52
+ },
+ "estates-docs/README.md": {
+  "repo": "estates-docs",
+  "path": "README.md",
+  "author": "neil.ashcroft",
+  "style": "terse",
+  "age": "aging",
+  "lines": 28
+ },
+ "estates-docs/fm/permits-to-work.md": {
+  "repo": "estates-docs",
+  "path": "fm/permits-to-work.md",
+  "author": "eero.silva",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 48
+ }
+}

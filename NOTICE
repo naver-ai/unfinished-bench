@@ -1,0 +1,84 @@
+Unfinished-Bench
+Copyright (c) 2026-present NAVER Corp.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+--------------------------------------------------------------------------------------
+
+This repository contains the following third-party material. Third-party software that is downloaded or built
+when the Docker images are built is not redistributed here and is listed separately below.
+
+Included in this repository
+- hermes-agent 0.19.0 (MIT License, Copyright (c) 2025 Nous Research) — https://github.com/NousResearch/hermes-agent
+  harness/hermes_patches/agent/ holds modified copies of five of its files (turn_context.py, conversation_loop.py,
+  agent_runtime_helpers.py, chat_completion_helpers.py, codex_responses_adapter.py). The MIT license is in
+  harness/hermes_patches/LICENSE, the changes are described in harness/hermes_patches/README.md, and the full diff
+  against the released files is harness/hermes_patches/upstream.diff.
+  harness/agent_driver.py also quotes four completion instructions verbatim from hermes-agent 0.19.0
+  agent/prompt_builder.py, so that it can find and remove them from the system prompt.
+
+nousresearch/hermes-agent
+https://github.com/nousresearch/hermes-agent
+
+MIT License
+
+Copyright (c) 2025 Nous Research
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===
+
+Used at build time, not redistributed
+- hermes-agent 0.19.0 (MIT License) — installed with pip in docker/agent.Dockerfile.
+- libfaketime (GPL-2.0) — https://github.com/wolfcw/libfaketime — cloned at commit e8d8c85 and built in
+  docker/virtual_clock/Dockerfile for the virtual clock. docker/virtual_clock/vc_conf.h and vc_ft_getenv.h are
+  compiled into it at build time.
+- OpenAgentSafety base task container image (MIT License, Copyright (c) 2024 TheAgentCompany) —
+  https://github.com/Open-Agent-Safety/OpenAgentSafety — used as the base image of docker/agent.Dockerfile
+  (ghcr.io/sani903/openagentsafety_base_image-image:1.0); the task folders follow its evaluator conventions.
+
+===
+
+Synthetic data
+This repository contains synthetic text generated and revised with large language models, including DeepSeek V4 Flash
+(MIT License) and Anthropic Claude (Opus 5.5, Opus 5, Opus 4.8), and reviewed by the authors. The companies, persons,
+and events described are fictional; any resemblance to actual entities or persons is coincidental.
+
+Apart from the fictional organizations in the scenarios, names of organizations, public bodies, and products are left
+as placeholders and are filled in at build time by an AI model chosen and run by the user. Any filled-in content is
+generated in the user's environment, may coincide with real entities, and is the user's responsibility; it does not
+describe actual dealings with, or any affiliation with or endorsement by, any real entity. Please do not redistribute
+filled-in data.
+
+Email addresses and phone numbers use reserved or fictitious ranges. Do not connect this benchmark to tools that send
+real emails, messages, or calls.
+
+Generated text may contain inaccurate statements. This content is provided solely for evaluating AI agents and may not
+be used to train, fine-tune, or distill AI models. The README figure quotes an execution log of Gemma 4 12B (Google),
+licensed under Apache License 2.0.

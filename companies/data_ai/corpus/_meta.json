@@ -1,0 +1,546 @@
+{
+ "handbook/README.md": {
+  "repo": "handbook",
+  "path": "README.md",
+  "author": "carlos.gashi",
+  "style": "terse",
+  "age": "aging",
+  "lines": 22
+ },
+ "handbook/company/about-brakwater.md": {
+  "repo": "handbook",
+  "path": "company/about-brakwater.md",
+  "author": "ruben.dewit",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 41
+ },
+ "handbook/company/glossary.md": {
+  "repo": "handbook",
+  "path": "company/glossary.md",
+  "author": "georgia.nunez",
+  "style": "table",
+  "age": "fresh",
+  "lines": 49
+ },
+ "handbook/people/expenses.md": {
+  "repo": "handbook",
+  "path": "people/expenses.md",
+  "author": "bo.weber",
+  "style": "policy",
+  "age": "aging",
+  "lines": 72
+ },
+ "handbook/people/leave-and-absence.md": {
+  "repo": "handbook",
+  "path": "people/leave-and-absence.md",
+  "author": "femke.jansen",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 79
+ },
+ "handbook/company/org-overview.md": {
+  "repo": "handbook",
+  "path": "company/org-overview.md",
+  "author": "gabriel.young",
+  "style": "table",
+  "age": "aging",
+  "lines": 45
+ },
+ "handbook/people/performance-conversations.md": {
+  "repo": "handbook",
+  "path": "people/performance-conversations.md",
+  "author": "sam.okoro",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 15
+ },
+ "handbook/people/travel.md": {
+  "repo": "handbook",
+  "path": "people/travel.md",
+  "author": "aaliyah.mendes",
+  "style": "terse",
+  "age": "stale",
+  "lines": 11
+ },
+ "handbook/people/onboarding-checklist.md": {
+  "repo": "handbook",
+  "path": "people/onboarding-checklist.md",
+  "author": "gabriel.young",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 47
+ },
+ "handbook/people/working-across-offices.md": {
+  "repo": "handbook",
+  "path": "people/working-across-offices.md",
+  "author": "carlos.gashi",
+  "style": "notes",
+  "age": "fresh",
+  "lines": 21
+ },
+ "handbook/security/data-classification.md": {
+  "repo": "handbook",
+  "path": "security/data-classification.md",
+  "author": "sara.olsen",
+  "style": "table",
+  "age": "fresh",
+  "lines": 45
+ },
+ "handbook/it/passwords-and-mfa.md": {
+  "repo": "handbook",
+  "path": "it/passwords-and-mfa.md",
+  "author": "sara.olsen",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 18
+ },
+ "handbook/security/incident-reporting.md": {
+  "repo": "handbook",
+  "path": "security/incident-reporting.md",
+  "author": "bianca.patel",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 40
+ },
+ "handbook/legal/contracts-and-signing.md": {
+  "repo": "handbook",
+  "path": "legal/contracts-and-signing.md",
+  "author": "liesbeth.kramer",
+  "style": "table",
+  "age": "fresh",
+  "lines": 41
+ },
+ "handbook/security/acceptable-use.md": {
+  "repo": "handbook",
+  "path": "security/acceptable-use.md",
+  "author": "hamza.pereira",
+  "style": "policy",
+  "age": "aging",
+  "lines": 55
+ },
+ "handbook/comms/talking-to-press.md": {
+  "repo": "handbook",
+  "path": "comms/talking-to-press.md",
+  "author": "jasmine.cole",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 18
+ },
+ "finance-docs/README.md": {
+  "repo": "finance-docs",
+  "path": "README.md",
+  "author": "tom.keane",
+  "style": "terse",
+  "age": "aging",
+  "lines": 19
+ },
+ "handbook/it/access-requests.md": {
+  "repo": "handbook",
+  "path": "it/access-requests.md",
+  "author": "mehmet.dahl",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 59
+ },
+ "finance-docs/finops/cost-reporting.md": {
+  "repo": "finance-docs",
+  "path": "finops/cost-reporting.md",
+  "author": "rahul.muller",
+  "style": "table",
+  "age": "fresh",
+  "lines": 44
+ },
+ "finance-docs/finops/cost-tags.md": {
+  "repo": "finance-docs",
+  "path": "finops/cost-tags.md",
+  "author": "rahul.muller",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 24
+ },
+ "finance-docs/period-close.md": {
+  "repo": "finance-docs",
+  "path": "period-close.md",
+  "author": "jin.kowalski",
+  "style": "table",
+  "age": "fresh",
+  "lines": 79
+ },
+ "finance-docs/finops/unit-costs.md": {
+  "repo": "finance-docs",
+  "path": "finops/unit-costs.md",
+  "author": "nadia.okafor",
+  "style": "notes",
+  "age": "aging",
+  "lines": 41
+ },
+ "finance-docs/accounting/payroll-calendar.md": {
+  "repo": "finance-docs",
+  "path": "accounting/payroll-calendar.md",
+  "author": "jin.kowalski",
+  "style": "table",
+  "age": "fresh",
+  "lines": 38
+ },
+ "finance-docs/procurement/new-suppliers.md": {
+  "repo": "finance-docs",
+  "path": "procurement/new-suppliers.md",
+  "author": "ibrahim.richter",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 42
+ },
+ "finance-docs/revenue/billing-customers.md": {
+  "repo": "finance-docs",
+  "path": "revenue/billing-customers.md",
+  "author": "caleb.laurent",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 40
+ },
+ "finance-docs/accounting/supplier-invoices.md": {
+  "repo": "finance-docs",
+  "path": "accounting/supplier-invoices.md",
+  "author": "ebony.schmidt",
+  "style": "steps",
+  "age": "aging",
+  "lines": 66
+ },
+ "finance-docs/tax/vat-and-sales-tax.md": {
+  "repo": "finance-docs",
+  "path": "tax/vat-and-sales-tax.md",
+  "author": "ebony.schmidt",
+  "style": "notes",
+  "age": "stale",
+  "lines": 31
+ },
+ "platform-docs/README.md": {
+  "repo": "platform-docs",
+  "path": "README.md",
+  "author": "malik.mbeki",
+  "style": "terse",
+  "age": "aging",
+  "lines": 22
+ },
+ "platform-docs/oncall/oncall-guide.md": {
+  "repo": "platform-docs",
+  "path": "oncall/oncall-guide.md",
+  "author": "jae.park",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 63
+ },
+ "platform-docs/cloud/accounts-and-projects.md": {
+  "repo": "platform-docs",
+  "path": "cloud/accounts-and-projects.md",
+  "author": "kasia.nowak",
+  "style": "table",
+  "age": "aging",
+  "lines": 33
+ },
+ "platform-docs/oncall/incident-process.md": {
+  "repo": "platform-docs",
+  "path": "oncall/incident-process.md",
+  "author": "tomas.fleming",
+  "style": "table",
+  "age": "fresh",
+  "lines": 97
+ },
+ "platform-docs/cloud/environments.md": {
+  "repo": "platform-docs",
+  "path": "cloud/environments.md",
+  "author": "jae.park",
+  "style": "table",
+  "age": "stale",
+  "lines": 47
+ },
+ "platform-docs/cloud/backups-and-restore.md": {
+  "repo": "platform-docs",
+  "path": "cloud/backups-and-restore.md",
+  "author": "malik.mbeki",
+  "style": "notes",
+  "age": "aging",
+  "lines": 45
+ },
+ "platform-docs/security/secrets.md": {
+  "repo": "platform-docs",
+  "path": "security/secrets.md",
+  "author": "bianca.patel",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 55
+ },
+ "platform-docs/security/vulnerability-management.md": {
+  "repo": "platform-docs",
+  "path": "security/vulnerability-management.md",
+  "author": "abel.achebe",
+  "style": "table",
+  "age": "aging",
+  "lines": 44
+ },
+ "platform-docs/batch/submitting-jobs.md": {
+  "repo": "platform-docs",
+  "path": "batch/submitting-jobs.md",
+  "author": "nadia.arslan",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 73
+ },
+ "platform-docs/cloud/iac-workflow.md": {
+  "repo": "platform-docs",
+  "path": "cloud/iac-workflow.md",
+  "author": "ivan.herrera",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 79
+ },
+ "platform-docs/adr/0009-one-batch-cluster.md": {
+  "repo": "platform-docs",
+  "path": "adr/0009-one-batch-cluster.md",
+  "author": "aiko.bergstrom",
+  "style": "notes",
+  "age": "fresh",
+  "lines": 36
+ },
+ "platform-docs/support-systems/helpdesk-admin.md": {
+  "repo": "platform-docs",
+  "path": "support-systems/helpdesk-admin.md",
+  "author": "kalani.sokolov",
+  "style": "notes",
+  "age": "aging",
+  "lines": 55
+ },
+ "data-docs/README.md": {
+  "repo": "data-docs",
+  "path": "README.md",
+  "author": "isaac.kaplan",
+  "style": "terse",
+  "age": "aging",
+  "lines": 29
+ },
+ "platform-docs/adr/0004-imagery-as-cogs.md": {
+  "repo": "platform-docs",
+  "path": "adr/0004-imagery-as-cogs.md",
+  "author": "kofi.gupta",
+  "style": "notes",
+  "age": "aging",
+  "lines": 40
+ },
+ "data-docs/catalogue.md": {
+  "repo": "data-docs",
+  "path": "catalogue.md",
+  "author": "isla.penrose",
+  "style": "table",
+  "age": "fresh",
+  "lines": 40
+ },
+ "data-docs/warehouse/overview.md": {
+  "repo": "data-docs",
+  "path": "warehouse/overview.md",
+  "author": "kaito.mori",
+  "style": "terse",
+  "age": "aging",
+  "lines": 53
+ },
+ "platform-docs/apps/analytics-api-runbook.md": {
+  "repo": "platform-docs",
+  "path": "apps/analytics-api-runbook.md",
+  "author": "zeynep.kruger",
+  "style": "steps",
+  "age": "aging",
+  "lines": 101
+ },
+ "data-docs/pipelines/scheduler-oncall.md": {
+  "repo": "data-docs",
+  "path": "pipelines/scheduler-oncall.md",
+  "author": "tariq.nakamura",
+  "style": "steps",
+  "age": "draft",
+  "lines": 46
+ },
+ "data-docs/pipelines/imagery-ingest.md": {
+  "repo": "data-docs",
+  "path": "pipelines/imagery-ingest.md",
+  "author": "lucia.fonseca",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 55
+ },
+ "data-docs/sensors/sensor-network.md": {
+  "repo": "data-docs",
+  "path": "sensors/sensor-network.md",
+  "author": "reza.tanaka",
+  "style": "notes",
+  "age": "aging",
+  "lines": 49
+ },
+ "data-docs/warehouse/dbt-conventions.md": {
+  "repo": "data-docs",
+  "path": "warehouse/dbt-conventions.md",
+  "author": "isaac.kaplan",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 55
+ },
+ "data-docs/governance/data-access.md": {
+  "repo": "data-docs",
+  "path": "governance/data-access.md",
+  "author": "clara.bianchi",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 42
+ },
+ "data-docs/bi/dashboard-standards.md": {
+  "repo": "data-docs",
+  "path": "bi/dashboard-standards.md",
+  "author": "mina.silva",
+  "style": "checklist",
+  "age": "aging",
+  "lines": 35
+ },
+ "data-docs/customers/aoi-orders.md": {
+  "repo": "data-docs",
+  "path": "customers/aoi-orders.md",
+  "author": "sabine.mishra",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 40
+ },
+ "data-docs/governance/dpia-notes.md": {
+  "repo": "data-docs",
+  "path": "governance/dpia-notes.md",
+  "author": "liesbeth.kramer",
+  "style": "notes",
+  "age": "aging",
+  "lines": 58
+ },
+ "ml-docs/cluster/overview.md": {
+  "repo": "ml-docs",
+  "path": "cluster/overview.md",
+  "author": "daniel.arslan",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 63
+ },
+ "ml-docs/modelhub.md": {
+  "repo": "ml-docs",
+  "path": "modelhub.md",
+  "author": "bo.vasquez",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 50
+ },
+ "ml-docs/training/labelling.md": {
+  "repo": "ml-docs",
+  "path": "training/labelling.md",
+  "author": "ida.novak",
+  "style": "steps",
+  "age": "draft",
+  "lines": 87
+ },
+ "ml-docs/serving/serving-overview.md": {
+  "repo": "ml-docs",
+  "path": "serving/serving-overview.md",
+  "author": "daniel.arslan",
+  "style": "terse",
+  "age": "aging",
+  "lines": 31
+ },
+ "ml-docs/adr/0003-eo-foundation-model.md": {
+  "repo": "ml-docs",
+  "path": "adr/0003-eo-foundation-model.md",
+  "author": "laszlo.fonseca",
+  "style": "notes",
+  "age": "aging",
+  "lines": 49
+ },
+ "commercial-docs/README.md": {
+  "repo": "commercial-docs",
+  "path": "README.md",
+  "author": "marcus.ellery",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 21
+ },
+ "commercial-docs/customer-success/onboarding-customers.md": {
+  "repo": "commercial-docs",
+  "path": "customer-success/onboarding-customers.md",
+  "author": "erin.reyes",
+  "style": "checklist",
+  "age": "aging",
+  "lines": 61
+ },
+ "commercial-docs/support/coverage.md": {
+  "repo": "commercial-docs",
+  "path": "support/coverage.md",
+  "author": "wanjiru.kiplagat",
+  "style": "table",
+  "age": "fresh",
+  "lines": 16
+ },
+ "commercial-docs/support/escalations.md": {
+  "repo": "commercial-docs",
+  "path": "support/escalations.md",
+  "author": "olivier.bishop",
+  "style": "table",
+  "age": "fresh",
+  "lines": 45
+ },
+ "commercial-docs/sales/pricing-and-packaging.md": {
+  "repo": "commercial-docs",
+  "path": "sales/pricing-and-packaging.md",
+  "author": "omar.haddad",
+  "style": "table",
+  "age": "aging",
+  "lines": 53
+ },
+ "commercial-docs/sales/public-sector-tenders.md": {
+  "repo": "commercial-docs",
+  "path": "sales/public-sector-tenders.md",
+  "author": "elif.farah",
+  "style": "notes",
+  "age": "aging",
+  "lines": 60
+ },
+ "commercial-docs/comms/brand-voice.md": {
+  "repo": "commercial-docs",
+  "path": "comms/brand-voice.md",
+  "author": "amara.das",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 60
+ },
+ "ml-docs/README.md": {
+  "repo": "ml-docs",
+  "path": "README.md",
+  "author": "ben.hughes",
+  "style": "terse",
+  "age": "aging",
+  "lines": 28
+ },
+ "ml-docs/cluster/getting-gpu-time.md": {
+  "repo": "ml-docs",
+  "path": "cluster/getting-gpu-time.md",
+  "author": "bo.vasquez",
+  "style": "faq",
+  "age": "aging",
+  "lines": 40
+ },
+ "commercial-docs/marketing/launch-checklist.md": {
+  "repo": "commercial-docs",
+  "path": "marketing/launch-checklist.md",
+  "author": "naomi.ferrari",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 35
+ },
+ "ml-docs/eval/offline-evaluation.md": {
+  "repo": "ml-docs",
+  "path": "eval/offline-evaluation.md",
+  "author": "magnus.pereira",
+  "style": "notes",
+  "age": "fresh",
+  "lines": 61
+ }
+}

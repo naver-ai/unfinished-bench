@@ -1,0 +1,6568 @@
+{
+ "it-help": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "simone.bishop",
+   "body": "hey, anyone else seeing the patient portal taking forever to load right now? had two patients mention it."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "valentina.kato",
+   "body": "we've got a ticket open on that, looking into it now. will update here."
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "yasmin.osei",
+   "body": "also seeing slow loads on the provider portal side. let me know if you need logs."
+  },
+  {
+   "d": 42,
+   "h": 10.4,
+   "author": "valentina.kato",
+   "body": "thanks, we'll grab them if needed."
+  },
+  {
+   "d": 41,
+   "h": 8.4,
+   "author": "tariq.abara",
+   "body": "reminder that the records platform maintenance window is this coming working day. expect brief interruptions on the document archive."
+  },
+  {
+   "d": 41,
+   "h": 9.0,
+   "author": "rebecca.hansen",
+   "body": "thanks for the heads up. will hold off on scanning uploads until it's done."
+  },
+  {
+   "d": 40,
+   "h": 11.3,
+   "author": "henrik.eklund",
+   "body": "anyone else get a weird error in the adjudication system when trying to open a claim with a specific attachment? just got it on three."
+  },
+  {
+   "d": 40,
+   "h": 11.7,
+   "author": "paloma.mishra",
+   "body": "we're aware, there's a formatting issue on some scanned docs. it's in the queue."
+  },
+  {
+   "d": 40,
+   "h": 12.0,
+   "author": "henrik.eklund",
+   "body": "ok, thanks for the quick reply."
+  },
+  {
+   "d": 39,
+   "h": 14.2,
+   "author": "freya.bose",
+   "body": "hi, can someone from IT confirm the VPN is still up for cork folks? I heard there might be an issue."
+  },
+  {
+   "d": 39,
+   "h": 14.5,
+   "author": "piotr.zielinski",
+   "body": "just connected fine from here, so likely not a widespread problem. will keep an eye."
+  },
+  {
+   "d": 39,
+   "h": 15.0,
+   "author": "valentina.kato",
+   "body": "we haven't seen any alerts. if you have a specific user affected, ask them to hit the service desk."
+  },
+  {
+   "d": 38,
+   "h": 9.8,
+   "author": "eleni.lee",
+   "body": "question: are there known issues with the patient app not sending push notifications? two patients mentioned missing reminder alerts."
+  },
+  {
+   "d": 38,
+   "h": 10.2,
+   "author": "theo.takahashi",
+   "body": "not that I know of. could be a device settings thing. can you get more details from them?"
+  },
+  {
+   "d": 38,
+   "h": 10.5,
+   "author": "eleni.lee",
+   "body": "will do, thanks."
+  },
+  {
+   "d": 37,
+   "h": 12.1,
+   "author": "wanjiru.kruger",
+   "body": "noticed the lab results from the south bend hospital are coming in a bit late to the cork system. is that expected?"
+  },
+  {
+   "d": 37,
+   "h": 12.4,
+   "author": "yasmin.osei",
+   "body": "we had a slight delay on the HL7 feed earlier, should be caught up now. let me know if you still see lag."
+  },
+  {
+   "d": 37,
+   "h": 12.6,
+   "author": "wanjiru.kruger",
+   "body": "ok, will check again in a bit."
+  },
+  {
+   "d": 36,
+   "h": 15.4,
+   "author": "gregory.tillery",
+   "body": "quick question: does anyone have the link to the acceptable use policy? need to share with a new hire."
+  },
+  {
+   "d": 36,
+   "h": 15.6,
+   "author": "valentina.kato",
+   "body": "it's in the handbook under security/acceptable-use.md"
+  },
+  {
+   "d": 36,
+   "h": 15.8,
+   "author": "gregory.tillery",
+   "body": "thanks!"
+  },
+  {
+   "d": 35,
+   "h": 10.0,
+   "author": "reuben.sata",
+   "body": "anyone else have issues accessing the data warehouse right now? getting timeout on a query."
+  },
+  {
+   "d": 35,
+   "h": 10.3,
+   "author": "paloma.mishra",
+   "body": "not that I see, but I'll check the warehouse health."
+  },
+  {
+   "d": 35,
+   "h": 10.6,
+   "author": "reuben.sata",
+   "body": "thanks, might just be my connection."
+  },
+  {
+   "d": 34,
+   "h": 13.2,
+   "author": "colleen.haines",
+   "body": "is there a way to get a list of all our plan members who haven't used the portal in the last few months? for a communication project."
+  },
+  {
+   "d": 34,
+   "h": 13.5,
+   "author": "theo.takahashi",
+   "body": "you can probably pull that from the data warehouse. check the member portal usage tables. I can help if you need a query."
+  },
+  {
+   "d": 34,
+   "h": 14.0,
+   "author": "colleen.haines",
+   "body": "that would be great, thanks. I'll open a ticket and we can work on it."
+  },
+  {
+   "d": 33,
+   "h": 9.1,
+   "author": "ilse.fleming",
+   "body": "is the expenses tool down for anyone else? can't log in."
+  },
+  {
+   "d": 33,
+   "h": 9.3,
+   "author": "valentina.kato",
+   "body": "we have a ticket open, it's a known login issue. should be fixed shortly."
+  },
+  {
+   "d": 33,
+   "h": 9.5,
+   "author": "ilse.fleming",
+   "body": "ok, thanks."
+  },
+  {
+   "d": 32,
+   "h": 11.0,
+   "author": "noemi.brunner",
+   "body": "is anyone else getting errors when uploading files to the CTMS? just tried twice."
+  },
+  {
+   "d": 32,
+   "h": 11.2,
+   "author": "yasmin.osei",
+   "body": "might be a permissions thing. can you raise a ticket with the exact error message?"
+  },
+  {
+   "d": 32,
+   "h": 11.4,
+   "author": "noemi.brunner",
+   "body": "will do, thanks."
+  },
+  {
+   "d": 31,
+   "h": 14.8,
+   "author": "rebecca.hansen",
+   "body": "heads up: the chart archive is going to be read-only for a bit while we do a maintenance. backups are fine, just no editing."
+  },
+  {
+   "d": 31,
+   "h": 15.1,
+   "author": "simone.bishop",
+   "body": "thanks for the warning. will tell the clinic staff."
+  },
+  {
+   "d": 30,
+   "h": 9.6,
+   "author": "henrik.eklund",
+   "body": "anyone know how to get a report of claims that have been in the queue for more than a week? trying to clear some backlog."
+  },
+  {
+   "d": 30,
+   "h": 9.8,
+   "author": "paloma.mishra",
+   "body": "the work queue report in the adjudication system can filter by age. if you need more than that, ask in #data-eng for a warehouse query."
+  },
+  {
+   "d": 30,
+   "h": 10.0,
+   "author": "henrik.eklund",
+   "body": "great, thanks!"
+  }
+ ],
+ "general": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "connor.dahl",
+   "body": "quick heads up: the patient portal will be down for maintenance on a working day soon, will post exact window when confirmed."
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "yasmin.lombardi",
+   "body": "anyone else seeing slow load times on the provider portal right now? or is it just me"
+  },
+  {
+   "d": 42,
+   "h": 11.0,
+   "author": "mara.nunez",
+   "body": "provider portal is fine on our end, might be your local network. try clearing cache and see if it helps"
+  },
+  {
+   "d": 42,
+   "h": 11.3,
+   "author": "yasmin.lombardi",
+   "body": "thanks, that did the trick"
+  },
+  {
+   "d": 41,
+   "h": 8.7,
+   "author": "emma.nielsen",
+   "body": "reminder to lab folks: specimen labelling guide has been updated, check care-docs/lab/specimen-labelling.md before your next shift"
+  },
+  {
+   "d": 39,
+   "h": 13.8,
+   "author": "karen.szymanski",
+   "body": "friendly nudge: expense reports for the quarter are due before the end of the month, please submit any outstanding ones"
+  },
+  {
+   "d": 38,
+   "h": 10.1,
+   "author": "fatima.fujita",
+   "body": "HL7 feeds from the lab to the EHR will be interrupted briefly during the interface engine upgrade, will send a ticket update when it's done"
+  },
+  {
+   "d": 36,
+   "h": 15.4,
+   "author": "rowan.adebayo",
+   "body": "research institute folks: the CTMS is getting a new module for visit windows, training will be scheduled soon"
+  },
+  {
+   "d": 36,
+   "h": 16.0,
+   "author": "miriam.bauer",
+   "body": "thanks for the heads up, will keep an eye on the release notes"
+  },
+  {
+   "d": 35,
+   "h": 9.6,
+   "author": "rania.adler",
+   "body": "can someone point me to the clinic opening checklist? need to verify we've covered all steps for the new office"
+  },
+  {
+   "d": 35,
+   "h": 10.0,
+   "author": "lin.hartley",
+   "body": "it's in care-docs/clinics/clinic-opening-checklist.md"
+  },
+  {
+   "d": 35,
+   "h": 10.2,
+   "author": "rania.adler",
+   "body": "perfect, thanks!"
+  },
+  {
+   "d": 34,
+   "h": 11.5,
+   "author": "quentin.russo",
+   "body": "charge capture folks: there's a known issue with the charge capture system showing duplicate entries for some encounters, we're aware and working on it"
+  },
+  {
+   "d": 33,
+   "h": 8.9,
+   "author": "ida.gordon",
+   "body": "anyone else's expenses tool not saving receipts? tried twice now"
+  },
+  {
+   "d": 32,
+   "h": 12.3,
+   "author": "andile.saito",
+   "body": "just a reminder: don't click links in unexpected emails, we've had a few phishing attempts reported. see it-docs/security/phishing.md if you need a refresher"
+  },
+  {
+   "d": 31,
+   "h": 15.7,
+   "author": "paloma.mishra",
+   "body": "the eIRB system will be down for a few hours for maintenance, will post again when it's back"
+  },
+  {
+   "d": 30,
+   "h": 9.4,
+   "author": "dara.hartmann",
+   "body": "just a quick question: for appeals, do we use the member portal or the claims system to log the initial grievance? i've seen both mentioned"
+  },
+  {
+   "d": 30,
+   "h": 9.8,
+   "author": "lin.hartley",
+   "body": "log it in the claims adjudication system, it flows to the appeals queue from there. plan-docs/members/appeals-and-grievances.md has the details"
+  },
+  {
+   "d": 30,
+   "h": 10.1,
+   "author": "dara.hartmann",
+   "body": "got it, thanks"
+  },
+  {
+   "d": 29,
+   "h": 13.2,
+   "author": "caleb.haddad",
+   "body": "the lab information system is running slow today, any known issues?"
+  },
+  {
+   "d": 29,
+   "h": 13.5,
+   "author": "mara.nunez",
+   "body": "not that i know of, check if you have pending updates or restart the client"
+  },
+  {
+   "d": 28,
+   "h": 11.1,
+   "author": "jada.carvalho",
+   "body": "revenue cycle: the charge capture guide has been updated, please review when you get a chance"
+  },
+  {
+   "d": 27,
+   "h": 14.9,
+   "author": "olivier.harper",
+   "body": "just a heads up: the interface engine will push a new version of lab results to the EHR on a coming working day, no action needed unless you see errors"
+  },
+  {
+   "d": 25,
+   "h": 9.0,
+   "author": "yasmin.lombardi",
+   "body": "is anyone else having trouble accessing the credentialing system? keeps timing out for me"
+  },
+  {
+   "d": 24,
+   "h": 15.1,
+   "author": "fatima.fujita",
+   "body": "credentialing system is back up, we applied a fix. let us know if it still acts up"
+  },
+  {
+   "d": 23,
+   "h": 12.8,
+   "author": "emma.nielsen",
+   "body": "don't forget to label all specimens correctly, we had a near miss recently. guidelines are in care-docs/lab/specimen-labelling.md"
+  },
+  {
+   "d": 21,
+   "h": 11.6,
+   "author": "rania.adler",
+   "body": "for those in clinics: the clinic opening checklist has been revised, make sure you're using the latest version before starting any new site"
+  },
+  {
+   "d": 20,
+   "h": 14.4,
+   "author": "karen.szymanski",
+   "body": "reminder: all invoices for the quarter need to be submitted by the end of the month"
+  },
+  {
+   "d": 19,
+   "h": 9.7,
+   "author": "caleb.haddad",
+   "body": "anyone know how to export lab results from the LIS for a research project? not sure which format is preferred"
+  },
+  {
+   "d": 19,
+   "h": 10.1,
+   "author": "rowan.adebayo",
+   "body": "for research, usually CSV works, but check with the data team first. research-docs/data/pseudonymisation.md has some pointers"
+  },
+  {
+   "d": 19,
+   "h": 10.4,
+   "author": "caleb.haddad",
+   "body": "thanks, will take a look"
+  },
+  {
+   "d": 18,
+   "h": 13.0,
+   "author": "paloma.mishra",
+   "body": "the VPN gateway is getting a firmware update, expect brief disconnects. no need to do anything"
+  },
+  {
+   "d": 17,
+   "h": 11.2,
+   "author": "quentin.russo",
+   "body": "charge capture issue is fixed, thanks for your patience"
+  },
+  {
+   "d": 16,
+   "h": 15.6,
+   "author": "dara.hartmann",
+   "body": "appeals queue is a bit backed up, we're working through them. thanks for your understanding"
+  },
+  {
+   "d": 15,
+   "h": 8.8,
+   "author": "ida.gordon",
+   "body": "expenses tool is working again, thanks whoever fixed it"
+  },
+  {
+   "d": 14,
+   "h": 10.3,
+   "author": "lin.hartley",
+   "body": "claims examiners: remember to check for coordination of benefits before processing, see plan-docs/claims/coordination-of-benefits.md"
+  }
+ ],
+ "random": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "fabio.rossi",
+   "body": "anyone else notice the coffee machine on 2nd floor is out of order again? been like that all week."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "maeve.daly",
+   "body": "yes! and the one in the break room only takes coins, who carries coins anymore"
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "jin.olsen",
+   "body": "i'll raise a ticket for the machine, but it'll probably be a couple of working days before someone comes out"
+  },
+  {
+   "d": 41,
+   "h": 13.4,
+   "author": "greta.kiplagat",
+   "body": "reminder for clinic managers: the new clinic opening checklist is up on care-docs, please review before next month's openings"
+  },
+  {
+   "d": 40,
+   "h": 12.0,
+   "author": "rebecca.hansen",
+   "body": "if you're doing chart corrections, remember the process changed last month – check care-docs/him/chart-corrections.md before you submit"
+  },
+  {
+   "d": 39,
+   "h": 8.5,
+   "author": "keisha.pruitt",
+   "body": "does anyone else have trouble with the claims system freezing when you try to open multiple tabs? or is it just me"
+  },
+  {
+   "d": 39,
+   "h": 9.0,
+   "author": "aleksander.carvalho",
+   "body": "happens to me too, i just use one tab now"
+  },
+  {
+   "d": 39,
+   "h": 9.3,
+   "author": "chiara.sorensen",
+   "body": "we've got a ticket open for that, it's in the queue"
+  },
+  {
+   "d": 38,
+   "h": 15.2,
+   "author": "anja.huber",
+   "body": "small victory: finally got the EDC export working after weeks of back and forth with the interface team"
+  },
+  {
+   "d": 37,
+   "h": 11.5,
+   "author": "joy.balogun",
+   "body": "thanks to everyone who submitted safety event reports recently – we're seeing good participation. keep it up"
+  },
+  {
+   "d": 36,
+   "h": 14.0,
+   "author": "dara.hartmann",
+   "body": "for appeals coordinators: the member calls doc has been updated with new scripting, check it out"
+  },
+  {
+   "d": 34,
+   "h": 9.7,
+   "author": "xavier.sharma",
+   "body": "anyone else having trouble with the pharmacy system after the update? some buttons not responding"
+  },
+  {
+   "d": 34,
+   "h": 10.0,
+   "author": "bilal.graham",
+   "body": "known issue, we're working on it, should be fixed by end of day"
+  },
+  {
+   "d": 33,
+   "h": 16.5,
+   "author": "emma.nielsen",
+   "body": "lab specimen labelling doc updated – please review if you do any lab work"
+  },
+  {
+   "d": 32,
+   "h": 8.2,
+   "author": "fabio.rossi",
+   "body": "cork office is doing a fire drill mid-afternoon, don't panic if you hear the alarm"
+  },
+  {
+   "d": 31,
+   "h": 12.7,
+   "author": "miriam.das",
+   "body": "testing the patient app for the next release, if anyone wants to try the new appointment scheduling flow, let me know"
+  },
+  {
+   "d": 30,
+   "h": 13.9,
+   "author": "uma.castillo",
+   "body": "does the prior auth queue seem slower than usual? i've got a few that have been sitting for days"
+  },
+  {
+   "d": 30,
+   "h": 14.3,
+   "author": "chiara.sorensen",
+   "body": "we're seeing a backlog due to staffing, working through it. thanks for your patience"
+  },
+  {
+   "d": 29,
+   "h": 9.0,
+   "author": "adrian.sorensen",
+   "body": "reminder: study monitors are coming in a few working days, make sure your source docs are in order"
+  },
+  {
+   "d": 28,
+   "h": 11.1,
+   "author": "greta.kiplagat",
+   "body": "can someone share the link to the referral process? can't find it in the docs"
+  },
+  {
+   "d": 28,
+   "h": 11.4,
+   "author": "rebecca.hansen",
+   "body": "it's in care-docs/clinics/referrals.md"
+  },
+  {
+   "d": 28,
+   "h": 11.6,
+   "author": "greta.kiplagat",
+   "body": "thanks!"
+  },
+  {
+   "d": 27,
+   "h": 15.0,
+   "author": "keisha.pruitt",
+   "body": "anyone else get the new timekeeping system? i can't figure out how to submit overtime"
+  },
+  {
+   "d": 27,
+   "h": 15.5,
+   "author": "aleksander.carvalho",
+   "body": "there's a guide in the handbook, check handbook/people/timekeeping maybe"
+  },
+  {
+   "d": 26,
+   "h": 10.3,
+   "author": "anja.huber",
+   "body": "just a heads up: the ctms and edc will be down for maintenance next working day, plan accordingly"
+  },
+  {
+   "d": 25,
+   "h": 12.2,
+   "author": "dara.hartmann",
+   "body": "if you get a member call about a denial, remember to check the appeals and grievances doc first"
+  },
+  {
+   "d": 24,
+   "h": 9.8,
+   "author": "olivier.harper",
+   "body": "anyone else have issues with the document archive search? takes forever to load"
+  },
+  {
+   "d": 24,
+   "h": 10.0,
+   "author": "jin.olsen",
+   "body": "known issue, we're optimizing, expect it to be better in a day or two"
+  },
+  {
+   "d": 23,
+   "h": 14.5,
+   "author": "emma.nielsen",
+   "body": "lab is short on reagents, if you're ordering please check stock first"
+  },
+  {
+   "d": 22,
+   "h": 11.8,
+   "author": "miriam.das",
+   "body": "we're doing a user study for the patient portal, if you know any patients who might want to participate, let me know"
+  },
+  {
+   "d": 21,
+   "h": 8.7,
+   "author": "bilal.graham",
+   "body": "service desk will have reduced hours while the ticketing tool is being upgraded, please submit tickets early"
+  },
+  {
+   "d": 20,
+   "h": 16.2,
+   "author": "xavier.sharma",
+   "body": "pharmacy system is back to normal, thanks for the quick fix"
+  },
+  {
+   "d": 19,
+   "h": 13.1,
+   "author": "adrian.sorensen",
+   "body": "study visit windows doc updated – check if you're tracking any visits"
+  }
+ ],
+ "valpo-office": [
+  {
+   "d": 42,
+   "h": 8.2,
+   "author": "henrik.eklund",
+   "body": "morning all - anyone know if the claims system is up? i'm getting a slow response on the queue."
+  },
+  {
+   "d": 42,
+   "h": 8.5,
+   "author": "tomas.vieira",
+   "body": "works fine for me. maybe your vpn acting up?"
+  },
+  {
+   "d": 42,
+   "h": 8.7,
+   "author": "henrik.eklund",
+   "body": "probably. i'll reboot and see."
+  },
+  {
+   "d": 41,
+   "h": 9.1,
+   "author": "ava.kowalski",
+   "body": "quick question - for member calls, do we still use the old script or the new one from the handbook?"
+  },
+  {
+   "d": 41,
+   "h": 9.4,
+   "author": "sofia.meyer",
+   "body": "new one. it's in the member services folder. i linked it in the channel recently."
+  },
+  {
+   "d": 41,
+   "h": 9.6,
+   "author": "ava.kowalski",
+   "body": "thanks, found it."
+  },
+  {
+   "d": 40,
+   "h": 10.0,
+   "author": "jakob.larsen",
+   "body": "reminder for the UM team: prior auth requests need to be completed by end of day for same-day review. please check the queue."
+  },
+  {
+   "d": 39,
+   "h": 11.2,
+   "author": "leah.dubois",
+   "body": "has anyone seen the new spec for lab specimen labelling? i think there's a typo in the barcode section."
+  },
+  {
+   "d": 39,
+   "h": 11.5,
+   "author": "henrik.ibarra",
+   "body": "i saw it. the barcode says 12 digits but it's 13. i flagged it to the lab team."
+  },
+  {
+   "d": 39,
+   "h": 11.7,
+   "author": "leah.dubois",
+   "body": "good catch. i'll use the old format until they update."
+  },
+  {
+   "d": 38,
+   "h": 8.8,
+   "author": "declan.farrow",
+   "body": "fyi - today's payment batch is done. any issues, let me know."
+  },
+  {
+   "d": 37,
+   "h": 13.0,
+   "author": "alba.olsen",
+   "body": "anyone else having trouble with the expenses tool? it keeps logging me out."
+  },
+  {
+   "d": 37,
+   "h": 13.3,
+   "author": "magnus.torres",
+   "body": "yes! same here. i just submitted a ticket."
+  },
+  {
+   "d": 36,
+   "h": 9.0,
+   "author": "jada.jensen",
+   "body": "for the medication prior auths - the new guideline says we need a prior trial, but the system doesn't have that field. how do we note it?"
+  },
+  {
+   "d": 36,
+   "h": 9.5,
+   "author": "henrik.ibarra",
+   "body": "we've been putting it in the notes section as 'pt has tried x'. works for now."
+  },
+  {
+   "d": 36,
+   "h": 9.7,
+   "author": "jada.jensen",
+   "body": "ok, thanks."
+  },
+  {
+   "d": 35,
+   "h": 14.2,
+   "author": "yasmin.lombardi",
+   "body": "provider network update: the new clinic in La Porte is going live next month. i'll be sending out the credentialing forms."
+  },
+  {
+   "d": 34,
+   "h": 10.5,
+   "author": "daisuke.khan",
+   "body": "reminder to use the intranet for policy updates, not the shared drive. the drive is being decommissioned soon."
+  },
+  {
+   "d": 33,
+   "h": 11.0,
+   "author": "lin.hartley",
+   "body": "hey, i noticed that some claims are coming in with the wrong provider id. double check your entries before submitting."
+  },
+  {
+   "d": 33,
+   "h": 11.3,
+   "author": "tomas.vieira",
+   "body": "thanks lin, i'll watch out for that."
+  },
+  {
+   "d": 32,
+   "h": 9.2,
+   "author": "ava.kowalski",
+   "body": "member called about a claim denial - they said they never got the EOB. i checked and it was sent to old address. can we resend?"
+  },
+  {
+   "d": 32,
+   "h": 9.6,
+   "author": "sofia.meyer",
+   "body": "yes, use the resend function in the system. i'll send a note to the mailroom."
+  },
+  {
+   "d": 31,
+   "h": 8.5,
+   "author": "janet.kowalik",
+   "body": "team - i know we're busy, but please make sure you're documenting any claim adjustments in the notes. it helps with audits."
+  },
+  {
+   "d": 30,
+   "h": 12.0,
+   "author": "henrik.eklund",
+   "body": "anyone know how to fix the printer in the claims room? it's jamming again."
+  },
+  {
+   "d": 30,
+   "h": 12.3,
+   "author": "tomas.vieira",
+   "body": "call the helpdesk. they usually have it fixed in an hour."
+  },
+  {
+   "d": 29,
+   "h": 15.0,
+   "author": "maya.arslan",
+   "body": "provider called about a credentialing delay - they haven't heard back in 2 weeks. i checked and it's still in review. i'll follow up."
+  },
+  {
+   "d": 28,
+   "h": 10.0,
+   "author": "noor.haddad",
+   "body": "thanks maya, let me know if you need help."
+  },
+  {
+   "d": 27,
+   "h": 9.3,
+   "author": "leah.dubois",
+   "body": "for case managers - the new discharge planning checklist is live in the EHR. please start using it for all inpatient admissions."
+  },
+  {
+   "d": 26,
+   "h": 11.5,
+   "author": "henrik.ibarra",
+   "body": "i have a question about the checklist - several items seem to duplicate. is there a streamlined version?"
+  },
+  {
+   "d": 26,
+   "h": 11.8,
+   "author": "leah.dubois",
+   "body": "not yet, but i'll flag it to the nursing council. for now, just fill everything once."
+  },
+  {
+   "d": 24,
+   "h": 13.0,
+   "author": "magnus.torres",
+   "body": "has anyone seen the new phishing email? i almost clicked on it. the email looked legit."
+  },
+  {
+   "d": 24,
+   "h": 13.3,
+   "author": "daisuke.khan",
+   "body": "yeah, they get sneaky. always double check the sender address."
+  },
+  {
+   "d": 23,
+   "h": 9.5,
+   "author": "ava.kowalski",
+   "body": "do we have a standard greeting for member emails? i've been using 'hello' but want to be consistent."
+  },
+  {
+   "d": 23,
+   "h": 9.8,
+   "author": "sofia.meyer",
+   "body": "use 'dear [name]' for formal, 'hi [name]' for informal. it's in the style guide."
+  },
+  {
+   "d": 22,
+   "h": 10.5,
+   "author": "jakob.larsen",
+   "body": "reminder that the UM team meeting is moved to the afternoon. check your calendar."
+  },
+  {
+   "d": 21,
+   "h": 11.0,
+   "author": "jada.jensen",
+   "body": "quick - does anyone have the fax number for the specialty pharmacy? i can't find it in the directory."
+  },
+  {
+   "d": 21,
+   "h": 11.2,
+   "author": "henrik.ibarra",
+   "body": "it's on the pharmacy page in the provider portal. but you can just fax through the system."
+  },
+  {
+   "d": 20,
+   "h": 12.5,
+   "author": "declan.farrow",
+   "body": "fyi - the claims payment report is available in the data warehouse. let me know if you have questions."
+  }
+ ],
+ "cork-office": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "jin.olsen",
+   "body": "anyone else seeing the vpn client drop for a few seconds mid-morning? just happened to me twice"
+  },
+  {
+   "d": 42,
+   "h": 9.8,
+   "author": "tariq.abara",
+   "body": "not on my end, but i'll keep an eye. reboot the client if it happens again"
+  },
+  {
+   "d": 42,
+   "h": 11.5,
+   "author": "siobhan.kiely",
+   "body": "the new patient info leaflets arrived - i'll put a stack in the waiting room and the rest in the store"
+  },
+  {
+   "d": 41,
+   "h": 14.3,
+   "author": "maeve.daly",
+   "body": "can someone from records look at the chart for the patient in room 2? we can't find the scanned referral"
+  },
+  {
+   "d": 41,
+   "h": 14.5,
+   "author": "petra.park",
+   "body": "on it - give me a few minutes, i'll check the archive"
+  },
+  {
+   "d": 41,
+   "h": 15.2,
+   "author": "petra.park",
+   "body": "found it - it was filed under the wrong date. you should see it now"
+  },
+  {
+   "d": 40,
+   "h": 8.5,
+   "author": "noemi.brunner",
+   "body": "reminder for the trial team: the ctms entry for the new site activation is due by end of the week. let me know if you need help"
+  },
+  {
+   "d": 39,
+   "h": 10.0,
+   "author": "fabio.rossi",
+   "body": "who's the contact for the lab in Kalamazoo? need to arrange a courier for a batch of samples"
+  },
+  {
+   "d": 39,
+   "h": 10.4,
+   "author": "tomas.novak",
+   "body": "@fabio.rossi try the specimen processing core at the institute - they handle all the outgoing shipments"
+  },
+  {
+   "d": 38,
+   "h": 16.2,
+   "author": "anja.huber",
+   "body": "the eirb system is down? i can't submit the amendment"
+  },
+  {
+   "d": 38,
+   "h": 16.3,
+   "author": "jin.olsen",
+   "body": "checking - might be the scheduled maintenance. give it an hour"
+  },
+  {
+   "d": 37,
+   "h": 13.1,
+   "author": "wanjiru.kruger",
+   "body": "anyone else have trouble with the provider portal earlier today? it's timing out for me"
+  },
+  {
+   "d": 37,
+   "h": 13.4,
+   "author": "anders.obi",
+   "body": "we're looking into it - there's a spike in load. should be back up soon"
+  },
+  {
+   "d": 36,
+   "h": 9.0,
+   "author": "olivier.harper",
+   "body": "quick question: who do i talk to about getting a badge tap for the records room? i keep getting locked out"
+  },
+  {
+   "d": 35,
+   "h": 15.5,
+   "author": "siobhan.kiely",
+   "body": "don't forget to complete the new compliance training in the lms - it's due by the end of the month"
+  },
+  {
+   "d": 35,
+   "h": 15.7,
+   "author": "aurelio.conti",
+   "body": "anyone got the latest lab reference ranges for vitamin d? i need them for a study protocol"
+  },
+  {
+   "d": 35,
+   "h": 16.0,
+   "author": "tomas.novak",
+   "body": "@aurelio.conti the lab manual has them - i'll send you the link"
+  },
+  {
+   "d": 34,
+   "h": 11.2,
+   "author": "petra.park",
+   "body": "just a heads up: the scan import for the new batch of records is running later today. try not to request any old charts while it's running"
+  },
+  {
+   "d": 33,
+   "h": 9.8,
+   "author": "miriam.bauer",
+   "body": "noticed a few cases where the claims ingest is failing on duplicate ids. i'll put a fix in the queue"
+  },
+  {
+   "d": 33,
+   "h": 10.2,
+   "author": "tariq.abara",
+   "body": "thanks miriam, keep us posted"
+  },
+  {
+   "d": 32,
+   "h": 14.6,
+   "author": "maeve.daly",
+   "body": "does anyone have a spare keyboard? mine just died and the it cupboard is empty"
+  },
+  {
+   "d": 32,
+   "h": 14.8,
+   "author": "anders.obi",
+   "body": "i have one in my drawer, come grab it"
+  },
+  {
+   "d": 31,
+   "h": 17.0,
+   "author": "fabio.rossi",
+   "body": "the monitoring visit for the kalamazoo site is scheduled for the first working day after this one. anyone from cork going?"
+  },
+  {
+   "d": 31,
+   "h": 17.2,
+   "author": "noemi.brunner",
+   "body": "i'll be there, but i need someone to cover the ctms updates while i'm away"
+  },
+  {
+   "d": 30,
+   "h": 8.3,
+   "author": "piotr.zielinski",
+   "body": "can the records team please make sure the pseudonymisation log is up to date? we need it for the next ethics review"
+  },
+  {
+   "d": 30,
+   "h": 8.5,
+   "author": "anja.huber",
+   "body": "it's updated - we did it for the last batch of data"
+  },
+  {
+   "d": 29,
+   "h": 12.0,
+   "author": "siobhan.kiely",
+   "body": "the clinic is getting busy again, so please book the meeting room only if it's really needed"
+  },
+  {
+   "d": 28,
+   "h": 10.5,
+   "author": "olivier.harper",
+   "body": "the interface engine is sending duplicate lab results for a couple of patients. anyone else see this?"
+  },
+  {
+   "d": 28,
+   "h": 10.8,
+   "author": "tomas.novak",
+   "body": "yes, i've seen that. i'll raise it with the lab info system team"
+  },
+  {
+   "d": 27,
+   "h": 15.1,
+   "author": "ingrid.aasen",
+   "body": "reminder: the ethics committee is reviewing the new protocol submissions in the coming days. please make sure your documents are in order"
+  },
+  {
+   "d": 26,
+   "h": 9.6,
+   "author": "jin.olsen",
+   "body": "the wifi in the cork office has been flaky in the morning. we're rebooting the access points later today"
+  },
+  {
+   "d": 25,
+   "h": 13.3,
+   "author": "aurelio.conti",
+   "body": "just a note: the eirb system is slow today, might be the network. be patient"
+  },
+  {
+   "d": 25,
+   "h": 13.6,
+   "author": "anja.huber",
+   "body": "it's not just you - i'm getting timeouts too"
+  },
+  {
+   "d": 24,
+   "h": 11.0,
+   "author": "petra.park",
+   "body": "we've got a new batch of charts to scan. i'll start them after lunch and update the tracker"
+  },
+  {
+   "d": 23,
+   "h": 16.4,
+   "author": "fabio.rossi",
+   "body": "does anyone have the contact for the trial site in Paris? i need to send them the updated protocol"
+  },
+  {
+   "d": 23,
+   "h": 16.5,
+   "author": "noemi.brunner",
+   "body": "i'll forward you the email from the last monitoring visit - it has all the site contacts"
+  },
+  {
+   "d": 22,
+   "h": 8.2,
+   "author": "miriam.bauer",
+   "body": "the claims ingest is running behind because of the duplicate id issue. i'll monitor and let you know if it clears"
+  },
+  {
+   "d": 21,
+   "h": 10.9,
+   "author": "tariq.abara",
+   "body": "thanks, appreciate the heads up"
+  }
+ ],
+ "claims-ops": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "henrik.eklund",
+   "body": "just noticed the new provider fee schedule is live in the adjudication system. don't forget to refresh your cached view before adjudicating."
+  },
+  {
+   "d": 42,
+   "h": 11.0,
+   "author": "lin.hartley",
+   "body": "thanks for the heads up, i was about to run a batch on the old one."
+  },
+  {
+   "d": 41,
+   "h": 8.5,
+   "author": "maren.castellano",
+   "body": "has anyone else seen a delay in the EOB generation after claims are finalized? typically it's instant but i've had a few sit for hours."
+  },
+  {
+   "d": 41,
+   "h": 9.0,
+   "author": "declan.farrow",
+   "body": "we had a report about that earlier, the interface engine is backed up a bit. should clear by end of day."
+  },
+  {
+   "d": 41,
+   "h": 9.5,
+   "author": "maren.castellano",
+   "body": "ok, good to know."
+  },
+  {
+   "d": 40,
+   "h": 14.0,
+   "author": "magnus.torres",
+   "body": "anyone know the code for a covid vaccine admin if the patient is on {{MANAGED_PLAN_PROGRAM|lower}}? i keep second-guessing myself."
+  },
+  {
+   "d": 40,
+   "h": 14.5,
+   "author": "maeve.chandra",
+   "body": "check the coding quick reference in charge-capture, it lists the specific ones for MA."
+  },
+  {
+   "d": 40,
+   "h": 15.0,
+   "author": "magnus.torres",
+   "body": "found it, thanks."
+  },
+  {
+   "d": 39,
+   "h": 10.0,
+   "author": "jada.jensen",
+   "body": "just a heads up, prior auth queue has a bunch of requests from an ortho group that are missing the referring physician npi. might want to send them back before they pile up."
+  },
+  {
+   "d": 39,
+   "h": 10.5,
+   "author": "leon.karimi",
+   "body": "thanks, i'll take a look."
+  },
+  {
+   "d": 38,
+   "h": 13.5,
+   "author": "lin.hartley",
+   "body": "noted, thanks."
+  },
+  {
+   "d": 37,
+   "h": 9.0,
+   "author": "dara.osei",
+   "body": "does anyone else have trouble opening the pdf attachments in the claims queue? some of them are blank for me."
+  },
+  {
+   "d": 37,
+   "h": 9.5,
+   "author": "aleksander.carvalho",
+   "body": "i had that once, it was a browser cache thing. try incognito or clear cache."
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "dara.osei",
+   "body": "that worked, thanks."
+  },
+  {
+   "d": 35,
+   "h": 15.5,
+   "author": "magnus.torres",
+   "body": "my bad, i'll move them."
+  },
+  {
+   "d": 34,
+   "h": 8.0,
+   "author": "janet.kowalik",
+   "body": "we'll be having a quick huddle on the floor about the new timely filing rules - check your calendar for the invite."
+  },
+  {
+   "d": 34,
+   "h": 8.5,
+   "author": "henrik.eklund",
+   "body": "got it, will be there."
+  },
+  {
+   "d": 33,
+   "h": 12.0,
+   "author": "maren.castellano",
+   "body": "anyone know how to handle a claim where the member has both primary and secondary insurance but the primary denied for non-coverage? i want to send to secondary correctly."
+  },
+  {
+   "d": 33,
+   "h": 12.5,
+   "author": "lin.hartley",
+   "body": "check the coordination of benefits doc, it explains the order and what to attach."
+  },
+  {
+   "d": 33,
+   "h": 13.0,
+   "author": "maren.castellano",
+   "body": "perfect, thanks."
+  },
+  {
+   "d": 32,
+   "h": 9.0,
+   "author": "dara.osei",
+   "body": "i'm seeing a bunch of claims with missing modifiers, is there a way to auto-flag them? i've been manually checking."
+  },
+  {
+   "d": 32,
+   "h": 9.5,
+   "author": "lin.hartley",
+   "body": "you can set up a custom view in the adjudication system to filter for missing modifiers, i think there's a field for it."
+  },
+  {
+   "d": 32,
+   "h": 10.0,
+   "author": "dara.osei",
+   "body": "i'll try that."
+  },
+  {
+   "d": 31,
+   "h": 14.0,
+   "author": "aleksander.carvalho",
+   "body": "anyone else have a claim that keeps bouncing between two statuses? i've been looking at it for a while and can't figure out why."
+  },
+  {
+   "d": 31,
+   "h": 14.5,
+   "author": "maeve.chandra",
+   "body": "could be a system glitch, maybe raise a ticket with IT."
+  },
+  {
+   "d": 31,
+   "h": 15.0,
+   "author": "aleksander.carvalho",
+   "body": "ok, will do."
+  },
+  {
+   "d": 30,
+   "h": 10.0,
+   "author": "ana.nakamura",
+   "body": "just a quick note: the SIU mailbox is for referrals only, not for general claims questions. please use the claims queue for those."
+  },
+  {
+   "d": 30,
+   "h": 10.5,
+   "author": "leon.karimi",
+   "body": "sorry, my mistake."
+  },
+  {
+   "d": 28,
+   "h": 13.0,
+   "author": "jada.jensen",
+   "body": "reminder that prior auth requests that are missing clinicals get returned after 2 business days - make sure you attach everything upfront."
+  },
+  {
+   "d": 28,
+   "h": 13.5,
+   "author": "magnus.torres",
+   "body": "thanks for the reminder."
+  },
+  {
+   "d": 27,
+   "h": 9.0,
+   "author": "henrik.eklund",
+   "body": "is there a way to see the original claim image without going into the document archive? i'm trying to verify a signature."
+  },
+  {
+   "d": 27,
+   "h": 9.5,
+   "author": "lin.hartley",
+   "body": "you can open the claim in the adjudication system and click on the document icon, it pulls the image from the archive."
+  },
+  {
+   "d": 27,
+   "h": 10.0,
+   "author": "henrik.eklund",
+   "body": "thanks, that worked."
+  },
+  {
+   "d": 26,
+   "h": 15.0,
+   "author": "maren.castellano",
+   "body": "just a heads up, the EOB printer in the claims area is jammed again. i've put a ticket in."
+  },
+  {
+   "d": 26,
+   "h": 15.5,
+   "author": "dara.osei",
+   "body": "ugh, that thing is always jamming. thanks for the ticket."
+  },
+  {
+   "d": 25,
+   "h": 8.5,
+   "author": "janet.kowalik",
+   "body": "please remember to keep your work notes updated in the claims system, auditors will be reviewing next month."
+  }
+ ],
+ "claims-payments": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "declan.farrow",
+   "body": "Morning all, just a heads-up that the EFT file for the regular run is going out a bit later than usual today. Should be ready by mid-afternoon."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "alba.olsen",
+   "body": "thanks for the heads up, will keep an eye on my queue"
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "maren.castellano",
+   "body": "same, appreciate it"
+  },
+  {
+   "d": 40,
+   "h": 13.0,
+   "author": "noor.haddad",
+   "body": "Has anyone seen a delay on claim status updates for a provider in the last couple days? We have a few calls about it."
+  },
+  {
+   "d": 40,
+   "h": 13.5,
+   "author": "daisuke.khan",
+   "body": "Not from my end, all the feeds look green. Maybe check with the interface team?"
+  },
+  {
+   "d": 40,
+   "h": 14.0,
+   "author": "maren.castellano",
+   "body": "No delay here either, the last few batches processed fine. Could be a provider portal issue?"
+  },
+  {
+   "d": 39,
+   "h": 8.5,
+   "author": "ada.brooks",
+   "body": "Just a reminder to log any EFT issues in the queue, even if they're resolved quickly. Helps with the monthly stats."
+  },
+  {
+   "d": 38,
+   "h": 15.0,
+   "author": "elias.heller",
+   "body": "Anyone know the cutoff for same-day checks? I'm trying to get one out before the bank closes."
+  },
+  {
+   "d": 38,
+   "h": 15.5,
+   "author": "alba.olsen",
+   "body": "Usually it's early afternoon, but if you rush it I've seen them make it a bit later. Better to ask the bank directly."
+  },
+  {
+   "d": 38,
+   "h": 16.0,
+   "author": "elias.heller",
+   "body": "cheers, will do"
+  },
+  {
+   "d": 36,
+   "h": 11.0,
+   "author": "maya.arslan",
+   "body": "Quick question – we're getting a new provider set up and need to know if the EFT form goes to you or to provider services first?"
+  },
+  {
+   "d": 36,
+   "h": 11.5,
+   "author": "declan.farrow",
+   "body": "It goes to provider services first for validation, then comes to us for the bank setup. There's a note in the registration doc I think."
+  },
+  {
+   "d": 36,
+   "h": 12.0,
+   "author": "maya.arslan",
+   "body": "Got it, thanks. I'll check that doc."
+  },
+  {
+   "d": 35,
+   "h": 9.0,
+   "author": "yasmin.lombardi",
+   "body": "We had a provider call about a payment that was marked as sent but they haven't received it. Any idea how long EFTs take to show up?"
+  },
+  {
+   "d": 35,
+   "h": 9.5,
+   "author": "maren.castellano",
+   "body": "Usually 1-2 business days. If it's been longer, we can check the bank trace."
+  },
+  {
+   "d": 35,
+   "h": 10.0,
+   "author": "yasmin.lombardi",
+   "body": "Ok, it's been 4 days. Can you look into it?"
+  },
+  {
+   "d": 35,
+   "h": 10.5,
+   "author": "maren.castellano",
+   "body": "Will do, send me the provider details and I'll check."
+  },
+  {
+   "d": 33,
+   "h": 14.0,
+   "author": "daisuke.khan",
+   "body": "Heads up – the remittance advice for the last run has a few formatting quirks. We're working on it, but in the meantime the amounts are correct."
+  },
+  {
+   "d": 33,
+   "h": 14.5,
+   "author": "ada.brooks",
+   "body": "thanks for the warning, will let providers know if they ask"
+  },
+  {
+   "d": 30,
+   "h": 10.0,
+   "author": "noor.haddad",
+   "body": "Can we get a list of all providers who were paid by paper check last month? Need it for a reconciliation."
+  },
+  {
+   "d": 30,
+   "h": 10.5,
+   "author": "alba.olsen",
+   "body": "Sure, I can export that. Will send it over by end of day."
+  },
+  {
+   "d": 29,
+   "h": 11.0,
+   "author": "elias.heller",
+   "body": "Does anyone know if we have a standard form for providers to update their banking info? I can't find it in the portal."
+  },
+  {
+   "d": 29,
+   "h": 11.5,
+   "author": "maren.castellano",
+   "body": "It's in the provider portal under 'Payments' – should be a 'Banking Information' tab. If not, let me know and I can send the PDF."
+  },
+  {
+   "d": 29,
+   "h": 12.0,
+   "author": "elias.heller",
+   "body": "Found it, thanks!"
+  },
+  {
+   "d": 27,
+   "h": 13.5,
+   "author": "maya.arslan",
+   "body": "Just an FYI – the EFT file is going out a day late because the bank's upload portal was down. We'll have it out by the next working day."
+  },
+  {
+   "d": 26,
+   "h": 9.0,
+   "author": "daisuke.khan",
+   "body": "Does anyone know the status of the mid-month check run? We have a provider asking about a specific check number."
+  },
+  {
+   "d": 26,
+   "h": 9.5,
+   "author": "ada.brooks",
+   "body": "That run went out on time. Check number should be in the remittance advice. If they need the status, we can check with the bank."
+  },
+  {
+   "d": 26,
+   "h": 10.0,
+   "author": "daisuke.khan",
+   "body": "ok, will pass that along"
+  },
+  {
+   "d": 24,
+   "h": 15.0,
+   "author": "alba.olsen",
+   "body": "Reminder – please make sure all EFT change requests are submitted by the end of the week so we can include them in the next run."
+  },
+  {
+   "d": 21,
+   "h": 8.5,
+   "author": "maren.castellano",
+   "body": "Anyone else seeing slow loads in the claims system right now? Just me or is it a general thing?"
+  },
+  {
+   "d": 21,
+   "h": 9.0,
+   "author": "declan.farrow",
+   "body": "Not just you, I'm seeing it too. Might be the monthly batch. I'll check with IT if it doesn't clear up."
+  },
+  {
+   "d": 21,
+   "h": 9.5,
+   "author": "noor.haddad",
+   "body": "Same here, but it's manageable. Probably just the batch processing."
+  },
+  {
+   "d": 20,
+   "h": 11.0,
+   "author": "yasmin.lombardi",
+   "body": "Can we get a report of all payments sent to a specific provider in the last quarter? They're doing an internal audit."
+  },
+  {
+   "d": 20,
+   "h": 11.5,
+   "author": "ada.brooks",
+   "body": "Sure, I can pull that from the warehouse. Need the provider ID."
+  },
+  {
+   "d": 20,
+   "h": 12.0,
+   "author": "yasmin.lombardi",
+   "body": "Will send it over in a bit. Thanks!"
+  },
+  {
+   "d": 18,
+   "h": 14.0,
+   "author": "elias.heller",
+   "body": "Just a quick one – has the EFT file for the next run been finalized? We have a provider asking about a payment scheduled for the end of the week."
+  },
+  {
+   "d": 18,
+   "h": 14.5,
+   "author": "maren.castellano",
+   "body": "It's still in progress, but should be finalized by the end of day. I'll update the status here once it's done."
+  }
+ ],
+ "provider-services": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "daisuke.khan",
+   "body": "quick one — has anyone seen the latest provider directory update from the network team? need to confirm a couple of PCPs for a group renewal."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "maya.arslan",
+   "body": "not yet, daisuke. i'll ping you when it lands. probably after the monthly file refresh."
+  },
+  {
+   "d": 42,
+   "h": 10.3,
+   "author": "daisuke.khan",
+   "body": "thanks, maya."
+  },
+  {
+   "d": 41,
+   "h": 11.5,
+   "author": "elias.heller",
+   "body": "anyone else getting calls about the new lab provider in South Bend? we haven't got their fee schedule in the portal yet."
+  },
+  {
+   "d": 41,
+   "h": 12.1,
+   "author": "yasmin.lombardi",
+   "body": "yes, a few. i think they're still in credentialing. noor might know more."
+  },
+  {
+   "d": 41,
+   "h": 13.0,
+   "author": "noor.haddad",
+   "body": "they're in the queue, should be done within two working days. i'll post once they're active."
+  },
+  {
+   "d": 40,
+   "h": 8.4,
+   "author": "tomas.vieira",
+   "body": "this is probably not the right channel but does anyone know if the claims system is down? got an error on a submission."
+  },
+  {
+   "d": 40,
+   "h": 8.7,
+   "author": "chiara.sorensen",
+   "body": "not that i know of. try the interface status page. if it's still broken, raise a ticket."
+  },
+  {
+   "d": 40,
+   "h": 9.0,
+   "author": "tomas.vieira",
+   "body": "ok, will do."
+  },
+  {
+   "d": 39,
+   "h": 14.2,
+   "author": "dara.hartmann",
+   "body": "for provider appeals, do we still send the paper form or is it all through the portal now? got a practice asking."
+  },
+  {
+   "d": 39,
+   "h": 14.6,
+   "author": "noor.haddad",
+   "body": "portal only for new ones, paper for legacy if they were set up before. check the provider portal guide."
+  },
+  {
+   "d": 39,
+   "h": 15.0,
+   "author": "dara.hartmann",
+   "body": "thanks noor."
+  },
+  {
+   "d": 38,
+   "h": 10.8,
+   "author": "maya.arslan",
+   "body": "fyi: the credentialing committee meeting is moved to the same day as the network ops call. will share minutes after."
+  },
+  {
+   "d": 37,
+   "h": 9.5,
+   "author": "aleksander.carvalho",
+   "body": "anyone know the timely filing limit for out-of-state claims? i have a provider asking."
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "lin.hartley",
+   "body": "check the plan docs under timely filing. but it's 180 days from service for group and individual plans, unless the contract says otherwise."
+  },
+  {
+   "d": 37,
+   "h": 10.2,
+   "author": "aleksander.carvalho",
+   "body": "thanks lin."
+  },
+  {
+   "d": 36,
+   "h": 13.4,
+   "author": "yasmin.lombardi",
+   "body": "has anyone else seen the new {{MANAGED_PLAN_PROGRAM}} provider manual? seems a lot longer than before."
+  },
+  {
+   "d": 36,
+   "h": 13.8,
+   "author": "daisuke.khan",
+   "body": "yeah, they added a section on value-based contracts. i'll link it in the channel files."
+  },
+  {
+   "d": 35,
+   "h": 15.1,
+   "author": "elias.heller",
+   "body": "just had a provider call about a claim that was denied due to 'missing info' but they said they sent it. any tips for explaining?"
+  },
+  {
+   "d": 35,
+   "h": 15.5,
+   "author": "magnus.torres",
+   "body": "tell them to check the remittance advice for the specific code. sometimes it's a date issue."
+  },
+  {
+   "d": 35,
+   "h": 16.0,
+   "author": "elias.heller",
+   "body": "ok, will do."
+  },
+  {
+   "d": 34,
+   "h": 11.0,
+   "author": "noor.haddad",
+   "body": "reminder: the quarterly provider satisfaction survey results are out. i'll post the summary in the channel."
+  },
+  {
+   "d": 33,
+   "h": 9.8,
+   "author": "ava.kowalski",
+   "body": "anyone know if the provider portal has a way to check the status of an enrollment application? i've got a practice asking."
+  },
+  {
+   "d": 33,
+   "h": 10.2,
+   "author": "maya.arslan",
+   "body": "yes, under 'my applications' on the dashboard. if they don't see it, they may need to re-register."
+  },
+  {
+   "d": 33,
+   "h": 10.4,
+   "author": "ava.kowalski",
+   "body": "thanks."
+  },
+  {
+   "d": 32,
+   "h": 14.5,
+   "author": "dmitri.mbeki",
+   "body": "anyone else getting an error when trying to open the eft remittance files? i sent a ticket but no response yet."
+  },
+  {
+   "d": 32,
+   "h": 14.9,
+   "author": "chiara.sorensen",
+   "body": "i think it's a known issue, will update when fixed."
+  },
+  {
+   "d": 31,
+   "h": 10.3,
+   "author": "sofia.meyer",
+   "body": "just a heads up: we're getting more calls about provider directories being outdated. if you hear of changes, let us know."
+  },
+  {
+   "d": 31,
+   "h": 10.6,
+   "author": "yasmin.lombardi",
+   "body": "will do. we're working on a monthly update process."
+  },
+  {
+   "d": 30,
+   "h": 9.0,
+   "author": "janet.kowalik",
+   "body": "for the new folks: when a provider asks about claim status, we can share general info but not proprietary fee schedules. direct them to their contract."
+  },
+  {
+   "d": 30,
+   "h": 9.5,
+   "author": "tomas.vieira",
+   "body": "thanks, janet."
+  },
+  {
+   "d": 29,
+   "h": 13.2,
+   "author": "chidi.costa",
+   "body": "anyone know if the provider portal has a way to submit a correction to their tax id? have a practice that changed ownership."
+  },
+  {
+   "d": 29,
+   "h": 13.6,
+   "author": "noor.haddad",
+   "body": "yes, they can submit a change of information form through the portal. it goes to the credentialing team."
+  },
+  {
+   "d": 29,
+   "h": 14.0,
+   "author": "chidi.costa",
+   "body": "thanks noor."
+  },
+  {
+   "d": 28,
+   "h": 11.1,
+   "author": "elias.heller",
+   "body": "some providers are asking about the new electronic prior auth requirement. any guidance?"
+  },
+  {
+   "d": 28,
+   "h": 11.5,
+   "author": "maya.arslan",
+   "body": "we have a fact sheet in the provider manual. i'll link it."
+  },
+  {
+   "d": 27,
+   "h": 15.3,
+   "author": "daisuke.khan",
+   "body": "forgot to mention: the network team is doing an outreach to all primary care practices for the annual directory review. if they call you, it's legit."
+  },
+  {
+   "d": 26,
+   "h": 9.7,
+   "author": "lin.hartley",
+   "body": "quick question on coordination of benefits: if a patient has two plans, which one pays first? i always mix it up."
+  },
+  {
+   "d": 26,
+   "h": 10.0,
+   "author": "magnus.torres",
+   "body": "depends on the plan type. check the cob guidelines in the claims manual. usually the one where the patient is the subscriber pays first."
+  },
+  {
+   "d": 26,
+   "h": 10.2,
+   "author": "lin.hartley",
+   "body": "thanks magnus."
+  },
+  {
+   "d": 25,
+   "h": 14.8,
+   "author": "yasmin.lombardi",
+   "body": "just a note: we've had a few providers report phishing emails claiming to be from the health plan. remind them we never ask for credentials via email."
+  },
+  {
+   "d": 24,
+   "h": 10.4,
+   "author": "ava.kowalski",
+   "body": "is there a standard script for when a provider asks about the status of their claims payment? i don't want to say anything wrong."
+  },
+  {
+   "d": 24,
+   "h": 10.8,
+   "author": "noor.haddad",
+   "body": "check the provider services handbook, there's a section on that. if unsure, take their details and escalate to a claims lead."
+  },
+  {
+   "d": 23,
+   "h": 9.3,
+   "author": "dmitri.mbeki",
+   "body": "anyone else notice the claims portal is slow today? or is it just me?"
+  },
+  {
+   "d": 23,
+   "h": 9.6,
+   "author": "chiara.sorensen",
+   "body": "we're aware, IT is working on it. no action needed."
+  },
+  {
+   "d": 22,
+   "h": 13.9,
+   "author": "elias.heller",
+   "body": "how do we handle a provider who wants to appeal a claim that's past the timely filing? do we make an exception?"
+  },
+  {
+   "d": 22,
+   "h": 14.2,
+   "author": "noor.haddad",
+   "body": "only if they have proof of timely submission. otherwise, it goes through the appeals process."
+  },
+  {
+   "d": 21,
+   "h": 11.0,
+   "author": "maya.arslan",
+   "body": "reminder: the provider network team is holding a webinar on the new claims submission requirements. it's twice a week for the next month."
+  },
+  {
+   "d": 20,
+   "h": 15.5,
+   "author": "chidi.costa",
+   "body": "anyone know how to check if a provider is in-network for a specific plan? i have a member asking."
+  },
+  {
+   "d": 20,
+   "h": 16.0,
+   "author": "yasmin.lombardi",
+   "body": "use the provider search on the member portal or the provider directory. if they're not listed, they're likely out-of-network."
+  },
+  {
+   "d": 19,
+   "h": 9.8,
+   "author": "tomas.vieira",
+   "body": "anyone have the link to the provider fee schedule? i can't find it in the portal."
+  },
+  {
+   "d": 19,
+   "h": 10.1,
+   "author": "lin.hartley",
+   "body": "it's under 'documents' > 'fee schedules' but only for the specific plan. you need to be logged in with the right role."
+  },
+  {
+   "d": 18,
+   "h": 13.3,
+   "author": "dara.hartmann",
+   "body": "just a heads up: the appeals team is behind on provider appeals due to a backlog. please set expectations with callers."
+  },
+  {
+   "d": 17,
+   "h": 10.6,
+   "author": "aleksander.carvalho",
+   "body": "does anyone know if the research institute accepts providers from outside the network for studies? got a call asking."
+  },
+  {
+   "d": 17,
+   "h": 10.9,
+   "author": "noor.haddad",
+   "body": "not our area, but i think they have a separate process. direct them to the research institute contact."
+  },
+  {
+   "d": 16,
+   "h": 14.0,
+   "author": "elias.heller",
+   "body": "anyone else getting calls about the new electronic claims attachment requirement? we haven't got a plan yet."
+  },
+  {
+   "d": 16,
+   "h": 14.4,
+   "author": "maya.arslan",
+   "body": "we're working on it. will share details once the pilot is set up."
+  },
+  {
+   "d": 15,
+   "h": 9.1,
+   "author": "daisuke.khan",
+   "body": "quick one: what's the standard turnaround for credentialing applications? i have a practice asking."
+  },
+  {
+   "d": 15,
+   "h": 9.5,
+   "author": "noor.haddad",
+   "body": "usually 30-45 days, but can be longer if there are issues. tell them to check the portal for status updates."
+  },
+  {
+   "d": 14,
+   "h": 11.7,
+   "author": "sofia.meyer",
+   "body": "fyi: the member services team is getting a lot of calls about a new provider in South Bend. just want to confirm they're in-network."
+  },
+  {
+   "d": 14,
+   "h": 12.0,
+   "author": "yasmin.lombardi",
+   "body": "yes, they are. we'll post their info in the directory shortly."
+  },
+  {
+   "d": 13,
+   "h": 15.2,
+   "author": "dmitri.mbeki",
+   "body": "anyone know if there's a way to bulk export provider claims statuses? i have a list to check."
+  },
+  {
+   "d": 13,
+   "h": 15.5,
+   "author": "chiara.sorensen",
+   "body": "i think you can use the reporting tool. check with data team."
+  },
+  {
+   "d": 12,
+   "h": 10.2,
+   "author": "chidi.costa",
+   "body": "how do we handle a provider who says they didn't get the remittance advice? resend or generate a new one?"
+  },
+  {
+   "d": 12,
+   "h": 10.6,
+   "author": "lin.hartley",
+   "body": "resend the same one if possible. if it was deleted, you can regenerate but mark it as a reprint."
+  },
+  {
+   "d": 11,
+   "h": 13.8,
+   "author": "elias.heller",
+   "body": "anyone know if the provider portal has a way to upload a roster for verification? i have a group asking."
+  },
+  {
+   "d": 11,
+   "h": 14.1,
+   "author": "maya.arslan",
+   "body": "not yet, but it's on the roadmap. for now, they can send it via secure message."
+  },
+  {
+   "d": 10,
+   "h": 9.4,
+   "author": "noor.haddad",
+   "body": "reminder: the provider advisory council meeting is coming up in a few working days. if you have topics, send them to me before the end of the current work period."
+  },
+  {
+   "d": 9,
+   "h": 11.9,
+   "author": "daisuke.khan",
+   "body": "has anyone seen the new provider manual? i heard it's been updated."
+  },
+  {
+   "d": 9,
+   "h": 12.2,
+   "author": "yasmin.lombardi",
+   "body": "yes, it's on the portal under 'resources'. i'll link it."
+  },
+  {
+   "d": 8,
+   "h": 14.6,
+   "author": "tomas.vieira",
+   "body": "anyone else having trouble with the claims system after the update? i can't open some attachments."
+  },
+  {
+   "d": 8,
+   "h": 14.9,
+   "author": "chiara.sorensen",
+   "body": "known issue, IT is on it. will post when fixed."
+  },
+  {
+   "d": 7,
+   "h": 10.0,
+   "author": "ava.kowalski",
+   "body": "quick question: for provider calls, do we have a standard greeting or just use 'this is ava from kellsbrook'?"
+  },
+  {
+   "d": 7,
+   "h": 10.3,
+   "author": "sofia.meyer",
+   "body": "check the call handling guide, but 'this is ava from kellsbrook health plan' is fine."
+  },
+  {
+   "d": 6,
+   "h": 13.1,
+   "author": "elias.heller",
+   "body": "anyone know how to verify a provider's license if they're from out of state? i have a claim pending."
+  },
+  {
+   "d": 6,
+   "h": 13.5,
+   "author": "noor.haddad",
+   "body": "use the license verification tool on the state's website. if it's not there, ask for a copy."
+  },
+  {
+   "d": 5,
+   "h": 15.0,
+   "author": "dara.hartmann",
+   "body": "just a heads up: the provider appeals group is meeting to clear the backlog. expect some delays on new appeals."
+  },
+  {
+   "d": 4,
+   "h": 11.2,
+   "author": "maya.arslan",
+   "body": "reminder: the monthly provider network status report is due by the end of the week. please submit your updates."
+  },
+  {
+   "d": 3,
+   "h": 9.7,
+   "author": "daisuke.khan",
+   "body": "anyone know if we have a list of providers who are not taking new patients? have a member asking."
+  },
+  {
+   "d": 3,
+   "h": 10.0,
+   "author": "yasmin.lombardi",
+   "body": "we have a note in the directory. if not, you can call the practice directly."
+  },
+  {
+   "d": 2,
+   "h": 14.4,
+   "author": "chidi.costa",
+   "body": "is there a way to send a secure message to a provider through the portal? i have a document to share."
+  },
+  {
+   "d": 2,
+   "h": 14.7,
+   "author": "noor.haddad",
+   "body": "yes, there's a secure messaging feature. check the portal help."
+  },
+  {
+   "d": 1,
+   "h": 9.0,
+   "author": "noor.haddad",
+   "body": "thanks everyone for the updates over the past few days. let's keep up the good work."
+  },
+  {
+   "d": 1,
+   "h": 10.5,
+   "author": "elias.heller",
+   "body": "anyone know the phone number for the provider services line? i have it somewhere but can't find it."
+  },
+  {
+   "d": 1,
+   "h": 10.8,
+   "author": "maya.arslan",
+   "body": "it's on the contact page, first number on the list."
+  }
+ ],
+ "member-services": [
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "ava.kowalski",
+   "body": "just got a call from a member who said her ID card never arrived. anyone else seeing delays with card mailings?"
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "chidi.costa",
+   "body": "had one earlier this cycle too. told her we'd reissue. maybe the print vendor is backed up?"
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "sofia.meyer",
+   "body": "i'll check with the vendor on our side. if it's a batch issue we'll see it in the queue."
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "dara.hartmann",
+   "body": "reminder for appeals: if you get a call about a denied claim, don't promise a timeframe. just log it and we'll follow up."
+  },
+  {
+   "d": 40,
+   "h": 11.0,
+   "author": "henrik.ibarra",
+   "body": "anyone know if the member portal shows the same address we see in the EHR? had a member say her address is wrong on the portal but right on the phone."
+  },
+  {
+   "d": 40,
+   "h": 11.5,
+   "author": "ava.kowalski",
+   "body": "i think it pulls from the same source. maybe she updated it recently and it hasn't synced yet."
+  },
+  {
+   "d": 39,
+   "h": 8.5,
+   "author": "jada.jensen",
+   "body": "just a heads up: PA requests are coming in faster than usual. we're working through them but there may be a slight delay on non-urgent ones."
+  },
+  {
+   "d": 38,
+   "h": 15.0,
+   "author": "leah.dubois",
+   "body": "had a member call about a copay charge for a visit she said was preventive. checked the plan docs, seems it's coded as diagnostic. sent her to the provider to fix coding."
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "connor.dahl",
+   "body": "thanks everyone for the extra effort during the open enrollment rush. numbers look good."
+  },
+  {
+   "d": 36,
+   "h": 13.0,
+   "author": "uma.castillo",
+   "body": "quick q: do we still send paper ID cards to members who opt for electronic only? got a member saying she never opted in but gets both."
+  },
+  {
+   "d": 36,
+   "h": 13.5,
+   "author": "sofia.meyer",
+   "body": "no, if they opt for e-only, we shouldn't send paper. might be a leftover from initial enrollment. have her call the portal support to check preferences."
+  },
+  {
+   "d": 35,
+   "h": 9.5,
+   "author": "chidi.costa",
+   "body": "somebody left a stack of appeal letters on the printer in the corner. they're not mine. just fyi."
+  },
+  {
+   "d": 34,
+   "h": 16.0,
+   "author": "dara.hartmann",
+   "body": "if you get a call from a member who says they never got a denial letter, have them check spam. some email filters block ours."
+  },
+  {
+   "d": 33,
+   "h": 11.0,
+   "author": "jakob.larsen",
+   "body": "reminder: for out-of-network referrals, we need the referral form signed by the PCP before we can process. had a few come back missing that."
+  },
+  {
+   "d": 32,
+   "h": 14.0,
+   "author": "henrik.ibarra",
+   "body": "anyone else getting more calls about the new telehealth benefit? just want to make sure we're all giving the same info."
+  },
+  {
+   "d": 32,
+   "h": 14.5,
+   "author": "ava.kowalski",
+   "body": "yes! i've been telling them it's covered for urgent care visits, not for routine. is that right?"
+  },
+  {
+   "d": 32,
+   "h": 15.0,
+   "author": "sofia.meyer",
+   "body": "that's correct. also mention they need to use the app to schedule, not the portal."
+  },
+  {
+   "d": 31,
+   "h": 10.0,
+   "author": "jada.jensen",
+   "body": "just sent a batch of PA approvals to the portal. if you get calls, they should show up there within the hour."
+  },
+  {
+   "d": 30,
+   "h": 17.0,
+   "author": "leah.dubois",
+   "body": "a member called about a claim that was denied because we didn't get the referral. apparently the provider faxed it but we never received it. maybe you can check the fax server?"
+  },
+  {
+   "d": 29,
+   "h": 12.0,
+   "author": "dara.hartmann",
+   "body": "appeals team will be short a couple days in the coming working days. if you get calls about the status, let them know we're working on it but no specific dates."
+  },
+  {
+   "d": 28,
+   "h": 9.0,
+   "author": "uma.castillo",
+   "body": "anyone have the direct line for the member portal helpdesk? i keep sending them to the main number but they get transferred around."
+  },
+  {
+   "d": 28,
+   "h": 9.5,
+   "author": "chidi.costa",
+   "body": "it's in the handbook under it/access-requests. i'll paste it here if you want."
+  },
+  {
+   "d": 27,
+   "h": 15.0,
+   "author": "connor.dahl",
+   "body": "just a note: we're updating the script for appeals intake. i'll share the draft in a doc before we roll it out."
+  },
+  {
+   "d": 26,
+   "h": 13.0,
+   "author": "jakob.larsen",
+   "body": "saw a spike in PA requests for imaging. just a reminder to check if the provider has all the clinical notes attached, otherwise we might have to return them."
+  },
+  {
+   "d": 25,
+   "h": 8.5,
+   "author": "ava.kowalski",
+   "body": "good morning, anyone else having issues with the chat app on mobile? it's been lagging for me."
+  },
+  {
+   "d": 25,
+   "h": 9.0,
+   "author": "henrik.ibarra",
+   "body": "not just you. mine freezes when i try to open a thread. must be an update."
+  },
+  {
+   "d": 24,
+   "h": 11.0,
+   "author": "leah.dubois",
+   "body": "just got a call from a member who said she didn't receive her explanation of benefits. i told her to check the portal. seems like the mail is slow."
+  },
+  {
+   "d": 23,
+   "h": 16.0,
+   "author": "dara.hartmann",
+   "body": "if you have any appeal cases that are over 30 days old, let me know. i'm doing a cleanup and want to make sure nothing fell through the cracks."
+  },
+  {
+   "d": 22,
+   "h": 10.0,
+   "author": "sofia.meyer",
+   "body": "reminder: when documenting calls, include the member's preferred contact method. had a few cases where we didn't know if they wanted email or phone."
+  },
+  {
+   "d": 21,
+   "h": 14.0,
+   "author": "jada.jensen",
+   "body": "just posted a list of common PA denials to the shared drive. that might help with member questions."
+  },
+  {
+   "d": 20,
+   "h": 9.5,
+   "author": "uma.castillo",
+   "body": "anyone else getting calls from members about a letter they got from the research institute? i know we're not involved but just curious."
+  },
+  {
+   "d": 20,
+   "h": 10.0,
+   "author": "connor.dahl",
+   "body": "not our channel. tell them to call the institute directly if they have questions."
+  },
+  {
+   "d": 19,
+   "h": 12.0,
+   "author": "ava.kowalski",
+   "body": "just wanted to say thanks to whoever found my lost badge. i owe you a coffee."
+  }
+ ],
+ "revenue-cycle": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "jada.carvalho",
+   "body": "hey everyone, just a heads up that the new charge capture codes for the wound care clinic go live at the start of next month. quentin can answer questions."
+  },
+  {
+   "d": 42,
+   "h": 9.8,
+   "author": "quentin.russo",
+   "body": "thanks jada. i'll post the cheat sheet to the channel in a couple of days. basically two new modifiers and one deleted."
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "thabo.jaramillo",
+   "body": "do we need to update anything in the EHR for those? or just the billing codes?"
+  },
+  {
+   "d": 42,
+   "h": 10.4,
+   "author": "quentin.russo",
+   "body": "just the billing side. the EHR charge entry already has the right descriptions. we only need to add the new modifiers in the charge capture tool."
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "ethan.gupta",
+   "body": "does anyone know if we have a standard template for patient balance letters? i need to send a few but don't want to reinvent."
+  },
+  {
+   "d": 41,
+   "h": 11.3,
+   "author": "jada.carvalho",
+   "body": "check the revcycle folder in {{DOC_SHARING|lower}}, there's one from last year. i think it's still fine."
+  },
+  {
+   "d": 41,
+   "h": 11.6,
+   "author": "ethan.gupta",
+   "body": "found it, thanks!"
+  },
+  {
+   "d": 40,
+   "h": 8.5,
+   "author": "jonas.hayashi",
+   "body": "reminder that the payer portal for one of the commercial plans is down for maintenance starting at end of the week. if you need auth status, use the batch file from the interface."
+  },
+  {
+   "d": 39,
+   "h": 13.2,
+   "author": "aiko.silva",
+   "body": "question: for self-pay patients, do we always collect at time of service or can we send a statement if they ask?"
+  },
+  {
+   "d": 39,
+   "h": 13.5,
+   "author": "bianca.iyer",
+   "body": "usually collect if they're here, but if they forget their card we can bill. just put a note in the account."
+  },
+  {
+   "d": 39,
+   "h": 13.8,
+   "author": "jada.carvalho",
+   "body": "yes, but try to get at least a deposit for high deductible plans. check the policy on the revcycle page."
+  },
+  {
+   "d": 37,
+   "h": 14.0,
+   "author": "cecilia.esposito",
+   "body": "anyone else have trouble with the coding queue earlier today? it keeps timing out on me."
+  },
+  {
+   "d": 37,
+   "h": 14.3,
+   "author": "salma.karimi",
+   "body": "same here. i think they're doing maintenance on the server. i just saved my work and took a break."
+  },
+  {
+   "d": 37,
+   "h": 14.6,
+   "author": "arjun.eklund",
+   "body": "it's back up now. we had a server restart. if you lost anything, let me know."
+  },
+  {
+   "d": 36,
+   "h": 8.8,
+   "author": "rebecca.hansen",
+   "body": "just a friendly note: for inpatient stays, please document the reason for admission on the H&P clearly so we don't have to query later. it saves everyone time."
+  },
+  {
+   "d": 35,
+   "h": 15.0,
+   "author": "priya.gallagher",
+   "body": "heads up that the scheduling team is going to be short staffed next few days. please be patient with appointment requests."
+  },
+  {
+   "d": 35,
+   "h": 15.3,
+   "author": "kasia.zhang",
+   "body": "yeah, we have two people out. we'll try to get back to you within 24h."
+  },
+  {
+   "d": 34,
+   "h": 11.4,
+   "author": "jonas.hayashi",
+   "body": "does anyone know why a claim might come back with 'missing/incomplete' when we have all the info? i'm looking at a denial and the code looks fine."
+  },
+  {
+   "d": 34,
+   "h": 11.7,
+   "author": "jada.carvalho",
+   "body": "could be the claim form wasn't attached in the portal. check the attachments tab. if it's there, send it to the payer as a correction."
+  },
+  {
+   "d": 34,
+   "h": 12.0,
+   "author": "jonas.hayashi",
+   "body": "ah, thanks. i see it now."
+  },
+  {
+   "d": 33,
+   "h": 9.5,
+   "author": "quentin.russo",
+   "body": "small victory: we got the new charge capture codes live and the first claim with the new modifier went through without a hitch."
+  },
+  {
+   "d": 33,
+   "h": 9.7,
+   "author": "thabo.jaramillo",
+   "body": "nice, congrats!"
+  },
+  {
+   "d": 32,
+   "h": 10.3,
+   "author": "ethan.gupta",
+   "body": "has anyone seen the new patient portal update? i heard there's a payment feature now."
+  },
+  {
+   "d": 32,
+   "h": 10.6,
+   "author": "aiko.silva",
+   "body": "yeah, they added it. patients can pay their bill online. should cut down on phone calls."
+  },
+  {
+   "d": 31,
+   "h": 14.5,
+   "author": "georgia.marchetti",
+   "body": "quick question: for release of information requests that come via fax, do we need to verify the patient's signature every time or just the first?"
+  },
+  {
+   "d": 31,
+   "h": 14.8,
+   "author": "joanna.sorensen",
+   "body": "we verify each time, even if it's the same patient. policy says to be thorough."
+  },
+  {
+   "d": 31,
+   "h": 15.0,
+   "author": "georgia.marchetti",
+   "body": "ok, just checking."
+  },
+  {
+   "d": 30,
+   "h": 8.2,
+   "author": "rahul.pereira",
+   "body": "just a reminder that the quarterly coding update is coming up. make sure you have the latest code books."
+  },
+  {
+   "d": 29,
+   "h": 16.0,
+   "author": "jada.carvalho",
+   "body": "thanks all for getting through a short-staffed week. we'll have the month-end stats out by the end of the next working week."
+  },
+  {
+   "d": 28,
+   "h": 9.0,
+   "author": "thabo.jaramillo",
+   "body": "anyone know how to handle a patient who has a credit balance but also owes on another account? can we net it out?"
+  },
+  {
+   "d": 28,
+   "h": 9.3,
+   "author": "jada.carvalho",
+   "body": "you can transfer the credit to the other account if the patient gives verbal consent. just document it."
+  },
+  {
+   "d": 28,
+   "h": 9.6,
+   "author": "thabo.jaramillo",
+   "body": "thanks, will do."
+  }
+ ],
+ "records-office": [
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "cecilia.esposito",
+   "body": "hey, anyone else seeing the coding queue not updating since the interface change?"
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "arjun.eklund",
+   "body": "not me, but I'll ask the team. could be a local issue"
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "salma.karimi",
+   "body": "mine is fine so far"
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "joanna.sorensen",
+   "body": "just a heads up: the release of information form in the portal is still the old version, but we're using the updated one from care-docs/him/release-of-information.md"
+  },
+  {
+   "d": 40,
+   "h": 14.0,
+   "author": "georgia.marchetti",
+   "body": "thanks joanna, noted. will flag to the web team"
+  },
+  {
+   "d": 38,
+   "h": 8.5,
+   "author": "rahul.pereira",
+   "body": "anyone know if we have a standard for noting 'query' in the chart? i keep seeing different abbreviations"
+  },
+  {
+   "d": 38,
+   "h": 9.0,
+   "author": "arjun.eklund",
+   "body": "check care-docs/him/chart-corrections.md, it has the approved list"
+  },
+  {
+   "d": 38,
+   "h": 9.5,
+   "author": "rahul.pereira",
+   "body": "perfect, thanks"
+  },
+  {
+   "d": 37,
+   "h": 15.0,
+   "author": "fiona.moreau",
+   "body": "reminder: the coding queue is getting a new field for 'source' in the next few working days, so don't be surprised if you see it"
+  },
+  {
+   "d": 36,
+   "h": 10.0,
+   "author": "thabo.jaramillo",
+   "body": "is anyone else having trouble with the provider portal login? i keep getting redirected"
+  },
+  {
+   "d": 36,
+   "h": 10.5,
+   "author": "theo.takahashi",
+   "body": "there was a known issue with the VPN earlier, but it should be fixed now. try clearing cache"
+  },
+  {
+   "d": 36,
+   "h": 11.0,
+   "author": "thabo.jaramillo",
+   "body": "that worked, thanks"
+  },
+  {
+   "d": 34,
+   "h": 13.0,
+   "author": "cecilia.esposito",
+   "body": "just a note: the new coder training modules are live in the LMS, don't forget to complete by the end of the month"
+  },
+  {
+   "d": 33,
+   "h": 9.0,
+   "author": "jonas.hayashi",
+   "body": "does anyone have the link for the charge capture cheat sheet? i lost it"
+  },
+  {
+   "d": 33,
+   "h": 9.5,
+   "author": "quentin.russo",
+   "body": "it's in care-docs/revcycle/charge-capture.md, at the bottom"
+  },
+  {
+   "d": 32,
+   "h": 11.0,
+   "author": "salma.karimi",
+   "body": "anyone else getting a weird error when trying to save a correction in the EHR? it says 'field required' but i filled everything"
+  },
+  {
+   "d": 32,
+   "h": 11.5,
+   "author": "yasmin.osei",
+   "body": "known bug, we're rolling a fix shortly. workaround is to save as draft first"
+  },
+  {
+   "d": 32,
+   "h": 12.0,
+   "author": "salma.karimi",
+   "body": "ok thanks, that worked"
+  },
+  {
+   "d": 31,
+   "h": 16.0,
+   "author": "georgia.marchetti",
+   "body": "friendly reminder: please use the correct coding queue for inpatient vs outpatient, we've had some mix-ups"
+  },
+  {
+   "d": 30,
+   "h": 8.0,
+   "author": "joanna.sorensen",
+   "body": "if anyone needs a copy of the ROI form for a patient, it's on the shared drive under 'forms' not in chartarc"
+  },
+  {
+   "d": 29,
+   "h": 10.0,
+   "author": "ethan.gupta",
+   "body": "how long does it usually take for a chart correction to show up in the patient portal? i have a patient asking"
+  },
+  {
+   "d": 29,
+   "h": 10.5,
+   "author": "joanna.sorensen",
+   "body": "usually within a day, but if it's urgent you can call the HIM desk"
+  },
+  {
+   "d": 29,
+   "h": 11.0,
+   "author": "ethan.gupta",
+   "body": "thanks"
+  },
+  {
+   "d": 28,
+   "h": 14.0,
+   "author": "fatima.fujita",
+   "body": "heads up: the HL7 feed for lab results will be down for maintenance for a couple hours starting mid-afternoon, so don't be alarmed if you see delayed results"
+  },
+  {
+   "d": 27,
+   "h": 9.0,
+   "author": "rahul.pereira",
+   "body": "i've noticed some coders are using abbreviations that aren't in the approved list. please stick to the ones in care-docs/him/coding-queues.md"
+  },
+  {
+   "d": 26,
+   "h": 13.0,
+   "author": "cecilia.esposito",
+   "body": "anyone have the reference for the new diagnosis codes? i can't find it in the portal"
+  },
+  {
+   "d": 26,
+   "h": 13.5,
+   "author": "arjun.eklund",
+   "body": "check the coding section in the shared drive, there's a pdf from the latest update"
+  },
+  {
+   "d": 25,
+   "h": 11.0,
+   "author": "thabo.jaramillo",
+   "body": "just a thank you to the HIM team for helping with that release of information request for the insurance audit, much appreciated"
+  },
+  {
+   "d": 24,
+   "h": 15.0,
+   "author": "georgia.marchetti",
+   "body": "reminder that a correction goes in as a new entry that points to the original note. please don't edit the original"
+  },
+  {
+   "d": 23,
+   "h": 9.0,
+   "author": "jonas.hayashi",
+   "body": "does anyone know if the claims system and the coding queue are synced? i'm seeing a discrepancy in numbers"
+  },
+  {
+   "d": 23,
+   "h": 9.5,
+   "author": "fiona.moreau",
+   "body": "they should sync every few hours, but there's a known delay. if it's off by more than a day, raise a ticket"
+  },
+  {
+   "d": 22,
+   "h": 12.0,
+   "author": "salma.karimi",
+   "body": "i think i found a duplicate patient record. what's the process for merging?"
+  },
+  {
+   "d": 22,
+   "h": 12.5,
+   "author": "arjun.eklund",
+   "body": "there's a form in the HIM team site, fill that out and send it to the data integrity team"
+  }
+ ],
+ "his-platform": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "paloma.mishra",
+   "body": "anyone else see the HL7 ORU feed from the lab hiccup earlier? a few messages came through with a bad timestamp, i'm re-processing them now."
+  },
+  {
+   "d": 42,
+   "h": 9.8,
+   "author": "theo.takahashi",
+   "body": "yeah i saw that, thought it was just my test connection. good catch."
+  },
+  {
+   "d": 42,
+   "h": 10.2,
+   "author": "fiona.moreau",
+   "body": "thanks paloma, i got a few alerts from the interface engine too, but looks like you're on it."
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "yasmin.osei",
+   "body": "quick question: for the patient portal, if a patient changes their email, does the old email get purged from the portal or just archived? i need to know for a chart correction request."
+  },
+  {
+   "d": 41,
+   "h": 14.5,
+   "author": "aiko.young",
+   "body": "i believe it's archived, not purged. check the patient portal admin guide or just ask the privacy team."
+  },
+  {
+   "d": 41,
+   "h": 15.0,
+   "author": "yasmin.osei",
+   "body": "ok, thanks. i'll check with them."
+  },
+  {
+   "d": 40,
+   "h": 8.5,
+   "author": "jin.olsen",
+   "body": "the cork site's EMR is having a slow afternoon, but it's not down. the interface engine is queuing a bit, just a heads up."
+  },
+  {
+   "d": 40,
+   "h": 9.0,
+   "author": "paloma.mishra",
+   "body": "thanks jin, i'll keep an eye on the queue from here."
+  },
+  {
+   "d": 36,
+   "h": 15.5,
+   "author": "andile.campos",
+   "body": "just a note: the nightly backup window for the EHR is now starting an hour later, per the change request. should be transparent, but let me know if you see any issues."
+  },
+  {
+   "d": 36,
+   "h": 16.0,
+   "author": "yasmin.osei",
+   "body": "thanks for the heads up, andile. we'll adjust any maintenance windows."
+  },
+  {
+   "d": 34,
+   "h": 10.0,
+   "author": "lucia.barros",
+   "body": "the chartarc upload from valparaiso is running slow today. i'm monitoring it, but if you see any failed scans, let me know."
+  },
+  {
+   "d": 34,
+   "h": 10.5,
+   "author": "fiona.moreau",
+   "body": "we saw a couple of timeouts on the scanning interface, but i think it's just the slow upload. thanks for the heads up."
+  },
+  {
+   "d": 33,
+   "h": 9.5,
+   "author": "paloma.mishra",
+   "body": "does anyone know how to re-trigger the ADT feed for a given patient? we had a duplicate from registration and i need to resend the merge."
+  },
+  {
+   "d": 33,
+   "h": 10.0,
+   "author": "theo.takahashi",
+   "body": "you can use the interface engine console, just search for the MRN and resend the merge event. i can walk you through it."
+  },
+  {
+   "d": 33,
+   "h": 10.5,
+   "author": "paloma.mishra",
+   "body": "that would help, thanks. i'll ping you."
+  },
+  {
+   "d": 31,
+   "h": 13.5,
+   "author": "sebastian.marchetti",
+   "body": "reminder to everyone: if you're making any changes to the interface engine or EHR config, follow the change management process. got a request that skipped it and it caused a brief outage on the patient portal."
+  },
+  {
+   "d": 31,
+   "h": 14.0,
+   "author": "yasmin.osei",
+   "body": "sorry, that was me - i thought it was minor. won't happen again."
+  },
+  {
+   "d": 31,
+   "h": 14.2,
+   "author": "aiko.young",
+   "body": "good to know, thanks for the reminder, sebastian."
+  },
+  {
+   "d": 30,
+   "h": 8.0,
+   "author": "fatima.fujita",
+   "body": "the HL7 lab results are missing the units for some tests from the reference lab. anyone know if that's a mapping issue or just a bug on their side?"
+  },
+  {
+   "d": 30,
+   "h": 8.5,
+   "author": "paloma.mishra",
+   "body": "might be a mapping issue, i'll check the interface config and get back to you."
+  },
+  {
+   "d": 29,
+   "h": 16.0,
+   "author": "jin.olsen",
+   "body": "the VPN is being a bit flaky for some users in cork, but it's intermittent. we're looking into it."
+  },
+  {
+   "d": 29,
+   "h": 16.5,
+   "author": "theo.takahashi",
+   "body": "we had a couple of reports from remote users, thanks for the update."
+  },
+  {
+   "d": 28,
+   "h": 11.0,
+   "author": "fiona.moreau",
+   "body": "anyone know if the EHR has a built-in report for no-shows? i need it for a quality measure."
+  },
+  {
+   "d": 28,
+   "h": 11.5,
+   "author": "yasmin.osei",
+   "body": "there is, under the scheduling module. i can share the report name if you need."
+  },
+  {
+   "d": 27,
+   "h": 9.0,
+   "author": "andile.campos",
+   "body": "the interface engine will be down for maintenance in two working days, from mid-afternoon Eastern time for about an hour. plan any changes around that."
+  },
+  {
+   "d": 27,
+   "h": 9.5,
+   "author": "paloma.mishra",
+   "body": "thanks for the heads up, andile. we'll avoid any changes at that time."
+  },
+  {
+   "d": 25,
+   "h": 10.5,
+   "author": "theo.takahashi",
+   "body": "does anyone have experience with the eIRB system's integration with the CTMS? we're having trouble syncing a study status."
+  },
+  {
+   "d": 25,
+   "h": 11.0,
+   "author": "fatima.fujita",
+   "body": "not my area, but maybe check with the research IT team. they usually handle those integrations."
+  },
+  {
+   "d": 25,
+   "h": 11.5,
+   "author": "theo.takahashi",
+   "body": "will do, thanks."
+  },
+  {
+   "d": 24,
+   "h": 13.0,
+   "author": "pablo.petrov",
+   "body": "the EHR web service is responding a bit slowly from some locations. we're monitoring, but if you see any timeouts, let us know."
+  },
+  {
+   "d": 24,
+   "h": 13.5,
+   "author": "yasmin.osei",
+   "body": "noted, we'll keep an eye out."
+  },
+  {
+   "d": 23,
+   "h": 15.5,
+   "author": "paloma.mishra",
+   "body": "i'm going to be out of office for a few days, but in the meantime, if there's any interface issue, please tag fatima."
+  },
+  {
+   "d": 23,
+   "h": 16.0,
+   "author": "fatima.fujita",
+   "body": "i'll cover. thanks paloma."
+  },
+  {
+   "d": 22,
+   "h": 9.0,
+   "author": "sebastian.marchetti",
+   "body": "a quick reminder to use the proper channels for system changes - don't just email the service desk. thanks."
+  }
+ ],
+ "southbend-campus": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "valentina.kato",
+   "body": "anyone else see the badge readers acting up near the east entrance?  just tap and it beeps twice, then you have to tap again."
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "arjun.campos",
+   "body": "not me, but i'll mention it to facilities if it keeps happening"
+  },
+  {
+   "d": 41,
+   "h": 8.5,
+   "author": "georgia.salazar",
+   "body": "cafeteria has the harvest bowl again today - still better than the sandwich bar"
+  },
+  {
+   "d": 40,
+   "h": 13.0,
+   "author": "reza.holm",
+   "body": "anyone know if the parking garage level 3 is still closed for the paint job?  got a meeting at the admin building and don't want to circle forever"
+  },
+  {
+   "d": 40,
+   "h": 13.4,
+   "author": "mina.gonzaga",
+   "body": "i think it's open now, they finished earlier than planned"
+  },
+  {
+   "d": 39,
+   "h": 11.3,
+   "author": "cecilia.esposito",
+   "body": "the elevator in the north tower is making that weird hum again.  not as bad as last time but just so you know"
+  },
+  {
+   "d": 38,
+   "h": 15.2,
+   "author": "joy.balogun",
+   "body": "reminder that the safety event reporting system has a new dropdown for 'location' - please use 'south bend - campus' not 'south bend' going forward"
+  },
+  {
+   "d": 37,
+   "h": 8.8,
+   "author": "rebecca.hansen",
+   "body": "anyone find a navy blue cardigan in the conference room on 2?  left it there a couple of days ago, it's my favorite"
+  },
+  {
+   "d": 36,
+   "h": 12.5,
+   "author": "ibrahim.cruz",
+   "body": "the vending machine by the pharmacy is out of diet soda again.  i've put in a request but who knows"
+  },
+  {
+   "d": 35,
+   "h": 9.0,
+   "author": "paloma.mishra",
+   "body": "just a heads up that the interface engine will have a brief maintenance window during the lunch hour - no expected impact but if you see any alerts, it's probably that"
+  },
+  {
+   "d": 34,
+   "h": 16.3,
+   "author": "jada.carvalho",
+   "body": "anyone else's office getting really warm in the afternoon?  we've had the thermostat at 70 but it feels like 80"
+  },
+  {
+   "d": 34,
+   "h": 16.8,
+   "author": "valentina.kato",
+   "body": "put in a ticket for the HVAC on your floor - they'll come by within a few working days"
+  },
+  {
+   "d": 33,
+   "h": 10.4,
+   "author": "aiko.lopez",
+   "body": "forgot my badge at home, security gave me a temp one.  remember to sign it out at the front desk"
+  },
+  {
+   "d": 32,
+   "h": 13.6,
+   "author": "arjun.campos",
+   "body": "the new wayfinding signs in the main lobby look great - thanks to whoever picked the colors"
+  },
+  {
+   "d": 31,
+   "h": 9.5,
+   "author": "yasmin.osei",
+   "body": "quick question: is the wireless in the basement conference room still spotty?  thinking of booking it for a training"
+  },
+  {
+   "d": 31,
+   "h": 10.0,
+   "author": "valentina.kato",
+   "body": "yes, it's still spotty.  we have a ticket open, but it's not fixed yet.  maybe try the 3rd floor room instead"
+  },
+  {
+   "d": 30,
+   "h": 8.2,
+   "author": "monica.feldkamp",
+   "body": "anyone have a spare chair for a visitor?  the ones in the conference room are all taken"
+  },
+  {
+   "d": 29,
+   "h": 14.1,
+   "author": "cecilia.esposito",
+   "body": "the restroom on the first floor by the lab is out of paper towels - i told janitorial but just in case"
+  },
+  {
+   "d": 28,
+   "h": 11.7,
+   "author": "mina.gonzaga",
+   "body": "for those of you who park in the overflow lot, they're re-striping the lines over the next few days - please don't park in the yellow zones"
+  },
+  {
+   "d": 27,
+   "h": 9.9,
+   "author": "arjun.eklund",
+   "body": "anyone else's computer clock off by a minute?  mine keeps saying it's earlier than it is"
+  },
+  {
+   "d": 27,
+   "h": 10.3,
+   "author": "valentina.kato",
+   "body": "that's a known issue with the time sync - we're rolling out a fix, should be resolved by end of day"
+  },
+  {
+   "d": 26,
+   "h": 15.4,
+   "author": "reza.holm",
+   "body": "the coffee in the break room is particularly bad today.  i think someone forgot to change the filter"
+  },
+  {
+   "d": 25,
+   "h": 8.7,
+   "author": "joy.balogun",
+   "body": "reminder: there's a fire drill planned for one day soon - don't be alarmed if you hear the alarm, just follow the usual route"
+  },
+  {
+   "d": 24,
+   "h": 12.0,
+   "author": "aaliyah.lehmann",
+   "body": "anyone else have trouble with the card reader at the south entrance?  mine wouldn't work earlier today"
+  },
+  {
+   "d": 24,
+   "h": 12.2,
+   "author": "valentina.kato",
+   "body": "i'll check that reader - probably needs a firmware update"
+  },
+  {
+   "d": 23,
+   "h": 13.8,
+   "author": "georgia.salazar",
+   "body": "the cafeteria is serving that chicken wrap again - i wish they'd rotate more"
+  },
+  {
+   "d": 22,
+   "h": 9.1,
+   "author": "marcus.whitcomb",
+   "body": "thanks to everyone who filled out the parking survey - we're reviewing the results and will share next steps soon"
+  },
+  {
+   "d": 21,
+   "h": 16.2,
+   "author": "ibrahim.cruz",
+   "body": "if anyone sees a stray stethoscope in the break room, let me know - mine has a red tag"
+  },
+  {
+   "d": 20,
+   "h": 10.5,
+   "author": "yasmin.osei",
+   "body": "quick update: the printer on 4th floor is fixed, so you can use it again"
+  },
+  {
+   "d": 19,
+   "h": 11.2,
+   "author": "cecilia.esposito",
+   "body": "does anyone know if the ice machine on 2nd floor is working?  i need to fill a cooler"
+  },
+  {
+   "d": 18,
+   "h": 14.0,
+   "author": "arjun.campos",
+   "body": "we're getting new name tags for the whole department - if you haven't sent your preferred name, please do soon"
+  },
+  {
+   "d": 17,
+   "h": 9.3,
+   "author": "jada.carvalho",
+   "body": "the elevator in the south tower is out of service for maintenance - use the stairs or the north tower elevator"
+  },
+  {
+   "d": 16,
+   "h": 13.1,
+   "author": "valentina.kato",
+   "body": "for those who use the badge tap at the front door, we're replacing the readers - you'll need to tap twice if you hear a beep.  just a heads up"
+  },
+  {
+   "d": 15,
+   "h": 8.9,
+   "author": "rebecca.hansen",
+   "body": "found a pair of glasses in the cafeteria - turned them in at the front desk"
+  },
+  {
+   "d": 14,
+   "h": 10.0,
+   "author": "monica.feldkamp",
+   "body": "reminder that the staff entrance will be locked in the evenings now - use the main entrance with your badge"
+  }
+ ],
+ "records-platform": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "tariq.abara",
+   "body": "Morning all. The claims ingest dashboard is showing a slight delay on PDFs from the South Bend clearinghouse. Anyone else seeing it?"
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "miriam.bauer",
+   "body": "Yeah, I noticed the same. The OCR queue is backed up a bit. I'm restarting the worker pool in a bit."
+  },
+  {
+   "d": 42,
+   "h": 10.1,
+   "author": "olivier.harper",
+   "body": "Thanks, that explains why my batch is stuck. Will wait for the restart."
+  },
+  {
+   "d": 40,
+   "h": 14.3,
+   "author": "petra.park",
+   "body": "FYI - I've updated the claims ingest doc with the new file naming convention for expedited claims. It's in it-docs/records-platform/claims-ingest.md"
+  },
+  {
+   "d": 37,
+   "h": 8.5,
+   "author": "jin.olsen",
+   "body": "Reminder: patching of the archive nodes is in a couple of working days. Expect brief downtime in the evening."
+  },
+  {
+   "d": 36,
+   "h": 16.2,
+   "author": "tariq.gashi",
+   "body": "Is anyone else seeing a spike in malformed XML from the EDI feed? I've got 10 files stuck in the queue."
+  },
+  {
+   "d": 36,
+   "h": 16.4,
+   "author": "miriam.bauer",
+   "body": "Yes, we're aware. The interface engine had a hiccup. Should be resolved now, resend the files."
+  },
+  {
+   "d": 36,
+   "h": 16.7,
+   "author": "tariq.gashi",
+   "body": "Great, thanks."
+  },
+  {
+   "d": 34,
+   "h": 13.0,
+   "author": "petra.park",
+   "body": "Heads up: there's a new version of the archive retention policy. I'll post the link when it's finalised."
+  },
+  {
+   "d": 33,
+   "h": 10.6,
+   "author": "olivier.harper",
+   "body": "Minor thing: the OCR misreads '1' as 'l' in some claim numbers. Not a big deal but might cause issues in matching."
+  },
+  {
+   "d": 33,
+   "h": 11.0,
+   "author": "anders.obi",
+   "body": "I can tweak the regex to be stricter. Will raise a ticket."
+  },
+  {
+   "d": 29,
+   "h": 12.4,
+   "author": "tariq.gashi",
+   "body": "Just ran a query on the ingest failures from last month. Most are due to missing attachments. Will share the list."
+  },
+  {
+   "d": 28,
+   "h": 8.9,
+   "author": "miriam.bauer",
+   "body": "I'll take a look at the attachment handling. Might be a timeout issue."
+  },
+  {
+   "d": 27,
+   "h": 14.0,
+   "author": "petra.park",
+   "body": "Can someone confirm that the Valparaiso mailroom scans are landing under the right prefix? I see some in the wrong folder."
+  },
+  {
+   "d": 27,
+   "h": 14.5,
+   "author": "anders.obi",
+   "body": "I'll check the uploader config. Might be a path typo."
+  },
+  {
+   "d": 25,
+   "h": 11.2,
+   "author": "jin.olsen",
+   "body": "Reminder: the archive maintenance window is coming up. Make sure to pause any large exports."
+  },
+  {
+   "d": 24,
+   "h": 10.0,
+   "author": "olivier.harper",
+   "body": "I've noticed some claims are being indexed twice. Any idea why?"
+  },
+  {
+   "d": 24,
+   "h": 10.3,
+   "author": "miriam.bauer",
+   "body": "Probably a duplicate in the queue. I'll add a dedup check."
+  },
+  {
+   "d": 22,
+   "h": 15.7,
+   "author": "anders.tran",
+   "body": "For the data warehouse, are we still loading raw OCR text or only the extracted fields?"
+  },
+  {
+   "d": 22,
+   "h": 16.0,
+   "author": "tariq.abara",
+   "body": "Only extracted fields for now. We can revisit if needed."
+  },
+  {
+   "d": 20,
+   "h": 13.2,
+   "author": "felipe.ramos",
+   "body": "Anyone else having trouble with the OCR confidence scores being low for handwritten forms?"
+  }
+ ],
+ "infrastructure": [
+  {
+   "d": 41,
+   "h": 8.5,
+   "author": "pablo.petrov",
+   "body": "anyone else seeing the ehr downtime test page return 500? i got it on the south bend instance."
+  },
+  {
+   "d": 41,
+   "h": 9.0,
+   "author": "tomas.fonseca",
+   "body": "that page is static, should be fine. check your vpn route maybe? i just hit it from the office network, works."
+  },
+  {
+   "d": 41,
+   "h": 9.5,
+   "author": "pablo.petrov",
+   "body": "ah, stale dns cache on my laptop. all good."
+  },
+  {
+   "d": 40,
+   "h": 11.0,
+   "author": "sebastian.marchetti",
+   "body": "reminder: change window for the storage array firmware is on the next maintenance day. check it-docs/change/change-management.md if you need the process."
+  },
+  {
+   "d": 38,
+   "h": 16.0,
+   "author": "isaac.wagner",
+   "body": "anyone else get a phishing email about 'urgent password reset' with a link to a fake vpn page? i already reported it. stay alert."
+  },
+  {
+   "d": 38,
+   "h": 16.5,
+   "author": "samir.martins",
+   "body": "yes, we saw a wave earlier today. blocked the domain. it-docs/security/phishing.md has the reporting steps."
+  },
+  {
+   "d": 37,
+   "h": 9.5,
+   "author": "olga.novak",
+   "body": "the new valparaiso clinic has a vlan misconfig. i fixed it, but the switch firmware needs an update. raised a ticket."
+  },
+  {
+   "d": 36,
+   "h": 12.0,
+   "author": "milan.kaplan",
+   "body": "fyi, the vpn gateway will be restarted for a security patch on the next maintenance window. expect a brief blip for remote users."
+  },
+  {
+   "d": 35,
+   "h": 8.0,
+   "author": "jin.olsen",
+   "body": "cork medical centre's patient app is slow today. i checked the api logs, looks like a db connection pool issue. restarting the service."
+  },
+  {
+   "d": 35,
+   "h": 9.0,
+   "author": "andile.campos",
+   "body": "we had the same a few days ago in south bend. it was a missing index on the appointments table. check the query plan."
+  },
+  {
+   "d": 35,
+   "h": 10.0,
+   "author": "jin.olsen",
+   "body": "thanks andile, that was it. added the index, all good."
+  },
+  {
+   "d": 34,
+   "h": 15.0,
+   "author": "patricia.lowell",
+   "body": "security awareness training is due for all infrastructure staff. please complete it by the end of the month. see the lms."
+  },
+  {
+   "d": 32,
+   "h": 11.0,
+   "author": "ivan.walsh",
+   "body": "we're doing a network sweep for unregistered devices in the kalamazoo hospital. expect some temporary disconnects for non-compliant iot stuff."
+  },
+  {
+   "d": 31,
+   "h": 13.0,
+   "author": "tomas.fonseca",
+   "body": "anyone else have issues with the chartarc uploads timing out after the last interface engine update? i see a few in the queue."
+  },
+  {
+   "d": 31,
+   "h": 13.5,
+   "author": "lucia.barros",
+   "body": "not chartarc, but the claims ingest is also slow. maybe a network issue? check the interface logs."
+  },
+  {
+   "d": 31,
+   "h": 14.0,
+   "author": "olga.novak",
+   "body": "we saw a broadcast storm on the south bend core switch. fixed a loop. should be back to normal now."
+  },
+  {
+   "d": 30,
+   "h": 10.0,
+   "author": "sebastian.marchetti",
+   "body": "we need to update the disaster recovery plan. please review the current one in it-docs/infra/backups.md and suggest changes."
+  },
+  {
+   "d": 29,
+   "h": 9.0,
+   "author": "pablo.petrov",
+   "body": "reminder: the ehr downtime procedure is due for a walkthrough. we'll do a quick drill on the next off-peak day."
+  },
+  {
+   "d": 28,
+   "h": 15.0,
+   "author": "andile.campos",
+   "body": "does anyone have the credentials for the test server for the new clinic registration system? i can't find them in the vault."
+  },
+  {
+   "d": 28,
+   "h": 15.5,
+   "author": "milan.kaplan",
+   "body": "they should be in the shared secrets vault under 'reg-test'. if not, ask the sysadmin who set it up."
+  },
+  {
+   "d": 28,
+   "h": 16.0,
+   "author": "andile.campos",
+   "body": "found them. thanks."
+  },
+  {
+   "d": 27,
+   "h": 12.0,
+   "author": "jin.olsen",
+   "body": "the cork office's vpn is flaky for some users. i've escalated to the network team. anyone else seeing issues?"
+  },
+  {
+   "d": 26,
+   "h": 9.0,
+   "author": "olga.novak",
+   "body": "we'll check the circuit later today. might be a provider issue."
+  },
+  {
+   "d": 24,
+   "h": 14.0,
+   "author": "kai.teixeira",
+   "body": "i saw a failed login attempt on a clinical workstation from an unknown ip. locked the account. let me know if it's legit."
+  },
+  {
+   "d": 23,
+   "h": 11.0,
+   "author": "samir.martins",
+   "body": "we're rolling out a new endpoint detection tool to all servers. expect some performance impact during the initial scan. we'll schedule it off-peak."
+  },
+  {
+   "d": 22,
+   "h": 8.5,
+   "author": "tomas.fonseca",
+   "body": "the prior auth queue is slow today. i checked the database, seems a query is blocking. restarting the service might help."
+  },
+  {
+   "d": 21,
+   "h": 13.0,
+   "author": "pablo.petrov",
+   "body": "we need to patch the vpn client on all remote devices. please see it-docs/security/vulnerability-management.md for the schedule."
+  },
+  {
+   "d": 20,
+   "h": 16.0,
+   "author": "sebastian.marchetti",
+   "body": "good work on the storage migration the other day. no issues. we'll do the next phase on the following maintenance day."
+  }
+ ],
+ "kalamazoo-campus": [
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "ben.bauer",
+   "body": "quick reminder that the new trial master file checklist is up in the shared drive, please start using it for any new site init"
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "petra.delgado",
+   "body": "thanks ben, grabbed it. looks thorough"
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "stella.jovanovic",
+   "body": "anyone else having trouble pulling the EDC export for the diabetes study? keeps timing out"
+  },
+  {
+   "d": 41,
+   "h": 11.3,
+   "author": "anton.ozturk",
+   "body": "stella, try the smaller cohort filter, the full dataset is huge. worked for me"
+  },
+  {
+   "d": 41,
+   "h": 12.0,
+   "author": "stella.jovanovic",
+   "body": "ok will try"
+  },
+  {
+   "d": 40,
+   "h": 8.5,
+   "author": "mateo.osei",
+   "body": "reminder that the IRB office closes for a staff training day soon, so if you need anything reviewed before that, get it in early"
+  },
+  {
+   "d": 39,
+   "h": 14.0,
+   "author": "camille.vasquez",
+   "body": "does anyone have a spare aliquot of the control antibody from the last shipment? we're one short for the assay we're running in a couple of days"
+  },
+  {
+   "d": 39,
+   "h": 14.2,
+   "author": "mei.lin",
+   "body": "i have an unopened vial, can drop it off at your bench"
+  },
+  {
+   "d": 39,
+   "h": 14.4,
+   "author": "camille.vasquez",
+   "body": "you're a lifesaver, thanks"
+  },
+  {
+   "d": 38,
+   "h": 10.0,
+   "author": "gethin.pryce",
+   "body": "just a heads up, the visit window for the longitudinal cohort is tight this cycle, we may need to extend a couple of days for the south bend site"
+  },
+  {
+   "d": 38,
+   "h": 10.2,
+   "author": "rafael.lund",
+   "body": "let's see if we can avoid that, but if it happens, we'll need a protocol amendment"
+  },
+  {
+   "d": 37,
+   "h": 15.0,
+   "author": "esme.latimer",
+   "body": "the new pseudonymisation script is ready, but please test it with a small sample before using on real data"
+  },
+  {
+   "d": 35,
+   "h": 13.0,
+   "author": "naomi.reyes",
+   "body": "just filed the last of the consent forms for the new recruits, whew"
+  },
+  {
+   "d": 34,
+   "h": 11.0,
+   "author": "dalia.palmer",
+   "body": "quick question – for the IRB renewal, do we need to include the amendments from the last cycle? i think we do but not sure"
+  },
+  {
+   "d": 34,
+   "h": 11.2,
+   "author": "mateo.osei",
+   "body": "yes, include all amendments that were approved, even if they haven't been enacted yet"
+  },
+  {
+   "d": 34,
+   "h": 11.4,
+   "author": "dalia.palmer",
+   "body": "got it, thanks"
+  },
+  {
+   "d": 33,
+   "h": 16.0,
+   "author": "petra.delgado",
+   "body": "don't forget to update the CTMS with your monitoring visit dates before the end of the week"
+  },
+  {
+   "d": 32,
+   "h": 10.0,
+   "author": "adrian.sorensen",
+   "body": "anyone else having issues with the eIRB system right now? keeps giving me an error when i try to upload a doc"
+  },
+  {
+   "d": 32,
+   "h": 10.2,
+   "author": "nico.andersen",
+   "body": "mine's fine, maybe try a different browser? i've had that happen in {{BROWSER_1|lower}}"
+  },
+  {
+   "d": 31,
+   "h": 14.0,
+   "author": "clara.voss",
+   "body": "just a reminder that the next research governance meeting is on the calendar for the first working day of next month, please add any topics you want to discuss"
+  },
+  {
+   "d": 30,
+   "h": 12.0,
+   "author": "chloe.becker",
+   "body": "thanks for the quick turnaround on the cohort data, rafael's team is doing a great job"
+  },
+  {
+   "d": 30,
+   "h": 12.1,
+   "author": "rafael.lund",
+   "body": "appreciate that, chloe"
+  },
+  {
+   "d": 29,
+   "h": 9.0,
+   "author": "stella.jovanovic",
+   "body": "the lab results for the biomarkers are ready in the lab system, but i can't link them to the study records – any idea why?"
+  },
+  {
+   "d": 29,
+   "h": 9.2,
+   "author": "anton.ozturk",
+   "body": "you need to make sure the participant IDs match exactly, including leading zeros. check the import template"
+  },
+  {
+   "d": 29,
+   "h": 9.4,
+   "author": "stella.jovanovic",
+   "body": "ah, that was it. fixed now"
+  },
+  {
+   "d": 28,
+   "h": 15.0,
+   "author": "ben.bauer",
+   "body": "we have a couple of open slots for the GCP training coming up in a few days, if you know anyone who needs it, let them know"
+  },
+  {
+   "d": 27,
+   "h": 11.0,
+   "author": "esme.latimer",
+   "body": "just a heads up, the data transfer to the Cork office is scheduled for the end of the month, so please make sure your datasets are finalized"
+  },
+  {
+   "d": 25,
+   "h": 13.0,
+   "author": "camille.vasquez",
+   "body": "anyone have a pipette calibration schedule? need to know when the next one is due"
+  },
+  {
+   "d": 24,
+   "h": 9.0,
+   "author": "leonard.brandvold",
+   "body": "great progress on the institute's quarterly report, thanks to everyone who contributed. let's keep it up"
+  }
+ ],
+ "network-ops": [
+  {
+   "d": 42,
+   "h": 8.5,
+   "author": "jorge.sokolov",
+   "body": "morning all, just a heads up that the vpn gateway in kalamazoo will be rebooted mid-morning for a config change. expect a brief blip for a few minutes."
+  },
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "olga.novak",
+   "body": "thanks jorge, i'll let the cork folks know so they don't panic when their tunnels drop."
+  },
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "milan.kaplan",
+   "body": "any chance we can do that outside peak? i know it's a small site but still."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "jorge.sokolov",
+   "body": "already scheduled for the quietest window we have. it'll be under five minutes."
+  },
+  {
+   "d": 41,
+   "h": 10.0,
+   "author": "valentina.kato",
+   "body": "anyone else seeing slow wifi in the south bend cafeteria? been like that since i got here."
+  },
+  {
+   "d": 41,
+   "h": 10.3,
+   "author": "ivan.walsh",
+   "body": "not seeing anything on the ap side. can you give me the ap name or location? i'll check the logs."
+  },
+  {
+   "d": 41,
+   "h": 10.6,
+   "author": "valentina.kato",
+   "body": "it's the one near the salad bar, ap-sb-caf-02 i think."
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "ivan.walsh",
+   "body": "ok, i see it's got a high error rate. might be interference. i'll move it to a different channel and see if that helps."
+  },
+  {
+   "d": 40,
+   "h": 9.0,
+   "author": "patricia.lowell",
+   "body": "reminder: if you get a phishing email that looks like it's from a colleague but asks you to click a link, just report it. don't reply. we've seen a few lately."
+  },
+  {
+   "d": 40,
+   "h": 9.2,
+   "author": "isaac.wagner",
+   "body": "yep, i forwarded one to the security team already. looked like it came from our own domain but the address was off by one letter."
+  },
+  {
+   "d": 39,
+   "h": 14.0,
+   "author": "mara.nunez",
+   "body": "quick one: the vpn client on my laptop keeps dropping after a few minutes. anyone else seen that? it's only since the last update."
+  },
+  {
+   "d": 39,
+   "h": 14.2,
+   "author": "milan.kaplan",
+   "body": "what version are you on? i know there was a known issue with the latest release. check the release notes."
+  },
+  {
+   "d": 39,
+   "h": 14.5,
+   "author": "mara.nunez",
+   "body": "it's the 3.2.1 build. i'll check those notes, thanks."
+  },
+  {
+   "d": 38,
+   "h": 11.0,
+   "author": "luca.estrada",
+   "body": "does anyone have a spare rj45 crimper? the one in the server room is missing."
+  },
+  {
+   "d": 37,
+   "h": 8.0,
+   "author": "jorge.sokolov",
+   "body": "just a note: we're planning to upgrade the firmware on the core switches in valparaiso over the next few weeks. will schedule maintenance windows and give you all a heads up."
+  },
+  {
+   "d": 37,
+   "h": 8.3,
+   "author": "olga.novak",
+   "body": "we'll need to coordinate with the clinical teams so they don't lose connectivity during procedures. i'll talk to the nursing leads."
+  },
+  {
+   "d": 36,
+   "h": 13.0,
+   "author": "bilal.graham",
+   "body": "anyone know why the wifi in the kalamazoo admin building is so slow? i'm getting like 2 mbps."
+  },
+  {
+   "d": 36,
+   "h": 13.2,
+   "author": "ivan.walsh",
+   "body": "we had a known issue with the ap firmware there. should be fixed by now, but let me check if the update pushed properly."
+  },
+  {
+   "d": 35,
+   "h": 15.0,
+   "author": "kai.teixeira",
+   "body": "just a heads up, we're doing a security scan on the network in a couple of days. if you see any unusual traffic, it's probably us."
+  },
+  {
+   "d": 34,
+   "h": 9.5,
+   "author": "valentina.kato",
+   "body": "can someone reset the password for the guest wifi in the lobby? the current one is printed on the card but someone changed it."
+  },
+  {
+   "d": 34,
+   "h": 9.8,
+   "author": "olga.novak",
+   "body": "i'll do it now and put the new one on the lobby card."
+  },
+  {
+   "d": 33,
+   "h": 10.0,
+   "author": "mara.nunez",
+   "body": "has anyone seen issues with the vpn after the last windows update? a couple of users are reporting they can't connect."
+  },
+  {
+   "d": 33,
+   "h": 10.2,
+   "author": "milan.kaplan",
+   "body": "yeah, there's a known conflict with the update. we're deploying a patch to the vpn client later today. should resolve it."
+  },
+  {
+   "d": 32,
+   "h": 16.0,
+   "author": "jorge.sokolov",
+   "body": "reminder that the network maintenance in valparaiso is coming up. we'll send a reminder the day before, but pls block your calendars."
+  },
+  {
+   "d": 31,
+   "h": 8.5,
+   "author": "luca.estrada",
+   "body": "the ethernet port in exam room 4 is dead. anyone available to check the patch panel?"
+  },
+  {
+   "d": 31,
+   "h": 8.8,
+   "author": "ivan.walsh",
+   "body": "i'll swing by later. just set a ticket so we don't lose track."
+  },
+  {
+   "d": 30,
+   "h": 12.0,
+   "author": "patricia.lowell",
+   "body": "just a reminder: don't use the same password for your work accounts as personal ones. we've seen credential stuffing attempts."
+  },
+  {
+   "d": 29,
+   "h": 9.0,
+   "author": "olga.novak",
+   "body": "we're going to update the ssl cert on the vpn gateway soon. i'll schedule a maintenance window and post details."
+  },
+  {
+   "d": 28,
+   "h": 14.5,
+   "author": "mara.nunez",
+   "body": "anyone else seeing high latency on the remote desktop connections to the kalamazoo servers?"
+  },
+  {
+   "d": 28,
+   "h": 14.8,
+   "author": "milan.kaplan",
+   "body": "we had a routing issue that was fixed earlier. should be back to normal now."
+  },
+  {
+   "d": 27,
+   "h": 10.0,
+   "author": "isaac.wagner",
+   "body": "found a rogue access point in the south bend parking garage. someone plugged in a personal router. we've disabled the port and are investigating."
+  }
+ ],
+ "data-eng": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "felipe.ramos",
+   "body": "morning all - just kicked off the monthly refresh of the provider directory extract for the warehouse. should land by end of day."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "tariq.gashi",
+   "body": "thanks felipe, was going to ask about that. need it for a report wes requested."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "wes.chan",
+   "body": "yeah, finance is waiting on that provider count by network. appreciate it."
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "aiko.young",
+   "body": "noticed the interface engine is sending some HL7 ADT messages with a weird facility code for the Kalamazoo clinic. anyone else seeing that in the warehouse?"
+  },
+  {
+   "d": 41,
+   "h": 14.3,
+   "author": "paloma.mishra",
+   "body": "i've seen a few in the raw feed, thought it was just my test connection. might be a mapping issue on our side. will check."
+  },
+  {
+   "d": 41,
+   "h": 14.8,
+   "author": "felipe.ramos",
+   "body": "we're getting those too in the staging tables - facility code comes through as 'KZ' instead of 'KLM'. let me know if you need a sample."
+  },
+  {
+   "d": 40,
+   "h": 11.0,
+   "author": "emeka.navarro",
+   "body": "quick question: are we still doing the weekly claims summary extract to the finance {{DOC_SHARING|lower}}? haven't seen it run in a few days."
+  },
+  {
+   "d": 40,
+   "h": 11.5,
+   "author": "tariq.gashi",
+   "body": "it's still scheduled but the job might have failed on a timeout. i'll check the logs and rerun if needed."
+  },
+  {
+   "d": 39,
+   "h": 8.5,
+   "author": "jasmine.schmidt",
+   "body": "heads up: the data warehouse maintenance window is moved to the next maintenance slot - we'll have a brief outage for the ETL jobs."
+  },
+  {
+   "d": 38,
+   "h": 15.0,
+   "author": "reza.holm",
+   "body": "is there a data dictionary for the claims fact table? i'm trying to find the field for service date, it's not obvious."
+  },
+  {
+   "d": 38,
+   "h": 15.3,
+   "author": "emeka.navarro",
+   "body": "check the report catalogue in the warehouse, the claims tables are described there."
+  },
+  {
+   "d": 38,
+   "h": 15.7,
+   "author": "reza.holm",
+   "body": "found it, thanks. it's called svc_dt, not as friendly but ok."
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "anders.tran",
+   "body": "anyone else seeing the lab results feed missing some records from the South Bend lab? we have a gap in the warehouse for a two-hour window."
+  },
+  {
+   "d": 37,
+   "h": 10.5,
+   "author": "fiona.moreau",
+   "body": "we noticed that too on the clinical side - some results didn't post to the EHR. might be a network hiccup. raising a ticket."
+  },
+  {
+   "d": 36,
+   "h": 13.0,
+   "author": "karim.amsel",
+   "body": "do we have a standard report for monthly patient volumes by clinic? need it for the budget review."
+  },
+  {
+   "d": 36,
+   "h": 13.5,
+   "author": "felipe.ramos",
+   "body": "there's one in the warehouse - look for the 'encounter summary' report. i can send you the link if you want."
+  },
+  {
+   "d": 35,
+   "h": 9.0,
+   "author": "yasmin.osei",
+   "body": "small annoyance: the scheduling system is sending duplicate appointments to the warehouse for some patients. anyone else see that?"
+  },
+  {
+   "d": 35,
+   "h": 9.3,
+   "author": "tariq.gashi",
+   "body": "we've seen a few dupes in the raw layer. might be the interface sending the same message twice. will investigate."
+  },
+  {
+   "d": 34,
+   "h": 16.0,
+   "author": "georgia.salazar",
+   "body": "thanks for the help on the claims data earlier, much appreciated."
+  },
+  {
+   "d": 32,
+   "h": 14.5,
+   "author": "felipe.ramos",
+   "body": "anyone have the mapping for the provider specialty codes? need to translate them for a finance report."
+  },
+  {
+   "d": 32,
+   "h": 14.8,
+   "author": "emeka.navarro",
+   "body": "check the data warehouse docs, there's a code set table. look for 'specialty' in the reference data."
+  },
+  {
+   "d": 31,
+   "h": 9.5,
+   "author": "jasmine.schmidt",
+   "body": "reminder: please make sure any changes to the warehouse models go through the change management process. we had a couple of near misses."
+  },
+  {
+   "d": 30,
+   "h": 12.0,
+   "author": "theo.takahashi",
+   "body": "is the interface for the patient portal down? we're not getting any updates in the warehouse for portal activity."
+  },
+  {
+   "d": 30,
+   "h": 12.3,
+   "author": "fatima.fujita",
+   "body": "i think the portal had a maintenance window earlier, might be back up now. check the interface status."
+  },
+  {
+   "d": 29,
+   "h": 15.0,
+   "author": "wes.chan",
+   "body": "quick favor: can someone pull the average claim processing time by month for the last quarter? need it for an FP&A meeting."
+  },
+  {
+   "d": 29,
+   "h": 15.5,
+   "author": "tariq.gashi",
+   "body": "sure, i'll run a query and send you the numbers later."
+  },
+  {
+   "d": 28,
+   "h": 10.0,
+   "author": "anders.tran",
+   "body": "the research institute is asking for a data extract for a study - is that something we do regularly? just checking the process."
+  },
+  {
+   "d": 28,
+   "h": 10.3,
+   "author": "emeka.navarro",
+   "body": "we do, but make sure you follow the data sharing policy. check the research docs for the pseudonymisation process."
+  },
+  {
+   "d": 27,
+   "h": 11.0,
+   "author": "felipe.ramos",
+   "body": "just finished loading the new pharmacy data into the warehouse - should be available for querying now."
+  },
+  {
+   "d": 26,
+   "h": 9.0,
+   "author": "kian.chowdhury",
+   "body": "can we get a snapshot of the revenue cycle metrics as of the end of last month? the usual dashboard is fine."
+  },
+  {
+   "d": 25,
+   "h": 14.0,
+   "author": "georgia.salazar",
+   "body": "anyone else having trouble with the VPN today? can't connect to the warehouse."
+  },
+  {
+   "d": 25,
+   "h": 14.2,
+   "author": "felipe.ramos",
+   "body": "no issues on my end, but try restarting the client. sometimes it gets stuck."
+  },
+  {
+   "d": 24,
+   "h": 10.0,
+   "author": "tariq.gashi",
+   "body": "just a heads up: we're going to archive some old claim records in the warehouse in a few days, so those tables might be read-only for a bit."
+  },
+  {
+   "d": 23,
+   "h": 13.0,
+   "author": "emeka.navarro",
+   "body": "thanks for the heads up - will let the finance team know."
+  },
+  {
+   "d": 22,
+   "h": 15.0,
+   "author": "anders.tran",
+   "body": "anyone know how to handle null values in the patient demographics table? some records are missing zip codes."
+  },
+  {
+   "d": 22,
+   "h": 15.3,
+   "author": "felipe.ramos",
+   "body": "we usually just leave them as null, but if you need a default, you can use '00000' for reporting purposes."
+  },
+  {
+   "d": 21,
+   "h": 9.0,
+   "author": "jasmine.schmidt",
+   "body": "quick update: the ETL job for the research data is running slower than usual, expect a delay in the nightly refresh."
+  },
+  {
+   "d": 20,
+   "h": 11.0,
+   "author": "wes.chan",
+   "body": "is there a way to get the number of unique patients per month? need it for a utilization report."
+  },
+  {
+   "d": 20,
+   "h": 11.2,
+   "author": "tariq.gashi",
+   "body": "you can use the patient dimension and count distinct patient_id in the fact table. i can write a query if you want."
+  },
+  {
+   "d": 19,
+   "h": 14.0,
+   "author": "theo.takahashi",
+   "body": "noticed the warehouse is missing some recent lab results from the Valparaiso lab. anyone else see that?"
+  },
+  {
+   "d": 19,
+   "h": 14.3,
+   "author": "fiona.moreau",
+   "body": "we had a similar issue a few days ago, turned out to be a mapping error. might be the same. raising a ticket."
+  },
+  {
+   "d": 18,
+   "h": 10.0,
+   "author": "anders.tran",
+   "body": "just wanted to say thanks to everyone for the help on the data quality issues recently. it's appreciated."
+  },
+  {
+   "d": 17,
+   "h": 9.0,
+   "author": "karim.amsel",
+   "body": "anyone know if the budget reports are using the latest fiscal year data? i'm seeing old numbers."
+  },
+  {
+   "d": 17,
+   "h": 9.3,
+   "author": "reza.holm",
+   "body": "they should be - the warehouse is updated monthly. check the effective date in the report headers."
+  },
+  {
+   "d": 16,
+   "h": 15.0,
+   "author": "georgia.salazar",
+   "body": "can we get a list of all clinics with their addresses for a mailing? need it in csv."
+  },
+  {
+   "d": 16,
+   "h": 15.4,
+   "author": "felipe.ramos",
+   "body": "sure, i'll export that from the warehouse and send it to you."
+  },
+  {
+   "d": 15,
+   "h": 11.0,
+   "author": "emeka.navarro",
+   "body": "small thing: the encounter type codes in the fact table are not matching the lookup table. can we fix that?"
+  },
+  {
+   "d": 15,
+   "h": 11.2,
+   "author": "tariq.gashi",
+   "body": "i'll check the mapping and update it. might take a day or two."
+  },
+  {
+   "d": 14,
+   "h": 10.0,
+   "author": "jasmine.schmidt",
+   "body": "reminder to update your documentation for any changes you make to the warehouse. it helps everyone."
+  },
+  {
+   "d": 13,
+   "h": 14.0,
+   "author": "wes.chan",
+   "body": "is the data warehouse down? i can't connect to the reporting database."
+  },
+  {
+   "d": 13,
+   "h": 14.2,
+   "author": "felipe.ramos",
+   "body": "it's up for me. maybe check your connection or try again."
+  },
+  {
+   "d": 12,
+   "h": 9.0,
+   "author": "anders.tran",
+   "body": "just loaded the new claims data for the month, should be in the warehouse now."
+  },
+  {
+   "d": 11,
+   "h": 15.0,
+   "author": "theo.takahashi",
+   "body": "anyone else seeing the same patient appearing multiple times in the patient dimension? we have duplicates."
+  },
+  {
+   "d": 11,
+   "h": 15.2,
+   "author": "emeka.navarro",
+   "body": "yes, it's a known issue with the merge logic. we'll work on a fix in the next sprint."
+  },
+  {
+   "d": 10,
+   "h": 11.0,
+   "author": "fiona.moreau",
+   "body": "quick question: are we still doing the weekly interface status report? haven't seen it in a while."
+  },
+  {
+   "d": 10,
+   "h": 11.3,
+   "author": "paloma.mishra",
+   "body": "it's still there, but maybe it's not being sent to the right channel. i'll check."
+  },
+  {
+   "d": 9,
+   "h": 10.0,
+   "author": "jasmine.schmidt",
+   "body": "good morning all - just a note that the warehouse will be unavailable for a few hours on the next maintenance day."
+  },
+  {
+   "d": 8,
+   "h": 14.0,
+   "author": "reza.holm",
+   "body": "anyone know how to filter out test patients from the reports? they're skewing our numbers."
+  },
+  {
+   "d": 8,
+   "h": 14.2,
+   "author": "tariq.gashi",
+   "body": "there's a flag in the patient dimension for test records. use that in your queries."
+  },
+  {
+   "d": 7,
+   "h": 9.0,
+   "author": "anders.tran",
+   "body": "thanks for the reminder on the documentation. i updated the data flow diagram."
+  },
+  {
+   "d": 6,
+   "h": 11.0,
+   "author": "georgia.salazar",
+   "body": "is there a standard report for patient satisfaction scores? need it for a board meeting."
+  },
+  {
+   "d": 6,
+   "h": 11.2,
+   "author": "emeka.navarro",
+   "body": "check the patient experience docs, there might be something in there. if not, we can create one."
+  },
+  {
+   "d": 5,
+   "h": 15.0,
+   "author": "felipe.ramos",
+   "body": "just loaded the new lab data - watch out for the new test codes, some might need mapping."
+  },
+  {
+   "d": 4,
+   "h": 10.0,
+   "author": "wes.chan",
+   "body": "can we get a count of active members by plan type? need it for a finance report."
+  },
+  {
+   "d": 4,
+   "h": 10.2,
+   "author": "tariq.gashi",
+   "body": "sure, i'll pull that from the member dimension and send it over."
+  },
+  {
+   "d": 3,
+   "h": 13.0,
+   "author": "anders.tran",
+   "body": "just a heads up: the research institute's data extract might have a delay due to the pseudonymisation process. will keep you posted."
+  },
+  {
+   "d": 2,
+   "h": 9.0,
+   "author": "jasmine.schmidt",
+   "body": "thanks everyone for your patience with the recent warehouse changes. we'll have a summary of the updates soon."
+  },
+  {
+   "d": 1,
+   "h": 16.0,
+   "author": "felipe.ramos",
+   "body": "anyone else having trouble with the data warehouse connection? it's slow for me."
+  },
+  {
+   "d": 1,
+   "h": 16.2,
+   "author": "tariq.gashi",
+   "body": "no issues here, but i'll check the server load."
+  }
+ ],
+ "security": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "patricia.lowell",
+   "body": "quick reminder: if you're reviewing a phishing report, don't click the link even in the preview pane. just forward the raw email."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "isaac.wagner",
+   "body": "thanks, patricia. i had one user who clicked the 'unsubscribe' on a mock phish. facepalm."
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "kai.teixeira",
+   "body": "anyone else see the strange login attempts on the patient portal? geoblocked all non-us ips."
+  },
+  {
+   "d": 41,
+   "h": 14.5,
+   "author": "samir.martins",
+   "body": "yes, saw that. already added those ranges to the deny list. will update the adr."
+  },
+  {
+   "d": 41,
+   "h": 15.0,
+   "author": "kai.teixeira",
+   "body": "you're fast, samir. thanks."
+  },
+  {
+   "d": 38,
+   "h": 8.5,
+   "author": "jorge.sokolov",
+   "body": "new vpn client version is out. tested on a few workstations, seems fine. rolling out to pilot group first."
+  },
+  {
+   "d": 38,
+   "h": 9.0,
+   "author": "olga.novak",
+   "body": "good. let me know if you need me to test on the cork side. their gateway is slightly different."
+  },
+  {
+   "d": 38,
+   "h": 9.5,
+   "author": "jorge.sokolov",
+   "body": "will do, olga. probably in a couple of working days."
+  },
+  {
+   "d": 37,
+   "h": 11.0,
+   "author": "curtis.ambrose",
+   "body": "compliance tip: don't use personal email for work. we saw a couple of instances where people forwarded phi to their {{WEBMAIL|lower}}. stop."
+  },
+  {
+   "d": 37,
+   "h": 11.5,
+   "author": "ebony.santos",
+   "body": "i've been sending reminders to the clinical teams. might need a more forceful wording."
+  },
+  {
+   "d": 37,
+   "h": 12.0,
+   "author": "curtis.ambrose",
+   "body": "yes, please. make it 'must not' rather than 'should not'."
+  },
+  {
+   "d": 35,
+   "h": 13.0,
+   "author": "ivan.walsh",
+   "body": "does anyone know why the badge reader at the south bend loading dock is offline? it's been down for a day."
+  },
+  {
+   "d": 35,
+   "h": 13.5,
+   "author": "milan.kaplan",
+   "body": "not seen a ticket. you might want to raise one. i can look at the controller if it's on the network."
+  },
+  {
+   "d": 35,
+   "h": 14.0,
+   "author": "ivan.walsh",
+   "body": "ok, will do. thanks."
+  },
+  {
+   "d": 33,
+   "h": 10.0,
+   "author": "patricia.lowell",
+   "body": "if you get a call from someone claiming to be from microsoft, hang up. we don't have any ms support contracts that would call you."
+  },
+  {
+   "d": 33,
+   "h": 10.5,
+   "author": "kai.teixeira",
+   "body": "had that a few days ago. told them to send an email. they didn't."
+  },
+  {
+   "d": 31,
+   "h": 15.5,
+   "author": "rhea.medina",
+   "body": "is there a standard for how long we retain security logs? i need to answer an audit question."
+  },
+  {
+   "d": 31,
+   "h": 16.0,
+   "author": "samir.martins",
+   "body": "that's in the security logging standard - 12 months for security events."
+  },
+  {
+   "d": 31,
+   "h": 16.5,
+   "author": "rhea.medina",
+   "body": "perfect, thanks."
+  },
+  {
+   "d": 29,
+   "h": 9.0,
+   "author": "jorge.sokolov",
+   "body": "the new vpn client is now available for all staff. remind them to use the company portal to download, not random sites."
+  },
+  {
+   "d": 29,
+   "h": 9.5,
+   "author": "olga.novak",
+   "body": "done. also updated the instructions in the handbook."
+  },
+  {
+   "d": 28,
+   "h": 12.0,
+   "author": "isaac.wagner",
+   "body": "just finished the monthly phishing check for the research institute. 12% clicked. typical."
+  },
+  {
+   "d": 28,
+   "h": 12.5,
+   "author": "patricia.lowell",
+   "body": "send the list to the research admin so they can do the training. no names in chat."
+  },
+  {
+   "d": 28,
+   "h": 13.0,
+   "author": "isaac.wagner",
+   "body": "will do."
+  },
+  {
+   "d": 26,
+   "h": 8.5,
+   "author": "milan.kaplan",
+   "body": "anyone else seeing high cpu on the vpn gateway? i've got a spike on gw-02."
+  },
+  {
+   "d": 26,
+   "h": 9.0,
+   "author": "olga.novak",
+   "body": "not on my end, but i can check from here. want me to restart it?"
+  },
+  {
+   "d": 26,
+   "h": 9.5,
+   "author": "milan.kaplan",
+   "body": "wait, let me look at the logs first. might be a loop."
+  },
+  {
+   "d": 26,
+   "h": 10.0,
+   "author": "milan.kaplan",
+   "body": "ok, it's just the backup job. all good."
+  },
+  {
+   "d": 24,
+   "h": 11.0,
+   "author": "curtis.ambrose",
+   "body": "reminder: if you see a privacy breach, even a near miss, report it. better to over-report than under."
+  },
+  {
+   "d": 24,
+   "h": 11.5,
+   "author": "ebony.santos",
+   "body": "yes, and don't try to fix it yourself first. report first."
+  },
+  {
+   "d": 22,
+   "h": 14.0,
+   "author": "kai.teixeira",
+   "body": "new phishing email going around about 'employee appreciation bonus'. delete it."
+  },
+  {
+   "d": 22,
+   "h": 14.5,
+   "author": "isaac.wagner",
+   "body": "i've already seen two people forward it to me. ugh."
+  },
+  {
+   "d": 21,
+   "h": 10.0,
+   "author": "samir.martins",
+   "body": "just patched the critical vuln in the interface engine. no downtime. will update the change log."
+  },
+  {
+   "d": 21,
+   "h": 10.5,
+   "author": "patricia.lowell",
+   "body": "nice work, samir. that was on our radar."
+  },
+  {
+   "d": 19,
+   "h": 13.5,
+   "author": "jorge.sokolov",
+   "body": "anyone know why the guest wifi at the south bend clinic keeps dropping? we've had three complaints."
+  },
+  {
+   "d": 19,
+   "h": 14.0,
+   "author": "ivan.walsh",
+   "body": "i'll check the ap logs. might be a channel interference issue."
+  },
+  {
+   "d": 19,
+   "h": 14.5,
+   "author": "jorge.sokolov",
+   "body": "thanks, ivan. let me know what you find."
+  },
+  {
+   "d": 17,
+   "h": 8.0,
+   "author": "rhea.medina",
+   "body": "is there a process for wiping a laptop that's being returned? i have a departing employee."
+  },
+  {
+   "d": 17,
+   "h": 8.5,
+   "author": "kai.teixeira",
+   "body": "check handbook/it/devices.md. it says to open a ticket with the servicedesk."
+  },
+  {
+   "d": 15,
+   "h": 11.5,
+   "author": "olga.novak",
+   "body": "the cork office is having a power outage. might lose connectivity. we'll be back soon."
+  },
+  {
+   "d": 15,
+   "h": 12.0,
+   "author": "milan.kaplan",
+   "body": "noted. hope it's not the same storm that hit kalamazoo recently."
+  },
+  {
+   "d": 12,
+   "h": 16.0,
+   "author": "isaac.wagner",
+   "body": "just cleared a queue of security alerts from the past few days. nothing serious, but a few false positives."
+  },
+  {
+   "d": 10,
+   "h": 9.0,
+   "author": "curtis.ambrose",
+   "body": "we need to update the data classification policy. current version doesn't cover new cloud storage. i'll draft something."
+  },
+  {
+   "d": 10,
+   "h": 9.5,
+   "author": "patricia.lowell",
+   "body": "good. let me know if you need input from my side."
+  },
+  {
+   "d": 8,
+   "h": 14.5,
+   "author": "jorge.sokolov",
+   "body": "vpn gateway maintenance in a couple of working days. expect a brief drop. i'll send a reminder."
+  },
+  {
+   "d": 8,
+   "h": 15.0,
+   "author": "olga.novak",
+   "body": "thanks for the heads up. i'll let the cork folks know."
+  },
+  {
+   "d": 6,
+   "h": 10.0,
+   "author": "kai.teixeira",
+   "body": "just saw a suspicious file attachment in the internal chat. don't open it. i've reported it."
+  },
+  {
+   "d": 6,
+   "h": 10.5,
+   "author": "samir.martins",
+   "body": "locked down the channel for a bit. will investigate."
+  },
+  {
+   "d": 5,
+   "h": 12.0,
+   "author": "milan.kaplan",
+   "body": "who's on call for the next two days? i think it's ivan, but i want to confirm."
+  },
+  {
+   "d": 5,
+   "h": 12.5,
+   "author": "ivan.walsh",
+   "body": "it's me. i've got it."
+  },
+  {
+   "d": 4,
+   "h": 8.5,
+   "author": "rhea.medina",
+   "body": "quick question: what's the correct way to classify a spreadsheet with employee names and salaries? i can't find it in the handbook."
+  },
+  {
+   "d": 4,
+   "h": 9.0,
+   "author": "ebony.santos",
+   "body": "it's confidential, same as payroll data, per the data classification policy. check the handbook/security/data-classification.md."
+  },
+  {
+   "d": 3,
+   "h": 15.5,
+   "author": "olga.novak",
+   "body": "the new vpn client seems to be working well. no complaints so far."
+  },
+  {
+   "d": 2,
+   "h": 11.0,
+   "author": "patricia.lowell",
+   "body": "remember to change your passwords after the recent phishing attempt. if you clicked, contact helpdesk immediately."
+  },
+  {
+   "d": 1,
+   "h": 13.0,
+   "author": "kai.teixeira",
+   "body": "anyone else have trouble with the badge reader at the research institute? i swiped and it didn't work."
+  },
+  {
+   "d": 1,
+   "h": 13.5,
+   "author": "ivan.walsh",
+   "body": "that might be the same issue as the loading dock. i'll check the controller now."
+  }
+ ],
+ "clinical-trials": [
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "anton.ozturk",
+   "body": "anyone else seeing delays in the eDC loading batch files from the kalamazoo lab? been slow since the morning."
+  },
+  {
+   "d": 41,
+   "h": 11.5,
+   "author": "esme.latimer",
+   "body": "yeah, noticed that too. it's probably the interface engine being backed up. raised a ticket with IT."
+  },
+  {
+   "d": 41,
+   "h": 12.0,
+   "author": "anton.ozturk",
+   "body": "cheers esme. i'll carry on with other work then."
+  },
+  {
+   "d": 40,
+   "h": 8.5,
+   "author": "noemi.brunner",
+   "body": "reminder for the cork team: the quarterly monitoring visit schedule is due to the sponsor by the end of this working week. please confirm your availability."
+  },
+  {
+   "d": 40,
+   "h": 9.0,
+   "author": "fabio.rossi",
+   "body": "will do. i'll send my slots by mid-afternoon."
+  },
+  {
+   "d": 38,
+   "h": 13.5,
+   "author": "petra.delgado",
+   "body": "just a heads up that the next batch of protocol changes for the kalamazoo studies is in the queue for review. if you have comments, please get them in before the end of the day."
+  },
+  {
+   "d": 38,
+   "h": 14.0,
+   "author": "clara.voss",
+   "body": "thanks petra, i'll take a look later today."
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "zeynep.blanco",
+   "body": "fyi: the next good clinical practice training session is scheduled for two working days from now. if you need refresher, sign up on the learning system."
+  },
+  {
+   "d": 36,
+   "h": 9.0,
+   "author": "oskar.eklund",
+   "body": "for anyone new: the eIRB system is the only place to submit amendments. do not email us revisions. see research-docs/irb/submitting-a-study.md."
+  },
+  {
+   "d": 35,
+   "h": 15.5,
+   "author": "anja.huber",
+   "body": "does anyone have the latest visit window template? the one in research-docs/cohort/visit-windows.md seems outdated for protocol version 3."
+  },
+  {
+   "d": 35,
+   "h": 16.0,
+   "author": "marco.ferrari",
+   "body": "it was updated a couple of weeks ago. check the CTMS record for version 3. should match the template."
+  },
+  {
+   "d": 35,
+   "h": 16.5,
+   "author": "anja.huber",
+   "body": "thanks marco, got it."
+  },
+  {
+   "d": 34,
+   "h": 11.0,
+   "author": "piotr.zielinski",
+   "body": "small thing: when you upload consent forms to the CTMS, make sure the file name includes the participant id and date of consent. we're having trouble finding some old ones."
+  },
+  {
+   "d": 33,
+   "h": 8.5,
+   "author": "ben.bauer",
+   "body": "reminder that the quarterly enrollment metrics are due to me by the end of the week. please send your numbers in the usual format."
+  },
+  {
+   "d": 32,
+   "h": 14.0,
+   "author": "helena.voss",
+   "body": "any pharmacovigilance questions for the diabetes study? i'm available for a quick call if needed."
+  },
+  {
+   "d": 31,
+   "h": 9.5,
+   "author": "ingrid.aasen",
+   "body": "for the cork site: the ethics committee's meeting calendar for the coming months is in the shared drive. plan your submissions accordingly."
+  },
+  {
+   "d": 30,
+   "h": 10.0,
+   "author": "anton.ozturk",
+   "body": "anyone else having trouble exporting data from the CTMS? keeps timing out."
+  },
+  {
+   "d": 30,
+   "h": 10.5,
+   "author": "esme.latimer",
+   "body": "yes, i had that earlier. a browser cache clear fixed it for me."
+  },
+  {
+   "d": 30,
+   "h": 11.0,
+   "author": "anton.ozturk",
+   "body": "good to know, i'll try that."
+  },
+  {
+   "d": 29,
+   "h": 13.0,
+   "author": "dalia.palmer",
+   "body": "fyi: the IRB office will be closed for two days next month for system upgrade. no new submissions will be accepted during that time. plan ahead."
+  },
+  {
+   "d": 28,
+   "h": 15.0,
+   "author": "noemi.brunner",
+   "body": "thanks for the heads-up, dalia. i'll make sure the cork team knows."
+  },
+  {
+   "d": 27,
+   "h": 9.0,
+   "author": "petra.delgado",
+   "body": "does anyone know who is responsible for the investigational product temperature logs for the phase 3 study? i can't find the latest ones."
+  },
+  {
+   "d": 27,
+   "h": 9.5,
+   "author": "mei.lin",
+   "body": "i think that's with the pharmacy team. they upload them to the study record every day. you might want to check there."
+  },
+  {
+   "d": 27,
+   "h": 10.0,
+   "author": "petra.delgado",
+   "body": "ah, thanks mei. found them."
+  },
+  {
+   "d": 26,
+   "h": 11.5,
+   "author": "marco.ferrari",
+   "body": "reminder that the data lock for the asthma study is coming up. please make sure all outstanding queries are resolved by then."
+  },
+  {
+   "d": 25,
+   "h": 16.0,
+   "author": "oskar.eklund",
+   "body": "just a note that the regulatory binders for the oncology trial need to be updated with the latest correspondence. let me know if you need access."
+  },
+  {
+   "d": 24,
+   "h": 8.5,
+   "author": "fabio.rossi",
+   "body": "anyone else had trouble with the VPN earlier? i can't connect to the CTMS from cork."
+  },
+  {
+   "d": 24,
+   "h": 9.0,
+   "author": "anton.ozturk",
+   "body": "works fine here. might be a local issue. try restarting the client."
+  },
+  {
+   "d": 24,
+   "h": 9.5,
+   "author": "fabio.rossi",
+   "body": "restarted, still no luck. i'll put in a ticket."
+  },
+  {
+   "d": 23,
+   "h": 14.5,
+   "author": "clara.voss",
+   "body": "for those working with the research institute: the annual conflict of interest disclosures are overdue. please complete them in the HR system by the end of the month."
+  },
+  {
+   "d": 22,
+   "h": 10.0,
+   "author": "zeynep.blanco",
+   "body": "i have an extra slot for a monitoring visit in a couple of days if anyone needs to tag along. let me know."
+  },
+  {
+   "d": 21,
+   "h": 12.0,
+   "author": "anja.huber",
+   "body": "quick question: for the new device study, do we need to set up a separate EDC database or can we use the existing one from the pilot?"
+  },
+  {
+   "d": 21,
+   "h": 12.5,
+   "author": "marco.ferrari",
+   "body": "you should set up a new one. the pilot data isn't part of the study record. check research-docs/trials/ctms-and-edc.md for details."
+  },
+  {
+   "d": 21,
+   "h": 13.0,
+   "author": "anja.huber",
+   "body": "ok, thanks. i'll get that started."
+  },
+  {
+   "d": 20,
+   "h": 9.5,
+   "author": "piotr.zielinski",
+   "body": "reminder that the ethics committee submission deadlines are on the first working day of each week. late submissions will be processed in the next cycle."
+  },
+  {
+   "d": 19,
+   "h": 15.0,
+   "author": "ben.bauer",
+   "body": "good work on the recent site activation for the cardiovascular trial. nice coordination from everyone."
+  },
+  {
+   "d": 18,
+   "h": 8.0,
+   "author": "esme.latimer",
+   "body": "has anyone seen the latest safety report from the sponsor? i can't find it in the shared folder."
+  },
+  {
+   "d": 18,
+   "h": 8.5,
+   "author": "helena.voss",
+   "body": "it's uploaded to the CTMS under the study documents tab. check there."
+  },
+  {
+   "d": 18,
+   "h": 9.0,
+   "author": "esme.latimer",
+   "body": "found it, thanks."
+  },
+  {
+   "d": 17,
+   "h": 11.0,
+   "author": "marco.ferrari",
+   "body": "just a heads-up that the next data transfer to the sponsor is scheduled for the end of this working week. make sure all source docs are complete."
+  },
+  {
+   "d": 16,
+   "h": 13.5,
+   "author": "noemi.brunner",
+   "body": "for the cork team: the monitoring visit for the respiratory study has been moved to the following working day. please adjust your calendars."
+  },
+  {
+   "d": 15,
+   "h": 10.0,
+   "author": "anton.ozturk",
+   "body": "the EDC went down for maintenance earlier, but it's back now. just letting everyone know in case you saw error messages."
+  },
+  {
+   "d": 14,
+   "h": 9.5,
+   "author": "clara.voss",
+   "body": "reminder that all study amendments require a formal risk assessment before submission. see the research-docs/irb/submitting-a-study.md for the template."
+  },
+  {
+   "d": 13,
+   "h": 15.5,
+   "author": "petra.delgado",
+   "body": "does anyone have a spare thermometer for the clinic? ours broke and we need to log temperatures."
+  },
+  {
+   "d": 13,
+   "h": 16.0,
+   "author": "mei.lin",
+   "body": "there are extras in the supply closet on the third floor. grab one from there."
+  },
+  {
+   "d": 13,
+   "h": 16.5,
+   "author": "petra.delgado",
+   "body": "thanks, will do."
+  },
+  {
+   "d": 12,
+   "h": 11.0,
+   "author": "dalia.palmer",
+   "body": "fyi: the eIRB system will be down for an upgrade over the coming non-working days. no submissions or reviews will be possible. plan accordingly."
+  },
+  {
+   "d": 11,
+   "h": 14.0,
+   "author": "oskar.eklund",
+   "body": "reminder that the annual report for the institute is due to the ethics committee by the end of the month. please send your contributions to me."
+  },
+  {
+   "d": 9,
+   "h": 16.0,
+   "author": "fabio.rossi",
+   "body": "quick one: are we still using the old data dictionary for the diabetes study? i'm seeing both old and new versions in the folder."
+  },
+  {
+   "d": 9,
+   "h": 16.5,
+   "author": "anton.ozturk",
+   "body": "the new one is the correct one. the old one is archived. please use the new."
+  },
+  {
+   "d": 8,
+   "h": 10.5,
+   "author": "zeynep.blanco",
+   "body": "just a reminder that all monitoring visit reports need to be uploaded to the CTMS within two working days of the visit. we have a few outstanding ones."
+  },
+  {
+   "d": 6,
+   "h": 9.0,
+   "author": "mei.lin",
+   "body": "anyone else seen the update to the investigational product handling guidelines? make sure you review it before the next dispensing."
+  },
+  {
+   "d": 5,
+   "h": 15.5,
+   "author": "clara.voss",
+   "body": "note: the research governance office is moving to a new shared drive. links will be updated, but it may take a day or two. don't panic if something seems missing."
+  },
+  {
+   "d": 4,
+   "h": 11.0,
+   "author": "oskar.eklund",
+   "body": "did anyone else receive a request from the sponsor for the source data verification log? i think it's supposed to be in the study record."
+  },
+  {
+   "d": 4,
+   "h": 11.5,
+   "author": "petra.delgado",
+   "body": "yes, i got it too. check the study docs in the CTMS, there's a template we filled in last month."
+  },
+  {
+   "d": 4,
+   "h": 12.0,
+   "author": "oskar.eklund",
+   "body": "thanks, found it."
+  },
+  {
+   "d": 3,
+   "h": 8.5,
+   "author": "noemi.brunner",
+   "body": "for the cork team: the quarterly data cut-off is next working day. make sure all data entry is up to date by then."
+  },
+  {
+   "d": 1,
+   "h": 10.0,
+   "author": "marco.ferrari",
+   "body": "reminder that the data validation checks for the ongoing studies are due by the end of the week. please review your data and address any flags."
+  }
+ ],
+ "data-management": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "esme.latimer",
+   "body": "reminder: monthly study data backup review is due. can each of you confirm your last backup ran ok?"
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "anton.ozturk",
+   "body": "mine ran fine, no issues."
+  },
+  {
+   "d": 42,
+   "h": 11.0,
+   "author": "stella.jovanovic",
+   "body": "ours too, all good."
+  },
+  {
+   "d": 42,
+   "h": 13.4,
+   "author": "marco.ferrari",
+   "body": "confirmed, no errors."
+  },
+  {
+   "d": 41,
+   "h": 8.3,
+   "author": "gethin.pryce",
+   "body": "quick question: for cohort visit windows, do we use the same data locks as last quarter?"
+  },
+  {
+   "d": 41,
+   "h": 9.0,
+   "author": "rafael.lund",
+   "body": "yes, same windows. check the doc if you need specifics: research-docs/cohort/visit-windows.md"
+  },
+  {
+   "d": 41,
+   "h": 9.4,
+   "author": "gethin.pryce",
+   "body": "thanks, that helps."
+  },
+  {
+   "d": 39,
+   "h": 11.2,
+   "author": "anja.huber",
+   "body": "anyone else seeing delays in the EDC when entering data? It's been sluggish since early today."
+  },
+  {
+   "d": 39,
+   "h": 11.5,
+   "author": "anton.ozturk",
+   "body": "not here, but we're on a different instance. maybe check with IT?"
+  },
+  {
+   "d": 39,
+   "h": 12.1,
+   "author": "anja.huber",
+   "body": "will do, thanks."
+  },
+  {
+   "d": 33,
+   "h": 8.7,
+   "author": "ingrid.aasen",
+   "body": "is anyone else having trouble with the eIRB system? I can't upload documents after the latest update."
+  },
+  {
+   "d": 32,
+   "h": 15.2,
+   "author": "piotr.zielinski",
+   "body": "I had that, try clearing your browser cache. worked for me."
+  },
+  {
+   "d": 32,
+   "h": 15.5,
+   "author": "ingrid.aasen",
+   "body": "ok, will try."
+  },
+  {
+   "d": 30,
+   "h": 9.0,
+   "author": "anton.ozturk",
+   "body": "just a heads up, we'll be doing a data quality check on the next batch of lab data, expect a few queries."
+  },
+  {
+   "d": 29,
+   "h": 11.8,
+   "author": "adrian.sorensen",
+   "body": "has anyone seen the new protocol change for the diabetes study? just want to confirm the data fields."
+  },
+  {
+   "d": 28,
+   "h": 9.4,
+   "author": "esme.latimer",
+   "body": "yes, it's in the CTMS, check the protocol changes tab."
+  },
+  {
+   "d": 27,
+   "h": 13.1,
+   "author": "dalia.palmer",
+   "body": "reminder: data retention policy update is on the compliance site. please review if you handle personal data."
+  },
+  {
+   "d": 26,
+   "h": 10.2,
+   "author": "stella.jovanovic",
+   "body": "anyone else seeing weird values in the lab information system for a few samples? I've flagged them but no response yet."
+  },
+  {
+   "d": 25,
+   "h": 14.6,
+   "author": "marco.ferrari",
+   "body": "not sure, we don't use that system much here. hope they get back to you soon."
+  },
+  {
+   "d": 24,
+   "h": 8.9,
+   "author": "gethin.pryce",
+   "body": "quick one: for the follow-up calls, do we record them in the same log as last time?"
+  },
+  {
+   "d": 23,
+   "h": 15.0,
+   "author": "rafael.lund",
+   "body": "yes, use the same template. it's in the cohort docs."
+  },
+  {
+   "d": 22,
+   "h": 9.7,
+   "author": "anja.huber",
+   "body": "anyone know how to handle a duplicate subject ID in the EDC? I've seen it twice now."
+  },
+  {
+   "d": 21,
+   "h": 12.3,
+   "author": "anton.ozturk",
+   "body": "submit a data query, we can correct it after review."
+  },
+  {
+   "d": 20,
+   "h": 10.1,
+   "author": "clara.voss",
+   "body": "FYI: the next governance meeting is scheduled. agenda will be posted soon."
+  }
+ ],
+ "research-institute": [
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "mei.lin",
+   "body": "Does anyone have the latest version of the visit window table for the osteoarthritis cohort? The one in the shared drive looks outdated."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "adrian.sorensen",
+   "body": "I think it's in the study folder under 'Protocols' – check the one dated last month. I'll ping you if I find a newer copy."
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "mei.lin",
+   "body": "Thanks, found it. Looks fine."
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "gethin.pryce",
+   "body": "Reminder: we're still waiting for three site activation checklists from the Cork team. Fabio, any update?"
+  },
+  {
+   "d": 41,
+   "h": 15.5,
+   "author": "fabio.rossi",
+   "body": "Two are done, the third is with the PI for signature. Should be in by the end of the working day."
+  },
+  {
+   "d": 40,
+   "h": 11.0,
+   "author": "esme.latimer",
+   "body": "Just a heads-up: I'll be updating the pseudonymisation key file in a couple of working days. If anyone needs access, let me know before then."
+  },
+  {
+   "d": 39,
+   "h": 13.0,
+   "author": "chloe.becker",
+   "body": "Can someone point me to the GCP training records for the new study coordinators? Need to verify they're all current."
+  },
+  {
+   "d": 39,
+   "h": 13.5,
+   "author": "nico.andersen",
+   "body": "They should be in the training system. I can pull a report if you want."
+  },
+  {
+   "d": 39,
+   "h": 14.0,
+   "author": "chloe.becker",
+   "body": "That would be great, thanks."
+  },
+  {
+   "d": 38,
+   "h": 10.0,
+   "author": "piotr.zielinski",
+   "body": "Quick question: are we using the standard consent form template for the new diabetes prevention study, or has it been updated?"
+  },
+  {
+   "d": 38,
+   "h": 10.5,
+   "author": "mateo.osei",
+   "body": "Check the IRB folder – the latest template is there. It hasn't changed since last quarter."
+  },
+  {
+   "d": 37,
+   "h": 9.0,
+   "author": "marco.ferrari",
+   "body": "FYI: I fixed the visit window calculation issue in the EDC. Please let me know if you see any anomalies."
+  },
+  {
+   "d": 36,
+   "h": 12.0,
+   "author": "anton.ozturk",
+   "body": "Anyone else having issues with the data warehouse refresh? It seems slow today."
+  },
+  {
+   "d": 36,
+   "h": 12.5,
+   "author": "esme.latimer",
+   "body": "Not seeing issues here. Maybe a large query is running. Check the job queue."
+  },
+  {
+   "d": 35,
+   "h": 15.0,
+   "author": "clara.voss",
+   "body": "Reminder: the next IRB meeting is coming up. Please ensure all submissions are in by the end of the week."
+  },
+  {
+   "d": 34,
+   "h": 11.0,
+   "author": "helena.voss",
+   "body": "Quick question: for the safety monitoring plan, do we need to report all serious adverse events to the DSMB, or just the ones related to the intervention?"
+  },
+  {
+   "d": 34,
+   "h": 11.5,
+   "author": "mei.lin",
+   "body": "Check the protocol – it says all SAEs, but I'd double-check with the sponsor if unsure."
+  },
+  {
+   "d": 33,
+   "h": 9.5,
+   "author": "rafael.lund",
+   "body": "Reminder: we have a monitoring visit in a few working days. Please have your source documents ready."
+  },
+  {
+   "d": 33,
+   "h": 13.0,
+   "author": "gethin.pryce",
+   "body": "Has anyone seen the updated monitoring visit checklist? I think it was posted in the study folder."
+  },
+  {
+   "d": 32,
+   "h": 14.0,
+   "author": "adrian.sorensen",
+   "body": "I have it – I'll share it in the channel."
+  },
+  {
+   "d": 31,
+   "h": 10.0,
+   "author": "aurelio.conti",
+   "body": "Just a note: the Cork site will be closed for a day soon while the building's power supply is upgraded. No data entry will happen that day."
+  },
+  {
+   "d": 30,
+   "h": 16.0,
+   "author": "leonard.brandvold",
+   "body": "Good progress on the new grant proposal – thanks to everyone who contributed. Let's keep the momentum."
+  },
+  {
+   "d": 29,
+   "h": 12.0,
+   "author": "camille.vasquez",
+   "body": "Does anyone have the lab manual for the biomarker study? I can't find it in the shared drive."
+  },
+  {
+   "d": 29,
+   "h": 12.5,
+   "author": "esme.latimer",
+   "body": "It's under the lab docs – that might be what you need."
+  },
+  {
+   "d": 28,
+   "h": 9.0,
+   "author": "piotr.zielinski",
+   "body": "Heads up: the European trials office will be doing system maintenance on the eIRB soon. Expect brief downtime."
+  },
+  {
+   "d": 27,
+   "h": 15.0,
+   "author": "marco.ferrari",
+   "body": "Just uploaded the updated CTMS data for the cardiology study. Let me know if you spot any issues."
+  },
+  {
+   "d": 26,
+   "h": 11.0,
+   "author": "nico.andersen",
+   "body": "Quick question: are we using the standard safety event reporting form for research-related incidents, or is there a separate one?"
+  },
+  {
+   "d": 26,
+   "h": 11.5,
+   "author": "clara.voss",
+   "body": "Use the standard form – it's in the quality folder. We don't have a separate research form."
+  },
+  {
+   "d": 25,
+   "h": 13.0,
+   "author": "anton.ozturk",
+   "body": "FYI: I've updated the data dictionary for the cohort study. Please review and flag any discrepancies."
+  },
+  {
+   "d": 24,
+   "h": 10.0,
+   "author": "rafael.lund",
+   "body": "Great job on the site activation for the new trial – we're ahead of schedule. Thanks everyone!"
+  }
+ ],
+ "patient-experience": [
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "hana.lindqvist",
+   "body": "quick heads-up: we're starting a patient experience pulse survey for the south bend discharge lounge soon. i'll share the link when it's ready."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "reuben.sata",
+   "body": "nice. happy to pull the last quarter's discharge follow-up data if you need a baseline."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "hana.lindqvist",
+   "body": "that would be great, thanks reuben."
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "anika.sato",
+   "body": "had a patient call about a missing follow-up appointment after discharge. already escalated to scheduling. just noting so we track if others mention it."
+  },
+  {
+   "d": 41,
+   "h": 11.5,
+   "author": "hannah.muller",
+   "body": "thanks anika. i'll keep an eye on the portal messages for similar."
+  },
+  {
+   "d": 38,
+   "h": 13.0,
+   "author": "diego.suzuki",
+   "body": "anyone have a short patient quote about the new portal feature? looking for a testimonial for the newsletter."
+  },
+  {
+   "d": 38,
+   "h": 13.5,
+   "author": "gus.arara",
+   "body": "i can ask a couple of beta users if you want. but they might be biased."
+  },
+  {
+   "d": 38,
+   "h": 14.0,
+   "author": "diego.suzuki",
+   "body": "that'd be great, even one sentence works."
+  },
+  {
+   "d": 35,
+   "h": 8.5,
+   "author": "elin.borg",
+   "body": "reminder: portal password reset issue is still open with the vendor. no eta, but they said they're working on it. patients calling about it can be told to try again after a few minutes."
+  },
+  {
+   "d": 35,
+   "h": 9.0,
+   "author": "hannah.muller",
+   "body": "thanks elin. we've had a few calls, will pass that along."
+  },
+  {
+   "d": 34,
+   "h": 10.0,
+   "author": "miriam.das",
+   "body": "just put up a prototype for the new appointment reminder screen on the design board. would love feedback from anyone who talks to patients. link in the project channel."
+  },
+  {
+   "d": 34,
+   "h": 10.5,
+   "author": "esther.young",
+   "body": "looks good miriam. one thing: the font size might be too small for older users. maybe bump it up."
+  },
+  {
+   "d": 34,
+   "h": 11.0,
+   "author": "miriam.das",
+   "body": "good point, i'll check the accessibility guidelines."
+  },
+  {
+   "d": 31,
+   "h": 15.0,
+   "author": "joy.balogun",
+   "body": "just a note that we're seeing a slight uptick in complaints about wait times in the valparaiso urgent care. might be worth a look from your end."
+  },
+  {
+   "d": 31,
+   "h": 15.5,
+   "author": "hana.lindqvist",
+   "body": "thanks joy. we'll review the survey comments from that site."
+  },
+  {
+   "d": 28,
+   "h": 9.0,
+   "author": "reuben.sata",
+   "body": "for anyone interested, i put together a quick dashboard on patient complaints by topic for the last month. it's in the shared drive."
+  },
+  {
+   "d": 28,
+   "h": 9.5,
+   "author": "anika.sato",
+   "body": "thanks reuben. the billing category is higher than i expected. i'll mention it at the next team meeting."
+  },
+  {
+   "d": 25,
+   "h": 16.0,
+   "author": "leon.singh",
+   "body": "if anyone sees a patient safety event that's not reported, please remind them to use the safety event system. we want to catch issues early."
+  },
+  {
+   "d": 25,
+   "h": 16.5,
+   "author": "hannah.muller",
+   "body": "will do."
+  },
+  {
+   "d": 22,
+   "h": 12.0,
+   "author": "gideon.horvath",
+   "body": "we're doing a quality review of patient complaints from the cork centre soon. if any of you have context on those, let me know."
+  },
+  {
+   "d": 22,
+   "h": 12.5,
+   "author": "hana.lindqvist",
+   "body": "i can share the survey data from cork if that helps."
+  },
+  {
+   "d": 22,
+   "h": 13.0,
+   "author": "gideon.horvath",
+   "body": "that would be great, thanks."
+  },
+  {
+   "d": 19,
+   "h": 14.0,
+   "author": "monica.feldkamp",
+   "body": "we're planning a patient story for the annual report. if you have a patient who's willing to share their experience, let me know."
+  },
+  {
+   "d": 19,
+   "h": 14.5,
+   "author": "arjun.campos",
+   "body": "i can ask around the clinics if anyone has a good story."
+  },
+  {
+   "d": 16,
+   "h": 10.0,
+   "author": "lina.zielinski",
+   "body": "quick update: we're rolling out a new patient feedback form in the app next month. you'll see it in the dev environment first."
+  },
+  {
+   "d": 16,
+   "h": 10.5,
+   "author": "reuben.sata",
+   "body": "excited to see it. will the data flow into the usual warehouse tables?"
+  },
+  {
+   "d": 16,
+   "h": 11.0,
+   "author": "lina.zielinski",
+   "body": "yes, same pipeline as the portal surveys."
+  },
+  {
+   "d": 13,
+   "h": 8.0,
+   "author": "elin.borg",
+   "body": "reminder: the portal will be down for maintenance on the first working day of next month. we'll post a notice on the login page."
+  },
+  {
+   "d": 13,
+   "h": 8.5,
+   "author": "hannah.muller",
+   "body": "thanks for the heads up. we'll tell patients who call."
+  },
+  {
+   "d": 10,
+   "h": 15.0,
+   "author": "diego.suzuki",
+   "body": "does anyone have a photo of the new kalamazoo clinic lobby? we need one for a social media post."
+  },
+  {
+   "d": 10,
+   "h": 15.5,
+   "author": "anika.sato",
+   "body": "i can take one next time i'm there, but it might be a few days."
+  },
+  {
+   "d": 7,
+   "h": 11.0,
+   "author": "miriam.das",
+   "body": "just a thought: maybe we should add a 'how did you hear about us' field to the patient feedback form. could help marketing."
+  },
+  {
+   "d": 7,
+   "h": 11.5,
+   "author": "diego.suzuki",
+   "body": "that would be super useful. can we add it?"
+  },
+  {
+   "d": 4,
+   "h": 9.0,
+   "author": "hana.lindqvist",
+   "body": "the pulse survey results from the discharge lounge are in. overall positive, but a few comments about parking. i'll share the summary."
+  }
+ ],
+ "nursing-leaders": [
+  {
+   "d": 42,
+   "h": 8.2,
+   "author": "theresa.okwuosa",
+   "body": "morning all – just a heads up that the quarterly staffing review data is due to HR in about a week. please have your unit-level numbers ready for me a couple of working days before that."
+  },
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "daniel.madsen",
+   "body": "thanks for the reminder. I'll pull the med-surg numbers after the morning huddle."
+  },
+  {
+   "d": 42,
+   "h": 10.3,
+   "author": "erin.murray",
+   "body": "same for the ED – I'll have them to you by the deadline."
+  },
+  {
+   "d": 41,
+   "h": 11.1,
+   "author": "greta.kiplagat",
+   "body": "we had a call from a patient's family asking about visitor policy after hours – can someone point me to the current policy doc? I thought it was in care-docs/clinics/clinic-opening-checklist.md but that's not it."
+  },
+  {
+   "d": 41,
+   "h": 12.0,
+   "author": "colm.rao",
+   "body": "I think it's on the intranet under policies, not in the docs we link. I'll dig it up and send you the path."
+  },
+  {
+   "d": 40,
+   "h": 9.4,
+   "author": "joy.balogun",
+   "body": "friendly nudge: the monthly pressure injury prevalence audit data is due to me in a couple of working days. please enter your unit's data in the quality portal."
+  },
+  {
+   "d": 39,
+   "h": 14.2,
+   "author": "leon.singh",
+   "body": "we've had a couple of near-miss reports about meds being given without scanning the wristband – remind your teams to scan every time, even if busy."
+  },
+  {
+   "d": 39,
+   "h": 15.0,
+   "author": "daniel.madsen",
+   "body": "thanks leon – I'll mention it at the next shift huddle."
+  },
+  {
+   "d": 38,
+   "h": 8.5,
+   "author": "rania.adler",
+   "body": "quick question – for the new clinic in Valparaiso, do we have the credentialing done for the nurse practitioner starting there? I can't find anything in the provider portal."
+  },
+  {
+   "d": 38,
+   "h": 9.1,
+   "author": "greta.kiplagat",
+   "body": "I think that's still in the queue – I'll check with the credentialing team and let you know."
+  },
+  {
+   "d": 37,
+   "h": 13.0,
+   "author": "mina.gonzaga",
+   "body": "apologies if this is obvious – but is the parking validation still active for the new south bend clinic? I had a patient complain about paying."
+  },
+  {
+   "d": 37,
+   "h": 13.4,
+   "author": "simone.bishop",
+   "body": "think so – we have the stickers at the front desk. grab some from the supply room."
+  },
+  {
+   "d": 36,
+   "h": 10.2,
+   "author": "theresa.okwuosa",
+   "body": "we'll have a brief all-nurse-manager call within the next few working days to discuss the fall prevention initiative. I'll send an invite with a calendar slot."
+  },
+  {
+   "d": 35,
+   "h": 16.0,
+   "author": "daniel.madsen",
+   "body": "FYI – the lift equipment in the east wing is getting serviced over two working days soon. expect some noise and minor disruptions."
+  },
+  {
+   "d": 34,
+   "h": 9.8,
+   "author": "joy.balogun",
+   "body": "we've updated the safety event reporting form – please use the new version from now on. link in care-docs/quality/safety-event-reporting.md"
+  },
+  {
+   "d": 33,
+   "h": 12.5,
+   "author": "leon.singh",
+   "body": "quick reminder to complete the annual infection control training on the LMS – due by the end of the quarter."
+  },
+  {
+   "d": 32,
+   "h": 8.0,
+   "author": "erin.murray",
+   "body": "has anyone else noticed the patient portal being slow since the last update? I'm getting complaints in the ED."
+  },
+  {
+   "d": 32,
+   "h": 8.6,
+   "author": "greta.kiplagat",
+   "body": "yes, same at the clinics. I raised a ticket earlier."
+  },
+  {
+   "d": 32,
+   "h": 9.2,
+   "author": "colm.rao",
+   "body": "thanks for flagging – I'll follow up with IT to see if there's a known issue."
+  },
+  {
+   "d": 31,
+   "h": 15.3,
+   "author": "marisol.molina",
+   "body": "just a note – the new urgent care in Kalamazoo is ahead of schedule on construction. expect the opening to be moved up by a couple of weeks."
+  },
+  {
+   "d": 30,
+   "h": 11.0,
+   "author": "simone.bishop",
+   "body": "anyone else have trouble with the badge tap at the south bend clinic entrance? I keep getting an error."
+  },
+  {
+   "d": 30,
+   "h": 11.4,
+   "author": "mina.gonzaga",
+   "body": "same here – it's been flaky since the start of the week. ticket is in."
+  },
+  {
+   "d": 29,
+   "h": 13.7,
+   "author": "gideon.horvath",
+   "body": "we're seeing a slight uptick in patient falls this month – keep an eye on the risk assessments and document interventions."
+  },
+  {
+   "d": 28,
+   "h": 9.3,
+   "author": "daniel.madsen",
+   "body": "thanks for the heads up – I'll review with the night shift lead."
+  },
+  {
+   "d": 27,
+   "h": 16.8,
+   "author": "erin.murray",
+   "body": "reminder: the next all-nursing town hall is scheduled for the first working day of next month – put it in your calendar."
+  },
+  {
+   "d": 26,
+   "h": 8.9,
+   "author": "theresa.okwuosa",
+   "body": "I want to share appreciation for the rapid response team in South Bend – great work on the code blue a few days ago. keep it up."
+  },
+  {
+   "d": 25,
+   "h": 12.2,
+   "author": "joy.balogun",
+   "body": "we're doing a deep dive on patient experience next month – please submit any recent complaints or compliments via the usual form so we can review patterns."
+  },
+  {
+   "d": 24,
+   "h": 10.0,
+   "author": "rania.adler",
+   "body": "quick poll – which clinics have stocked the new fall-risk signs? I need to order more if not."
+  },
+  {
+   "d": 24,
+   "h": 10.5,
+   "author": "greta.kiplagat",
+   "body": "we have them at the main clinic, but not at the satellite yet – can you order extras?"
+  },
+  {
+   "d": 23,
+   "h": 14.1,
+   "author": "simone.bishop",
+   "body": "just a reminder to document any patient education on the portal – it's been missing on some charts."
+  },
+  {
+   "d": 22,
+   "h": 9.6,
+   "author": "mina.gonzaga",
+   "body": "not sure if anyone else has this issue – the printer in the back office keeps jamming on thick paper. tried to fix it myself but no luck."
+  },
+  {
+   "d": 22,
+   "h": 10.0,
+   "author": "daniel.madsen",
+   "body": "we had that at the hospital – had to put in a maintenance request. they came within a day."
+  },
+  {
+   "d": 21,
+   "h": 11.3,
+   "author": "leon.singh",
+   "body": "reminder: when you see a safety event, report it within the same shift if possible. even near-misses – that helps us learn."
+  },
+  {
+   "d": 20,
+   "h": 15.5,
+   "author": "erin.murray",
+   "body": "thanks to everyone who attended the sepsis protocol review – slides are on the shared drive if you missed it."
+  },
+  {
+   "d": 19,
+   "h": 8.4,
+   "author": "colm.rao",
+   "body": "i'll be out of the office for a few days on leave – for urgent matters contact daniel or erin directly."
+  },
+  {
+   "d": 18,
+   "h": 13.2,
+   "author": "marisol.molina",
+   "body": "the clinic opening checklist has been updated with the new IT equipment ordering process – take a look before setting up new sites."
+  },
+  {
+   "d": 17,
+   "h": 10.8,
+   "author": "gideon.horvath",
+   "body": "quality reminder: make sure you're using the correct CPT code for telehealth visits – we've seen a few errors lately."
+  }
+ ],
+ "digital": [
+  {
+   "d": 42,
+   "h": 9.0,
+   "author": "gus.arara",
+   "body": "quick heads-up: the patient app's latest build is in the store for the pilot group. if anyone sees weird flows on login, ping me."
+  },
+  {
+   "d": 42,
+   "h": 9.5,
+   "author": "miriam.das",
+   "body": "nice, thanks gus. I'll check the password reset flow on my device."
+  },
+  {
+   "d": 41,
+   "h": 14.0,
+   "author": "elin.borg",
+   "body": "portal is showing a few users stuck on the two-factor code screen after the sign-in page change. anyone else see that?"
+  },
+  {
+   "d": 39,
+   "h": 11.0,
+   "author": "lina.zielinski",
+   "body": "let's not turn this into a pile-on. if it's a real bug, file a ticket and we'll prioritize. I'll ask the web team to look at the sign-in change."
+  },
+  {
+   "d": 38,
+   "h": 15.0,
+   "author": "valentina.kato",
+   "body": "the new sign-in page was rolled back for the portal a couple of days ago. if you still see issues, it's probably cache. try incognito."
+  },
+  {
+   "d": 37,
+   "h": 9.5,
+   "author": "esther.young",
+   "body": "any chance we can get the app's accessibility settings tested before the next release? I can prepare a checklist."
+  },
+  {
+   "d": 36,
+   "h": 13.0,
+   "author": "gus.arara",
+   "body": "sure, esther. I'll add it to the next sprint's definition of done."
+  },
+  {
+   "d": 35,
+   "h": 10.0,
+   "author": "reuben.sata",
+   "body": "for anyone working on the portal redesign: we have data showing most users log in from mobile. just fyi."
+  },
+  {
+   "d": 34,
+   "h": 8.5,
+   "author": "miriam.das",
+   "body": "thanks reuben, that's useful. I'll adjust the wireframes."
+  },
+  {
+   "d": 33,
+   "h": 12.0,
+   "author": "anika.sato",
+   "body": "quick question: are we still sending appointment reminders through the app? had a patient say they didn't get one."
+  },
+  {
+   "d": 32,
+   "h": 14.0,
+   "author": "elin.borg",
+   "body": "yes, but only if the patient has push notifications enabled. maybe they turned it off."
+  },
+  {
+   "d": 31,
+   "h": 9.0,
+   "author": "hannah.muller",
+   "body": "reminder: the patient experience survey closes at the end of the month. if you have any feedback from users, share it."
+  },
+  {
+   "d": 30,
+   "h": 16.0,
+   "author": "luca.estrada",
+   "body": "just a heads-up: the portal SSL cert is being renewed, might cause a brief blip. not for a few days, but we'll post in the outage channel."
+  },
+  {
+   "d": 29,
+   "h": 11.0,
+   "author": "mara.nunez",
+   "body": "thanks luca. please make sure the ticket is linked in the chat for reference."
+  },
+  {
+   "d": 28,
+   "h": 10.0,
+   "author": "gus.arara",
+   "body": "anyone know if the app supports dark mode on {{MOBILE_OS_2|lower}}? I can't find the setting."
+  },
+  {
+   "d": 28,
+   "h": 10.5,
+   "author": "miriam.das",
+   "body": "not yet, it's on the roadmap. we're waiting on the design system update."
+  },
+  {
+   "d": 28,
+   "h": 11.0,
+   "author": "gus.arara",
+   "body": "got it, thanks."
+  },
+  {
+   "d": 27,
+   "h": 13.0,
+   "author": "reuben.sata",
+   "body": "i'll be pulling the monthly usage stats for the portal. if you need any custom cuts, tell me by the end of the day."
+  },
+  {
+   "d": 26,
+   "h": 15.0,
+   "author": "hana.lindqvist",
+   "body": "just finished a focus group on the app's medication list. main complaint: it's hard to find the refill button. I'll share the full notes later."
+  },
+  {
+   "d": 25,
+   "h": 9.0,
+   "author": "esther.young",
+   "body": "that's a good catch, hana. I'll move the refill button higher in the next prototype."
+  },
+  {
+   "d": 24,
+   "h": 11.0,
+   "author": "elin.borg",
+   "body": "anyone else seeing a spike in 'forgot password' requests? we got three earlier today."
+  },
+  {
+   "d": 24,
+   "h": 11.5,
+   "author": "valentina.kato",
+   "body": "could be because of the SSL cert renewal? sometimes users get a warning and try to reset."
+  },
+  {
+   "d": 24,
+   "h": 12.0,
+   "author": "elin.borg",
+   "body": "maybe. I'll check if it settles."
+  },
+  {
+   "d": 23,
+   "h": 10.0,
+   "author": "mara.nunez",
+   "body": "reminder: all device access requests should go through the it-docs workflow. don't just email us."
+  },
+  {
+   "d": 22,
+   "h": 14.0,
+   "author": "bilal.graham",
+   "body": "just fixed a portal issue where the PDF viewer wasn't loading on some browsers. should be good now."
+  },
+  {
+   "d": 21,
+   "h": 9.0,
+   "author": "gus.arara",
+   "body": "thanks bilal, that was annoying."
+  },
+  {
+   "d": 20,
+   "h": 16.0,
+   "author": "miriam.das",
+   "body": "new design mockups are in {{DESIGN_TOOL|lower}}, link is on the project board."
+  },
+  {
+   "d": 19,
+   "h": 8.5,
+   "author": "lina.zielinski",
+   "body": "please remember to update the project board when you finish tasks. it's getting messy."
+  },
+  {
+   "d": 18,
+   "h": 12.0,
+   "author": "reuben.sata",
+   "body": "usage stats for the portal are up 15% since the redesign. keep it up."
+  },
+  {
+   "d": 17,
+   "h": 10.0,
+   "author": "anika.sato",
+   "body": "had a patient call about not being able to see their lab results. they were in the archive. is that a common issue?"
+  },
+  {
+   "d": 17,
+   "h": 10.5,
+   "author": "elin.borg",
+   "body": "usually it's because the result is older than the portal's display window. they can request via the release of information form."
+  },
+  {
+   "d": 17,
+   "h": 11.0,
+   "author": "anika.sato",
+   "body": "ok, I'll let them know."
+  },
+  {
+   "d": 16,
+   "h": 15.0,
+   "author": "hana.lindqvist",
+   "body": "anyone seen the new patient portal navigation? I think it's easier but some older users might struggle."
+  },
+  {
+   "d": 15,
+   "h": 9.0,
+   "author": "esther.young",
+   "body": "I can run a quick usability test with a few volunteers if you want."
+  },
+  {
+   "d": 15,
+   "h": 9.5,
+   "author": "hana.lindqvist",
+   "body": "that would be great, esther. I'll ask around for participants."
+  },
+  {
+   "d": 14,
+   "h": 11.0,
+   "author": "gus.arara",
+   "body": "we're planning the next app release. any features you think are missing?"
+  },
+  {
+   "d": 13,
+   "h": 13.0,
+   "author": "miriam.das",
+   "body": "I'd love to see a medication reminder feature. patients keep asking for it."
+  },
+  {
+   "d": 12,
+   "h": 10.0,
+   "author": "lina.zielinski",
+   "body": "we'll discuss in the product meeting. add it to the idea board."
+  },
+  {
+   "d": 11,
+   "h": 16.0,
+   "author": "bilal.graham",
+   "body": "found a typo in the portal's help text. fixed it, will be live after the next deploy."
+  },
+  {
+   "d": 10,
+   "h": 9.0,
+   "author": "reuben.sata",
+   "body": "can someone check the data warehouse for portal login times? I need to see peak hours."
+  },
+  {
+   "d": 9,
+   "h": 14.0,
+   "author": "valentina.kato",
+   "body": "I can pull that for you. send me the exact query or I'll just get the basic stats."
+  },
+  {
+   "d": 8,
+   "h": 11.0,
+   "author": "elin.borg",
+   "body": "we're getting a lot of calls about the app not syncing. is there a known issue?"
+  },
+  {
+   "d": 8,
+   "h": 11.5,
+   "author": "gus.arara",
+   "body": "not that I know of. check if they're on the latest version. there was a fix for that a few days ago."
+  },
+  {
+   "d": 8,
+   "h": 12.0,
+   "author": "elin.borg",
+   "body": "ok, will do."
+  },
+  {
+   "d": 7,
+   "h": 15.0,
+   "author": "esther.young",
+   "body": "just uploaded the new icons to the shared drive. let me know if they look off."
+  },
+  {
+   "d": 6,
+   "h": 10.0,
+   "author": "miriam.das",
+   "body": "I'll take a look, thanks esther."
+  },
+  {
+   "d": 5,
+   "h": 13.0,
+   "author": "luca.estrada",
+   "body": "reminder: the service desk will be short-staffed for a few days soon while two of the team are on a course. plan your requests accordingly."
+  },
+  {
+   "d": 4,
+   "h": 9.0,
+   "author": "hana.lindqvist",
+   "body": "anyone have feedback on the new appointment booking flow? I'm compiling a report."
+  },
+  {
+   "d": 4,
+   "h": 9.5,
+   "author": "anika.sato",
+   "body": "it's pretty smooth. a few patients mentioned they'd like to see more available time slots."
+  },
+  {
+   "d": 4,
+   "h": 10.0,
+   "author": "gus.arara",
+   "body": "noted. that's a scheduling system limitation, not the app."
+  },
+  {
+   "d": 3,
+   "h": 11.0,
+   "author": "reuben.sata",
+   "body": "i'll include that in the next product review."
+  },
+  {
+   "d": 1,
+   "h": 9.0,
+   "author": "lina.zielinski",
+   "body": "thanks for the update. make sure the downtime is communicated to the patient experience team."
+  }
+ ],
+ "clinic-ops": [
+  {
+   "d": 42,
+   "h": 9.25,
+   "author": "mina.gonzaga",
+   "body": "just a heads up, the printer in the front office of the main clinic is out of toner. putting in a ticket now."
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "gaurav.wojcik",
+   "body": "anyone know if we're still doing the walk-in flu shots this season? had a patient ask."
+  },
+  {
+   "d": 41,
+   "h": 8.75,
+   "author": "siobhan.kiely",
+   "body": "for the cork centre, we're getting a new batch of sample collection kits in a couple of working days. lab lead wants to know if anyone has preferences on the order."
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "caleb.haddad",
+   "body": "we don't have a preference, just make sure the pediatric vials are included. last time we ran short."
+  },
+  {
+   "d": 40,
+   "h": 14.25,
+   "author": "kasia.zhang",
+   "body": "reminder to all schedulers: when a patient cancels, please update the reason in the system. we've had a few blanks lately."
+  },
+  {
+   "d": 39,
+   "h": 9.0,
+   "author": "aiko.silva",
+   "body": "does anyone have a good template for a referral letter for a sports injury? the one in care-docs seems outdated."
+  },
+  {
+   "d": 39,
+   "h": 10.25,
+   "author": "wanjiru.kruger",
+   "body": "i usually use the one from the practice overview, but i tweak it. happy to share mine if you want."
+  },
+  {
+   "d": 39,
+   "h": 10.5,
+   "author": "aiko.silva",
+   "body": "that would be great, thanks!"
+  },
+  {
+   "d": 38,
+   "h": 13.75,
+   "author": "greta.kiplagat",
+   "body": "just a note that the parking lot at the south bend clinic will be repaved starting in a couple of working days. please allow extra time for patient arrivals."
+  },
+  {
+   "d": 37,
+   "h": 9.5,
+   "author": "bianca.iyer",
+   "body": "had a patient today who was really happy with the nurse care. just wanted to pass that along."
+  },
+  {
+   "d": 36,
+   "h": 11.25,
+   "author": "marisol.molina",
+   "body": "quick question: are we still using the old release of information form or the new one? i saw an update in the handbook."
+  },
+  {
+   "d": 36,
+   "h": 12.0,
+   "author": "siobhan.kiely",
+   "body": "we're using the new one as of last month. the old one is deprecated."
+  },
+  {
+   "d": 35,
+   "h": 8.5,
+   "author": "chiara.quinn",
+   "body": "does anyone know if the clinic in valparaiso has the same lab order codes as us? i'm setting up a referral."
+  },
+  {
+   "d": 35,
+   "h": 9.0,
+   "author": "tomas.novak",
+   "body": "i think they use a slightly different set for some tests. check the lab info system, or i can look it up."
+  },
+  {
+   "d": 34,
+   "h": 15.0,
+   "author": "grace.okafor",
+   "body": "just a heads up, the eirb system is scheduled for maintenance on the first working day of next month. plan accordingly."
+  },
+  {
+   "d": 33,
+   "h": 10.75,
+   "author": "simone.bishop",
+   "body": "does anyone have a spare badge reel? mine broke."
+  },
+  {
+   "d": 32,
+   "h": 13.0,
+   "author": "aaliyah.lehmann",
+   "body": "lab quality reminder: please initial the specimen labels when you collect them. we've had a few unlabeled ones."
+  },
+  {
+   "d": 31,
+   "h": 9.25,
+   "author": "mina.gonzaga",
+   "body": "anyone else having trouble logging into the patient portal today? it's giving me an error."
+  },
+  {
+   "d": 31,
+   "h": 9.5,
+   "author": "gaurav.wojcik",
+   "body": "yeah, me too. it's been a few minutes. probably the vpn gateway acting up."
+  },
+  {
+   "d": 31,
+   "h": 10.0,
+   "author": "priya.gallagher",
+   "body": "i've raised a ticket with it. they're aware, should be resolved soon."
+  },
+  {
+   "d": 30,
+   "h": 14.5,
+   "author": "rania.adler",
+   "body": "reminder that the new clinic opening checklist is in care-docs. please review before the valparaiso expansion."
+  },
+  {
+   "d": 29,
+   "h": 11.75,
+   "author": "kasia.zhang",
+   "body": "is there a standard way to handle no-shows for the urgent care? i've been calling but sometimes they don't answer."
+  },
+  {
+   "d": 28,
+   "h": 9.0,
+   "author": "caleb.haddad",
+   "body": "new lab analyzers are being installed in a few working days. expect some downtime in the afternoon."
+  },
+  {
+   "d": 27,
+   "h": 10.25,
+   "author": "greta.kiplagat",
+   "body": "just a thank you to everyone who helped with the health fair the other day. great turnout."
+  },
+  {
+   "d": 26,
+   "h": 13.5,
+   "author": "siobhan.kiely",
+   "body": "anyone seen the updated referral guidelines? i think they changed the fax number."
+  },
+  {
+   "d": 25,
+   "h": 8.75,
+   "author": "wanjiru.kruger",
+   "body": "yes, the new number is in the referral doc. i can send it if you need."
+  },
+  {
+   "d": 24,
+   "h": 15.25,
+   "author": "bianca.iyer",
+   "body": "just a note for the south bend team: the coffee machine is out of order. it's in the breakroom."
+  },
+  {
+   "d": 23,
+   "h": 9.5,
+   "author": "marisol.molina",
+   "body": "does anyone have experience with the new scheduling system? i'm having trouble finding open slots."
+  },
+  {
+   "d": 23,
+   "h": 10.0,
+   "author": "aiko.silva",
+   "body": "i've been using it. you have to check the 'available' filter first. that helped me."
+  },
+  {
+   "d": 22,
+   "h": 11.25,
+   "author": "tomas.novak",
+   "body": "quick question: do we need to send the lab results to the patient's gp or to the referring physician? the instructions are a bit vague."
+  },
+  {
+   "d": 21,
+   "h": 14.0,
+   "author": "grace.okafor",
+   "body": "i think it's the referring physician, but check the lab doc for the specifics."
+  },
+  {
+   "d": 20,
+   "h": 8.5,
+   "author": "simone.bishop",
+   "body": "has anyone seen the new safety event reporting form? i can't find it in the system."
+  },
+  {
+   "d": 19,
+   "h": 12.75,
+   "author": "aaliyah.lehmann",
+   "body": "it's in the quality module, under safety events. you might need to refresh your permissions."
+  },
+  {
+   "d": 18,
+   "h": 9.75,
+   "author": "chiara.quinn",
+   "body": "just fyi, the cork centre will be closed for a staff training day soon. please adjust any patient appointments."
+  },
+  {
+   "d": 17,
+   "h": 13.5,
+   "author": "mina.gonzaga",
+   "body": "does anyone know if we have extra flu vaccine doses for the clinics? we're running low."
+  },
+  {
+   "d": 16,
+   "h": 10.0,
+   "author": "gaurav.wojcik",
+   "body": "i think we have some in the south bend pharmacy. you can check the inventory system."
+  },
+  {
+   "d": 15,
+   "h": 9.25,
+   "author": "rania.adler",
+   "body": "reminder to complete the compliance training by the end of the quarter. the lms has it listed."
+  },
+  {
+   "d": 14,
+   "h": 14.5,
+   "author": "kasia.zhang",
+   "body": "anyone know how to handle a patient who needs a referral but the specialist is out of network? do we still send it?"
+  },
+  {
+   "d": 13,
+   "h": 11.0,
+   "author": "priya.gallagher",
+   "body": "usually you can still send it, but the patient may have to pay more. check with the insurance first."
+  },
+  {
+   "d": 11,
+   "h": 8.75,
+   "author": "caleb.haddad",
+   "body": "does anyone know if the lab is open on public holidays? i might have a shift to cover."
+  },
+  {
+   "d": 10,
+   "h": 10.25,
+   "author": "emma.nielsen",
+   "body": "we follow the hospital schedule, so check the shared calendar. usually closed on major holidays."
+  }
+ ],
+ "finance": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "karim.amsel",
+   "body": "hey, the budget template for the new clinic in cork is up on the shared drive. can someone from ap give it a quick look before i send to kian?"
+  },
+  {
+   "d": 42,
+   "h": 10.5,
+   "author": "ida.gordon",
+   "body": "sure, i'll take a peek today. is it in this year's folder under finance/budgets?"
+  },
+  {
+   "d": 42,
+   "h": 14.0,
+   "author": "karim.amsel",
+   "body": "yep, that's the one. thanks ida"
+  },
+  {
+   "d": 41,
+   "h": 8.5,
+   "author": "nasser.lopez",
+   "body": "anyone know the vendor code for the medical supply company we use in kalamazoo? need to process an invoice"
+  },
+  {
+   "d": 41,
+   "h": 11.0,
+   "author": "ida.gordon",
+   "body": "it's VND-2041. you should see it in the ap system."
+  },
+  {
+   "d": 41,
+   "h": 11.2,
+   "author": "nasser.lopez",
+   "body": "got it, thanks"
+  },
+  {
+   "d": 40,
+   "h": 13.5,
+   "author": "jada.carvalho",
+   "body": "reminder: charge capture entries for the current month are due by the first working day of next month. please get any missing ones in."
+  },
+  {
+   "d": 39,
+   "h": 10.0,
+   "author": "quentin.russo",
+   "body": "anyone else seeing a delay in the lab interface today? claims are pending because the results aren't flowing in."
+  },
+  {
+   "d": 39,
+   "h": 14.0,
+   "author": "jada.carvalho",
+   "body": "yeah, it's been slow. raised a ticket with IT. they said it should be fixed by end of day."
+  },
+  {
+   "d": 39,
+   "h": 14.5,
+   "author": "quentin.russo",
+   "body": "ok, thanks for the update"
+  },
+  {
+   "d": 38,
+   "h": 9.0,
+   "author": "hana.agarwal",
+   "body": "payroll deadline reminder: timesheets need to be approved before the pay period closes. please check your teams."
+  },
+  {
+   "d": 38,
+   "h": 11.5,
+   "author": "selin.vogel",
+   "body": "also, any corrections to direct deposit info must be in by the same date."
+  },
+  {
+   "d": 37,
+   "h": 10.0,
+   "author": "reza.holm",
+   "body": "fp&a monthly variance report is out. see the shared drive. happy to discuss if you have questions."
+  },
+  {
+   "d": 36,
+   "h": 8.0,
+   "author": "ethan.gupta",
+   "body": "patient called about a bill they didn't receive. can i get a copy of the statement from you guys? it was sent a couple weeks ago."
+  },
+  {
+   "d": 36,
+   "h": 9.5,
+   "author": "georgia.salazar",
+   "body": "i can pull that up. do you have the account number?"
+  },
+  {
+   "d": 36,
+   "h": 10.0,
+   "author": "ethan.gupta",
+   "body": "yes, it's 874-3291. thanks!"
+  },
+  {
+   "d": 36,
+   "h": 13.0,
+   "author": "georgia.salazar",
+   "body": "sent to your inbox. let me know if you need anything else."
+  },
+  {
+   "d": 35,
+   "h": 12.0,
+   "author": "jonas.hayashi",
+   "body": "denials for last month are up 12% from the previous month. mostly from one payer. i'll share the breakdown later."
+  },
+  {
+   "d": 34,
+   "h": 15.0,
+   "author": "freya.bose",
+   "body": "thanks jonas. let's take a look at that in the next rev cycle meeting."
+  },
+  {
+   "d": 33,
+   "h": 10.5,
+   "author": "nasser.lopez",
+   "body": "ap is behind on invoice processing due to a system issue. we'll catch up by mid-week."
+  },
+  {
+   "d": 33,
+   "h": 11.0,
+   "author": "ilse.fleming",
+   "body": "thanks for the heads up. if anyone needs a rush, let me know."
+  },
+  {
+   "d": 32,
+   "h": 14.0,
+   "author": "kian.chowdhury",
+   "body": "quick note: the quarterly budget review is scheduled for the last working day of this month. please submit your inputs a few working days before."
+  },
+  {
+   "d": 31,
+   "h": 9.0,
+   "author": "ida.gordon",
+   "body": "anyone know if we have a contract with the new cleaning service in valparaiso? need to verify an invoice."
+  },
+  {
+   "d": 31,
+   "h": 10.0,
+   "author": "laszlo.yamamoto",
+   "body": "yes, the contract is in the legal folder under contracts. i can send you the link if needed."
+  },
+  {
+   "d": 31,
+   "h": 10.5,
+   "author": "ida.gordon",
+   "body": "that would be great, thanks"
+  },
+  {
+   "d": 30,
+   "h": 8.5,
+   "author": "georgia.salazar",
+   "body": "just a heads up, the expense report system is going to be down for maintenance on the first working day of next month. plan accordingly."
+  },
+  {
+   "d": 29,
+   "h": 13.0,
+   "author": "reza.holm",
+   "body": "anyone else have trouble opening the latest financial statements from the warehouse? i get an error."
+  },
+  {
+   "d": 29,
+   "h": 14.0,
+   "author": "wes.chan",
+   "body": "i had that too. try the archived version in the vault. worked for me."
+  },
+  {
+   "d": 29,
+   "h": 14.5,
+   "author": "reza.holm",
+   "body": "thanks, will try"
+  },
+  {
+   "d": 28,
+   "h": 11.0,
+   "author": "kenji.varga",
+   "body": "payroll reminders: w-2 corrections are due to hr by the end of the month. also, new hire packets should be submitted within two working days of hire."
+  },
+  {
+   "d": 27,
+   "h": 9.0,
+   "author": "mia.achebe",
+   "body": "does anyone know the code for the new insurance plan that started this month? need to set it up in the system."
+  },
+  {
+   "d": 27,
+   "h": 10.0,
+   "author": "jada.carvalho",
+   "body": "it's PLAN-4502. it should be in the reference table already."
+  },
+  {
+   "d": 27,
+   "h": 10.5,
+   "author": "mia.achebe",
+   "body": "great, thanks!"
+  },
+  {
+   "d": 26,
+   "h": 12.0,
+   "author": "quentin.russo",
+   "body": "is anyone else seeing that some charges are getting stuck in the charge capture worklist? no error, just pending."
+  },
+  {
+   "d": 26,
+   "h": 13.0,
+   "author": "jada.carvalho",
+   "body": "yes, we noticed that too. it's a known issue from the last update. they said it'll be fixed in the next patch."
+  },
+  {
+   "d": 26,
+   "h": 13.5,
+   "author": "quentin.russo",
+   "body": "ok, as long as we know. thanks"
+  },
+  {
+   "d": 25,
+   "h": 10.0,
+   "author": "ethan.gupta",
+   "body": "patient wants a payment plan. can i set that up directly or does it need approval?"
+  },
+  {
+   "d": 25,
+   "h": 11.0,
+   "author": "freya.bose",
+   "body": "you can set up standard plans. for anything with more than six months, you need supervisor approval."
+  },
+  {
+   "d": 25,
+   "h": 11.5,
+   "author": "ethan.gupta",
+   "body": "got it, thanks"
+  }
+ ],
+ "people-team": [
+  {
+   "d": 42,
+   "h": 9.2,
+   "author": "sharon.nakashima",
+   "body": "reminder that the quarterly all-staff town hall is on the calendar for the first working day of next month. please join if you can."
+  },
+  {
+   "d": 42,
+   "h": 10.0,
+   "author": "mikael.aoki",
+   "body": "thanks sharon. also, the new hire orientation materials are updated in the learning system. let me know if you spot anything outdated."
+  },
+  {
+   "d": 41,
+   "h": 13.5,
+   "author": "kenji.varga",
+   "body": "payroll calendar for the rest of the year is on the shared drive. check if your time off requests line up with the processing days."
+  },
+  {
+   "d": 41,
+   "h": 14.2,
+   "author": "selin.vogel",
+   "body": "anyone else having trouble with the timekeeping app on mobile? it keeps logging me out."
+  },
+  {
+   "d": 41,
+   "h": 14.5,
+   "author": "mia.achebe",
+   "body": "mine works fine. maybe try the web version?"
+  },
+  {
+   "d": 41,
+   "h": 15.0,
+   "author": "selin.vogel",
+   "body": "yeah that works. just annoying."
+  },
+  {
+   "d": 38,
+   "h": 11.0,
+   "author": "kofi.klein",
+   "body": "benefits open enrollment is coming up in a few weeks. we'll send out the guide with all the changes. keep an eye out."
+  },
+  {
+   "d": 37,
+   "h": 8.5,
+   "author": "hana.agarwal",
+   "body": "quick question: when do we get the final payroll numbers for the current period? i need to reconcile something."
+  },
+  {
+   "d": 37,
+   "h": 9.0,
+   "author": "kenji.varga",
+   "body": "should be by mid-afternoon today. i'll ping you when it's ready."
+  },
+  {
+   "d": 37,
+   "h": 9.2,
+   "author": "hana.agarwal",
+   "body": "thanks kenji."
+  },
+  {
+   "d": 35,
+   "h": 16.0,
+   "author": "pavel.garza",
+   "body": "just a note: the annual performance review cycle will open on the first working day of next month. managers will get training beforehand."
+  },
+  {
+   "d": 34,
+   "h": 10.3,
+   "author": "sabine.tanaka",
+   "body": "we have a few open positions that are getting hard to fill. if you know anyone in the area, refer them through the portal."
+  },
+  {
+   "d": 33,
+   "h": 12.0,
+   "author": "mikael.aoki",
+   "body": "the HR system will be down for maintenance over the next working day night. plan accordingly if you need to update anything."
+  },
+  {
+   "d": 33,
+   "h": 12.5,
+   "author": "kenji.varga",
+   "body": "does that affect payroll processing? we have a run scheduled."
+  },
+  {
+   "d": 33,
+   "h": 12.8,
+   "author": "mikael.aoki",
+   "body": "no, the payroll module is separate. you should be fine."
+  },
+  {
+   "d": 30,
+   "h": 9.5,
+   "author": "kofi.klein",
+   "body": "reminder that flexible spending account balances don't roll over for some plans. check your balance before the year ends."
+  },
+  {
+   "d": 29,
+   "h": 14.0,
+   "author": "selin.vogel",
+   "body": "does anyone know how to get a duplicate w-2? i lost mine."
+  },
+  {
+   "d": 29,
+   "h": 14.3,
+   "author": "hana.agarwal",
+   "body": "you can request it through the HR portal. takes a few days."
+  },
+  {
+   "d": 29,
+   "h": 14.5,
+   "author": "selin.vogel",
+   "body": "thanks."
+  },
+  {
+   "d": 27,
+   "h": 11.5,
+   "author": "pavel.garza",
+   "body": "just a heads up: the new policy on remote work for certain roles is now live. check the handbook if you're affected."
+  },
+  {
+   "d": 26,
+   "h": 10.0,
+   "author": "sharon.nakashima",
+   "body": "i want to highlight the employee assistance program. it's confidential and available to all staff and their families."
+  },
+  {
+   "d": 25,
+   "h": 15.2,
+   "author": "mikael.aoki",
+   "body": "the onboarding checklist for new hires has been updated. please use the latest version when training new people."
+  },
+  {
+   "d": 24,
+   "h": 9.8,
+   "author": "sabine.tanaka",
+   "body": "we're hosting a virtual job fair for nursing positions soon. share the link with anyone interested."
+  },
+  {
+   "d": 23,
+   "h": 13.0,
+   "author": "kenji.varga",
+   "body": "payroll will be processed a day earlier this month because of a change at the bank. plan your submissions accordingly."
+  },
+  {
+   "d": 22,
+   "h": 11.0,
+   "author": "kofi.klein",
+   "body": "remember to update your beneficiaries in the HR system. it's quick and important."
+  },
+  {
+   "d": 21,
+   "h": 16.5,
+   "author": "hana.agarwal",
+   "body": "does anyone have the cutoff for submitting timesheets for the current period? i'm confused."
+  },
+  {
+   "d": 21,
+   "h": 16.8,
+   "author": "selin.vogel",
+   "body": "it's before the bank file cut-off on the second working day. check the payroll calendar for exact times."
+  },
+  {
+   "d": 20,
+   "h": 10.5,
+   "author": "mikael.aoki",
+   "body": "a few folks have asked about the annual benefits fair. it'll be held in the main lobby on a couple of afternoons next month. bring questions."
+  }
+ ]
+}

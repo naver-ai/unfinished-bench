@@ -1,0 +1,554 @@
+{
+ "handbook/about/about-kellsbrook.md": {
+  "repo": "handbook",
+  "path": "about/about-kellsbrook.md",
+  "author": "denise.achterberg",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 13
+ },
+ "handbook/README.md": {
+  "repo": "handbook",
+  "path": "README.md",
+  "author": "kofi.klein",
+  "style": "terse",
+  "age": "aging",
+  "lines": 29
+ },
+ "handbook/people/benefits-overview.md": {
+  "repo": "handbook",
+  "path": "people/benefits-overview.md",
+  "author": "sabine.tanaka",
+  "style": "faq",
+  "age": "aging",
+  "lines": 49
+ },
+ "handbook/people/onboarding-checklist.md": {
+  "repo": "handbook",
+  "path": "people/onboarding-checklist.md",
+  "author": "kofi.klein",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 42
+ },
+ "handbook/people/pto-and-leave.md": {
+  "repo": "handbook",
+  "path": "people/pto-and-leave.md",
+  "author": "kofi.klein",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 99
+ },
+ "handbook/people/expenses-and-travel.md": {
+  "repo": "handbook",
+  "path": "people/expenses-and-travel.md",
+  "author": "laszlo.yamamoto",
+  "style": "policy",
+  "age": "aging",
+  "lines": 68
+ },
+ "handbook/people/remote-and-hybrid-work.md": {
+  "repo": "handbook",
+  "path": "people/remote-and-hybrid-work.md",
+  "author": "sabine.tanaka",
+  "style": "policy",
+  "age": "aging",
+  "lines": 50
+ },
+ "handbook/about/org-overview.md": {
+  "repo": "handbook",
+  "path": "about/org-overview.md",
+  "author": "mikael.aoki",
+  "style": "table",
+  "age": "aging",
+  "lines": 61
+ },
+ "handbook/people/performance-and-goals.md": {
+  "repo": "handbook",
+  "path": "people/performance-and-goals.md",
+  "author": "mikael.aoki",
+  "style": "narrative",
+  "age": "aging",
+  "lines": 37
+ },
+ "handbook/it/access-requests.md": {
+  "repo": "handbook",
+  "path": "it/access-requests.md",
+  "author": "luca.estrada",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 61
+ },
+ "handbook/compliance/code-of-conduct.md": {
+  "repo": "handbook",
+  "path": "compliance/code-of-conduct.md",
+  "author": "curtis.ambrose",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 108
+ },
+ "handbook/it/devices.md": {
+  "repo": "handbook",
+  "path": "it/devices.md",
+  "author": "luca.estrada",
+  "style": "faq",
+  "age": "stale",
+  "lines": 27
+ },
+ "handbook/it/passwords-and-sign-in.md": {
+  "repo": "handbook",
+  "path": "it/passwords-and-sign-in.md",
+  "author": "isaac.wagner",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 29
+ },
+ "handbook/compliance/hipaa-basics.md": {
+  "repo": "handbook",
+  "path": "compliance/hipaa-basics.md",
+  "author": "ebony.santos",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 84
+ },
+ "handbook/legal/contracts-and-signing.md": {
+  "repo": "handbook",
+  "path": "legal/contracts-and-signing.md",
+  "author": "gregory.tillery",
+  "style": "table",
+  "age": "fresh",
+  "lines": 38
+ },
+ "handbook/comms/media-and-social.md": {
+  "repo": "handbook",
+  "path": "comms/media-and-social.md",
+  "author": "monica.feldkamp",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 28
+ },
+ "plan-docs/README.md": {
+  "repo": "plan-docs",
+  "path": "README.md",
+  "author": "colleen.haines",
+  "style": "terse",
+  "age": "aging",
+  "lines": 17
+ },
+ "plan-docs/overview/plan-products.md": {
+  "repo": "plan-docs",
+  "path": "overview/plan-products.md",
+  "author": "colleen.haines",
+  "style": "table",
+  "age": "fresh",
+  "lines": 37
+ },
+ "handbook/security/acceptable-use.md": {
+  "repo": "handbook",
+  "path": "security/acceptable-use.md",
+  "author": "patricia.lowell",
+  "style": "policy",
+  "age": "aging",
+  "lines": 56
+ },
+ "handbook/security/data-classification.md": {
+  "repo": "handbook",
+  "path": "security/data-classification.md",
+  "author": "isaac.wagner",
+  "style": "table",
+  "age": "fresh",
+  "lines": 54
+ },
+ "plan-docs/claims/adjudication-basics.md": {
+  "repo": "plan-docs",
+  "path": "claims/adjudication-basics.md",
+  "author": "chiara.sorensen",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 93
+ },
+ "plan-docs/claims/coordination-of-benefits.md": {
+  "repo": "plan-docs",
+  "path": "claims/coordination-of-benefits.md",
+  "author": "maeve.chandra",
+  "style": "steps",
+  "age": "aging",
+  "lines": 83
+ },
+ "plan-docs/claims/timely-filing-and-corrections.md": {
+  "repo": "plan-docs",
+  "path": "claims/timely-filing-and-corrections.md",
+  "author": "chiara.sorensen",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 61
+ },
+ "plan-docs/claims/examiner-quality-audits.md": {
+  "repo": "plan-docs",
+  "path": "claims/examiner-quality-audits.md",
+  "author": "keisha.pruitt",
+  "style": "table",
+  "age": "draft",
+  "lines": 35
+ },
+ "plan-docs/provider/eft-and-remittance.md": {
+  "repo": "plan-docs",
+  "path": "provider/eft-and-remittance.md",
+  "author": "daisuke.khan",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 40
+ },
+ "plan-docs/provider/credentialing.md": {
+  "repo": "plan-docs",
+  "path": "provider/credentialing.md",
+  "author": "yasmin.lombardi",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 46
+ },
+ "plan-docs/um/prior-authorization.md": {
+  "repo": "plan-docs",
+  "path": "um/prior-authorization.md",
+  "author": "leah.dubois",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 53
+ },
+ "care-docs/README.md": {
+  "repo": "care-docs",
+  "path": "README.md",
+  "author": "rania.adler",
+  "style": "terse",
+  "age": "aging",
+  "lines": 23
+ },
+ "care-docs/him/release-of-information.md": {
+  "repo": "care-docs",
+  "path": "him/release-of-information.md",
+  "author": "rebecca.hansen",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 90
+ },
+ "care-docs/him/coding-queues.md": {
+  "repo": "care-docs",
+  "path": "him/coding-queues.md",
+  "author": "cecilia.esposito",
+  "style": "terse",
+  "age": "aging",
+  "lines": 59
+ },
+ "care-docs/him/chart-corrections.md": {
+  "repo": "care-docs",
+  "path": "him/chart-corrections.md",
+  "author": "rahul.pereira",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 56
+ },
+ "care-docs/revcycle/charge-capture.md": {
+  "repo": "care-docs",
+  "path": "revcycle/charge-capture.md",
+  "author": "ethan.gupta",
+  "style": "table",
+  "age": "aging",
+  "lines": 63
+ },
+ "care-docs/access/registration.md": {
+  "repo": "care-docs",
+  "path": "access/registration.md",
+  "author": "gaurav.wojcik",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 53
+ },
+ "care-docs/clinics/clinic-opening-checklist.md": {
+  "repo": "care-docs",
+  "path": "clinics/clinic-opening-checklist.md",
+  "author": "rania.adler",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 26
+ },
+ "care-docs/clinics/referrals.md": {
+  "repo": "care-docs",
+  "path": "clinics/referrals.md",
+  "author": "marisol.molina",
+  "style": "steps",
+  "age": "stale",
+  "lines": 45
+ },
+ "care-docs/nursing/shift-handoff.md": {
+  "repo": "care-docs",
+  "path": "nursing/shift-handoff.md",
+  "author": "theresa.okwuosa",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 52
+ },
+ "care-docs/quality/safety-event-reporting.md": {
+  "repo": "care-docs",
+  "path": "quality/safety-event-reporting.md",
+  "author": "joy.balogun",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 61
+ },
+ "care-docs/quality/quality-measures.md": {
+  "repo": "care-docs",
+  "path": "quality/quality-measures.md",
+  "author": "leon.singh",
+  "style": "table",
+  "age": "aging",
+  "lines": 54
+ },
+ "care-docs/lab/specimen-labelling.md": {
+  "repo": "care-docs",
+  "path": "lab/specimen-labelling.md",
+  "author": "aaliyah.lehmann",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 42
+ },
+ "care-docs/patient-experience/complaints-and-compliments.md": {
+  "repo": "care-docs",
+  "path": "patient-experience/complaints-and-compliments.md",
+  "author": "hannah.muller",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 73
+ },
+ "research-docs/README.md": {
+  "repo": "research-docs",
+  "path": "README.md",
+  "author": "leonard.brandvold",
+  "style": "terse",
+  "age": "aging",
+  "lines": 25
+ },
+ "research-docs/about/institute-overview.md": {
+  "repo": "research-docs",
+  "path": "about/institute-overview.md",
+  "author": "leonard.brandvold",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 29
+ },
+ "research-docs/irb/submitting-a-study.md": {
+  "repo": "research-docs",
+  "path": "irb/submitting-a-study.md",
+  "author": "piotr.zielinski",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 121
+ },
+ "research-docs/trials/site-activation.md": {
+  "repo": "research-docs",
+  "path": "trials/site-activation.md",
+  "author": "fabio.rossi",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 65
+ },
+ "research-docs/trials/monitoring-visits.md": {
+  "repo": "research-docs",
+  "path": "trials/monitoring-visits.md",
+  "author": "petra.delgado",
+  "style": "steps",
+  "age": "aging",
+  "lines": 63
+ },
+ "research-docs/trials/ctms-and-edc.md": {
+  "repo": "research-docs",
+  "path": "trials/ctms-and-edc.md",
+  "author": "anton.ozturk",
+  "style": "terse",
+  "age": "fresh",
+  "lines": 44
+ },
+ "research-docs/trials/investigational-product.md": {
+  "repo": "research-docs",
+  "path": "trials/investigational-product.md",
+  "author": "noemi.brunner",
+  "style": "checklist",
+  "age": "fresh",
+  "lines": 53
+ },
+ "research-docs/cohort/visit-windows.md": {
+  "repo": "research-docs",
+  "path": "cohort/visit-windows.md",
+  "author": "rafael.lund",
+  "style": "table",
+  "age": "aging",
+  "lines": 42
+ },
+ "research-docs/data/pseudonymisation.md": {
+  "repo": "research-docs",
+  "path": "data/pseudonymisation.md",
+  "author": "marco.ferrari",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 37
+ },
+ "research-docs/grants/pre-award.md": {
+  "repo": "research-docs",
+  "path": "grants/pre-award.md",
+  "author": "leonard.brandvold",
+  "style": "checklist",
+  "age": "stale",
+  "lines": 41
+ },
+ "it-docs/README.md": {
+  "repo": "it-docs",
+  "path": "README.md",
+  "author": "lucia.barros",
+  "style": "terse",
+  "age": "aging",
+  "lines": 30
+ },
+ "research-docs/training/gcp-training.md": {
+  "repo": "research-docs",
+  "path": "training/gcp-training.md",
+  "author": "ingrid.aasen",
+  "style": "faq",
+  "age": "fresh",
+  "lines": 36
+ },
+ "it-docs/servicedesk/ticket-priorities.md": {
+  "repo": "it-docs",
+  "path": "servicedesk/ticket-priorities.md",
+  "author": "bilal.graham",
+  "style": "table",
+  "age": "fresh",
+  "lines": 36
+ },
+ "it-docs/oncall/major-incidents.md": {
+  "repo": "it-docs",
+  "path": "oncall/major-incidents.md",
+  "author": "tomas.fonseca",
+  "style": "table",
+  "age": "fresh",
+  "lines": 138
+ },
+ "it-docs/oncall/oncall-guide.md": {
+  "repo": "it-docs",
+  "path": "oncall/oncall-guide.md",
+  "author": "jin.olsen",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 84
+ },
+ "it-docs/infra/backups.md": {
+  "repo": "it-docs",
+  "path": "infra/backups.md",
+  "author": "sebastian.marchetti",
+  "style": "notes",
+  "age": "aging",
+  "lines": 59
+ },
+ "it-docs/servicedesk/clinical-workstations.md": {
+  "repo": "it-docs",
+  "path": "servicedesk/clinical-workstations.md",
+  "author": "valentina.kato",
+  "style": "faq",
+  "age": "aging",
+  "lines": 63
+ },
+ "it-docs/network/wifi.md": {
+  "repo": "it-docs",
+  "path": "network/wifi.md",
+  "author": "ivan.walsh",
+  "style": "table",
+  "age": "stale",
+  "lines": 33
+ },
+ "it-docs/security/phishing.md": {
+  "repo": "it-docs",
+  "path": "security/phishing.md",
+  "author": "kai.teixeira",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 32
+ },
+ "it-docs/security/vulnerability-management.md": {
+  "repo": "it-docs",
+  "path": "security/vulnerability-management.md",
+  "author": "isaac.wagner",
+  "style": "table",
+  "age": "aging",
+  "lines": 57
+ },
+ "it-docs/change/change-management.md": {
+  "repo": "it-docs",
+  "path": "change/change-management.md",
+  "author": "lucia.barros",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 101
+ },
+ "it-docs/clinical-systems/ehr-downtime.md": {
+  "repo": "it-docs",
+  "path": "clinical-systems/ehr-downtime.md",
+  "author": "yasmin.osei",
+  "style": "steps",
+  "age": "fresh",
+  "lines": 77
+ },
+ "it-docs/clinical-systems/interfaces.md": {
+  "repo": "it-docs",
+  "path": "clinical-systems/interfaces.md",
+  "author": "fatima.fujita",
+  "style": "terse",
+  "age": "aging",
+  "lines": 48
+ },
+ "it-docs/data/warehouse.md": {
+  "repo": "it-docs",
+  "path": "data/warehouse.md",
+  "author": "anders.tran",
+  "style": "terse",
+  "age": "aging",
+  "lines": 43
+ },
+ "it-docs/adr/0003-badge-tap-sign-in.md": {
+  "repo": "it-docs",
+  "path": "adr/0003-badge-tap-sign-in.md",
+  "author": "fiona.moreau",
+  "style": "notes",
+  "age": "aging",
+  "lines": 44
+ },
+ "it-docs/records-platform/claims-ingest.md": {
+  "repo": "it-docs",
+  "path": "records-platform/claims-ingest.md",
+  "author": "olivier.harper",
+  "style": "notes",
+  "age": "draft",
+  "lines": 66
+ },
+ "plan-docs/members/appeals-and-grievances.md": {
+  "repo": "plan-docs",
+  "path": "members/appeals-and-grievances.md",
+  "author": "dara.hartmann",
+  "style": "policy",
+  "age": "fresh",
+  "lines": 102
+ },
+ "plan-docs/members/member-calls.md": {
+  "repo": "plan-docs",
+  "path": "members/member-calls.md",
+  "author": "chidi.costa",
+  "style": "faq",
+  "age": "aging",
+  "lines": 92
+ },
+ "care-docs/clinics/cork/practice-overview.md": {
+  "repo": "care-docs",
+  "path": "clinics/cork/practice-overview.md",
+  "author": "maeve.daly",
+  "style": "narrative",
+  "age": "fresh",
+  "lines": 15
+ }
+}
